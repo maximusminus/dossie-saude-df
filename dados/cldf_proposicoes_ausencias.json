@@ -1,0 +1,17 @@
+{
+  "source": "Anos do intervalo declarado (2017-2026) em que a busca do próprio portal (tema=24, ano=<ano>) devolve zero proposições de saúde.",
+  "dados": [
+    {
+      "ano": "2017",
+      "motivo": "ple.cl.df.gov.br devolve totalElements=0 para tema=24&ano=2017 -- medido, não assumido de uma lacuna na paginação."
+    },
+    {
+      "ano": "2018",
+      "motivo": "ple.cl.df.gov.br devolve totalElements=0 para tema=24&ano=2018 -- medido, não assumido de uma lacuna na paginação."
+    },
+    {
+      "ano": "2020",
+      "motivo": "ple.cl.df.gov.br devolve totalElements=0 para tema=24&ano=2020 -- medido, não assumido de uma lacuna na paginação."
+    }
+  ]
+}

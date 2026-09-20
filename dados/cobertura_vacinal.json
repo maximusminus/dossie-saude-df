@@ -1,0 +1,2308 @@
+{
+  "source": "TABNET SI-PNI (DATASUS), bd_pni/cpnibr.def -- cobertura vacinal por imunobiológico e ano, DF, 2000-2022. SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+  "dados": [
+    {
+      "imunobiologico": "BCG",
+      "ano": "2000",
+      "cobertura_percentual": 128.74,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2001",
+      "cobertura_percentual": 122.91,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2002",
+      "cobertura_percentual": 116.89,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2003",
+      "cobertura_percentual": 115.71,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2004",
+      "cobertura_percentual": 115.74,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2005",
+      "cobertura_percentual": 109.26,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2006",
+      "cobertura_percentual": 112.04,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2007",
+      "cobertura_percentual": 106.67,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2008",
+      "cobertura_percentual": 107.92,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2009",
+      "cobertura_percentual": 111.11,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2010",
+      "cobertura_percentual": 113.36,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2011",
+      "cobertura_percentual": 98.39,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2012",
+      "cobertura_percentual": 106.51,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2013",
+      "cobertura_percentual": 133.19,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2014",
+      "cobertura_percentual": 113.52,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2015",
+      "cobertura_percentual": 78.27,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2016",
+      "cobertura_percentual": 138.11,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2017",
+      "cobertura_percentual": 93.61,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2018",
+      "cobertura_percentual": 89.5,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2019",
+      "cobertura_percentual": 93.24,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2020",
+      "cobertura_percentual": 91.32,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2021",
+      "cobertura_percentual": 98.78,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "BCG",
+      "ano": "2022",
+      "cobertura_percentual": 114.88,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=BCG"
+    },
+    {
+      "imunobiologico": "Hepatite B idade <= 30 dias",
+      "ano": "2014",
+      "cobertura_percentual": 126.2,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B idade <= 30 dias"
+    },
+    {
+      "imunobiologico": "Hepatite B idade <= 30 dias",
+      "ano": "2015",
+      "cobertura_percentual": 96.65,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B idade <= 30 dias"
+    },
+    {
+      "imunobiologico": "Hepatite B idade <= 30 dias",
+      "ano": "2016",
+      "cobertura_percentual": 134.78,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B idade <= 30 dias"
+    },
+    {
+      "imunobiologico": "Hepatite B idade <= 30 dias",
+      "ano": "2017",
+      "cobertura_percentual": 102.41,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B idade <= 30 dias"
+    },
+    {
+      "imunobiologico": "Hepatite B idade <= 30 dias",
+      "ano": "2018",
+      "cobertura_percentual": 111.05,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B idade <= 30 dias"
+    },
+    {
+      "imunobiologico": "Hepatite B idade <= 30 dias",
+      "ano": "2019",
+      "cobertura_percentual": 102.65,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B idade <= 30 dias"
+    },
+    {
+      "imunobiologico": "Hepatite B idade <= 30 dias",
+      "ano": "2020",
+      "cobertura_percentual": 86.35,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B idade <= 30 dias"
+    },
+    {
+      "imunobiologico": "Hepatite B idade <= 30 dias",
+      "ano": "2021",
+      "cobertura_percentual": 93.05,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B idade <= 30 dias"
+    },
+    {
+      "imunobiologico": "Hepatite B idade <= 30 dias",
+      "ano": "2022",
+      "cobertura_percentual": 113.22,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B idade <= 30 dias"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2006",
+      "cobertura_percentual": 59.79,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2007",
+      "cobertura_percentual": 88.69,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2008",
+      "cobertura_percentual": 87.3,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2009",
+      "cobertura_percentual": 92.34,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2010",
+      "cobertura_percentual": 89.0,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2011",
+      "cobertura_percentual": 78.35,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2012",
+      "cobertura_percentual": 85.89,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2013",
+      "cobertura_percentual": 103.12,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2014",
+      "cobertura_percentual": 91.84,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2015",
+      "cobertura_percentual": 65.45,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2016",
+      "cobertura_percentual": 129.62,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2017",
+      "cobertura_percentual": 85.81,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2018",
+      "cobertura_percentual": 88.3,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2019",
+      "cobertura_percentual": 85.38,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2020",
+      "cobertura_percentual": 81.62,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2021",
+      "cobertura_percentual": 75.6,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Rotavírus Humano",
+      "ano": "2022",
+      "cobertura_percentual": 80.19,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Rotavírus Humano"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2010",
+      "cobertura_percentual": 21.46,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2011",
+      "cobertura_percentual": 108.78,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2012",
+      "cobertura_percentual": 92.91,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2013",
+      "cobertura_percentual": 111.56,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2014",
+      "cobertura_percentual": 98.06,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2015",
+      "cobertura_percentual": 70.05,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2016",
+      "cobertura_percentual": 148.87,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2017",
+      "cobertura_percentual": 84.26,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2018",
+      "cobertura_percentual": 88.69,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2019",
+      "cobertura_percentual": 85.69,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2020",
+      "cobertura_percentual": 83.01,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2021",
+      "cobertura_percentual": 76.0,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Meningococo C",
+      "ano": "2022",
+      "cobertura_percentual": 81.38,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2000",
+      "cobertura_percentual": 86.83,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2001",
+      "cobertura_percentual": 91.43,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2002",
+      "cobertura_percentual": 92.17,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2003",
+      "cobertura_percentual": 90.01,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2004",
+      "cobertura_percentual": 95.52,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2005",
+      "cobertura_percentual": 94.07,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2006",
+      "cobertura_percentual": 99.85,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2007",
+      "cobertura_percentual": 97.14,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2008",
+      "cobertura_percentual": 96.36,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2009",
+      "cobertura_percentual": 99.42,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2010",
+      "cobertura_percentual": 91.25,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2011",
+      "cobertura_percentual": 85.47,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2012",
+      "cobertura_percentual": 92.46,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2013",
+      "cobertura_percentual": 108.9,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2014",
+      "cobertura_percentual": 94.44,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2015",
+      "cobertura_percentual": 67.49,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2016",
+      "cobertura_percentual": 159.7,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2017",
+      "cobertura_percentual": 84.76,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2018",
+      "cobertura_percentual": 86.26,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2019",
+      "cobertura_percentual": 69.95,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2020",
+      "cobertura_percentual": 88.76,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2021",
+      "cobertura_percentual": 73.16,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Hepatite B",
+      "ano": "2022",
+      "cobertura_percentual": 78.28,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite B"
+    },
+    {
+      "imunobiologico": "Penta",
+      "ano": "2012",
+      "cobertura_percentual": 31.51,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Penta"
+    },
+    {
+      "imunobiologico": "Penta",
+      "ano": "2013",
+      "cobertura_percentual": 102.86,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Penta"
+    },
+    {
+      "imunobiologico": "Penta",
+      "ano": "2014",
+      "cobertura_percentual": 92.6,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Penta"
+    },
+    {
+      "imunobiologico": "Penta",
+      "ano": "2015",
+      "cobertura_percentual": 66.43,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Penta"
+    },
+    {
+      "imunobiologico": "Penta",
+      "ano": "2016",
+      "cobertura_percentual": 140.25,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Penta"
+    },
+    {
+      "imunobiologico": "Penta",
+      "ano": "2017",
+      "cobertura_percentual": 84.69,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Penta"
+    },
+    {
+      "imunobiologico": "Penta",
+      "ano": "2018",
+      "cobertura_percentual": 86.26,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Penta"
+    },
+    {
+      "imunobiologico": "Penta",
+      "ano": "2019",
+      "cobertura_percentual": 69.95,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Penta"
+    },
+    {
+      "imunobiologico": "Penta",
+      "ano": "2020",
+      "cobertura_percentual": 88.76,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Penta"
+    },
+    {
+      "imunobiologico": "Penta",
+      "ano": "2021",
+      "cobertura_percentual": 73.16,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Penta"
+    },
+    {
+      "imunobiologico": "Penta",
+      "ano": "2022",
+      "cobertura_percentual": 78.28,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Penta"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2010",
+      "cobertura_percentual": 29.88,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2011",
+      "cobertura_percentual": 74.72,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2012",
+      "cobertura_percentual": 81.75,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2013",
+      "cobertura_percentual": 101.52,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2014",
+      "cobertura_percentual": 102.41,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2015",
+      "cobertura_percentual": 69.91,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2016",
+      "cobertura_percentual": 140.73,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2017",
+      "cobertura_percentual": 89.31,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2018",
+      "cobertura_percentual": 91.45,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2019",
+      "cobertura_percentual": 88.06,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2020",
+      "cobertura_percentual": 85.68,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2021",
+      "cobertura_percentual": 78.5,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Pneumocócica",
+      "ano": "2022",
+      "cobertura_percentual": 84.45,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2000",
+      "cobertura_percentual": 99.53,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2001",
+      "cobertura_percentual": 97.51,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2002",
+      "cobertura_percentual": 97.23,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2003",
+      "cobertura_percentual": 96.96,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2004",
+      "cobertura_percentual": 101.1,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2005",
+      "cobertura_percentual": 96.6,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2006",
+      "cobertura_percentual": 101.83,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2007",
+      "cobertura_percentual": 100.31,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2008",
+      "cobertura_percentual": 99.18,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2009",
+      "cobertura_percentual": 101.97,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2010",
+      "cobertura_percentual": 94.2,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2011",
+      "cobertura_percentual": 86.48,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2012",
+      "cobertura_percentual": 93.65,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2013",
+      "cobertura_percentual": 112.17,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2014",
+      "cobertura_percentual": 94.34,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2015",
+      "cobertura_percentual": 74.92,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2016",
+      "cobertura_percentual": 136.83,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2017",
+      "cobertura_percentual": 84.41,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2018",
+      "cobertura_percentual": 86.03,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2019",
+      "cobertura_percentual": 84.32,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2020",
+      "cobertura_percentual": 81.54,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2021",
+      "cobertura_percentual": 73.23,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite",
+      "ano": "2022",
+      "cobertura_percentual": 78.33,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite"
+    },
+    {
+      "imunobiologico": "Poliomielite 4 anos",
+      "ano": "2017",
+      "cobertura_percentual": 74.36,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite 4 anos"
+    },
+    {
+      "imunobiologico": "Poliomielite 4 anos",
+      "ano": "2018",
+      "cobertura_percentual": 73.15,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite 4 anos"
+    },
+    {
+      "imunobiologico": "Poliomielite 4 anos",
+      "ano": "2019",
+      "cobertura_percentual": 79.77,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite 4 anos"
+    },
+    {
+      "imunobiologico": "Poliomielite 4 anos",
+      "ano": "2020",
+      "cobertura_percentual": 84.63,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite 4 anos"
+    },
+    {
+      "imunobiologico": "Poliomielite 4 anos",
+      "ano": "2021",
+      "cobertura_percentual": 66.48,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite 4 anos"
+    },
+    {
+      "imunobiologico": "Poliomielite 4 anos",
+      "ano": "2022",
+      "cobertura_percentual": 85.92,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite 4 anos"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2000",
+      "cobertura_percentual": 5.65,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2001",
+      "cobertura_percentual": 0.65,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2002",
+      "cobertura_percentual": 0.2,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2003",
+      "cobertura_percentual": 0.72,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2004",
+      "cobertura_percentual": 0.21,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2005",
+      "cobertura_percentual": 0.09,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2006",
+      "cobertura_percentual": 1.6,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2007",
+      "cobertura_percentual": 3.11,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2008",
+      "cobertura_percentual": 50.24,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2009",
+      "cobertura_percentual": 2.81,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2010",
+      "cobertura_percentual": 2.97,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2011",
+      "cobertura_percentual": 3.86,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2012",
+      "cobertura_percentual": 3.09,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2013",
+      "cobertura_percentual": 87.56,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2014",
+      "cobertura_percentual": 90.51,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2015",
+      "cobertura_percentual": 62.37,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2016",
+      "cobertura_percentual": 132.73,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2017",
+      "cobertura_percentual": 77.95,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2018",
+      "cobertura_percentual": 83.59,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2019",
+      "cobertura_percentual": 79.19,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2020",
+      "cobertura_percentual": 74.46,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2021",
+      "cobertura_percentual": 70.99,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Febre Amarela",
+      "ano": "2022",
+      "cobertura_percentual": 71.91,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Febre Amarela"
+    },
+    {
+      "imunobiologico": "Hepatite A",
+      "ano": "2014",
+      "cobertura_percentual": 82.97,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite A"
+    },
+    {
+      "imunobiologico": "Hepatite A",
+      "ano": "2015",
+      "cobertura_percentual": 74.69,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite A"
+    },
+    {
+      "imunobiologico": "Hepatite A",
+      "ano": "2016",
+      "cobertura_percentual": 107.07,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite A"
+    },
+    {
+      "imunobiologico": "Hepatite A",
+      "ano": "2017",
+      "cobertura_percentual": 81.36,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite A"
+    },
+    {
+      "imunobiologico": "Hepatite A",
+      "ano": "2018",
+      "cobertura_percentual": 85.21,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite A"
+    },
+    {
+      "imunobiologico": "Hepatite A",
+      "ano": "2019",
+      "cobertura_percentual": 87.32,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite A"
+    },
+    {
+      "imunobiologico": "Hepatite A",
+      "ano": "2020",
+      "cobertura_percentual": 78.84,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite A"
+    },
+    {
+      "imunobiologico": "Hepatite A",
+      "ano": "2021",
+      "cobertura_percentual": 73.06,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite A"
+    },
+    {
+      "imunobiologico": "Hepatite A",
+      "ano": "2022",
+      "cobertura_percentual": 78.06,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Hepatite A"
+    },
+    {
+      "imunobiologico": "Pneumocócica(1º ref)",
+      "ano": "2013",
+      "cobertura_percentual": 107.22,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica(1º ref)"
+    },
+    {
+      "imunobiologico": "Pneumocócica(1º ref)",
+      "ano": "2014",
+      "cobertura_percentual": 91.81,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica(1º ref)"
+    },
+    {
+      "imunobiologico": "Pneumocócica(1º ref)",
+      "ano": "2015",
+      "cobertura_percentual": 67.91,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica(1º ref)"
+    },
+    {
+      "imunobiologico": "Pneumocócica(1º ref)",
+      "ano": "2016",
+      "cobertura_percentual": 123.76,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica(1º ref)"
+    },
+    {
+      "imunobiologico": "Pneumocócica(1º ref)",
+      "ano": "2017",
+      "cobertura_percentual": 74.26,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica(1º ref)"
+    },
+    {
+      "imunobiologico": "Pneumocócica(1º ref)",
+      "ano": "2018",
+      "cobertura_percentual": 79.4,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica(1º ref)"
+    },
+    {
+      "imunobiologico": "Pneumocócica(1º ref)",
+      "ano": "2019",
+      "cobertura_percentual": 79.87,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica(1º ref)"
+    },
+    {
+      "imunobiologico": "Pneumocócica(1º ref)",
+      "ano": "2020",
+      "cobertura_percentual": 82.1,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica(1º ref)"
+    },
+    {
+      "imunobiologico": "Pneumocócica(1º ref)",
+      "ano": "2021",
+      "cobertura_percentual": 74.79,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica(1º ref)"
+    },
+    {
+      "imunobiologico": "Pneumocócica(1º ref)",
+      "ano": "2022",
+      "cobertura_percentual": 82.29,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Pneumocócica(1º ref)"
+    },
+    {
+      "imunobiologico": "Meningococo C (1º ref)",
+      "ano": "2013",
+      "cobertura_percentual": 104.24,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C (1º ref)"
+    },
+    {
+      "imunobiologico": "Meningococo C (1º ref)",
+      "ano": "2014",
+      "cobertura_percentual": 87.08,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C (1º ref)"
+    },
+    {
+      "imunobiologico": "Meningococo C (1º ref)",
+      "ano": "2015",
+      "cobertura_percentual": 58.93,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C (1º ref)"
+    },
+    {
+      "imunobiologico": "Meningococo C (1º ref)",
+      "ano": "2016",
+      "cobertura_percentual": 153.72,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C (1º ref)"
+    },
+    {
+      "imunobiologico": "Meningococo C (1º ref)",
+      "ano": "2017",
+      "cobertura_percentual": 76.3,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C (1º ref)"
+    },
+    {
+      "imunobiologico": "Meningococo C (1º ref)",
+      "ano": "2018",
+      "cobertura_percentual": 83.37,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C (1º ref)"
+    },
+    {
+      "imunobiologico": "Meningococo C (1º ref)",
+      "ano": "2019",
+      "cobertura_percentual": 84.33,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C (1º ref)"
+    },
+    {
+      "imunobiologico": "Meningococo C (1º ref)",
+      "ano": "2020",
+      "cobertura_percentual": 81.43,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C (1º ref)"
+    },
+    {
+      "imunobiologico": "Meningococo C (1º ref)",
+      "ano": "2021",
+      "cobertura_percentual": 74.11,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C (1º ref)"
+    },
+    {
+      "imunobiologico": "Meningococo C (1º ref)",
+      "ano": "2022",
+      "cobertura_percentual": 81.29,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Meningococo C (1º ref)"
+    },
+    {
+      "imunobiologico": "Poliomielite(1º ref)",
+      "ano": "2013",
+      "cobertura_percentual": 108.5,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite(1º ref)"
+    },
+    {
+      "imunobiologico": "Poliomielite(1º ref)",
+      "ano": "2014",
+      "cobertura_percentual": 82.85,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite(1º ref)"
+    },
+    {
+      "imunobiologico": "Poliomielite(1º ref)",
+      "ano": "2015",
+      "cobertura_percentual": 69.33,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite(1º ref)"
+    },
+    {
+      "imunobiologico": "Poliomielite(1º ref)",
+      "ano": "2016",
+      "cobertura_percentual": 101.15,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite(1º ref)"
+    },
+    {
+      "imunobiologico": "Poliomielite(1º ref)",
+      "ano": "2017",
+      "cobertura_percentual": 78.39,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite(1º ref)"
+    },
+    {
+      "imunobiologico": "Poliomielite(1º ref)",
+      "ano": "2018",
+      "cobertura_percentual": 70.93,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite(1º ref)"
+    },
+    {
+      "imunobiologico": "Poliomielite(1º ref)",
+      "ano": "2019",
+      "cobertura_percentual": 77.23,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite(1º ref)"
+    },
+    {
+      "imunobiologico": "Poliomielite(1º ref)",
+      "ano": "2020",
+      "cobertura_percentual": 72.64,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite(1º ref)"
+    },
+    {
+      "imunobiologico": "Poliomielite(1º ref)",
+      "ano": "2021",
+      "cobertura_percentual": 66.55,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite(1º ref)"
+    },
+    {
+      "imunobiologico": "Poliomielite(1º ref)",
+      "ano": "2022",
+      "cobertura_percentual": 71.6,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Poliomielite(1º ref)"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2000",
+      "cobertura_percentual": 101.96,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2001",
+      "cobertura_percentual": 102.22,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2002",
+      "cobertura_percentual": 99.92,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2003",
+      "cobertura_percentual": 101.66,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2004",
+      "cobertura_percentual": 96.7,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2005",
+      "cobertura_percentual": 101.14,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2006",
+      "cobertura_percentual": 98.91,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2007",
+      "cobertura_percentual": 95.26,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2008",
+      "cobertura_percentual": 91.52,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2009",
+      "cobertura_percentual": 95.78,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2010",
+      "cobertura_percentual": 92.41,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2011",
+      "cobertura_percentual": 89.52,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2012",
+      "cobertura_percentual": 92.85,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2013",
+      "cobertura_percentual": 105.23,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2014",
+      "cobertura_percentual": 104.91,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2015",
+      "cobertura_percentual": 67.58,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2016",
+      "cobertura_percentual": 131.75,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2017",
+      "cobertura_percentual": 78.5,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2018",
+      "cobertura_percentual": 86.32,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2019",
+      "cobertura_percentual": 85.71,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2020",
+      "cobertura_percentual": 82.21,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2021",
+      "cobertura_percentual": 83.21,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D1",
+      "ano": "2022",
+      "cobertura_percentual": 90.23,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D1"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D2",
+      "ano": "2013",
+      "cobertura_percentual": 103.87,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D2"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D2",
+      "ano": "2014",
+      "cobertura_percentual": 97.29,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D2"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D2",
+      "ano": "2015",
+      "cobertura_percentual": 65.43,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D2"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D2",
+      "ano": "2016",
+      "cobertura_percentual": 128.41,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D2"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D2",
+      "ano": "2017",
+      "cobertura_percentual": 77.43,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D2"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D2",
+      "ano": "2018",
+      "cobertura_percentual": 87.05,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D2"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D2",
+      "ano": "2019",
+      "cobertura_percentual": 86.8,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D2"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D2",
+      "ano": "2020",
+      "cobertura_percentual": 67.19,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D2"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D2",
+      "ano": "2021",
+      "cobertura_percentual": 54.67,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D2"
+    },
+    {
+      "imunobiologico": "Tríplice Viral  D2",
+      "ano": "2022",
+      "cobertura_percentual": 61.5,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Viral  D2"
+    },
+    {
+      "imunobiologico": "Tetra Viral(SRC+VZ)",
+      "ano": "2013",
+      "cobertura_percentual": 44.44,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetra Viral(SRC+VZ)"
+    },
+    {
+      "imunobiologico": "Tetra Viral(SRC+VZ)",
+      "ano": "2014",
+      "cobertura_percentual": 93.36,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetra Viral(SRC+VZ)"
+    },
+    {
+      "imunobiologico": "Tetra Viral(SRC+VZ)",
+      "ano": "2015",
+      "cobertura_percentual": 66.33,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetra Viral(SRC+VZ)"
+    },
+    {
+      "imunobiologico": "Tetra Viral(SRC+VZ)",
+      "ano": "2016",
+      "cobertura_percentual": 129.99,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetra Viral(SRC+VZ)"
+    },
+    {
+      "imunobiologico": "Tetra Viral(SRC+VZ)",
+      "ano": "2017",
+      "cobertura_percentual": 66.1,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetra Viral(SRC+VZ)"
+    },
+    {
+      "imunobiologico": "Tetra Viral(SRC+VZ)",
+      "ano": "2018",
+      "cobertura_percentual": 82.12,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetra Viral(SRC+VZ)"
+    },
+    {
+      "imunobiologico": "Tetra Viral(SRC+VZ)",
+      "ano": "2019",
+      "cobertura_percentual": 84.27,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetra Viral(SRC+VZ)"
+    },
+    {
+      "imunobiologico": "Tetra Viral(SRC+VZ)",
+      "ano": "2020",
+      "cobertura_percentual": 42.89,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetra Viral(SRC+VZ)"
+    },
+    {
+      "imunobiologico": "Tetra Viral(SRC+VZ)",
+      "ano": "2021",
+      "cobertura_percentual": 1.95,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetra Viral(SRC+VZ)"
+    },
+    {
+      "imunobiologico": "Tetra Viral(SRC+VZ)",
+      "ano": "2022",
+      "cobertura_percentual": 2.29,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetra Viral(SRC+VZ)"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2000",
+      "cobertura_percentual": 99.45,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2001",
+      "cobertura_percentual": 100.28,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2002",
+      "cobertura_percentual": 17.33,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2003",
+      "cobertura_percentual": 0.17,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2004",
+      "cobertura_percentual": 98.5,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2005",
+      "cobertura_percentual": 95.06,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2006",
+      "cobertura_percentual": 99.61,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2007",
+      "cobertura_percentual": 97.88,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2008",
+      "cobertura_percentual": 96.66,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2009",
+      "cobertura_percentual": 100.25,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2010",
+      "cobertura_percentual": 92.38,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2011",
+      "cobertura_percentual": 84.82,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2012",
+      "cobertura_percentual": 92.08,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2013",
+      "cobertura_percentual": 106.86,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2014",
+      "cobertura_percentual": 95.24,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2015",
+      "cobertura_percentual": 67.73,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2016",
+      "cobertura_percentual": 140.41,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2017",
+      "cobertura_percentual": 85.5,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2018",
+      "cobertura_percentual": 87.42,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2019",
+      "cobertura_percentual": 70.78,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2020",
+      "cobertura_percentual": 89.54,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2021",
+      "cobertura_percentual": 73.32,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP",
+      "ano": "2022",
+      "cobertura_percentual": 78.28,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP"
+    },
+    {
+      "imunobiologico": "DTP REF (4 e 6 anos)",
+      "ano": "2014",
+      "cobertura_percentual": 3.14,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP REF (4 e 6 anos)"
+    },
+    {
+      "imunobiologico": "DTP REF (4 e 6 anos)",
+      "ano": "2016",
+      "cobertura_percentual": 3.38,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP REF (4 e 6 anos)"
+    },
+    {
+      "imunobiologico": "DTP REF (4 e 6 anos)",
+      "ano": "2017",
+      "cobertura_percentual": 69.94,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP REF (4 e 6 anos)"
+    },
+    {
+      "imunobiologico": "DTP REF (4 e 6 anos)",
+      "ano": "2018",
+      "cobertura_percentual": 75.13,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP REF (4 e 6 anos)"
+    },
+    {
+      "imunobiologico": "DTP REF (4 e 6 anos)",
+      "ano": "2019",
+      "cobertura_percentual": 52.05,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP REF (4 e 6 anos)"
+    },
+    {
+      "imunobiologico": "DTP REF (4 e 6 anos)",
+      "ano": "2020",
+      "cobertura_percentual": 85.68,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP REF (4 e 6 anos)"
+    },
+    {
+      "imunobiologico": "DTP REF (4 e 6 anos)",
+      "ano": "2021",
+      "cobertura_percentual": 66.4,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP REF (4 e 6 anos)"
+    },
+    {
+      "imunobiologico": "DTP REF (4 e 6 anos)",
+      "ano": "2022",
+      "cobertura_percentual": 84.4,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=DTP REF (4 e 6 anos)"
+    },
+    {
+      "imunobiologico": "Tríplice Bacte(DTP)(1º ref)",
+      "ano": "2013",
+      "cobertura_percentual": 99.34,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Bacte(DTP)(1º ref)"
+    },
+    {
+      "imunobiologico": "Tríplice Bacte(DTP)(1º ref)",
+      "ano": "2014",
+      "cobertura_percentual": 87.27,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Bacte(DTP)(1º ref)"
+    },
+    {
+      "imunobiologico": "Tríplice Bacte(DTP)(1º ref)",
+      "ano": "2015",
+      "cobertura_percentual": 60.44,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Bacte(DTP)(1º ref)"
+    },
+    {
+      "imunobiologico": "Tríplice Bacte(DTP)(1º ref)",
+      "ano": "2016",
+      "cobertura_percentual": 103.62,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Bacte(DTP)(1º ref)"
+    },
+    {
+      "imunobiologico": "Tríplice Bacte(DTP)(1º ref)",
+      "ano": "2017",
+      "cobertura_percentual": 74.96,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Bacte(DTP)(1º ref)"
+    },
+    {
+      "imunobiologico": "Tríplice Bacte(DTP)(1º ref)",
+      "ano": "2018",
+      "cobertura_percentual": 78.01,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Bacte(DTP)(1º ref)"
+    },
+    {
+      "imunobiologico": "Tríplice Bacte(DTP)(1º ref)",
+      "ano": "2019",
+      "cobertura_percentual": 52.46,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Bacte(DTP)(1º ref)"
+    },
+    {
+      "imunobiologico": "Tríplice Bacte(DTP)(1º ref)",
+      "ano": "2020",
+      "cobertura_percentual": 87.05,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Bacte(DTP)(1º ref)"
+    },
+    {
+      "imunobiologico": "Tríplice Bacte(DTP)(1º ref)",
+      "ano": "2021",
+      "cobertura_percentual": 67.26,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Bacte(DTP)(1º ref)"
+    },
+    {
+      "imunobiologico": "Tríplice Bacte(DTP)(1º ref)",
+      "ano": "2022",
+      "cobertura_percentual": 70.09,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tríplice Bacte(DTP)(1º ref)"
+    },
+    {
+      "imunobiologico": "Sarampo",
+      "ano": "2000",
+      "cobertura_percentual": 0.03,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Sarampo"
+    },
+    {
+      "imunobiologico": "Sarampo",
+      "ano": "2001",
+      "cobertura_percentual": 0.04,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Sarampo"
+    },
+    {
+      "imunobiologico": "Sarampo",
+      "ano": "2003",
+      "cobertura_percentual": 0.02,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Sarampo"
+    },
+    {
+      "imunobiologico": "Haemophilus influenzae b",
+      "ano": "2000",
+      "cobertura_percentual": 107.26,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Haemophilus influenzae b"
+    },
+    {
+      "imunobiologico": "Haemophilus influenzae b",
+      "ano": "2001",
+      "cobertura_percentual": 101.93,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Haemophilus influenzae b"
+    },
+    {
+      "imunobiologico": "Haemophilus influenzae b",
+      "ano": "2002",
+      "cobertura_percentual": 18.25,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Haemophilus influenzae b"
+    },
+    {
+      "imunobiologico": "Haemophilus influenzae b",
+      "ano": "2003",
+      "cobertura_percentual": 1.62,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Haemophilus influenzae b"
+    },
+    {
+      "imunobiologico": "Dupla adulto e dTpa gestante",
+      "ano": "2013",
+      "cobertura_percentual": 76.57,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Dupla adulto e dTpa gestante"
+    },
+    {
+      "imunobiologico": "Dupla adulto e dTpa gestante",
+      "ano": "2014",
+      "cobertura_percentual": 65.42,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Dupla adulto e dTpa gestante"
+    },
+    {
+      "imunobiologico": "Dupla adulto e dTpa gestante",
+      "ano": "2015",
+      "cobertura_percentual": 62.84,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Dupla adulto e dTpa gestante"
+    },
+    {
+      "imunobiologico": "Dupla adulto e dTpa gestante",
+      "ano": "2016",
+      "cobertura_percentual": 85.71,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Dupla adulto e dTpa gestante"
+    },
+    {
+      "imunobiologico": "Dupla adulto e dTpa gestante",
+      "ano": "2017",
+      "cobertura_percentual": 15.65,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Dupla adulto e dTpa gestante"
+    },
+    {
+      "imunobiologico": "Dupla adulto e dTpa gestante",
+      "ano": "2018",
+      "cobertura_percentual": 53.31,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Dupla adulto e dTpa gestante"
+    },
+    {
+      "imunobiologico": "Dupla adulto e dTpa gestante",
+      "ano": "2019",
+      "cobertura_percentual": 58.02,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Dupla adulto e dTpa gestante"
+    },
+    {
+      "imunobiologico": "Dupla adulto e dTpa gestante",
+      "ano": "2020",
+      "cobertura_percentual": 14.61,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Dupla adulto e dTpa gestante"
+    },
+    {
+      "imunobiologico": "Dupla adulto e dTpa gestante",
+      "ano": "2021",
+      "cobertura_percentual": 12.19,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Dupla adulto e dTpa gestante"
+    },
+    {
+      "imunobiologico": "Dupla adulto e dTpa gestante",
+      "ano": "2022",
+      "cobertura_percentual": 13.31,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Dupla adulto e dTpa gestante"
+    },
+    {
+      "imunobiologico": "dTpa gestante",
+      "ano": "2013",
+      "cobertura_percentual": 3.4,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=dTpa gestante"
+    },
+    {
+      "imunobiologico": "dTpa gestante",
+      "ano": "2014",
+      "cobertura_percentual": 19.12,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=dTpa gestante"
+    },
+    {
+      "imunobiologico": "dTpa gestante",
+      "ano": "2015",
+      "cobertura_percentual": 53.29,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=dTpa gestante"
+    },
+    {
+      "imunobiologico": "dTpa gestante",
+      "ano": "2016",
+      "cobertura_percentual": 74.74,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=dTpa gestante"
+    },
+    {
+      "imunobiologico": "dTpa gestante",
+      "ano": "2017",
+      "cobertura_percentual": 17.5,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=dTpa gestante"
+    },
+    {
+      "imunobiologico": "dTpa gestante",
+      "ano": "2018",
+      "cobertura_percentual": 61.54,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=dTpa gestante"
+    },
+    {
+      "imunobiologico": "dTpa gestante",
+      "ano": "2019",
+      "cobertura_percentual": 72.2,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=dTpa gestante"
+    },
+    {
+      "imunobiologico": "dTpa gestante",
+      "ano": "2020",
+      "cobertura_percentual": 63.81,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=dTpa gestante"
+    },
+    {
+      "imunobiologico": "dTpa gestante",
+      "ano": "2021",
+      "cobertura_percentual": 61.32,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=dTpa gestante"
+    },
+    {
+      "imunobiologico": "dTpa gestante",
+      "ano": "2022",
+      "cobertura_percentual": 66.27,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=dTpa gestante"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2002",
+      "cobertura_percentual": 83.1,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2003",
+      "cobertura_percentual": 98.47,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2004",
+      "cobertura_percentual": 98.49,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2005",
+      "cobertura_percentual": 86.39,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2006",
+      "cobertura_percentual": 96.94,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2007",
+      "cobertura_percentual": 97.78,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2008",
+      "cobertura_percentual": 96.02,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2009",
+      "cobertura_percentual": 99.78,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2010",
+      "cobertura_percentual": 92.22,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2011",
+      "cobertura_percentual": 84.55,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2012",
+      "cobertura_percentual": 60.57,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2013",
+      "cobertura_percentual": 105.22,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2014",
+      "cobertura_percentual": 98.57,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2015",
+      "cobertura_percentual": 64.46,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Tetravalente(DTP/Hib)(TETRA)",
+      "ano": "2016",
+      "cobertura_percentual": 4.1,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Tetravalente(DTP/Hib)(TETRA)"
+    },
+    {
+      "imunobiologico": "Varicela",
+      "ano": "2020",
+      "cobertura_percentual": 77.34,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Varicela"
+    },
+    {
+      "imunobiologico": "Varicela",
+      "ano": "2021",
+      "cobertura_percentual": 75.47,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Varicela"
+    },
+    {
+      "imunobiologico": "Varicela",
+      "ano": "2022",
+      "cobertura_percentual": 79.8,
+      "regime": "SI-PNI clássico (TABNET, bd_pni/cpnibr.def), competências 1994-2022; dados a partir de 2023 publicados em outro painel (infoms.saude.gov.br), host não registrado neste projeto e não coletado nesta OS",
+      "fonte": "TABNET SI-PNI, bd_pni/cpnibr.def, DF, Incremento=Varicela"
+    }
+  ]
+}

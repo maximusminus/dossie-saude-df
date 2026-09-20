@@ -1,0 +1,210 @@
+{
+  "fonte": "TABNET cnes/cnv/leiutidf.def, arquivo ludf2607.dbf, competência 202607",
+  "competencia": "202607",
+  "total_declarado": {
+    "qtd_existente": 2631,
+    "qtd_sus": 744
+  },
+  "dados": [
+    {
+      "tipo": "UTI adulto II COVID-19",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI pediátrica II COVID-19",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI adulto",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI infantil",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI neonatal",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "Unidade intermediária",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "Unidade intermediária neonatal",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "Unidade isolamento",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 175,
+      "qtd_sus": 16,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI adulto I",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI adulto II",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 1197,
+      "qtd_sus": 368,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI adulto III",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 294,
+      "qtd_sus": 52,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI pediátrica I",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI pediátrica II",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 287,
+      "qtd_sus": 123,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI pediátrica III",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 39,
+      "qtd_sus": 11,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI neonatal I",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 10,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI neonatal II",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 160,
+      "qtd_sus": 51,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI neonatal III",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 54,
+      "qtd_sus": 35,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI de Queimados",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 14,
+      "qtd_sus": 6,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI coronariana tipo II -UCO tipo II",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 66,
+      "qtd_sus": 16,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "UTI coronariana tipo III - UCO tipo III",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 40,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "Unidade de cuidados intermed neonatal convencional",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 117,
+      "qtd_sus": 37,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "Unidade de cuidados intermed neonatal canguru",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 50,
+      "qtd_sus": 9,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "Unidade de cuidados intermed pediatrico",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 30,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "Unidade de cuidados intermed adulto",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 97,
+      "qtd_sus": 20,
+      "competencia": "202607"
+    },
+    {
+      "tipo": "Suporte Ventilatorio Pulmonar COVID-19",
+      "grupo": "",
+      "nivel": "item",
+      "qtd_existente": 1,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "dados": [
+    {
+      "url": "https://igesdf.org.br/wp-content/uploads/2025/10/2019-Balanco-Patrimonial_assinado.pdf",
+      "exercicio_doc": "2019",
+      "exercicio": "2018",
+      "metodo": "pypdf",
+      "ativo": 160529744.88,
+      "passivo": 160529744.88,
+      "diferenca": 0.0,
+      "confere": "sim",
+      "motivo": ""
+    },
+    {
+      "url": "https://igesdf.org.br/wp-content/uploads/2025/10/2019-Balanco-Patrimonial_assinado.pdf",
+      "exercicio_doc": "2019",
+      "exercicio": "2019",
+      "metodo": "pypdf",
+      "ativo": 211486122.65,
+      "passivo": 211486122.65,
+      "diferenca": 0.0,
+      "confere": "sim",
+      "motivo": ""
+    },
+    {
+      "url": "https://igesdf.org.br/wp-content/uploads/2025/10/2020-Balanco-Patrimonial-Comparativo.pdf",
+      "exercicio_doc": "2020",
+      "exercicio": "2019",
+      "metodo": "pypdf",
+      "ativo": 211486122.65,
+      "passivo": 211486122.65,
+      "diferenca": 0.0,
+      "confere": "sim",
+      "motivo": ""
+    },
+    {
+      "url": "https://igesdf.org.br/wp-content/uploads/2025/10/2020-Balanco-Patrimonial-Comparativo.pdf",
+      "exercicio_doc": "2020",
+      "exercicio": "2020",
+      "metodo": "pypdf",
+      "ativo": 178613076.75,
+      "passivo": 178613076.75,
+      "diferenca": 0.0,
+      "confere": "sim",
+      "motivo": ""
+    },
+    {
+      "url": "https://igesdf.org.br/wp-content/uploads/2025/10/01-Balanco-Patrimonial-Exercicio-2021-28.05.2024.-Assin.pdf",
+      "exercicio_doc": "2021",
+      "exercicio": "2019",
+      "metodo": "pypdf",
+      "ativo": 178613076.75,
+      "passivo": 454640008.57,
+      "diferenca": -276026931.82,
+      "confere": "nao",
+      "motivo": "ativo e passivo nao fecham no proprio documento"
+    },
+    {
+      "url": "https://igesdf.org.br/wp-content/uploads/2025/10/01-Balanco-Patrimonial-Exercicio-2021-28.05.2024.-Assin.pdf",
+      "exercicio_doc": "2021",
+      "exercicio": "2020",
+      "metodo": "pypdf",
+      "ativo": 211486122.65,
+      "passivo": 273202608.83,
+      "diferenca": -61716486.18,
+      "confere": "nao",
+      "motivo": "ativo e passivo nao fecham no proprio documento"
+    },
+    {
+      "url": "https://igesdf.org.br/wp-content/uploads/2025/10/01-Balanco-Patrimonial-Exercicio-2021-28.05.2024.-Assin.pdf",
+      "exercicio_doc": "2021",
+      "exercicio": "2021",
+      "metodo": "pypdf",
+      "ativo": 235076045.92,
+      "passivo": 197547280.88,
+      "diferenca": 37528765.04,
+      "confere": "nao",
+      "motivo": "ativo e passivo nao fecham no proprio documento"
+    },
+    {
+      "url": "https://igesdf.org.br/wp-content/uploads/2025/10/2022-Balanco-Patrimonial._.pdf",
+      "exercicio_doc": "2022",
+      "exercicio": "2021",
+      "metodo": "pypdf",
+      "ativo": 235076045.92,
+      "passivo": 235076045.92,
+      "diferenca": 0.0,
+      "confere": "sim",
+      "motivo": ""
+    },
+    {
+      "url": "https://igesdf.org.br/wp-content/uploads/2025/10/2022-Balanco-Patrimonial._.pdf",
+      "exercicio_doc": "2022",
+      "exercicio": "2022",
+      "metodo": "pypdf",
+      "ativo": 331322817.3,
+      "passivo": 331322817.3,
+      "diferenca": 0.0,
+      "confere": "sim",
+      "motivo": ""
+    },
+    {
+      "url": "https://igesdf.org.br/wp-content/uploads/2026/08/Balanco-Patrimonial-BP.pdf",
+      "exercicio_doc": "2023",
+      "exercicio": "2022",
+      "metodo": "pypdf",
+      "ativo": 331322817.3,
+      "passivo": 331322817.3,
+      "diferenca": 0.0,
+      "confere": "sim",
+      "motivo": ""
+    },
+    {
+      "url": "https://igesdf.org.br/wp-content/uploads/2026/08/Balanco-Patrimonial-BP.pdf",
+      "exercicio_doc": "2023",
+      "exercicio": "2023",
+      "metodo": "pypdf",
+      "ativo": 358123567.98,
+      "passivo": 358123567.98,
+      "diferenca": 0.0,
+      "confere": "sim",
+      "motivo": ""
+    }
+  ]
+}

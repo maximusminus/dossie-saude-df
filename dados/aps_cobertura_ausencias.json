@@ -1,0 +1,17 @@
+{
+  "source": "Recortes geográficos que relatorioaps-prd.saude.gov.br recusa para o DF, medidos a cada execução.",
+  "dados": [
+    {
+      "recorte": "REGIAO_SAUDE",
+      "motivo": "MEDIDO EM 2026-09-20: HTTP 400: O tipo de unidade geográfica buscada está um incorreta ou não existe para esse serviço. O recorte por Região de Saúde NÃO é publicado por esta interface; nenhum valor é rateado ou estimado para obtê-lo."
+    },
+    {
+      "recorte": "REGIAOSAUDE",
+      "motivo": "MEDIDO EM 2026-09-20: HTTP 500: Falha interna do servidor!!!. O recorte por Região de Saúde NÃO é publicado por esta interface; nenhum valor é rateado ou estimado para obtê-lo."
+    },
+    {
+      "recorte": "MUNICIPIO",
+      "motivo": "MEDIDO EM 2026-09-20: HTTP 200 com zero linhas para coUf=53 -- o DF é um único município e esta unidade geográfica não o devolve. O recorte por Região de Saúde NÃO é publicado por esta interface; nenhum valor é rateado ou estimado para obtê-lo."
+    }
+  ]
+}

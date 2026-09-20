@@ -1,0 +1,40 @@
+{
+  "source": "Competências do intervalo declarado que não vieram de uma das duas interfaces, cada uma com o motivo registrado",
+  "dados": [
+    {
+      "competencia": "",
+      "leitura": "microdados",
+      "motivo": "16401 AIH com atendimento fora de 2008-2024 processadas dentro do intervalo: meses estruturalmente parciais aqui, contados e não publicados"
+    },
+    {
+      "competencia": "",
+      "leitura": "residencia",
+      "motivo": "internacoes: 13012 fora do intervalo 2008-2024 -- atendimentos anteriores a 2008 processados dentro do intervalo; somados na conferência do Total e não publicados na série"
+    },
+    {
+      "competencia": "",
+      "leitura": "residencia",
+      "motivo": "dias_permanencia: 117802 fora do intervalo 2008-2024 -- atendimentos anteriores a 2008 processados dentro do intervalo; somados na conferência do Total e não publicados na série"
+    },
+    {
+      "competencia": "",
+      "leitura": "residencia",
+      "motivo": "obitos: 595 fora do intervalo 2008-2024 -- atendimentos anteriores a 2008 processados dentro do intervalo; somados na conferência do Total e não publicados na série"
+    },
+    {
+      "competencia": "",
+      "leitura": "internacao",
+      "motivo": "internacoes: 16396 fora do intervalo 2008-2024 -- atendimentos anteriores a 2008 processados dentro do intervalo; somados na conferência do Total e não publicados na série"
+    },
+    {
+      "competencia": "",
+      "leitura": "internacao",
+      "motivo": "dias_permanencia: 152554 fora do intervalo 2008-2024 -- atendimentos anteriores a 2008 processados dentro do intervalo; somados na conferência do Total e não publicados na série"
+    },
+    {
+      "competencia": "",
+      "leitura": "internacao",
+      "motivo": "obitos: 799 fora do intervalo 2008-2024 -- atendimentos anteriores a 2008 processados dentro do intervalo; somados na conferência do Total e não publicados na série"
+    }
+  ]
+}

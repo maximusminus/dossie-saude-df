@@ -1,0 +1,247 @@
+{
+  "source": "Derivado de leitos_serie_cnes (capacidade, DF inteiro) e populacao_df_serie (denominador, IBGE SIDRA tabela 6579), DF, ano a ano. A população não alimenta a aritmética de necessidade da Equação 1 do Caderno 2017 (caderno2017.leitos_gerais_caderno2017 usa uma competência SIH fixa) -- alimenta só este indicador comparativo, achado 'inércia algébrica' já registrado em docs/DIMENSIONAMENTO.md.",
+  "dados": [
+    {
+      "ano": 2005,
+      "leitos_sus": 4748,
+      "leitos_sus_sem_ra": 5,
+      "populacao": 2333108,
+      "leitos_por_mil_habitantes": 2.035,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2006,
+      "leitos_sus": 4874,
+      "leitos_sus_sem_ra": 5,
+      "populacao": 2383784,
+      "leitos_por_mil_habitantes": 2.045,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2007,
+      "leitos_sus": 4849,
+      "leitos_sus_sem_ra": 108,
+      "populacao": null,
+      "leitos_por_mil_habitantes": null,
+      "estado": "lacuna",
+      "motivo": "IBGE SIDRA tabela 6579 não publica população estimada para este ano (ver leitos_serie_ausencias) -- nunca interpolada",
+      "formula": "",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2008,
+      "leitos_sus": 5258,
+      "leitos_sus_sem_ra": 146,
+      "populacao": 2557159,
+      "leitos_por_mil_habitantes": 2.056,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2009,
+      "leitos_sus": 4935,
+      "leitos_sus_sem_ra": 146,
+      "populacao": 2606885,
+      "leitos_por_mil_habitantes": 1.893,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2010,
+      "leitos_sus": 5406,
+      "leitos_sus_sem_ra": 218,
+      "populacao": null,
+      "leitos_por_mil_habitantes": null,
+      "estado": "lacuna",
+      "motivo": "IBGE SIDRA tabela 6579 não publica população estimada para este ano (ver leitos_serie_ausencias) -- nunca interpolada",
+      "formula": "",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2011,
+      "leitos_sus": 5207,
+      "leitos_sus_sem_ra": 145,
+      "populacao": 2609998,
+      "leitos_por_mil_habitantes": 1.995,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2012,
+      "leitos_sus": 5108,
+      "leitos_sus_sem_ra": 64,
+      "populacao": 2648532,
+      "leitos_por_mil_habitantes": 1.929,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2013,
+      "leitos_sus": 4908,
+      "leitos_sus_sem_ra": 32,
+      "populacao": 2789761,
+      "leitos_por_mil_habitantes": 1.759,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2014,
+      "leitos_sus": 5022,
+      "leitos_sus_sem_ra": 15,
+      "populacao": 2852372,
+      "leitos_por_mil_habitantes": 1.761,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2015,
+      "leitos_sus": 4409,
+      "leitos_sus_sem_ra": 10,
+      "populacao": 2914830,
+      "leitos_por_mil_habitantes": 1.513,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2016,
+      "leitos_sus": 4472,
+      "leitos_sus_sem_ra": 0,
+      "populacao": 2977216,
+      "leitos_por_mil_habitantes": 1.502,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2017,
+      "leitos_sus": 4482,
+      "leitos_sus_sem_ra": 0,
+      "populacao": 3039444,
+      "leitos_por_mil_habitantes": 1.475,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2018,
+      "leitos_sus": 4630,
+      "leitos_sus_sem_ra": 0,
+      "populacao": 2974703,
+      "leitos_por_mil_habitantes": 1.556,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2019,
+      "leitos_sus": 4430,
+      "leitos_sus_sem_ra": 0,
+      "populacao": 3015268,
+      "leitos_por_mil_habitantes": 1.469,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2020,
+      "leitos_sus": 5324,
+      "leitos_sus_sem_ra": 0,
+      "populacao": 3055149,
+      "leitos_por_mil_habitantes": 1.743,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2021,
+      "leitos_sus": 5329,
+      "leitos_sus_sem_ra": 0,
+      "populacao": 3094325,
+      "leitos_por_mil_habitantes": 1.722,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2022,
+      "leitos_sus": 5063,
+      "leitos_sus_sem_ra": 0,
+      "populacao": null,
+      "leitos_por_mil_habitantes": null,
+      "estado": "lacuna",
+      "motivo": "IBGE SIDRA tabela 6579 não publica população estimada para este ano (ver leitos_serie_ausencias) -- nunca interpolada",
+      "formula": "",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2023,
+      "leitos_sus": 5243,
+      "leitos_sus_sem_ra": 0,
+      "populacao": null,
+      "leitos_por_mil_habitantes": null,
+      "estado": "lacuna",
+      "motivo": "IBGE SIDRA tabela 6579 não publica população estimada para este ano (ver leitos_serie_ausencias) -- nunca interpolada",
+      "formula": "",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2024,
+      "leitos_sus": 5601,
+      "leitos_sus_sem_ra": 0,
+      "populacao": 2982818,
+      "leitos_por_mil_habitantes": 1.878,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2025,
+      "leitos_sus": 5604,
+      "leitos_sus_sem_ra": 0,
+      "populacao": 2996899,
+      "leitos_por_mil_habitantes": 1.87,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    },
+    {
+      "ano": 2026,
+      "leitos_sus": 5612,
+      "leitos_sus_sem_ra": 0,
+      "populacao": 3009996,
+      "leitos_por_mil_habitantes": 1.864,
+      "estado": "calculada",
+      "motivo": "",
+      "formula": "leitos_por_mil_habitantes = (soma de leitos_serie_cnes.leitos_sus no ano, todas as categorias e estabelecimentos, com ou sem RA) * 1000 / populacao_df_serie.populacao no mesmo ano",
+      "fonte_populacao": "IBGE SIDRA, tabela 6579 (População residente estimada), DF"
+    }
+  ]
+}

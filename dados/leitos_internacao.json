@@ -1,0 +1,442 @@
+{
+  "fonte": "TABNET cnes/cnv/leiintdf.def, arquivo ltdf2607.dbf, competência 202607",
+  "competencia": "202607",
+  "total_declarado": {
+    "qtd_existente": 7887,
+    "qtd_sus": 4868
+  },
+  "dados": [
+    {
+      "especialidade": "CIRÚRGICOS",
+      "grupo": "",
+      "nivel": "grupo",
+      "qtd_existente": 2154,
+      "qtd_sus": 1589,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Buco maxilo facial",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 12,
+      "qtd_sus": 3,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Cardiologia",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 145,
+      "qtd_sus": 128,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Cirurgia geral",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 866,
+      "qtd_sus": 597,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Endocrinologia",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 12,
+      "qtd_sus": 10,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Gastroenterologia",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 17,
+      "qtd_sus": 13,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Ginecologia",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 254,
+      "qtd_sus": 202,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Nefrologia/urologia",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 38,
+      "qtd_sus": 37,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Neurocirurgia",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 119,
+      "qtd_sus": 71,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Oftalmologia",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 40,
+      "qtd_sus": 16,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Oncologia",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 35,
+      "qtd_sus": 9,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Ortopedia/traumatologia",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 466,
+      "qtd_sus": 427,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Otorrinolaringologia",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 8,
+      "qtd_sus": 5,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Plástica",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 76,
+      "qtd_sus": 32,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Toráxica",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 27,
+      "qtd_sus": 9,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Transplante",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 37,
+      "qtd_sus": 30,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Queimado Adulto",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 1,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Queimado Pediátrico",
+      "grupo": "CIRÚRGICOS",
+      "nivel": "membro",
+      "qtd_existente": 1,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "CLÍNICOS",
+      "grupo": "",
+      "nivel": "grupo",
+      "qtd_existente": 2751,
+      "qtd_sus": 1534,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "AIDS",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 2,
+      "qtd_sus": 1,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Cardiologia",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 196,
+      "qtd_sus": 78,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Clínica geral",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 2022,
+      "qtd_sus": 1160,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Dermatologia",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 3,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Geriatria",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 48,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Hansenologia",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 1,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Hematologia",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 51,
+      "qtd_sus": 43,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Nefro/urologia",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 63,
+      "qtd_sus": 61,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Neonatologia",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 4,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Neurologia",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 37,
+      "qtd_sus": 24,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Oncologia",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 188,
+      "qtd_sus": 75,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Pneumologia",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 54,
+      "qtd_sus": 37,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Leito/dia",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Saúde Mental",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 70,
+      "qtd_sus": 45,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Queimado Adulto",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 11,
+      "qtd_sus": 10,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Queimado Pediátrico",
+      "grupo": "CLÍNICOS",
+      "nivel": "membro",
+      "qtd_existente": 1,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "OBSTÉTRICOS",
+      "grupo": "",
+      "nivel": "grupo",
+      "qtd_existente": 787,
+      "qtd_sus": 614,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Obstetrícia Cirúrgica",
+      "grupo": "OBSTÉTRICOS",
+      "nivel": "membro",
+      "qtd_existente": 346,
+      "qtd_sus": 257,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Obstetrícia Clínica",
+      "grupo": "OBSTÉTRICOS",
+      "nivel": "membro",
+      "qtd_existente": 441,
+      "qtd_sus": 357,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "PEDIÁTRICOS",
+      "grupo": "",
+      "nivel": "grupo",
+      "qtd_existente": 682,
+      "qtd_sus": 617,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Pediatria Clínica",
+      "grupo": "PEDIÁTRICOS",
+      "nivel": "membro",
+      "qtd_existente": 620,
+      "qtd_sus": 565,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Pediatria Cirúrgica",
+      "grupo": "PEDIÁTRICOS",
+      "nivel": "membro",
+      "qtd_existente": 62,
+      "qtd_sus": 52,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "OUTRAS ESPECIALIDADES",
+      "grupo": "",
+      "nivel": "grupo",
+      "qtd_existente": 951,
+      "qtd_sus": 432,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Crônicos",
+      "grupo": "OUTRAS ESPECIALIDADES",
+      "nivel": "membro",
+      "qtd_existente": 115,
+      "qtd_sus": 106,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Psiquiatria",
+      "grupo": "OUTRAS ESPECIALIDADES",
+      "nivel": "membro",
+      "qtd_existente": 621,
+      "qtd_sus": 122,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Reabilitação",
+      "grupo": "OUTRAS ESPECIALIDADES",
+      "nivel": "membro",
+      "qtd_existente": 166,
+      "qtd_sus": 157,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Tisiologia",
+      "grupo": "OUTRAS ESPECIALIDADES",
+      "nivel": "membro",
+      "qtd_existente": 18,
+      "qtd_sus": 16,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Acolhimento Noturno",
+      "grupo": "OUTRAS ESPECIALIDADES",
+      "nivel": "membro",
+      "qtd_existente": 31,
+      "qtd_sus": 31,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "HOSPITAL/DIA",
+      "grupo": "",
+      "nivel": "grupo",
+      "qtd_existente": 562,
+      "qtd_sus": 82,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Cirúrgicos/Diagnóstico/Terapêutico",
+      "grupo": "HOSPITAL/DIA",
+      "nivel": "membro",
+      "qtd_existente": 150,
+      "qtd_sus": 71,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "AIDS",
+      "grupo": "HOSPITAL/DIA",
+      "nivel": "membro",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Fibrose Cística",
+      "grupo": "HOSPITAL/DIA",
+      "nivel": "membro",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Intercorrência Pós-Transplante",
+      "grupo": "HOSPITAL/DIA",
+      "nivel": "membro",
+      "qtd_existente": 18,
+      "qtd_sus": 11,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Geriatria",
+      "grupo": "HOSPITAL/DIA",
+      "nivel": "membro",
+      "qtd_existente": 0,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    },
+    {
+      "especialidade": "Saúde Mental",
+      "grupo": "HOSPITAL/DIA",
+      "nivel": "membro",
+      "qtd_existente": 394,
+      "qtd_sus": 0,
+      "competencia": "202607"
+    }
+  ]
+}

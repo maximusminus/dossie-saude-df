@@ -1,0 +1,155 @@
+{
+  "source": "IBGE SIDRA, tabela 7362 (Projeção da População), DF, série 2000-2024 de 2000-2060 publicados -- os anos além de 2024 são projeção pura e deliberadamente não publicados aqui",
+  "dados": [
+    {
+      "ano": "2000",
+      "esperanca_vida_anos": 72.25,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2001",
+      "esperanca_vida_anos": 72.73,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2002",
+      "esperanca_vida_anos": 73.19,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2003",
+      "esperanca_vida_anos": 73.64,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2004",
+      "esperanca_vida_anos": 74.07,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2005",
+      "esperanca_vida_anos": 74.49,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2006",
+      "esperanca_vida_anos": 74.89,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2007",
+      "esperanca_vida_anos": 75.28,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2008",
+      "esperanca_vida_anos": 75.64,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2009",
+      "esperanca_vida_anos": 76.0,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2010",
+      "esperanca_vida_anos": 76.34,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2011",
+      "esperanca_vida_anos": 76.67,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2012",
+      "esperanca_vida_anos": 76.98,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2013",
+      "esperanca_vida_anos": 77.28,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2014",
+      "esperanca_vida_anos": 77.57,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2015",
+      "esperanca_vida_anos": 77.85,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2016",
+      "esperanca_vida_anos": 78.12,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2017",
+      "esperanca_vida_anos": 78.37,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2018",
+      "esperanca_vida_anos": 78.62,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2019",
+      "esperanca_vida_anos": 78.85,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2020",
+      "esperanca_vida_anos": 79.08,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2021",
+      "esperanca_vida_anos": 79.3,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2022",
+      "esperanca_vida_anos": 79.5,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2023",
+      "esperanca_vida_anos": 79.7,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    },
+    {
+      "ano": "2024",
+      "esperanca_vida_anos": 79.89,
+      "sexo": "Total",
+      "fonte": "IBGE, Projeção da População, tabela SIDRA 7362, DF, série de projeção (não é dado observado ano a ano)"
+    }
+  ]
+}

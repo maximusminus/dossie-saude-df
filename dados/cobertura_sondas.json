@@ -1,0 +1,264 @@
+{
+  "source": "OS-025: cada necessidade `absent` medida contra as interfaces que o próprio publicador enumera, a cada execução. Mede NECESSIDADES; alcance_hosts mede HOSTS",
+  "dados": [
+    {
+      "eixo": "eixo2",
+      "necessidade": "HCB, demonstrações contábeis",
+      "interface": "robots.txt",
+      "url": "https://www.hcb.org.br/robots.txt",
+      "resultado": "http",
+      "http": 404,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 404"
+    },
+    {
+      "eixo": "eixo2",
+      "necessidade": "HCB, demonstrações contábeis",
+      "interface": "wp-sitemap.xml",
+      "url": "https://www.hcb.org.br/wp-sitemap.xml",
+      "resultado": "http",
+      "http": 404,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 404"
+    },
+    {
+      "eixo": "eixo2",
+      "necessidade": "HCB, demonstrações contábeis",
+      "interface": "sitemap.xml",
+      "url": "https://www.hcb.org.br/sitemap.xml",
+      "resultado": "http",
+      "http": 404,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 404"
+    },
+    {
+      "eixo": "eixo2",
+      "necessidade": "HCB, demonstrações contábeis",
+      "interface": "wp-json",
+      "url": "https://www.hcb.org.br/wp-json",
+      "resultado": "ok",
+      "http": 200,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 200, 28961 bytes"
+    },
+    {
+      "eixo": "eixo2",
+      "necessidade": "HCB, demonstrações contábeis",
+      "interface": "/transparencia/",
+      "url": "https://www.hcb.org.br/transparencia/",
+      "resultado": "http",
+      "http": 403,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 403"
+    },
+    {
+      "eixo": "eixo2",
+      "necessidade": "HCB, demonstrações contábeis",
+      "interface": "índice de relatórios",
+      "url": "https://www.hcb.org.br/transparencia/relatorios/",
+      "resultado": "ok",
+      "http": 200,
+      "itens": 23,
+      "achados": 0,
+      "detalhe": "HTTP 200, 44060 bytes, 120 links, 0 apontam para arquivo, 0 ocorrências contábeis, 23 páginas de detalhe enumeradas"
+    },
+    {
+      "eixo": "eixo2",
+      "necessidade": "HCB, demonstrações contábeis",
+      "interface": "varredura de detalhe",
+      "url": "https://www.hcb.org.br",
+      "resultado": "cache",
+      "http": 0,
+      "itens": 23,
+      "achados": 0,
+      "detalhe": "as 23 páginas de detalhe são AS MESMAS da varredura de 2026-09-03, que achou 0 links de arquivo e 0 ocorrências contábeis. Corpos não rebuscados: o índice é medido a cada execução e só move a varredura quando ELE muda (~23 s/página neste host)"
+    },
+    {
+      "eixo": "eixo2",
+      "necessidade": "HCB, demonstrações contábeis",
+      "interface": "veredicto",
+      "url": "",
+      "resultado": "absent",
+      "http": 0,
+      "itens": 2,
+      "achados": 0,
+      "detalhe": "veredicto da sonda: absent"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "Censo da educação superior INEP, série medicina DF",
+      "interface": "robots.txt",
+      "url": "https://download.inep.gov.br/robots.txt",
+      "resultado": "erro",
+      "http": 0,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "URLError: <urlopen error [Errno 104] Connection reset by peer> -- camada http: DNS, TCP e TLS completam; a recusa esta acima deles"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "Censo da educação superior INEP, série medicina DF",
+      "interface": "raiz",
+      "url": "https://download.inep.gov.br/",
+      "resultado": "ok",
+      "http": 200,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 200, 434442 bytes, 0 links de arquivo do censo da educação superior"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "Censo da educação superior INEP, série medicina DF",
+      "interface": "veredicto",
+      "url": "",
+      "resultado": "absent",
+      "http": 0,
+      "itens": 1,
+      "achados": 0,
+      "detalhe": "veredicto da sonda: absent"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "CRM-DF, série histórica de registros ativos",
+      "interface": "robots.txt",
+      "url": "https://crmdf.org.br/robots.txt",
+      "resultado": "ok",
+      "http": 200,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 200, 67 bytes"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "CRM-DF, série histórica de registros ativos",
+      "interface": "wp-sitemap.xml",
+      "url": "https://crmdf.org.br/wp-sitemap.xml",
+      "resultado": "http",
+      "http": 404,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 404"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "CRM-DF, série histórica de registros ativos",
+      "interface": "sitemap.xml",
+      "url": "https://crmdf.org.br/sitemap.xml",
+      "resultado": "catch-all",
+      "http": 200,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 200 com 181745 bytes de HTML onde o caminho promete texto: é resposta genérica, não interface"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "CRM-DF, série histórica de registros ativos",
+      "interface": "wp-json",
+      "url": "https://crmdf.org.br/wp-json/wp/v2/pages?per_page=1",
+      "resultado": "http",
+      "http": 401,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 401"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "CRM-DF, série histórica de registros ativos",
+      "interface": "veredicto",
+      "url": "",
+      "resultado": "absent",
+      "http": 0,
+      "itens": 1,
+      "achados": 0,
+      "detalhe": "veredicto da sonda: absent"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "ESCS, egressos e retenção na rede pública",
+      "interface": "wp-json pages",
+      "url": "https://www.escs.edu.br/wp-json/wp/v2/pages?per_page=100",
+      "resultado": "ok",
+      "http": 200,
+      "itens": 69,
+      "achados": 0,
+      "detalhe": "HTTP 200, 69 pages enumerados em 1 página(s), 0 casam egresso/retenção"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "ESCS, egressos e retenção na rede pública",
+      "interface": "wp-json posts",
+      "url": "https://www.escs.edu.br/wp-json/wp/v2/posts?per_page=100",
+      "resultado": "ok",
+      "http": 200,
+      "itens": 145,
+      "achados": 3,
+      "detalhe": "HTTP 200, 145 posts enumerados em 2 página(s), 3 casam egresso/retenção"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "ESCS, egressos e retenção na rede pública",
+      "interface": "wp-json search 'egressos'",
+      "url": "https://www.escs.edu.br/wp-json/wp/v2/search?search=egressos&per_page=20",
+      "resultado": "ok",
+      "http": 200,
+      "itens": 11,
+      "achados": 0,
+      "detalhe": "HTTP 200, 11 resultados para 'egressos'"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "ESCS, egressos e retenção na rede pública",
+      "interface": "wp-json search 'retencao'",
+      "url": "https://www.escs.edu.br/wp-json/wp/v2/search?search=retencao&per_page=20",
+      "resultado": "ok",
+      "http": 200,
+      "itens": 1,
+      "achados": 0,
+      "detalhe": "HTTP 200, 1 resultados para 'retencao'"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "ESCS, egressos e retenção na rede pública",
+      "interface": "wp-json media 'egresso'",
+      "url": "https://www.escs.edu.br/wp-json/wp/v2/media?search=egresso&per_page=20&_fields=id,source_url",
+      "resultado": "ok",
+      "http": 200,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 200, 0 itens de mídia casam 'egresso', 0 são arquivo de dados"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "ESCS, egressos e retenção na rede pública",
+      "interface": "veredicto",
+      "url": "",
+      "resultado": "absent",
+      "http": 0,
+      "itens": 5,
+      "achados": 3,
+      "detalhe": "veredicto da sonda: absent"
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "Demanda reprimida (fila de regulação SES-DF)",
+      "interface": "lai",
+      "url": "",
+      "resultado": "nao_publicado",
+      "http": 0,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "OS-063: a fila de regulação por especialidade/região NÃO é publicada como figura -- só esta linha, com o número/data do protocolo LAI quando o operador o fornecer. Requerimento LAI ainda NÃO FOI PROTOCOLADO nesta sessão; nenhum número ou data existe para registrar"
+    }
+  ],
+  "veredictos": {
+    "HCB, demonstrações contábeis": "absent",
+    "Censo da educação superior INEP, série medicina DF": "absent",
+    "CRM-DF, série histórica de registros ativos": "absent",
+    "ESCS, egressos e retenção na rede pública": "absent"
+  }
+}

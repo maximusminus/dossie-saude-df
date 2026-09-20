@@ -1,0 +1,186 @@
+{
+  "formula": "habitantes_por_equipe = população do DF no ano / soma de equipes_aps_serie.equipes (todos os tipo_eqp ESF) no mesmo ano. Só 2022 e 2024 têm população verificada por este projeto (Q2); os demais anos de equipes_aps_serie publicam a série de equipes mas a RAZÃO fica lacuna.",
+  "source": "Derivado de equipes_aps_serie deste projeto e de docs/POPULACAO.md",
+  "dados": [
+    {
+      "ano": 2007,
+      "populacao": null,
+      "equipes_esf": 33,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2008,
+      "populacao": null,
+      "equipes_esf": 43,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2009,
+      "populacao": null,
+      "equipes_esf": 92,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2010,
+      "populacao": null,
+      "equipes_esf": 119,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2011,
+      "populacao": null,
+      "equipes_esf": 117,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2012,
+      "populacao": null,
+      "equipes_esf": 174,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2013,
+      "populacao": null,
+      "equipes_esf": 205,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2014,
+      "populacao": null,
+      "equipes_esf": 242,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2015,
+      "populacao": null,
+      "equipes_esf": 250,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2016,
+      "populacao": null,
+      "equipes_esf": 248,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2017,
+      "populacao": null,
+      "equipes_esf": 295,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2018,
+      "populacao": null,
+      "equipes_esf": 484,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2019,
+      "populacao": null,
+      "equipes_esf": 375,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2020,
+      "populacao": null,
+      "equipes_esf": 592,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2021,
+      "populacao": null,
+      "equipes_esf": 605,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2022,
+      "populacao": 2817381,
+      "equipes_esf": 615,
+      "habitantes_por_equipe": 4581.11,
+      "estado": "calculada",
+      "motivo": "",
+      "fonte_populacao": "IBGE, Censo Demográfico 2022 — agregado 9923, variável 93 (População residente), nível N11 (subdistrito), município 5300108. Data de referência: 2022-07-31"
+    },
+    {
+      "ano": 2023,
+      "populacao": null,
+      "equipes_esf": 631,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2024,
+      "populacao": 2982658,
+      "equipes_esf": 639,
+      "habitantes_por_equipe": 4667.7,
+      "estado": "calculada",
+      "motivo": "",
+      "fonte_populacao": "PDAD-A 2024, total publicado do DF (populacao.PDAD_TOTAL_DF)"
+    },
+    {
+      "ano": 2025,
+      "populacao": null,
+      "equipes_esf": 645,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    },
+    {
+      "ano": 2026,
+      "populacao": null,
+      "equipes_esf": 649,
+      "habitantes_por_equipe": null,
+      "estado": "lacuna",
+      "motivo": "este projeto só tem população verificada para 2022 (Censo) e 2024 (PDAD-A) -- Q2 do OS-062: estender docs/POPULACAO.md, nunca uma terceira fonte",
+      "fonte_populacao": ""
+    }
+  ]
+}

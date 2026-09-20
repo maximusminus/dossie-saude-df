@@ -1,0 +1,105 @@
+{
+  "source": "Cada linha refaz a busca do próprio portal (tema=24, acrescido de ano=<ano>) e compara o totalElements que ELE devolve contra a contagem obtida no fetch principal deste projeto para o mesmo ano -- critério (a).",
+  "dados": [
+    {
+      "ano": "2017",
+      "parametros_busca": "tema=24&ano=2017",
+      "total_portal": 0,
+      "total_local": 0,
+      "descartadas_no_ano": 0,
+      "total_publicado": 0,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2018",
+      "parametros_busca": "tema=24&ano=2018",
+      "total_portal": 0,
+      "total_local": 0,
+      "descartadas_no_ano": 0,
+      "total_publicado": 0,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2019",
+      "parametros_busca": "tema=24&ano=2019",
+      "total_portal": 1,
+      "total_local": 1,
+      "descartadas_no_ano": 0,
+      "total_publicado": 1,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2020",
+      "parametros_busca": "tema=24&ano=2020",
+      "total_portal": 0,
+      "total_local": 0,
+      "descartadas_no_ano": 0,
+      "total_publicado": 0,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2021",
+      "parametros_busca": "tema=24&ano=2021",
+      "total_portal": 661,
+      "total_local": 661,
+      "descartadas_no_ano": 0,
+      "total_publicado": 661,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2022",
+      "parametros_busca": "tema=24&ano=2022",
+      "total_portal": 307,
+      "total_local": 307,
+      "descartadas_no_ano": 0,
+      "total_publicado": 307,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2023",
+      "parametros_busca": "tema=24&ano=2023",
+      "total_portal": 818,
+      "total_local": 818,
+      "descartadas_no_ano": 0,
+      "total_publicado": 818,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2024",
+      "parametros_busca": "tema=24&ano=2024",
+      "total_portal": 486,
+      "total_local": 486,
+      "descartadas_no_ano": 0,
+      "total_publicado": 486,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2025",
+      "parametros_busca": "tema=24&ano=2025",
+      "total_portal": 458,
+      "total_local": 458,
+      "descartadas_no_ano": 0,
+      "total_publicado": 458,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2026",
+      "parametros_busca": "tema=24&ano=2026",
+      "total_portal": 336,
+      "total_local": 336,
+      "descartadas_no_ano": 0,
+      "total_publicado": 336,
+      "diferenca": 0,
+      "confere": "sim"
+    }
+  ]
+}

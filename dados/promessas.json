@@ -1,0 +1,174 @@
+{
+  "dados": [
+    {
+      "fonte": "TSE DivulgaCand",
+      "ano": 2018,
+      "tipo": "Plano de Governo",
+      "titulo": "",
+      "url": "",
+      "data": "",
+      "estado": "lacuna",
+      "motivo": "divulgacandcontas.tse.jus.br devolveu HTTP 403 nesta própria execução (HTTP 403) -- corpo com referência a errors.edgesuite.net quando lido em 2026-09-13, nó Akamai. É um WAF medido, não uma ausência do publicador; a BRIEF do OS-066 proíbe Playwright para esta tabela e nenhum controle foi contornado."
+    },
+    {
+      "fonte": "TSE DivulgaCand",
+      "ano": 2022,
+      "tipo": "Plano de Governo",
+      "titulo": "",
+      "url": "",
+      "data": "",
+      "estado": "lacuna",
+      "motivo": "divulgacandcontas.tse.jus.br devolveu HTTP 403 nesta própria execução (HTTP 403) -- corpo com referência a errors.edgesuite.net quando lido em 2026-09-13, nó Akamai. É um WAF medido, não uma ausência do publicador; a BRIEF do OS-066 proíbe Playwright para esta tabela e nenhum controle foi contornado."
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2018",
+      "tipo": "RAG",
+      "titulo": "Relatório Anual de Gestão",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/rag/530010/9b21e3f9f8450834fe6b23a2a5a19f60.pdf",
+      "data": "2025-01-21",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2018",
+      "tipo": "RAG",
+      "titulo": "Aprovar",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/parecer/zXsCxHjtCiQDweTolOaZwkPM4z7AiNtPx1foF0Ax.pdf",
+      "data": "2025-01-21",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2019",
+      "tipo": "RAG",
+      "titulo": "Relatório Anual de Gestão",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/rag/530010/41cdddf4b25d3373f0ff67d25256676f.pdf",
+      "data": "2024-09-19",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2019",
+      "tipo": "RAG",
+      "titulo": "Aprovar",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/parecer/FpzQWsvoEMIZF7q1s8AnSVoZuuYcpgI0LD8W3ZKj.pdf",
+      "data": "2024-09-19",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2020",
+      "tipo": "RAG",
+      "titulo": "Relatório Anual de Gestão",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/rag/530010/bca59c6be9647b4fd87f7d594712063c.pdf",
+      "data": "2025-01-23",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2020",
+      "tipo": "RAG",
+      "titulo": "Aprovar",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/parecer/WXIjpS1REObqwNsgkO4qrAbCrPiDRUVdIqZHsbPF.pdf",
+      "data": "2025-01-23",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2021",
+      "tipo": "RAG",
+      "titulo": "Relatório Anual de Gestão",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/rag/530010/c76cc8a8e3db455a9b83d05641665684.pdf",
+      "data": "2025-02-23",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2021",
+      "tipo": "RAG",
+      "titulo": "Aprovar",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/parecer/eGooFCPU4pe9lk62NdiYSLzUAons30hkYRbsmyz3.pdf",
+      "data": "2025-02-23",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2022",
+      "tipo": "RAG",
+      "titulo": "Relatório Anual de Gestão",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/rag/530010/3dd3fb06db58d609e32993e2fec1e87a.pdf",
+      "data": "2026-08-25",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2022",
+      "tipo": "RAG",
+      "titulo": "Aprovar",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/parecer/7obUMbGIXNeAFant2uaTOrc6LyocOyrt0YY1bIcT.pdf",
+      "data": "2026-08-25",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2023",
+      "tipo": "RAG",
+      "titulo": "Relatório Anual de Gestão",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/rag/530010/f84e920e8cc33795d6b54ea80655b454.pdf",
+      "data": "2026-08-25",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2023",
+      "tipo": "RAG",
+      "titulo": "Aprovar",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/parecer/1grm4zaKeG90ivVMQhm3nQdSiChyY822BAhhRm2N.pdf",
+      "data": "2026-08-25",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2025",
+      "tipo": "RAG",
+      "titulo": "Relatório Anual de Gestão",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/rag/530010/b8bcd0f09d76c551b000d06a3b1a2ae7.pdf",
+      "data": "2026-04-27",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2024",
+      "tipo": "RAG",
+      "titulo": "Relatório Anual de Gestão",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/rag/530010/4f48310eaf4885426873b95501bfe7aa.pdf",
+      "data": "2026-08-25",
+      "estado": "medido",
+      "motivo": ""
+    },
+    {
+      "fonte": "DigiSUS Gestor",
+      "ano": "2024",
+      "tipo": "RAG",
+      "titulo": "Aprovar",
+      "url": "https://digisusgmp.saude.gov.br/storage/relatorio/parecer/scsMMZ1vXKp76uDFuoNOIMrV32Xh2f8aMFJlT9eQ.pdf",
+      "data": "2026-08-25",
+      "estado": "medido",
+      "motivo": ""
+    }
+  ]
+}

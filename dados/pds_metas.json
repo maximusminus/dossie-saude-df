@@ -1,0 +1,19 @@
+{
+  "dados": [
+    {
+      "meta": "",
+      "indice_referencia": "",
+      "unidade_medida": "",
+      "alvo_2024": "",
+      "alvo_2025": "",
+      "alvo_2026": "",
+      "alvo_2027": "",
+      "alvo": "",
+      "instrumento_responsavel": "",
+      "alcancado": "",
+      "pagina_pdf": null,
+      "estado": "lacuna",
+      "motivo": "extracao de layout declarado tentada contra PDS-2024-2027.pdf, paginas 203-209 (achadas pela legenda 'Metas Indicadores', nao fixadas de memoria). A FRONTEIRA DE LINHA de cada meta e confiavel: 69/69 ancoras de quatro valores-ano batem 1 para 1 com o mesmo numero de finais de polaridade 'Melhor'. A SEPARACAO DE CAMPO dentro da linha nao e: o fluxo de texto do pypdf nao preserva a ordem de coluna da tabela visual (meta, indicador, instrumento, responsavel), e 26/69 linhas reconstruidas ainda trazem um cabecalho estrutural ou um codigo de orgao/instrumento vazado para dentro do texto da meta mesmo apos a limpeza declarada. Por Assumption 2 da BRIEF do OS-066, isso publica uma lacuna, nao uma extracao de qualidade inferior; o bloco fecha pelo lado orcamentario (orcamento_saude_etapas), por resolucao da Q2."
+    }
+  ]
+}

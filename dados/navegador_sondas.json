@@ -1,0 +1,31 @@
+{
+  "source": "OS-058, route step R0.2: as quatro necessidades `blocked` por WAF, re-medidas a cada execução por um navegador real (navegador.py) em vez de urllib, que já não é o cliente que essas quatro necessidades enfrentam.",
+  "dados": [
+    {
+      "eixo": "eixo3",
+      "necessidade": "Cursos de medicina no DF com ano de autorização (e-MEC)",
+      "interface": "navegador",
+      "url": "https://emec.mec.gov.br/",
+      "resultado": "blocked",
+      "http": 403,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 403 (navegador)"
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "Anexo da Portaria GM/MS 1.101/2002 (parâmetros de leito)",
+      "interface": "navegador",
+      "url": "https://bvsms.saude.gov.br/",
+      "resultado": "erro",
+      "http": 0,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "navegação não produziu resposta -- Page.goto: net::ERR_CONNECTION_RESET at https://bvsms.saude.gov.br/"
+    }
+  ],
+  "veredictos": {
+    "Cursos de medicina no DF com ano de autorização (e-MEC)": "blocked",
+    "Anexo da Portaria GM/MS 1.101/2002 (parâmetros de leito)": "blocked"
+  }
+}

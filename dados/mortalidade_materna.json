@@ -1,0 +1,206 @@
+{
+  "formula": "razao_por_100mil = 100000 * óbitos de residentes do DF, sexo feminino, com causa básica no capítulo CID-10 XV (O00-O99, gravidez/parto/puerpério) / nascidos vivos de mães residentes no DF, mesmo ano -- PROXY de capítulo, não a razão corrigida por comitê de investigação",
+  "source": "Derivado de sim_obitos (capítulo XV) e sinasc_serie deste projeto",
+  "dados": [
+    {
+      "ano": "2000",
+      "obitos_maternos": 17,
+      "nascidos_vivos": 47991,
+      "razao_por_100mil": 35.4233,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2001",
+      "obitos_maternos": 14,
+      "nascidos_vivos": 46891,
+      "razao_por_100mil": 29.8565,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2002",
+      "obitos_maternos": 16,
+      "nascidos_vivos": 45799,
+      "razao_por_100mil": 34.9353,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2003",
+      "obitos_maternos": 10,
+      "nascidos_vivos": 46097,
+      "razao_por_100mil": 21.6934,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2004",
+      "obitos_maternos": 20,
+      "nascidos_vivos": 45593,
+      "razao_por_100mil": 43.8664,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2005",
+      "obitos_maternos": 19,
+      "nascidos_vivos": 45917,
+      "razao_por_100mil": 41.379,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2006",
+      "obitos_maternos": 21,
+      "nascidos_vivos": 45152,
+      "razao_por_100mil": 46.5096,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2007",
+      "obitos_maternos": 17,
+      "nascidos_vivos": 44098,
+      "razao_por_100mil": 38.5505,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2008",
+      "obitos_maternos": 26,
+      "nascidos_vivos": 44173,
+      "razao_por_100mil": 58.8595,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2009",
+      "obitos_maternos": 23,
+      "nascidos_vivos": 43932,
+      "razao_por_100mil": 52.3536,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2010",
+      "obitos_maternos": 20,
+      "nascidos_vivos": 44251,
+      "razao_por_100mil": 45.1967,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2011",
+      "obitos_maternos": 19,
+      "nascidos_vivos": 43465,
+      "razao_por_100mil": 43.7133,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2012",
+      "obitos_maternos": 19,
+      "nascidos_vivos": 43497,
+      "razao_por_100mil": 43.6812,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2013",
+      "obitos_maternos": 25,
+      "nascidos_vivos": 44530,
+      "razao_por_100mil": 56.1419,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2014",
+      "obitos_maternos": 20,
+      "nascidos_vivos": 44721,
+      "razao_por_100mil": 44.7217,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2015",
+      "obitos_maternos": 16,
+      "nascidos_vivos": 46122,
+      "razao_por_100mil": 34.6906,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2016",
+      "obitos_maternos": 24,
+      "nascidos_vivos": 43340,
+      "razao_por_100mil": 55.3761,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2017",
+      "obitos_maternos": 23,
+      "nascidos_vivos": 44568,
+      "razao_por_100mil": 51.6065,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2018",
+      "obitos_maternos": 24,
+      "nascidos_vivos": 44195,
+      "razao_por_100mil": 54.3048,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2019",
+      "obitos_maternos": 9,
+      "nascidos_vivos": 42422,
+      "razao_por_100mil": 21.2154,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2020",
+      "obitos_maternos": 22,
+      "nascidos_vivos": 39361,
+      "razao_por_100mil": 55.8929,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2021",
+      "obitos_maternos": 41,
+      "nascidos_vivos": 38035,
+      "razao_por_100mil": 107.7955,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2022",
+      "obitos_maternos": 21,
+      "nascidos_vivos": 35928,
+      "razao_por_100mil": 58.4502,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2023",
+      "obitos_maternos": 21,
+      "nascidos_vivos": 35551,
+      "razao_por_100mil": 59.0701,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2024",
+      "obitos_maternos": 18,
+      "nascidos_vivos": 33282,
+      "razao_por_100mil": 54.0833,
+      "estado": "calculada",
+      "motivo": ""
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "source": "Confronto entre o agregado dos microdados DODF e a contagem que o Portal MS dadosabertos.saude.gov.br publica (arquivo nacional do SIM, PORTAL ONLY desde OS-080 -- nenhuma requisição a tabnet.datasus.gov.br para esta leitura) para o mesmo ano, mesma leitura (por residência)",
+  "dados": [
+    {
+      "ano": "2000",
+      "obitos_microdados": 8572,
+      "obitos_tabnet": 8572,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2001",
+      "obitos_microdados": 8760,
+      "obitos_tabnet": 8760,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2002",
+      "obitos_microdados": 9066,
+      "obitos_tabnet": 9066,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2003",
+      "obitos_microdados": 9095,
+      "obitos_tabnet": 9095,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2004",
+      "obitos_microdados": 9609,
+      "obitos_tabnet": 9609,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2005",
+      "obitos_microdados": 9425,
+      "obitos_tabnet": 9425,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2006",
+      "obitos_microdados": 9513,
+      "obitos_tabnet": 9513,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2007",
+      "obitos_microdados": 9866,
+      "obitos_tabnet": 9866,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2008",
+      "obitos_microdados": 10284,
+      "obitos_tabnet": 10284,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2009",
+      "obitos_microdados": 10459,
+      "obitos_tabnet": 10459,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2010",
+      "obitos_microdados": 10851,
+      "obitos_tabnet": 10851,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2011",
+      "obitos_microdados": 11253,
+      "obitos_tabnet": 11253,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2012",
+      "obitos_microdados": 11308,
+      "obitos_tabnet": 11308,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2013",
+      "obitos_microdados": 11408,
+      "obitos_tabnet": 11408,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2014",
+      "obitos_microdados": 12018,
+      "obitos_tabnet": 12018,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2015",
+      "obitos_microdados": 11975,
+      "obitos_tabnet": 11975,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2016",
+      "obitos_microdados": 12050,
+      "obitos_tabnet": 12050,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2017",
+      "obitos_microdados": 12514,
+      "obitos_tabnet": 12514,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2018",
+      "obitos_microdados": 12157,
+      "obitos_tabnet": 12157,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2019",
+      "obitos_microdados": 12804,
+      "obitos_tabnet": 12804,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2020",
+      "obitos_microdados": 16218,
+      "obitos_tabnet": 16218,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2021",
+      "obitos_microdados": 19079,
+      "obitos_tabnet": 19079,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2022",
+      "obitos_microdados": 14457,
+      "obitos_tabnet": 14457,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2023",
+      "obitos_microdados": 14079,
+      "obitos_tabnet": 14079,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2024",
+      "obitos_microdados": 15878,
+      "obitos_tabnet": 15878,
+      "diferenca": 0,
+      "confere": "sim"
+    }
+  ]
+}

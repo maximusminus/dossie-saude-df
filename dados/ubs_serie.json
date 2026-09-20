@@ -1,0 +1,333 @@
+{
+  "source": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST -- estabelecimentos cujo TP_UNID rotula exatamente 'POSTO DE SAUDE', 'CENTRO DE SAUDE/UNIDADE BASICA' ou 'UNIDADE DE SAUDE DA FAMILIA' (CNV/TP_ESTAB.CNV) -- deliberadamente SEM o código 71 'CENTRO DE APOIO A SAUDE DA FAMILIA' (apoio NASF, não uma unidade de atendimento, apesar de compartilhar as palavras 'SAUDE DA FAMILIA') -- na competência representativa de cada ano (2005-2026), DF. Sem corte por RA: medido, não suposto.",
+  "dados": [
+    {
+      "ano": 2005,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 28,
+      "competencia": "200512",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF0512.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2005,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 118,
+      "competencia": "200512",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF0512.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2006,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 38,
+      "competencia": "200612",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF0612.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2006,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 131,
+      "competencia": "200612",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF0612.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2007,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 41,
+      "competencia": "200712",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF0712.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2007,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 133,
+      "competencia": "200712",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF0712.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2008,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 54,
+      "competencia": "200812",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF0812.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2008,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 119,
+      "competencia": "200812",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF0812.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2009,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 53,
+      "competencia": "200912",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF0912.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2009,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 118,
+      "competencia": "200912",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF0912.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2010,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 52,
+      "competencia": "201012",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1012.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2010,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 119,
+      "competencia": "201012",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1012.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2011,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 51,
+      "competencia": "201112",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1112.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2011,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 122,
+      "competencia": "201112",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1112.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2012,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 48,
+      "competencia": "201212",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1212.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2012,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 117,
+      "competencia": "201212",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1212.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2013,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 49,
+      "competencia": "201312",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1312.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2013,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 125,
+      "competencia": "201312",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1312.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2014,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 50,
+      "competencia": "201412",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1412.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2014,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 126,
+      "competencia": "201412",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1412.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2015,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 14,
+      "competencia": "201512",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1512.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2015,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 173,
+      "competencia": "201512",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1512.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2016,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 2,
+      "competencia": "201612",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1612.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2016,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 178,
+      "competencia": "201612",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1612.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2017,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 2,
+      "competencia": "201712",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1712.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2017,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 175,
+      "competencia": "201712",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1712.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2018,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 2,
+      "competencia": "201812",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1812.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2018,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 173,
+      "competencia": "201812",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1812.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2019,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 2,
+      "competencia": "201912",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1912.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2019,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 174,
+      "competencia": "201912",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF1912.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2020,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 2,
+      "competencia": "202012",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF2012.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2020,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 177,
+      "competencia": "202012",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF2012.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2021,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 2,
+      "competencia": "202112",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF2112.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2021,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 178,
+      "competencia": "202112",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF2112.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2022,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 2,
+      "competencia": "202212",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF2212.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2022,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 179,
+      "competencia": "202212",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF2212.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2023,
+      "tp_unid": "01",
+      "tp_unid_rotulo": "POSTO DE SAUDE",
+      "unidades": 2,
+      "competencia": "202312",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF2312.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2023,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 176,
+      "competencia": "202312",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF2312.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2024,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 177,
+      "competencia": "202412",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF2412.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2025,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 182,
+      "competencia": "202512",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF2512.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    },
+    {
+      "ano": 2026,
+      "tp_unid": "02",
+      "tp_unid_rotulo": "CENTRO DE SAUDE/UNIDADE BASICA",
+      "unidades": 182,
+      "competencia": "202608",
+      "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST, arquivo STDF2608.dbc, campo TP_UNID restrito aos três rótulos de UBS (TAB_CNES.zip)"
+    }
+  ]
+}

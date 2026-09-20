@@ -1,0 +1,774 @@
+{
+  "dados": [
+    {
+      "documento": "3 contrato de gestao 076 2019 dodf 182 de 24 09 2019",
+      "arquivo": "3_contrato_de_gestao_076_2019_dodf_182_de_24_09_2019.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/3_contrato_de_gestao_076_2019_dodf_182_de_24_09_2019.pdf"
+    },
+    {
+      "documento": "4 contrato de gestao 076 2019 de 20 09 2019",
+      "arquivo": "4_contrato_de_gestao_076_2019_de_20_09_2019.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/4_contrato_de_gestao_076_2019_de_20_09_2019.pdf"
+    },
+    {
+      "documento": "37 16 ta cg 076 2019 emenda parlamentar 200 000 00 jorge viana",
+      "arquivo": "37_16_ta_cg_076_2019_emenda_parlamentar_200_000_00_jorge_viana.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/37_16_ta_cg_076_2019_emenda_parlamentar_200_000_00_jorge_viana.pdf"
+    },
+    {
+      "documento": "38 17 ta cg 076 2019 dodf 2 de 03 01 2023",
+      "arquivo": "38_17_ta_cg_076_2019_dodf_2_de_03_01_2023.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/38_17_ta_cg_076_2019_dodf_2_de_03_01_2023.pdf"
+    },
+    {
+      "documento": "39 17 ta cg 076 2019 emenda parlamentar 500 000 00 julio cesar",
+      "arquivo": "39_17_ta_cg_076_2019_emenda_parlamentar_500_000_00_julio_cesar.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/39_17_ta_cg_076_2019_emenda_parlamentar_500_000_00_julio_cesar.pdf"
+    },
+    {
+      "documento": "40 18 ta cg 076 2019 dodf 2 de 03 01 2023",
+      "arquivo": "40_18_ta_cg_076_2019_dodf_2_de_03_01_2023.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/40_18_ta_cg_076_2019_dodf_2_de_03_01_2023.pdf"
+    },
+    {
+      "documento": "41 18 ta cg 076 2019 emenda parlamentar 1 540 500 00 agaciel maia",
+      "arquivo": "41_18_ta_cg_076_2019_emenda_parlamentar_1_540_500_00_agaciel_maia.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/41_18_ta_cg_076_2019_emenda_parlamentar_1_540_500_00_agaciel_maia.pdf"
+    },
+    {
+      "documento": "42 19 ta cg 079 2019 dodf 43 de 03 03 2023 com erro",
+      "arquivo": "42_19_ta_cg_079_2019_dodf_43_de_03_03_2023_com_erro.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/42_19_ta_cg_079_2019_dodf_43_de_03_03_2023_com_erro.pdf"
+    },
+    {
+      "documento": "43 19 ta cg 076 2019 uti covid 19",
+      "arquivo": "43_19_ta_cg_076_2019_uti_covid_19.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/43_19_ta_cg_076_2019_uti_covid_19.pdf"
+    },
+    {
+      "documento": "44 20 ta cg 076 2019 dodf 46 de 08 03 2023",
+      "arquivo": "44_20_ta_cg_076_2019_dodf_46_de_08_03_2023.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/44_20_ta_cg_076_2019_dodf_46_de_08_03_2023.pdf"
+    },
+    {
+      "documento": "45 20 ta cg 076 2019 abertura 10 leitos de uti pediatrica",
+      "arquivo": "45_20_ta_cg_076_2019_abertura_10_leitos_de_uti_pediatrica.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/45_20_ta_cg_076_2019_abertura_10_leitos_de_uti_pediatrica.pdf"
+    },
+    {
+      "documento": "46 21 ta cg 076 2019 dodf 67 de 10 04 2023",
+      "arquivo": "46_21_ta_cg_076_2019_dodf_67_de_10_04_2023.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/46_21_ta_cg_076_2019_dodf_67_de_10_04_2023.pdf"
+    },
+    {
+      "documento": "47 21 ta cg 076 2019 diferenca ressarcimento recursos uti pediatrica covid 19",
+      "arquivo": "47_21_ta_cg_076_2019_diferenca_ressarcimento_recursos_uti_pediatrica_covid_19.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/47_21_ta_cg_076_2019_diferenca_ressarcimento_recursos_uti_pediatrica_covid_19.pdf"
+    },
+    {
+      "documento": "48 22 ta cg 076 2019 dodf 206 de 03 11 2023",
+      "arquivo": "48_22_ta_cg_076_2019_dodf_206_de_03_11_2023.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/48_22_ta_cg_076_2019_dodf_206_de_03_11_2023.pdf"
+    },
+    {
+      "documento": "49 22 ta cg 076 2019 implantacao de energia fotovoltaica 15 000 000 00",
+      "arquivo": "49_22_ta_cg_076_2019_implantacao_de_energia_fotovoltaica_15_000_000_00.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/49_22_ta_cg_076_2019_implantacao_de_energia_fotovoltaica_15_000_000_00.pdf"
+    },
+    {
+      "documento": "50 23 ta cg 076 2019 dodf 243 de 29 12 2023",
+      "arquivo": "50_23_ta_cg_076_2019_dodf_243_de_29_12_2023.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/50_23_ta_cg_076_2019_dodf_243_de_29_12_2023.pdf"
+    },
+    {
+      "documento": "51 23 ta cg 076 2019 emenda parlamentar 150 000 00 eduardo pedrosa",
+      "arquivo": "51_23_ta_cg_076_2019_emenda_parlamentar_150_000_00_eduardo_pedrosa.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/51_23_ta_cg_076_2019_emenda_parlamentar_150_000_00_eduardo_pedrosa.pdf"
+    },
+    {
+      "documento": "52 24 ta cg 076 2019 dodf 243 de 29 12 2023",
+      "arquivo": "52_24_ta_cg_076_2019_dodf_243_de_29_12_2023.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/52_24_ta_cg_076_2019_dodf_243_de_29_12_2023.pdf"
+    },
+    {
+      "documento": "53 24 ta cg 076 2019 emenda parlamentar 1 077 372 00 julio cesar",
+      "arquivo": "53_24_ta_cg_076_2019_emenda_parlamentar_1_077_372_00_julio_cesar.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/53_24_ta_cg_076_2019_emenda_parlamentar_1_077_372_00_julio_cesar.pdf"
+    },
+    {
+      "documento": "54 25 ta cg 076 2019 dodf 243 de 29 12 2023",
+      "arquivo": "54_25_ta_cg_076_2019_dodf_243_de_29_12_2023.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/54_25_ta_cg_076_2019_dodf_243_de_29_12_2023.pdf"
+    },
+    {
+      "documento": "55 25 ta cg 076 2019 emenda parlamentar 250 000 00 roosevelt vilela",
+      "arquivo": "55_25_ta_cg_076_2019_emenda_parlamentar_250_000_00_roosevelt_vilela.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/55_25_ta_cg_076_2019_emenda_parlamentar_250_000_00_roosevelt_vilela.pdf"
+    },
+    {
+      "documento": "56 26 ta cg 076 2019 dodf 243 de 29 12 2023 1",
+      "arquivo": "56_26_ta_cg_076_2019_dodf_243_de_29_12_2023_1.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/56_26_ta_cg_076_2019_dodf_243_de_29_12_2023_1.pdf"
+    },
+    {
+      "documento": "57 26 ta cg 076 2019 emenda parlamentar 1 538 46 gilvan maximo",
+      "arquivo": "57_26_ta_cg_076_2019_emenda_parlamentar_1_538_46_gilvan_maximo.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/57_26_ta_cg_076_2019_emenda_parlamentar_1_538_46_gilvan_maximo.pdf"
+    },
+    {
+      "documento": "58 27 ta cg 076 2019 dodf 1 de 02 01 2024",
+      "arquivo": "58_27_ta_cg_076_2019_dodf_1_de_02_01_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/58_27_ta_cg_076_2019_dodf_1_de_02_01_2024.pdf"
+    },
+    {
+      "documento": "59 27 ta cg 076 2019 emenda parlamentar 5 045 036 00",
+      "arquivo": "59_27_ta_cg_076_2019_emenda_parlamentar_5_045_036_00.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/59_27_ta_cg_076_2019_emenda_parlamentar_5_045_036_00.pdf"
+    },
+    {
+      "documento": "60 28 ta cg 076 2019 dodf 19 de 26 01 2043 retificar o objeto do 24 ta",
+      "arquivo": "60_28_ta_cg_076_2019_dodf_19_de_26_01_2043_retificar_o_objeto_do_24_ta.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/60_28_ta_cg_076_2019_dodf_19_de_26_01_2043_retificar_o_objeto_do_24_ta.pdf"
+    },
+    {
+      "documento": "60 28 ta cg 076 2019 dodf 243 de 29 12 2023",
+      "arquivo": "60_28_ta_cg_076_2019_dodf_243_de_29_12_2023.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/60_28_ta_cg_076_2019_dodf_243_de_29_12_2023.pdf"
+    },
+    {
+      "documento": "61 28 ta cg 076 2019 emenda parlamentar 1 600 000 00 bancada federal",
+      "arquivo": "61_28_ta_cg_076_2019_emenda_parlamentar_1_600_000_00_bancada_federal.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/61_28_ta_cg_076_2019_emenda_parlamentar_1_600_000_00_bancada_federal.pdf"
+    },
+    {
+      "documento": "62 29 ta cg 076 2019 dodf 243 de 29 12 2023",
+      "arquivo": "62_29_ta_cg_076_2019_dodf_243_de_29_12_2023.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/62_29_ta_cg_076_2019_dodf_243_de_29_12_2023.pdf"
+    },
+    {
+      "documento": "63 29 ta cg 076 2019 emenda parlamentar 1 766 000 00",
+      "arquivo": "63_29_ta_cg_076_2019_emenda_parlamentar_1_766_000_00.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/63_29_ta_cg_076_2019_emenda_parlamentar_1_766_000_00.pdf"
+    },
+    {
+      "documento": "64 30 ta cg 076 2019 dodf 243 de 29 12 2023",
+      "arquivo": "64_30_ta_cg_076_2019_dodf_243_de_29_12_2023.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/64_30_ta_cg_076_2019_dodf_243_de_29_12_2023.pdf"
+    },
+    {
+      "documento": "65 30 ta cg 076 2019 emenda parlamentar 1 700 000 00",
+      "arquivo": "65_30_ta_cg_076_2019_emenda_parlamentar_1_700_000_00.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/65_30_ta_cg_076_2019_emenda_parlamentar_1_700_000_00.pdf"
+    },
+    {
+      "documento": "68 32 ta cg 076 2019 dodf 1 de 02 01 2024",
+      "arquivo": "68_32_ta_cg_076_2019_dodf_1_de_02_01_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/68_32_ta_cg_076_2019_dodf_1_de_02_01_2024.pdf"
+    },
+    {
+      "documento": "69 32 ta cg 076 2019 emenda parlamentar 1 086 403 00 israel batista",
+      "arquivo": "69_32_ta_cg_076_2019_emenda_parlamentar_1_086_403_00_israel_batista.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/69_32_ta_cg_076_2019_emenda_parlamentar_1_086_403_00_israel_batista.pdf"
+    },
+    {
+      "documento": "70 33 ta cg 076 2019 dodf 6 de 09 01 2023",
+      "arquivo": "70_33_ta_cg_076_2019_dodf_6_de_09_01_2023.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/70_33_ta_cg_076_2019_dodf_6_de_09_01_2023.pdf"
+    },
+    {
+      "documento": "71 33 ta cg 076 2019 emenda parlamentar 334 000 00 deyse amarilio",
+      "arquivo": "71_33_ta_cg_076_2019_emenda_parlamentar_334_000_00_deyse_amarilio.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/71_33_ta_cg_076_2019_emenda_parlamentar_334_000_00_deyse_amarilio.pdf"
+    },
+    {
+      "documento": "72 34 ta cg 076 2019 dodf 1 de 02 01 2024",
+      "arquivo": "72_34_ta_cg_076_2019_dodf_1_de_02_01_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/72_34_ta_cg_076_2019_dodf_1_de_02_01_2024.pdf"
+    },
+    {
+      "documento": "73 34 ta cg 076 2019 emenda parlamentar 1 500 000 00 fundo ms",
+      "arquivo": "73_34_ta_cg_076_2019_emenda_parlamentar_1_500_000_00_fundo_ms.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/73_34_ta_cg_076_2019_emenda_parlamentar_1_500_000_00_fundo_ms.pdf"
+    },
+    {
+      "documento": "76 36 ta cg 076 2019 dodf 1 de 02 01 2024",
+      "arquivo": "76_36_ta_cg_076_2019_dodf_1_de_02_01_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/76_36_ta_cg_076_2019_dodf_1_de_02_01_2024.pdf"
+    },
+    {
+      "documento": "77 36 ta cg 076 2019 emenda parlamentar 3 720 000 00 bancada federal",
+      "arquivo": "77_36_ta_cg_076_2019_emenda_parlamentar_3_720_000_00_bancada_federal.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/77_36_ta_cg_076_2019_emenda_parlamentar_3_720_000_00_bancada_federal.pdf"
+    },
+    {
+      "documento": "78 37 ta cg 076 2019 dodf 1 de 02 01 2024",
+      "arquivo": "78_37_ta_cg_076_2019_dodf_1_de_02_01_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/78_37_ta_cg_076_2019_dodf_1_de_02_01_2024.pdf"
+    },
+    {
+      "documento": "79 37 ta cg 076 2019 uti pediatrica",
+      "arquivo": "79_37_ta_cg_076_2019_uti_pediatrica.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/79_37_ta_cg_076_2019_uti_pediatrica.pdf"
+    },
+    {
+      "documento": "38 17 ta cg 076 2019 dodf 2 de 03 01 2023 1",
+      "arquivo": "38_17_ta_cg_076_2019_dodf_2_de_03_01_2023_1.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/38_17_ta_cg_076_2019_dodf_2_de_03_01_2023_1.pdf"
+    },
+    {
+      "documento": "81 38 ta cg 076 2019 uti estrela do mar",
+      "arquivo": "81_38_ta_cg_076_2019_uti_estrela_do_mar.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/81_38_ta_cg_076_2019_uti_estrela_do_mar.pdf"
+    },
+    {
+      "documento": "82 39 ta cg 076 2019 dodf 106 de 06 06 2024",
+      "arquivo": "82_39_ta_cg_076_2019_dodf_106_de_06_06_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/82_39_ta_cg_076_2019_dodf_106_de_06_06_2024.pdf"
+    },
+    {
+      "documento": "83 39 ta cg 076 2019 altera clausula 10 do cg contas",
+      "arquivo": "83_39_ta_cg_076_2019_altera_clausula_10_do_cg_contas.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/83_39_ta_cg_076_2019_altera_clausula_10_do_cg_contas.pdf"
+    },
+    {
+      "documento": "84 40 ta cg 076 2019 dodf 106 de 06 06 2024",
+      "arquivo": "84_40_ta_cg_076_2019_dodf_106_de_06_06_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/84_40_ta_cg_076_2019_dodf_106_de_06_06_2024.pdf"
+    },
+    {
+      "documento": "85 40 ta cg 076 2019 emenda parlamentar 334 975 00 fundo ms",
+      "arquivo": "85_40_ta_cg_076_2019_emenda_parlamentar_334_975_00_fundo_ms.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/85_40_ta_cg_076_2019_emenda_parlamentar_334_975_00_fundo_ms.pdf"
+    },
+    {
+      "documento": "86 41 ta cg 076 2019 dodf 143 de 29 07 2024",
+      "arquivo": "86_41_ta_cg_076_2019_dodf_143_de_29_07_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/86_41_ta_cg_076_2019_dodf_143_de_29_07_2024.pdf"
+    },
+    {
+      "documento": "87 41 ta cg 076 2019 prorrogacao 24 09 2024 a 24 09 2029",
+      "arquivo": "87_41_ta_cg_076_2019_prorrogacao_24_09_2024_a_24_09_2029.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/87_41_ta_cg_076_2019_prorrogacao_24_09_2024_a_24_09_2029.pdf"
+    },
+    {
+      "documento": "88 42 ta cg 076 2019 dodf 167 de 30 08 2024",
+      "arquivo": "88_42_ta_cg_076_2019_dodf_167_de_30_08_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/88_42_ta_cg_076_2019_dodf_167_de_30_08_2024.pdf"
+    },
+    {
+      "documento": "89 42 ta cg 076 2019 emenda parlamentar 5 090 014 00 erika kokay",
+      "arquivo": "89_42_ta_cg_076_2019_emenda_parlamentar_5_090_014_00_erika_kokay.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/89_42_ta_cg_076_2019_emenda_parlamentar_5_090_014_00_erika_kokay.pdf"
+    },
+    {
+      "documento": "90 43 ta cg 076 2019 dodf 187 de 30 09 2024",
+      "arquivo": "90_43_ta_cg_076_2019_dodf_187_de_30_09_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/90_43_ta_cg_076_2019_dodf_187_de_30_09_2024.pdf"
+    },
+    {
+      "documento": "91 43 ta cg 076 2019 emenda parlamentar 1 000 000 00 paulo fernando",
+      "arquivo": "91_43_ta_cg_076_2019_emenda_parlamentar_1_000_000_00_paulo_fernando.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/91_43_ta_cg_076_2019_emenda_parlamentar_1_000_000_00_paulo_fernando.pdf"
+    },
+    {
+      "documento": "92 44 ta cg 076 2019 dodf 202 de 21 10 2024",
+      "arquivo": "92_44_ta_cg_076_2019_dodf_202_de_21_10_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/92_44_ta_cg_076_2019_dodf_202_de_21_10_2024.pdf"
+    },
+    {
+      "documento": "93 44 ta cg 076 2019 emenda parlamentar 3 500 000 00 izalci lucas",
+      "arquivo": "93_44_ta_cg_076_2019_emenda_parlamentar_3_500_000_00_izalci_lucas.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/93_44_ta_cg_076_2019_emenda_parlamentar_3_500_000_00_izalci_lucas.pdf"
+    },
+    {
+      "documento": "94 45 ta cg 076 2019 dodf 208 de 30 10 2024",
+      "arquivo": "94_45_ta_cg_076_2019_dodf_208_de_30_10_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/94_45_ta_cg_076_2019_dodf_208_de_30_10_2024.pdf"
+    },
+    {
+      "documento": "95 45 ta cg 076 2019 emenda parlamentar 2 606 041 00 leila barros",
+      "arquivo": "95_45_ta_cg_076_2019_emenda_parlamentar_2_606_041_00_leila_barros.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/95_45_ta_cg_076_2019_emenda_parlamentar_2_606_041_00_leila_barros.pdf"
+    },
+    {
+      "documento": "96 46 ta cg 076 2019 dodf 226 de 27 11 2024",
+      "arquivo": "96_46_ta_cg_076_2019_dodf_226_de_27_11_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/96_46_ta_cg_076_2019_dodf_226_de_27_11_2024.pdf"
+    },
+    {
+      "documento": "97 46 ta cg 076 2019 retifica o 44 ta",
+      "arquivo": "97_46_ta_cg_076_2019_retifica_o_44_ta.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/97_46_ta_cg_076_2019_retifica_o_44_ta.pdf"
+    },
+    {
+      "documento": "98 47 ta cg 076 2019 dodf 229 de 02 12 2024",
+      "arquivo": "98_47_ta_cg_076_2019_dodf_229_de_02_12_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/98_47_ta_cg_076_2019_dodf_229_de_02_12_2024.pdf"
+    },
+    {
+      "documento": "99 47 ta cg 076 2019 emenda parlamentar 20 000 00 thiago manzoni",
+      "arquivo": "99_47_ta_cg_076_2019_emenda_parlamentar_20_000_00_thiago_manzoni.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/99_47_ta_cg_076_2019_emenda_parlamentar_20_000_00_thiago_manzoni.pdf"
+    },
+    {
+      "documento": "100 48 ta cg 076 2019 dodf 237 de 12 12 2024",
+      "arquivo": "100_48_ta_cg_076_2019_dodf_237_de_12_12_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/100_48_ta_cg_076_2019_dodf_237_de_12_12_2024.pdf"
+    },
+    {
+      "documento": "101 48 ta cg 076 2019 emenda parlamentar 90 000 00 thiago manzoni",
+      "arquivo": "101_48_ta_cg_076_2019_emenda_parlamentar_90_000_00_thiago_manzoni.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/101_48_ta_cg_076_2019_emenda_parlamentar_90_000_00_thiago_manzoni.pdf"
+    },
+    {
+      "documento": "102 49 ta cg 076 2019 dodf 240 de 17 12 2024",
+      "arquivo": "102_49_ta_cg_076_2019_dodf_240_de_17_12_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/102_49_ta_cg_076_2019_dodf_240_de_17_12_2024.pdf"
+    },
+    {
+      "documento": "103 49 ta cg 076 2019 programa ministerio da saude 400 000 00",
+      "arquivo": "103_49_ta_cg_076_2019_programa_ministerio_da_saude_400_000_00.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/103_49_ta_cg_076_2019_programa_ministerio_da_saude_400_000_00.pdf"
+    },
+    {
+      "documento": "104 50 ta cg 076 2019 dodf 243 de 20 12 2024",
+      "arquivo": "104_50_ta_cg_076_2019_dodf_243_de_20_12_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/104_50_ta_cg_076_2019_dodf_243_de_20_12_2024.pdf"
+    },
+    {
+      "documento": "105 50 ta cg 076 2019 emenda parlamentar 20 000 00 thiago manzoni",
+      "arquivo": "105_50_ta_cg_076_2019_emenda_parlamentar_20_000_00_thiago_manzoni.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/105_50_ta_cg_076_2019_emenda_parlamentar_20_000_00_thiago_manzoni.pdf"
+    },
+    {
+      "documento": "106 51 ta cg 076 2019 dodf 249 de 31 12 2024",
+      "arquivo": "106_51_ta_cg_076_2019_dodf_249_de_31_12_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/106_51_ta_cg_076_2019_dodf_249_de_31_12_2024.pdf"
+    },
+    {
+      "documento": "107 51 ta cg 076 2019 emenda parlamentar 1 000 000 00 fred linhares",
+      "arquivo": "107_51_ta_cg_076_2019_emenda_parlamentar_1_000_000_00_fred_linhares.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/107_51_ta_cg_076_2019_emenda_parlamentar_1_000_000_00_fred_linhares.pdf"
+    },
+    {
+      "documento": "108 52 ta cg 076 2019 dodf 249 de 31 12 2024",
+      "arquivo": "108_52_ta_cg_076_2019_dodf_249_de_31_12_2024.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/108_52_ta_cg_076_2019_dodf_249_de_31_12_2024.pdf"
+    },
+    {
+      "documento": "109 52 ta cg 076 2019 emenda parlamentar 17 000 00 thiago manzoni",
+      "arquivo": "109_52_ta_cg_076_2019_emenda_parlamentar_17_000_00_thiago_manzoni.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/109_52_ta_cg_076_2019_emenda_parlamentar_17_000_00_thiago_manzoni.pdf"
+    },
+    {
+      "documento": "110 53 ta cg 076 2019 dodf 2 de 03 01 2025",
+      "arquivo": "110_53_ta_cg_076_2019_dodf_2_de_03_01_2025.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/110_53_ta_cg_076_2019_dodf_2_de_03_01_2025.pdf"
+    },
+    {
+      "documento": "111 53 ta cg 076 2019 emenda parlamentar 350 000 00 thiago manzoni",
+      "arquivo": "111_53_ta_cg_076_2019_emenda_parlamentar_350_000_00_thiago_manzoni.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/111_53_ta_cg_076_2019_emenda_parlamentar_350_000_00_thiago_manzoni.pdf"
+    },
+    {
+      "documento": "112 54 ta cg 076 2019 dodf 2 de 03 01 2025",
+      "arquivo": "112_54_ta_cg_076_2019_dodf_2_de_03_01_2025.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/112_54_ta_cg_076_2019_dodf_2_de_03_01_2025.pdf"
+    },
+    {
+      "documento": "111 54 ta cg 076 2019 emenda parlamentar 1 928 000 00 fundo a fundo",
+      "arquivo": "111_54_ta_cg_076_2019_emenda_parlamentar_1_928_000_00_fundo_a_fundo.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/111_54_ta_cg_076_2019_emenda_parlamentar_1_928_000_00_fundo_a_fundo.pdf"
+    },
+    {
+      "documento": "114 55 ta cg 076 2019 dodf 2 de 03 01 2025",
+      "arquivo": "114_55_ta_cg_076_2019_dodf_2_de_03_01_2025.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/114_55_ta_cg_076_2019_dodf_2_de_03_01_2025.pdf"
+    },
+    {
+      "documento": "115 55 ta cg 076 2019 emenda parlamentar 36 000 00 thiago manzoni",
+      "arquivo": "115_55_ta_cg_076_2019_emenda_parlamentar_36_000_00_thiago_manzoni.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/115_55_ta_cg_076_2019_emenda_parlamentar_36_000_00_thiago_manzoni.pdf"
+    },
+    {
+      "documento": "116 56 ta cg 076 2019 dodf 51 de 17 03 2025",
+      "arquivo": "116_56_ta_cg_076_2019_dodf_51_de_17_03_2025.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/116_56_ta_cg_076_2019_dodf_51_de_17_03_2025.pdf"
+    },
+    {
+      "documento": "117 56 ta cg 076 2019 alteracoes de metas",
+      "arquivo": "117_56_ta_cg_076_2019_alteracoes_de_metas.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/117_56_ta_cg_076_2019_alteracoes_de_metas.pdf"
+    },
+    {
+      "documento": "118 57 ta cg 076 2019 dodf 150 de 12 08 2025",
+      "arquivo": "118_57_ta_cg_076_2019_dodf_150_de_12_08_2025.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/118_57_ta_cg_076_2019_dodf_150_de_12_08_2025.pdf"
+    },
+    {
+      "documento": "119 57 ta cg 076 2019 ampliacao 2 leitos de uti peixe",
+      "arquivo": "119_57_ta_cg_076_2019_ampliacao_2_leitos_de_uti_peixe.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/119_57_ta_cg_076_2019_ampliacao_2_leitos_de_uti_peixe.pdf"
+    },
+    {
+      "documento": "121 58 ta cg 076 2019 emenda parlamentar 1 884 532 00 damares alves insumos laboratoriais",
+      "arquivo": "121_58_ta_cg_076_2019_emenda_parlamentar_1_884_532_00_damares_alves_insumos_laboratoriais.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/121_58_ta_cg_076_2019_emenda_parlamentar_1_884_532_00_damares_alves_insumos_laboratoriais.pdf"
+    },
+    {
+      "documento": "122 59 ta cg 076 2019 dodf 150 de 12 08 2025",
+      "arquivo": "122_59_ta_cg_076_2019_dodf_150_de_12_08_2025.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/122_59_ta_cg_076_2019_dodf_150_de_12_08_2025.pdf"
+    },
+    {
+      "documento": "123 59 ta cg 076 2019 emenda parlamentar 2 500 000 00 leila barros enxoval",
+      "arquivo": "123_59_ta_cg_076_2019_emenda_parlamentar_2_500_000_00_leila_barros_enxoval.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/123_59_ta_cg_076_2019_emenda_parlamentar_2_500_000_00_leila_barros_enxoval.pdf"
+    },
+    {
+      "documento": "124 60 ta cg 076 2019 dodf 155 de 19 08 2025",
+      "arquivo": "124_60_ta_cg_076_2019_dodf_155_de_19_08_2025.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/124_60_ta_cg_076_2019_dodf_155_de_19_08_2025.pdf"
+    },
+    {
+      "documento": "125 60 ta cg 076 2019 prip r 3 935 270 40",
+      "arquivo": "125_60_ta_cg_076_2019_prip_r_3_935_270_40.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/125_60_ta_cg_076_2019_prip_r_3_935_270_40.pdf"
+    },
+    {
+      "documento": "126 61 ta cg 076 2019 dodf 184 de 29 09 2025",
+      "arquivo": "126_61_ta_cg_076_2019_dodf_184_de_29_09_2025.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/126_61_ta_cg_076_2019_dodf_184_de_29_09_2025.pdf"
+    },
+    {
+      "documento": "127 61 ta cg 076 2019 emenda parlamentar 112 568 00 bia kicis",
+      "arquivo": "127_61_ta_cg_076_2019_emenda_parlamentar_112_568_00_bia_kicis.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/127_61_ta_cg_076_2019_emenda_parlamentar_112_568_00_bia_kicis.pdf"
+    },
+    {
+      "documento": "128 62 ta cg 076 2019 dodf 192 de 15 10 2025",
+      "arquivo": "128_62_ta_cg_076_2019_dodf_192_de_15_10_2025.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/128_62_ta_cg_076_2019_dodf_192_de_15_10_2025.pdf"
+    },
+    {
+      "documento": "129 62 ta cg 076 2019 emenda parlamentar r 4 102 204 00 paulo fernandes",
+      "arquivo": "129_62_ta_cg_076_2019_emenda_parlamentar_r_4_102_204_00_paulo_fernandes.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/129_62_ta_cg_076_2019_emenda_parlamentar_r_4_102_204_00_paulo_fernandes.pdf"
+    },
+    {
+      "documento": "1 1 termo de apostilamento reajuste contratual 2019 e 2020",
+      "arquivo": "1_1_termo_de_apostilamento_reajuste_contratual_2019_e_2020.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/1_1_termo_de_apostilamento_reajuste_contratual_2019_e_2020.pdf"
+    },
+    {
+      "documento": "1 dodf 1 termo de apostilamento reajuste contratual",
+      "arquivo": "1_dodf_1_termo_de_apostilamento_reajuste_contratual.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/1_dodf_1_termo_de_apostilamento_reajuste_contratual.pdf"
+    },
+    {
+      "documento": "2 2 termo de apostilamento reajuste contratual 2019 e 2020",
+      "arquivo": "2_2_termo_de_apostilamento_reajuste_contratual_2019_e_2020.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/2_2_termo_de_apostilamento_reajuste_contratual_2019_e_2020.pdf"
+    },
+    {
+      "documento": "2 dodf 2 termo de apostilamento reajuste contratual",
+      "arquivo": "2_dodf_2_termo_de_apostilamento_reajuste_contratual.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/2_dodf_2_termo_de_apostilamento_reajuste_contratual.pdf"
+    },
+    {
+      "documento": "3 3 termo de apostilamento reajuste contratual 2020 e 2021",
+      "arquivo": "3_3_termo_de_apostilamento_reajuste_contratual_2020_e_2021.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/3_3_termo_de_apostilamento_reajuste_contratual_2020_e_2021.pdf"
+    },
+    {
+      "documento": "3 dodf 3 termo de apostilamento reajuste contratual",
+      "arquivo": "3_dodf_3_termo_de_apostilamento_reajuste_contratual.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/3_dodf_3_termo_de_apostilamento_reajuste_contratual.pdf"
+    },
+    {
+      "documento": "4 4 termo de apostilamento retificar o anexo i",
+      "arquivo": "4_4_termo_de_apostilamento_retificar_o_anexo_i.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/4_4_termo_de_apostilamento_retificar_o_anexo_i.pdf"
+    },
+    {
+      "documento": "4 dodf 4 termo de apostilamento reatificar o anexo i",
+      "arquivo": "4_dodf_4_termo_de_apostilamento_reatificar_o_anexo_i.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/4_dodf_4_termo_de_apostilamento_reatificar_o_anexo_i.pdf"
+    },
+    {
+      "documento": "5 5 termo de apostilamento reajuste contratual com aplicacao a partir de 21 09 2022",
+      "arquivo": "5_5_termo_de_apostilamento_reajuste_contratual_com_aplicacao_a_partir_de_21_09_2022.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/5_5_termo_de_apostilamento_reajuste_contratual_com_aplicacao_a_partir_de_21_09_2022.pdf"
+    },
+    {
+      "documento": "5 dodf 5 termo de apostilamento reajuste contratual",
+      "arquivo": "5_dodf_5_termo_de_apostilamento_reajuste_contratual.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/5_dodf_5_termo_de_apostilamento_reajuste_contratual.pdf"
+    },
+    {
+      "documento": "6 6 termo de apostilamento retificar o termo aditivo 24 130007218",
+      "arquivo": "6_6_termo_de_apostilamento_retificar_o_termo_aditivo_24_130007218.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/6_6_termo_de_apostilamento_retificar_o_termo_aditivo_24_130007218.pdf"
+    },
+    {
+      "documento": "6 dodf 6 termo de apostilamento retificar o t a 24",
+      "arquivo": "6_dodf_6_termo_de_apostilamento_retificar_o_t_a_24.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/6_dodf_6_termo_de_apostilamento_retificar_o_t_a_24.pdf"
+    },
+    {
+      "documento": "7 7 termo de apostilamento retificar o termo aditivo 34 130310320",
+      "arquivo": "7_7_termo_de_apostilamento_retificar_o_termo_aditivo_34_130310320.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/7_7_termo_de_apostilamento_retificar_o_termo_aditivo_34_130310320.pdf"
+    },
+    {
+      "documento": "7 dodf 7 termo de apostilamento retificar o t a 34",
+      "arquivo": "7_dodf_7_termo_de_apostilamento_retificar_o_t_a_34.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/7_dodf_7_termo_de_apostilamento_retificar_o_t_a_34.pdf"
+    },
+    {
+      "documento": "8 8 termo de apostilamento correcao datas vigancia cg",
+      "arquivo": "8_8_termo_de_apostilamento_correcao_datas_vigancia_cg.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/8_8_termo_de_apostilamento_correcao_datas_vigancia_cg.pdf"
+    },
+    {
+      "documento": "8 dodf 8 termo de apostilamento correcao datas vigancia cg",
+      "arquivo": "8_dodf_8_termo_de_apostilamento_correcao_datas_vigancia_cg.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/8_dodf_8_termo_de_apostilamento_correcao_datas_vigancia_cg.pdf"
+    },
+    {
+      "documento": "9 9 termo de apostilamento reajuste 2023 e 2024 com uti",
+      "arquivo": "9_9_termo_de_apostilamento_reajuste_2023_e_2024_com_uti.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/9_9_termo_de_apostilamento_reajuste_2023_e_2024_com_uti.pdf"
+    },
+    {
+      "documento": "9 dodf 9 termo de apostilamento reajuste 2023 e 2024 com uti",
+      "arquivo": "9_dodf_9_termo_de_apostilamento_reajuste_2023_e_2024_com_uti.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/9_dodf_9_termo_de_apostilamento_reajuste_2023_e_2024_com_uti.pdf"
+    },
+    {
+      "documento": "5 1 ta cg 076 2019 dodf 154 de 14 08 2020",
+      "arquivo": "5_1_ta_cg_076_2019_dodf_154_de_14_08_2020.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/5_1_ta_cg_076_2019_dodf_154_de_14_08_2020.pdf"
+    },
+    {
+      "documento": "6 1 ta cg 076 2019 emenda parlamentar 1 000 000 00 agaciel maia",
+      "arquivo": "6_1_ta_cg_076_2019_emenda_parlamentar_1_000_000_00_agaciel_maia.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/6_1_ta_cg_076_2019_emenda_parlamentar_1_000_000_00_agaciel_maia.pdf"
+    },
+    {
+      "documento": "7 2 ta cg 076 2019 dodf 121 de 30 06 2021",
+      "arquivo": "7_2_ta_cg_076_2019_dodf_121_de_30_06_2021.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/7_2_ta_cg_076_2019_dodf_121_de_30_06_2021.pdf"
+    },
+    {
+      "documento": "8 2 ta cg 076 2019 recursos pandemia",
+      "arquivo": "8_2_ta_cg_076_2019_recursos_pandemia.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/8_2_ta_cg_076_2019_recursos_pandemia.pdf"
+    },
+    {
+      "documento": "9 3 ta cg 076 2019 dodf 130 de 13 07 2021",
+      "arquivo": "9_3_ta_cg_076_2019_dodf_130_de_13_07_2021.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/9_3_ta_cg_076_2019_dodf_130_de_13_07_2021.pdf"
+    },
+    {
+      "documento": "10 3 ta cg 076 2019 emenda parlamentar 500 000 00 arlete sampaio e 600 000 00 leandro grass",
+      "arquivo": "10_3_ta_cg_076_2019_emenda_parlamentar_500_000_00_arlete_sampaio_e_600_000_00_leandro_grass.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/10_3_ta_cg_076_2019_emenda_parlamentar_500_000_00_arlete_sampaio_e_600_000_00_leandro_grass.pdf"
+    },
+    {
+      "documento": "11 4 ta cg 076 2019 dodf 138 de 23 07 2021",
+      "arquivo": "11_4_ta_cg_076_2019_dodf_138_de_23_07_2021.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/11_4_ta_cg_076_2019_dodf_138_de_23_07_2021.pdf"
+    },
+    {
+      "documento": "12 4 ta cg 076 2019 emenda parlamentar 1 000 000 00 agaciel maia e 350 000 00 reginaldo veras",
+      "arquivo": "12_4_ta_cg_076_2019_emenda_parlamentar_1_000_000_00_agaciel_maia_e_350_000_00_reginaldo_veras.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/12_4_ta_cg_076_2019_emenda_parlamentar_1_000_000_00_agaciel_maia_e_350_000_00_reginaldo_veras.pdf"
+    },
+    {
+      "documento": "13 5 ta cg 076 2019 dodf 170 de 09 09 2021 republicado",
+      "arquivo": "13_5_ta_cg_076_2019_dodf_170_de_09_09_2021_republicado.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/13_5_ta_cg_076_2019_dodf_170_de_09_09_2021_republicado.pdf"
+    },
+    {
+      "documento": "14 5 ta cg 076 2019 dodf 173 de 14 09 2021 republicacao",
+      "arquivo": "14_5_ta_cg_076_2019_dodf_173_de_14_09_2021_republicacao.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/14_5_ta_cg_076_2019_dodf_173_de_14_09_2021_republicacao.pdf"
+    },
+    {
+      "documento": "15 5 ta cg 076 2019 emenda parlamentar 670 000 00 martins machado",
+      "arquivo": "15_5_ta_cg_076_2019_emenda_parlamentar_670_000_00_martins_machado.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/15_5_ta_cg_076_2019_emenda_parlamentar_670_000_00_martins_machado.pdf"
+    },
+    {
+      "documento": "16 6 ta cg 076 2019 dodf 207 de 05 11 2021",
+      "arquivo": "16_6_ta_cg_076_2019_dodf_207_de_05_11_2021.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/16_6_ta_cg_076_2019_dodf_207_de_05_11_2021.pdf"
+    },
+    {
+      "documento": "17 6 ta cg 076 2019 emenda parlamentar 2 087 000 00 agaciel maia",
+      "arquivo": "17_6_ta_cg_076_2019_emenda_parlamentar_2_087_000_00_agaciel_maia.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/17_6_ta_cg_076_2019_emenda_parlamentar_2_087_000_00_agaciel_maia.pdf"
+    },
+    {
+      "documento": "18 7 ta cg 076 2019 dodf 241 de 27 12 2021",
+      "arquivo": "18_7_ta_cg_076_2019_dodf_241_de_27_12_2021.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/18_7_ta_cg_076_2019_dodf_241_de_27_12_2021.pdf"
+    },
+    {
+      "documento": "19 7 ta cg 076 2019 despesas covid",
+      "arquivo": "19_7_ta_cg_076_2019_despesas_covid.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/19_7_ta_cg_076_2019_despesas_covid.pdf"
+    },
+    {
+      "documento": "20 8 ta cg 076 2019 dodf 146 de 04 08 2022",
+      "arquivo": "20_8_ta_cg_076_2019_dodf_146_de_04_08_2022.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/20_8_ta_cg_076_2019_dodf_146_de_04_08_2022.pdf"
+    },
+    {
+      "documento": "21 8 ta cg 076 2019 emenda parlamentar 198 000 00 chico vigilante",
+      "arquivo": "21_8_ta_cg_076_2019_emenda_parlamentar_198_000_00_chico_vigilante.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/21_8_ta_cg_076_2019_emenda_parlamentar_198_000_00_chico_vigilante.pdf"
+    },
+    {
+      "documento": "22 9 ta cg 076 2019 dodf 176 de 19 09 2022",
+      "arquivo": "22_9_ta_cg_076_2019_dodf_176_de_19_09_2022.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/22_9_ta_cg_076_2019_dodf_176_de_19_09_2022.pdf"
+    },
+    {
+      "documento": "23 9 ta cg 076 2019 emenda parlamentar 1 000 000 00 julio cesar",
+      "arquivo": "23_9_ta_cg_076_2019_emenda_parlamentar_1_000_000_00_julio_cesar.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/23_9_ta_cg_076_2019_emenda_parlamentar_1_000_000_00_julio_cesar.pdf"
+    },
+    {
+      "documento": "24 10 ta cg 076 2019 dodf 181 de 26 09 2022",
+      "arquivo": "24_10_ta_cg_076_2019_dodf_181_de_26_09_2022.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/24_10_ta_cg_076_2019_dodf_181_de_26_09_2022.pdf"
+    },
+    {
+      "documento": "25 10 ta cg 076 2019 emenda parlamentar 1 479 698 00 israel batista",
+      "arquivo": "25_10_ta_cg_076_2019_emenda_parlamentar_1_479_698_00_israel_batista.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/25_10_ta_cg_076_2019_emenda_parlamentar_1_479_698_00_israel_batista.pdf"
+    },
+    {
+      "documento": "26 11 ta cg 076 2019 dodf 199 de 21 10 2022",
+      "arquivo": "26_11_ta_cg_076_2019_dodf_199_de_21_10_2022.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/26_11_ta_cg_076_2019_dodf_199_de_21_10_2022.pdf"
+    },
+    {
+      "documento": "27 11 ta cg 076 2019 emenda parlamentar 400 000 00 leandro grass",
+      "arquivo": "27_11_ta_cg_076_2019_emenda_parlamentar_400_000_00_leandro_grass.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/27_11_ta_cg_076_2019_emenda_parlamentar_400_000_00_leandro_grass.pdf"
+    },
+    {
+      "documento": "28 12 ta cg 076 2019 dodf 213 de 16 11 2022",
+      "arquivo": "28_12_ta_cg_076_2019_dodf_213_de_16_11_2022.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/28_12_ta_cg_076_2019_dodf_213_de_16_11_2022.pdf"
+    },
+    {
+      "documento": "29 12 ta cg 076 2019 emenda parlamentar 967 574 00 bancada df",
+      "arquivo": "29_12_ta_cg_076_2019_emenda_parlamentar_967_574_00_bancada_df.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/29_12_ta_cg_076_2019_emenda_parlamentar_967_574_00_bancada_df.pdf"
+    },
+    {
+      "documento": "30 13 ta cg 076 2019 dodf 213 de 16 11 2022",
+      "arquivo": "30_13_ta_cg_076_2019_dodf_213_de_16_11_2022.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/30_13_ta_cg_076_2019_dodf_213_de_16_11_2022.pdf"
+    },
+    {
+      "documento": "31 13 ta cg 076 2019 emenda parlamentar 500 000 00 arlete sampaio",
+      "arquivo": "31_13_ta_cg_076_2019_emenda_parlamentar_500_000_00_arlete_sampaio.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/31_13_ta_cg_076_2019_emenda_parlamentar_500_000_00_arlete_sampaio.pdf"
+    },
+    {
+      "documento": "32 14 ta cg 076 2019 dodf 241 de 29 12 2022",
+      "arquivo": "32_14_ta_cg_076_2019_dodf_241_de_29_12_2022.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/32_14_ta_cg_076_2019_dodf_241_de_29_12_2022.pdf"
+    },
+    {
+      "documento": "33 14 ta cg 076 2019 emenda parlamentar 700 000 00 martins machado",
+      "arquivo": "33_14_ta_cg_076_2019_emenda_parlamentar_700_000_00_martins_machado.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/33_14_ta_cg_076_2019_emenda_parlamentar_700_000_00_martins_machado.pdf"
+    },
+    {
+      "documento": "34 15 ta cg 076 2019 dodf 241 de 29 12 2022",
+      "arquivo": "34_15_ta_cg_076_2019_dodf_241_de_29_12_2022.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/34_15_ta_cg_076_2019_dodf_241_de_29_12_2022.pdf"
+    },
+    {
+      "documento": "35 15 ta cg 076 2019 emenda parlamentar 1 000 000 00 chico vigilante",
+      "arquivo": "35_15_ta_cg_076_2019_emenda_parlamentar_1_000_000_00_chico_vigilante.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/35_15_ta_cg_076_2019_emenda_parlamentar_1_000_000_00_chico_vigilante.pdf"
+    },
+    {
+      "documento": "36 16 ta cg 076 2019 dodf 241 de 29 12 2022",
+      "arquivo": "36_16_ta_cg_076_2019_dodf_241_de_29_12_2022.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/36_16_ta_cg_076_2019_dodf_241_de_29_12_2022.pdf"
+    },
+    {
+      "documento": "contrato de gesta o extrato publicado no dodf 11 07 2011",
+      "arquivo": "contrato_de_gesta_o_extrato_publicado_no_dodf_11_07_2011.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/contrato_de_gesta_o_extrato_publicado_no_dodf_11_07_2011.pdf"
+    },
+    {
+      "documento": "primeiro termo aditivo publicacao no dodf 20 10 2011",
+      "arquivo": "primeiro_termo_aditivo_publicacao_no_dodf_20_10_2011.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/primeiro_termo_aditivo_publicacao_no_dodf_20_10_2011.pdf"
+    },
+    {
+      "documento": "segundo termo aditivo publicacao no dodf 02 01 2013",
+      "arquivo": "segundo_termo_aditivo_publicacao_no_dodf_02_01_2013.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/segundo_termo_aditivo_publicacao_no_dodf_02_01_2013.pdf"
+    },
+    {
+      "documento": "5 termodeapostilamento 19122013",
+      "arquivo": "5_termodeapostilamento_19122013.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/5_termodeapostilamento_19122013.pdf"
+    },
+    {
+      "documento": "contrato de gesta o extrato publicado no dodf 20 02 2014",
+      "arquivo": "contrato_de_gesta_o_extrato_publicado_no_dodf_20_02_2014.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/contrato_de_gesta_o_extrato_publicado_no_dodf_20_02_2014.pdf"
+    },
+    {
+      "documento": "plano de trabalho hcb 2014 2019 anexo ao cg 001 2014",
+      "arquivo": "plano_de_trabalho_hcb_2014_2019_anexo_ao_cg_001_2014.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/plano_de_trabalho_hcb_2014_2019_anexo_ao_cg_001_2014.pdf"
+    },
+    {
+      "documento": "primeiro termo aditivo cg ses icipe 01 2014",
+      "arquivo": "primeiro_termo_aditivo_cg_ses_icipe_01_2014.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/primeiro_termo_aditivo_cg_ses_icipe_01_2014.pdf"
+    },
+    {
+      "documento": "segundo termo aditivo ao cg ses icipe 01 2014",
+      "arquivo": "segundo_termo_aditivo_ao_cg_ses_icipe_01_2014.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/segundo_termo_aditivo_ao_cg_ses_icipe_01_2014.pdf"
+    },
+    {
+      "documento": "terceiro termo aditivo ao cg ses icipe 01 2014",
+      "arquivo": "terceiro_termo_aditivo_ao_cg_ses_icipe_01_2014.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/terceiro_termo_aditivo_ao_cg_ses_icipe_01_2014.pdf"
+    },
+    {
+      "documento": "quarto termo aditivo ao cg ses icipe 01 2014",
+      "arquivo": "quarto_termo_aditivo_ao_cg_ses_icipe_01_2014.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/quarto_termo_aditivo_ao_cg_ses_icipe_01_2014.pdf"
+    },
+    {
+      "documento": "contrato de gesta o ses icipe 001 2014",
+      "arquivo": "contrato_de_gesta_o_ses_icipe_001_2014.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/contrato_de_gesta_o_ses_icipe_001_2014.pdf"
+    },
+    {
+      "documento": "contrato de gestao 076 2019 assinado em 20 09 2019",
+      "arquivo": "contrato_de_gestao_076_2019_assinado_em_20_09_2019.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/contrato_de_gestao_076_2019_assinado_em_20_09_2019.pdf"
+    },
+    {
+      "documento": "teste 28",
+      "arquivo": "teste_28.pdf",
+      "url": "https://www.hcb.org.br/arquivos/downloads/teste_28.pdf"
+    }
+  ]
+}

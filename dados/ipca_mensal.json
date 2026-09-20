@@ -1,0 +1,3316 @@
+{
+  "dados": [
+    {
+      "periodo": "198001",
+      "periodo_nome": "janeiro 1980",
+      "variacao_mensal": 6.62,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198002",
+      "periodo_nome": "fevereiro 1980",
+      "variacao_mensal": 4.62,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198003",
+      "periodo_nome": "março 1980",
+      "variacao_mensal": 6.04,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198004",
+      "periodo_nome": "abril 1980",
+      "variacao_mensal": 5.29,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198005",
+      "periodo_nome": "maio 1980",
+      "variacao_mensal": 5.7,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198006",
+      "periodo_nome": "junho 1980",
+      "variacao_mensal": 5.31,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198007",
+      "periodo_nome": "julho 1980",
+      "variacao_mensal": 5.55,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198008",
+      "periodo_nome": "agosto 1980",
+      "variacao_mensal": 4.95,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198009",
+      "periodo_nome": "setembro 1980",
+      "variacao_mensal": 4.23,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198010",
+      "periodo_nome": "outubro 1980",
+      "variacao_mensal": 9.48,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198011",
+      "periodo_nome": "novembro 1980",
+      "variacao_mensal": 6.67,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198012",
+      "periodo_nome": "dezembro 1980",
+      "variacao_mensal": 6.61,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198101",
+      "periodo_nome": "janeiro 1981",
+      "variacao_mensal": 6.84,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198102",
+      "periodo_nome": "fevereiro 1981",
+      "variacao_mensal": 6.4,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198103",
+      "periodo_nome": "março 1981",
+      "variacao_mensal": 4.97,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198104",
+      "periodo_nome": "abril 1981",
+      "variacao_mensal": 6.46,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198105",
+      "periodo_nome": "maio 1981",
+      "variacao_mensal": 5.56,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198106",
+      "periodo_nome": "junho 1981",
+      "variacao_mensal": 5.52,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198107",
+      "periodo_nome": "julho 1981",
+      "variacao_mensal": 6.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198108",
+      "periodo_nome": "agosto 1981",
+      "variacao_mensal": 5.5,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198109",
+      "periodo_nome": "setembro 1981",
+      "variacao_mensal": 5.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198110",
+      "periodo_nome": "outubro 1981",
+      "variacao_mensal": 5.08,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198111",
+      "periodo_nome": "novembro 1981",
+      "variacao_mensal": 5.27,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198112",
+      "periodo_nome": "dezembro 1981",
+      "variacao_mensal": 5.93,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198201",
+      "periodo_nome": "janeiro 1982",
+      "variacao_mensal": 6.97,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198202",
+      "periodo_nome": "fevereiro 1982",
+      "variacao_mensal": 6.64,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198203",
+      "periodo_nome": "março 1982",
+      "variacao_mensal": 5.71,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198204",
+      "periodo_nome": "abril 1982",
+      "variacao_mensal": 5.89,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198205",
+      "periodo_nome": "maio 1982",
+      "variacao_mensal": 6.66,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198206",
+      "periodo_nome": "junho 1982",
+      "variacao_mensal": 7.1,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198207",
+      "periodo_nome": "julho 1982",
+      "variacao_mensal": 6.36,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198208",
+      "periodo_nome": "agosto 1982",
+      "variacao_mensal": 5.97,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198209",
+      "periodo_nome": "setembro 1982",
+      "variacao_mensal": 5.08,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198210",
+      "periodo_nome": "outubro 1982",
+      "variacao_mensal": 4.44,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198211",
+      "periodo_nome": "novembro 1982",
+      "variacao_mensal": 5.29,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198212",
+      "periodo_nome": "dezembro 1982",
+      "variacao_mensal": 7.81,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198301",
+      "periodo_nome": "janeiro 1983",
+      "variacao_mensal": 8.64,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198302",
+      "periodo_nome": "fevereiro 1983",
+      "variacao_mensal": 7.86,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198303",
+      "periodo_nome": "março 1983",
+      "variacao_mensal": 7.34,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198304",
+      "periodo_nome": "abril 1983",
+      "variacao_mensal": 6.58,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198305",
+      "periodo_nome": "maio 1983",
+      "variacao_mensal": 6.48,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198306",
+      "periodo_nome": "junho 1983",
+      "variacao_mensal": 9.88,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198307",
+      "periodo_nome": "julho 1983",
+      "variacao_mensal": 10.08,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198308",
+      "periodo_nome": "agosto 1983",
+      "variacao_mensal": 9.11,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198309",
+      "periodo_nome": "setembro 1983",
+      "variacao_mensal": 10.3,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198310",
+      "periodo_nome": "outubro 1983",
+      "variacao_mensal": 8.87,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198311",
+      "periodo_nome": "novembro 1983",
+      "variacao_mensal": 7.38,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198312",
+      "periodo_nome": "dezembro 1983",
+      "variacao_mensal": 8.68,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198401",
+      "periodo_nome": "janeiro 1984",
+      "variacao_mensal": 9.67,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198402",
+      "periodo_nome": "fevereiro 1984",
+      "variacao_mensal": 9.5,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198403",
+      "periodo_nome": "março 1984",
+      "variacao_mensal": 8.94,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198404",
+      "periodo_nome": "abril 1984",
+      "variacao_mensal": 9.54,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198405",
+      "periodo_nome": "maio 1984",
+      "variacao_mensal": 9.05,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198406",
+      "periodo_nome": "junho 1984",
+      "variacao_mensal": 10.08,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198407",
+      "periodo_nome": "julho 1984",
+      "variacao_mensal": 9.72,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198408",
+      "periodo_nome": "agosto 1984",
+      "variacao_mensal": 9.35,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198409",
+      "periodo_nome": "setembro 1984",
+      "variacao_mensal": 11.75,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198410",
+      "periodo_nome": "outubro 1984",
+      "variacao_mensal": 10.44,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198411",
+      "periodo_nome": "novembro 1984",
+      "variacao_mensal": 10.53,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198412",
+      "periodo_nome": "dezembro 1984",
+      "variacao_mensal": 11.98,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198501",
+      "periodo_nome": "janeiro 1985",
+      "variacao_mensal": 11.76,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198502",
+      "periodo_nome": "fevereiro 1985",
+      "variacao_mensal": 10.87,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198503",
+      "periodo_nome": "março 1985",
+      "variacao_mensal": 10.16,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198504",
+      "periodo_nome": "abril 1985",
+      "variacao_mensal": 8.2,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198505",
+      "periodo_nome": "maio 1985",
+      "variacao_mensal": 7.2,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198506",
+      "periodo_nome": "junho 1985",
+      "variacao_mensal": 8.49,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198507",
+      "periodo_nome": "julho 1985",
+      "variacao_mensal": 10.31,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198508",
+      "periodo_nome": "agosto 1985",
+      "variacao_mensal": 12.05,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198509",
+      "periodo_nome": "setembro 1985",
+      "variacao_mensal": 11.12,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198510",
+      "periodo_nome": "outubro 1985",
+      "variacao_mensal": 10.62,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198511",
+      "periodo_nome": "novembro 1985",
+      "variacao_mensal": 13.97,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198512",
+      "periodo_nome": "dezembro 1985",
+      "variacao_mensal": 15.07,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198601",
+      "periodo_nome": "janeiro 1986",
+      "variacao_mensal": 14.37,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198602",
+      "periodo_nome": "fevereiro 1986",
+      "variacao_mensal": 12.72,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198603",
+      "periodo_nome": "março 1986",
+      "variacao_mensal": 4.77,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198604",
+      "periodo_nome": "abril 1986",
+      "variacao_mensal": 0.78,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198605",
+      "periodo_nome": "maio 1986",
+      "variacao_mensal": 1.4,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198606",
+      "periodo_nome": "junho 1986",
+      "variacao_mensal": 1.27,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198607",
+      "periodo_nome": "julho 1986",
+      "variacao_mensal": 1.71,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198608",
+      "periodo_nome": "agosto 1986",
+      "variacao_mensal": 3.55,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198609",
+      "periodo_nome": "setembro 1986",
+      "variacao_mensal": 1.72,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198610",
+      "periodo_nome": "outubro 1986",
+      "variacao_mensal": 1.9,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198611",
+      "periodo_nome": "novembro 1986",
+      "variacao_mensal": 5.45,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198612",
+      "periodo_nome": "dezembro 1986",
+      "variacao_mensal": 11.65,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198701",
+      "periodo_nome": "janeiro 1987",
+      "variacao_mensal": 13.21,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198702",
+      "periodo_nome": "fevereiro 1987",
+      "variacao_mensal": 12.64,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198703",
+      "periodo_nome": "março 1987",
+      "variacao_mensal": 16.37,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198704",
+      "periodo_nome": "abril 1987",
+      "variacao_mensal": 19.1,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198705",
+      "periodo_nome": "maio 1987",
+      "variacao_mensal": 21.45,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198706",
+      "periodo_nome": "junho 1987",
+      "variacao_mensal": 19.71,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198707",
+      "periodo_nome": "julho 1987",
+      "variacao_mensal": 9.21,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198708",
+      "periodo_nome": "agosto 1987",
+      "variacao_mensal": 4.87,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198709",
+      "periodo_nome": "setembro 1987",
+      "variacao_mensal": 7.78,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198710",
+      "periodo_nome": "outubro 1987",
+      "variacao_mensal": 11.22,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198711",
+      "periodo_nome": "novembro 1987",
+      "variacao_mensal": 15.08,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198712",
+      "periodo_nome": "dezembro 1987",
+      "variacao_mensal": 14.15,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198801",
+      "periodo_nome": "janeiro 1988",
+      "variacao_mensal": 18.89,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198802",
+      "periodo_nome": "fevereiro 1988",
+      "variacao_mensal": 15.7,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198803",
+      "periodo_nome": "março 1988",
+      "variacao_mensal": 17.6,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198804",
+      "periodo_nome": "abril 1988",
+      "variacao_mensal": 19.29,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198805",
+      "periodo_nome": "maio 1988",
+      "variacao_mensal": 17.42,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198806",
+      "periodo_nome": "junho 1988",
+      "variacao_mensal": 22.0,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198807",
+      "periodo_nome": "julho 1988",
+      "variacao_mensal": 21.91,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198808",
+      "periodo_nome": "agosto 1988",
+      "variacao_mensal": 21.59,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198809",
+      "periodo_nome": "setembro 1988",
+      "variacao_mensal": 27.45,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198810",
+      "periodo_nome": "outubro 1988",
+      "variacao_mensal": 25.62,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198811",
+      "periodo_nome": "novembro 1988",
+      "variacao_mensal": 27.94,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198812",
+      "periodo_nome": "dezembro 1988",
+      "variacao_mensal": 28.7,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198901",
+      "periodo_nome": "janeiro 1989",
+      "variacao_mensal": 37.49,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198902",
+      "periodo_nome": "fevereiro 1989",
+      "variacao_mensal": 16.78,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198903",
+      "periodo_nome": "março 1989",
+      "variacao_mensal": 6.82,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198904",
+      "periodo_nome": "abril 1989",
+      "variacao_mensal": 8.33,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198905",
+      "periodo_nome": "maio 1989",
+      "variacao_mensal": 17.92,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198906",
+      "periodo_nome": "junho 1989",
+      "variacao_mensal": 28.65,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198907",
+      "periodo_nome": "julho 1989",
+      "variacao_mensal": 27.74,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198908",
+      "periodo_nome": "agosto 1989",
+      "variacao_mensal": 33.71,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198909",
+      "periodo_nome": "setembro 1989",
+      "variacao_mensal": 37.56,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198910",
+      "periodo_nome": "outubro 1989",
+      "variacao_mensal": 39.77,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198911",
+      "periodo_nome": "novembro 1989",
+      "variacao_mensal": 47.82,
+      "unidade": "%"
+    },
+    {
+      "periodo": "198912",
+      "periodo_nome": "dezembro 1989",
+      "variacao_mensal": 51.5,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199001",
+      "periodo_nome": "janeiro 1990",
+      "variacao_mensal": 67.55,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199002",
+      "periodo_nome": "fevereiro 1990",
+      "variacao_mensal": 75.73,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199003",
+      "periodo_nome": "março 1990",
+      "variacao_mensal": 82.39,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199004",
+      "periodo_nome": "abril 1990",
+      "variacao_mensal": 15.52,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199005",
+      "periodo_nome": "maio 1990",
+      "variacao_mensal": 7.59,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199006",
+      "periodo_nome": "junho 1990",
+      "variacao_mensal": 11.75,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199007",
+      "periodo_nome": "julho 1990",
+      "variacao_mensal": 12.92,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199008",
+      "periodo_nome": "agosto 1990",
+      "variacao_mensal": 12.88,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199009",
+      "periodo_nome": "setembro 1990",
+      "variacao_mensal": 14.41,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199010",
+      "periodo_nome": "outubro 1990",
+      "variacao_mensal": 14.36,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199011",
+      "periodo_nome": "novembro 1990",
+      "variacao_mensal": 16.81,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199012",
+      "periodo_nome": "dezembro 1990",
+      "variacao_mensal": 18.44,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199101",
+      "periodo_nome": "janeiro 1991",
+      "variacao_mensal": 20.75,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199102",
+      "periodo_nome": "fevereiro 1991",
+      "variacao_mensal": 20.72,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199103",
+      "periodo_nome": "março 1991",
+      "variacao_mensal": 11.92,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199104",
+      "periodo_nome": "abril 1991",
+      "variacao_mensal": 4.99,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199105",
+      "periodo_nome": "maio 1991",
+      "variacao_mensal": 7.43,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199106",
+      "periodo_nome": "junho 1991",
+      "variacao_mensal": 11.19,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199107",
+      "periodo_nome": "julho 1991",
+      "variacao_mensal": 12.41,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199108",
+      "periodo_nome": "agosto 1991",
+      "variacao_mensal": 15.63,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199109",
+      "periodo_nome": "setembro 1991",
+      "variacao_mensal": 15.63,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199110",
+      "periodo_nome": "outubro 1991",
+      "variacao_mensal": 20.23,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199111",
+      "periodo_nome": "novembro 1991",
+      "variacao_mensal": 25.21,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199112",
+      "periodo_nome": "dezembro 1991",
+      "variacao_mensal": 23.71,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199201",
+      "periodo_nome": "janeiro 1992",
+      "variacao_mensal": 25.94,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199202",
+      "periodo_nome": "fevereiro 1992",
+      "variacao_mensal": 24.32,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199203",
+      "periodo_nome": "março 1992",
+      "variacao_mensal": 21.4,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199204",
+      "periodo_nome": "abril 1992",
+      "variacao_mensal": 19.93,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199205",
+      "periodo_nome": "maio 1992",
+      "variacao_mensal": 24.86,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199206",
+      "periodo_nome": "junho 1992",
+      "variacao_mensal": 20.21,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199207",
+      "periodo_nome": "julho 1992",
+      "variacao_mensal": 21.83,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199208",
+      "periodo_nome": "agosto 1992",
+      "variacao_mensal": 22.14,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199209",
+      "periodo_nome": "setembro 1992",
+      "variacao_mensal": 24.63,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199210",
+      "periodo_nome": "outubro 1992",
+      "variacao_mensal": 25.24,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199211",
+      "periodo_nome": "novembro 1992",
+      "variacao_mensal": 22.49,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199212",
+      "periodo_nome": "dezembro 1992",
+      "variacao_mensal": 25.24,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199301",
+      "periodo_nome": "janeiro 1993",
+      "variacao_mensal": 30.35,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199302",
+      "periodo_nome": "fevereiro 1993",
+      "variacao_mensal": 24.98,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199303",
+      "periodo_nome": "março 1993",
+      "variacao_mensal": 27.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199304",
+      "periodo_nome": "abril 1993",
+      "variacao_mensal": 27.75,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199305",
+      "periodo_nome": "maio 1993",
+      "variacao_mensal": 27.69,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199306",
+      "periodo_nome": "junho 1993",
+      "variacao_mensal": 30.07,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199307",
+      "periodo_nome": "julho 1993",
+      "variacao_mensal": 30.72,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199308",
+      "periodo_nome": "agosto 1993",
+      "variacao_mensal": 32.96,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199309",
+      "periodo_nome": "setembro 1993",
+      "variacao_mensal": 35.69,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199310",
+      "periodo_nome": "outubro 1993",
+      "variacao_mensal": 33.92,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199311",
+      "periodo_nome": "novembro 1993",
+      "variacao_mensal": 35.56,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199312",
+      "periodo_nome": "dezembro 1993",
+      "variacao_mensal": 36.84,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199401",
+      "periodo_nome": "janeiro 1994",
+      "variacao_mensal": 41.31,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199402",
+      "periodo_nome": "fevereiro 1994",
+      "variacao_mensal": 40.27,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199403",
+      "periodo_nome": "março 1994",
+      "variacao_mensal": 42.75,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199404",
+      "periodo_nome": "abril 1994",
+      "variacao_mensal": 42.68,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199405",
+      "periodo_nome": "maio 1994",
+      "variacao_mensal": 44.03,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199406",
+      "periodo_nome": "junho 1994",
+      "variacao_mensal": 47.43,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199407",
+      "periodo_nome": "julho 1994",
+      "variacao_mensal": 6.84,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199408",
+      "periodo_nome": "agosto 1994",
+      "variacao_mensal": 1.86,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199409",
+      "periodo_nome": "setembro 1994",
+      "variacao_mensal": 1.53,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199410",
+      "periodo_nome": "outubro 1994",
+      "variacao_mensal": 2.62,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199411",
+      "periodo_nome": "novembro 1994",
+      "variacao_mensal": 2.81,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199412",
+      "periodo_nome": "dezembro 1994",
+      "variacao_mensal": 1.71,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199501",
+      "periodo_nome": "janeiro 1995",
+      "variacao_mensal": 1.7,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199502",
+      "periodo_nome": "fevereiro 1995",
+      "variacao_mensal": 1.02,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199503",
+      "periodo_nome": "março 1995",
+      "variacao_mensal": 1.55,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199504",
+      "periodo_nome": "abril 1995",
+      "variacao_mensal": 2.43,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199505",
+      "periodo_nome": "maio 1995",
+      "variacao_mensal": 2.67,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199506",
+      "periodo_nome": "junho 1995",
+      "variacao_mensal": 2.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199507",
+      "periodo_nome": "julho 1995",
+      "variacao_mensal": 2.36,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199508",
+      "periodo_nome": "agosto 1995",
+      "variacao_mensal": 0.99,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199509",
+      "periodo_nome": "setembro 1995",
+      "variacao_mensal": 0.99,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199510",
+      "periodo_nome": "outubro 1995",
+      "variacao_mensal": 1.41,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199511",
+      "periodo_nome": "novembro 1995",
+      "variacao_mensal": 1.47,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199512",
+      "periodo_nome": "dezembro 1995",
+      "variacao_mensal": 1.56,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199601",
+      "periodo_nome": "janeiro 1996",
+      "variacao_mensal": 1.34,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199602",
+      "periodo_nome": "fevereiro 1996",
+      "variacao_mensal": 1.03,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199603",
+      "periodo_nome": "março 1996",
+      "variacao_mensal": 0.35,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199604",
+      "periodo_nome": "abril 1996",
+      "variacao_mensal": 1.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199605",
+      "periodo_nome": "maio 1996",
+      "variacao_mensal": 1.22,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199606",
+      "periodo_nome": "junho 1996",
+      "variacao_mensal": 1.19,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199607",
+      "periodo_nome": "julho 1996",
+      "variacao_mensal": 1.11,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199608",
+      "periodo_nome": "agosto 1996",
+      "variacao_mensal": 0.44,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199609",
+      "periodo_nome": "setembro 1996",
+      "variacao_mensal": 0.15,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199610",
+      "periodo_nome": "outubro 1996",
+      "variacao_mensal": 0.3,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199611",
+      "periodo_nome": "novembro 1996",
+      "variacao_mensal": 0.32,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199612",
+      "periodo_nome": "dezembro 1996",
+      "variacao_mensal": 0.47,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199701",
+      "periodo_nome": "janeiro 1997",
+      "variacao_mensal": 1.18,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199702",
+      "periodo_nome": "fevereiro 1997",
+      "variacao_mensal": 0.5,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199703",
+      "periodo_nome": "março 1997",
+      "variacao_mensal": 0.51,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199704",
+      "periodo_nome": "abril 1997",
+      "variacao_mensal": 0.88,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199705",
+      "periodo_nome": "maio 1997",
+      "variacao_mensal": 0.41,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199706",
+      "periodo_nome": "junho 1997",
+      "variacao_mensal": 0.54,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199707",
+      "periodo_nome": "julho 1997",
+      "variacao_mensal": 0.22,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199708",
+      "periodo_nome": "agosto 1997",
+      "variacao_mensal": -0.02,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199709",
+      "periodo_nome": "setembro 1997",
+      "variacao_mensal": 0.06,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199710",
+      "periodo_nome": "outubro 1997",
+      "variacao_mensal": 0.23,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199711",
+      "periodo_nome": "novembro 1997",
+      "variacao_mensal": 0.17,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199712",
+      "periodo_nome": "dezembro 1997",
+      "variacao_mensal": 0.43,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199801",
+      "periodo_nome": "janeiro 1998",
+      "variacao_mensal": 0.71,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199802",
+      "periodo_nome": "fevereiro 1998",
+      "variacao_mensal": 0.46,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199803",
+      "periodo_nome": "março 1998",
+      "variacao_mensal": 0.34,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199804",
+      "periodo_nome": "abril 1998",
+      "variacao_mensal": 0.24,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199805",
+      "periodo_nome": "maio 1998",
+      "variacao_mensal": 0.5,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199806",
+      "periodo_nome": "junho 1998",
+      "variacao_mensal": 0.02,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199807",
+      "periodo_nome": "julho 1998",
+      "variacao_mensal": -0.12,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199808",
+      "periodo_nome": "agosto 1998",
+      "variacao_mensal": -0.51,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199809",
+      "periodo_nome": "setembro 1998",
+      "variacao_mensal": -0.22,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199810",
+      "periodo_nome": "outubro 1998",
+      "variacao_mensal": 0.02,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199811",
+      "periodo_nome": "novembro 1998",
+      "variacao_mensal": -0.12,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199812",
+      "periodo_nome": "dezembro 1998",
+      "variacao_mensal": 0.33,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199901",
+      "periodo_nome": "janeiro 1999",
+      "variacao_mensal": 0.7,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199902",
+      "periodo_nome": "fevereiro 1999",
+      "variacao_mensal": 1.05,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199903",
+      "periodo_nome": "março 1999",
+      "variacao_mensal": 1.1,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199904",
+      "periodo_nome": "abril 1999",
+      "variacao_mensal": 0.56,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199905",
+      "periodo_nome": "maio 1999",
+      "variacao_mensal": 0.3,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199906",
+      "periodo_nome": "junho 1999",
+      "variacao_mensal": 0.19,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199907",
+      "periodo_nome": "julho 1999",
+      "variacao_mensal": 1.09,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199908",
+      "periodo_nome": "agosto 1999",
+      "variacao_mensal": 0.56,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199909",
+      "periodo_nome": "setembro 1999",
+      "variacao_mensal": 0.31,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199910",
+      "periodo_nome": "outubro 1999",
+      "variacao_mensal": 1.19,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199911",
+      "periodo_nome": "novembro 1999",
+      "variacao_mensal": 0.95,
+      "unidade": "%"
+    },
+    {
+      "periodo": "199912",
+      "periodo_nome": "dezembro 1999",
+      "variacao_mensal": 0.6,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200001",
+      "periodo_nome": "janeiro 2000",
+      "variacao_mensal": 0.62,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200002",
+      "periodo_nome": "fevereiro 2000",
+      "variacao_mensal": 0.13,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200003",
+      "periodo_nome": "março 2000",
+      "variacao_mensal": 0.22,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200004",
+      "periodo_nome": "abril 2000",
+      "variacao_mensal": 0.42,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200005",
+      "periodo_nome": "maio 2000",
+      "variacao_mensal": 0.01,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200006",
+      "periodo_nome": "junho 2000",
+      "variacao_mensal": 0.23,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200007",
+      "periodo_nome": "julho 2000",
+      "variacao_mensal": 1.61,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200008",
+      "periodo_nome": "agosto 2000",
+      "variacao_mensal": 1.31,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200009",
+      "periodo_nome": "setembro 2000",
+      "variacao_mensal": 0.23,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200010",
+      "periodo_nome": "outubro 2000",
+      "variacao_mensal": 0.14,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200011",
+      "periodo_nome": "novembro 2000",
+      "variacao_mensal": 0.32,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200012",
+      "periodo_nome": "dezembro 2000",
+      "variacao_mensal": 0.59,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200101",
+      "periodo_nome": "janeiro 2001",
+      "variacao_mensal": 0.57,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200102",
+      "periodo_nome": "fevereiro 2001",
+      "variacao_mensal": 0.46,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200103",
+      "periodo_nome": "março 2001",
+      "variacao_mensal": 0.38,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200104",
+      "periodo_nome": "abril 2001",
+      "variacao_mensal": 0.58,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200105",
+      "periodo_nome": "maio 2001",
+      "variacao_mensal": 0.41,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200106",
+      "periodo_nome": "junho 2001",
+      "variacao_mensal": 0.52,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200107",
+      "periodo_nome": "julho 2001",
+      "variacao_mensal": 1.33,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200108",
+      "periodo_nome": "agosto 2001",
+      "variacao_mensal": 0.7,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200109",
+      "periodo_nome": "setembro 2001",
+      "variacao_mensal": 0.28,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200110",
+      "periodo_nome": "outubro 2001",
+      "variacao_mensal": 0.83,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200111",
+      "periodo_nome": "novembro 2001",
+      "variacao_mensal": 0.71,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200112",
+      "periodo_nome": "dezembro 2001",
+      "variacao_mensal": 0.65,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200201",
+      "periodo_nome": "janeiro 2002",
+      "variacao_mensal": 0.52,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200202",
+      "periodo_nome": "fevereiro 2002",
+      "variacao_mensal": 0.36,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200203",
+      "periodo_nome": "março 2002",
+      "variacao_mensal": 0.6,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200204",
+      "periodo_nome": "abril 2002",
+      "variacao_mensal": 0.8,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200205",
+      "periodo_nome": "maio 2002",
+      "variacao_mensal": 0.21,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200206",
+      "periodo_nome": "junho 2002",
+      "variacao_mensal": 0.42,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200207",
+      "periodo_nome": "julho 2002",
+      "variacao_mensal": 1.19,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200208",
+      "periodo_nome": "agosto 2002",
+      "variacao_mensal": 0.65,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200209",
+      "periodo_nome": "setembro 2002",
+      "variacao_mensal": 0.72,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200210",
+      "periodo_nome": "outubro 2002",
+      "variacao_mensal": 1.31,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200211",
+      "periodo_nome": "novembro 2002",
+      "variacao_mensal": 3.02,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200212",
+      "periodo_nome": "dezembro 2002",
+      "variacao_mensal": 2.1,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200301",
+      "periodo_nome": "janeiro 2003",
+      "variacao_mensal": 2.25,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200302",
+      "periodo_nome": "fevereiro 2003",
+      "variacao_mensal": 1.57,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200303",
+      "periodo_nome": "março 2003",
+      "variacao_mensal": 1.23,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200304",
+      "periodo_nome": "abril 2003",
+      "variacao_mensal": 0.97,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200305",
+      "periodo_nome": "maio 2003",
+      "variacao_mensal": 0.61,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200306",
+      "periodo_nome": "junho 2003",
+      "variacao_mensal": -0.15,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200307",
+      "periodo_nome": "julho 2003",
+      "variacao_mensal": 0.2,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200308",
+      "periodo_nome": "agosto 2003",
+      "variacao_mensal": 0.34,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200309",
+      "periodo_nome": "setembro 2003",
+      "variacao_mensal": 0.78,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200310",
+      "periodo_nome": "outubro 2003",
+      "variacao_mensal": 0.29,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200311",
+      "periodo_nome": "novembro 2003",
+      "variacao_mensal": 0.34,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200312",
+      "periodo_nome": "dezembro 2003",
+      "variacao_mensal": 0.52,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200401",
+      "periodo_nome": "janeiro 2004",
+      "variacao_mensal": 0.76,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200402",
+      "periodo_nome": "fevereiro 2004",
+      "variacao_mensal": 0.61,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200403",
+      "periodo_nome": "março 2004",
+      "variacao_mensal": 0.47,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200404",
+      "periodo_nome": "abril 2004",
+      "variacao_mensal": 0.37,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200405",
+      "periodo_nome": "maio 2004",
+      "variacao_mensal": 0.51,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200406",
+      "periodo_nome": "junho 2004",
+      "variacao_mensal": 0.71,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200407",
+      "periodo_nome": "julho 2004",
+      "variacao_mensal": 0.91,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200408",
+      "periodo_nome": "agosto 2004",
+      "variacao_mensal": 0.69,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200409",
+      "periodo_nome": "setembro 2004",
+      "variacao_mensal": 0.33,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200410",
+      "periodo_nome": "outubro 2004",
+      "variacao_mensal": 0.44,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200411",
+      "periodo_nome": "novembro 2004",
+      "variacao_mensal": 0.69,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200412",
+      "periodo_nome": "dezembro 2004",
+      "variacao_mensal": 0.86,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200501",
+      "periodo_nome": "janeiro 2005",
+      "variacao_mensal": 0.58,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200502",
+      "periodo_nome": "fevereiro 2005",
+      "variacao_mensal": 0.59,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200503",
+      "periodo_nome": "março 2005",
+      "variacao_mensal": 0.61,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200504",
+      "periodo_nome": "abril 2005",
+      "variacao_mensal": 0.87,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200505",
+      "periodo_nome": "maio 2005",
+      "variacao_mensal": 0.49,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200506",
+      "periodo_nome": "junho 2005",
+      "variacao_mensal": -0.02,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200507",
+      "periodo_nome": "julho 2005",
+      "variacao_mensal": 0.25,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200508",
+      "periodo_nome": "agosto 2005",
+      "variacao_mensal": 0.17,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200509",
+      "periodo_nome": "setembro 2005",
+      "variacao_mensal": 0.35,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200510",
+      "periodo_nome": "outubro 2005",
+      "variacao_mensal": 0.75,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200511",
+      "periodo_nome": "novembro 2005",
+      "variacao_mensal": 0.55,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200512",
+      "periodo_nome": "dezembro 2005",
+      "variacao_mensal": 0.36,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200601",
+      "periodo_nome": "janeiro 2006",
+      "variacao_mensal": 0.59,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200602",
+      "periodo_nome": "fevereiro 2006",
+      "variacao_mensal": 0.41,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200603",
+      "periodo_nome": "março 2006",
+      "variacao_mensal": 0.43,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200604",
+      "periodo_nome": "abril 2006",
+      "variacao_mensal": 0.21,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200605",
+      "periodo_nome": "maio 2006",
+      "variacao_mensal": 0.1,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200606",
+      "periodo_nome": "junho 2006",
+      "variacao_mensal": -0.21,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200607",
+      "periodo_nome": "julho 2006",
+      "variacao_mensal": 0.19,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200608",
+      "periodo_nome": "agosto 2006",
+      "variacao_mensal": 0.05,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200609",
+      "periodo_nome": "setembro 2006",
+      "variacao_mensal": 0.21,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200610",
+      "periodo_nome": "outubro 2006",
+      "variacao_mensal": 0.33,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200611",
+      "periodo_nome": "novembro 2006",
+      "variacao_mensal": 0.31,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200612",
+      "periodo_nome": "dezembro 2006",
+      "variacao_mensal": 0.48,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200701",
+      "periodo_nome": "janeiro 2007",
+      "variacao_mensal": 0.44,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200702",
+      "periodo_nome": "fevereiro 2007",
+      "variacao_mensal": 0.44,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200703",
+      "periodo_nome": "março 2007",
+      "variacao_mensal": 0.37,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200704",
+      "periodo_nome": "abril 2007",
+      "variacao_mensal": 0.25,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200705",
+      "periodo_nome": "maio 2007",
+      "variacao_mensal": 0.28,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200706",
+      "periodo_nome": "junho 2007",
+      "variacao_mensal": 0.28,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200707",
+      "periodo_nome": "julho 2007",
+      "variacao_mensal": 0.24,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200708",
+      "periodo_nome": "agosto 2007",
+      "variacao_mensal": 0.47,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200709",
+      "periodo_nome": "setembro 2007",
+      "variacao_mensal": 0.18,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200710",
+      "periodo_nome": "outubro 2007",
+      "variacao_mensal": 0.3,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200711",
+      "periodo_nome": "novembro 2007",
+      "variacao_mensal": 0.38,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200712",
+      "periodo_nome": "dezembro 2007",
+      "variacao_mensal": 0.74,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200801",
+      "periodo_nome": "janeiro 2008",
+      "variacao_mensal": 0.54,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200802",
+      "periodo_nome": "fevereiro 2008",
+      "variacao_mensal": 0.49,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200803",
+      "periodo_nome": "março 2008",
+      "variacao_mensal": 0.48,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200804",
+      "periodo_nome": "abril 2008",
+      "variacao_mensal": 0.55,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200805",
+      "periodo_nome": "maio 2008",
+      "variacao_mensal": 0.79,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200806",
+      "periodo_nome": "junho 2008",
+      "variacao_mensal": 0.74,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200807",
+      "periodo_nome": "julho 2008",
+      "variacao_mensal": 0.53,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200808",
+      "periodo_nome": "agosto 2008",
+      "variacao_mensal": 0.28,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200809",
+      "periodo_nome": "setembro 2008",
+      "variacao_mensal": 0.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200810",
+      "periodo_nome": "outubro 2008",
+      "variacao_mensal": 0.45,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200811",
+      "periodo_nome": "novembro 2008",
+      "variacao_mensal": 0.36,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200812",
+      "periodo_nome": "dezembro 2008",
+      "variacao_mensal": 0.28,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200901",
+      "periodo_nome": "janeiro 2009",
+      "variacao_mensal": 0.48,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200902",
+      "periodo_nome": "fevereiro 2009",
+      "variacao_mensal": 0.55,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200903",
+      "periodo_nome": "março 2009",
+      "variacao_mensal": 0.2,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200904",
+      "periodo_nome": "abril 2009",
+      "variacao_mensal": 0.48,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200905",
+      "periodo_nome": "maio 2009",
+      "variacao_mensal": 0.47,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200906",
+      "periodo_nome": "junho 2009",
+      "variacao_mensal": 0.36,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200907",
+      "periodo_nome": "julho 2009",
+      "variacao_mensal": 0.24,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200908",
+      "periodo_nome": "agosto 2009",
+      "variacao_mensal": 0.15,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200909",
+      "periodo_nome": "setembro 2009",
+      "variacao_mensal": 0.24,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200910",
+      "periodo_nome": "outubro 2009",
+      "variacao_mensal": 0.28,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200911",
+      "periodo_nome": "novembro 2009",
+      "variacao_mensal": 0.41,
+      "unidade": "%"
+    },
+    {
+      "periodo": "200912",
+      "periodo_nome": "dezembro 2009",
+      "variacao_mensal": 0.37,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201001",
+      "periodo_nome": "janeiro 2010",
+      "variacao_mensal": 0.75,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201002",
+      "periodo_nome": "fevereiro 2010",
+      "variacao_mensal": 0.78,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201003",
+      "periodo_nome": "março 2010",
+      "variacao_mensal": 0.52,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201004",
+      "periodo_nome": "abril 2010",
+      "variacao_mensal": 0.57,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201005",
+      "periodo_nome": "maio 2010",
+      "variacao_mensal": 0.43,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201006",
+      "periodo_nome": "junho 2010",
+      "variacao_mensal": 0.0,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201007",
+      "periodo_nome": "julho 2010",
+      "variacao_mensal": 0.01,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201008",
+      "periodo_nome": "agosto 2010",
+      "variacao_mensal": 0.04,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201009",
+      "periodo_nome": "setembro 2010",
+      "variacao_mensal": 0.45,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201010",
+      "periodo_nome": "outubro 2010",
+      "variacao_mensal": 0.75,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201011",
+      "periodo_nome": "novembro 2010",
+      "variacao_mensal": 0.83,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201012",
+      "periodo_nome": "dezembro 2010",
+      "variacao_mensal": 0.63,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201101",
+      "periodo_nome": "janeiro 2011",
+      "variacao_mensal": 0.83,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201102",
+      "periodo_nome": "fevereiro 2011",
+      "variacao_mensal": 0.8,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201103",
+      "periodo_nome": "março 2011",
+      "variacao_mensal": 0.79,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201104",
+      "periodo_nome": "abril 2011",
+      "variacao_mensal": 0.77,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201105",
+      "periodo_nome": "maio 2011",
+      "variacao_mensal": 0.47,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201106",
+      "periodo_nome": "junho 2011",
+      "variacao_mensal": 0.15,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201107",
+      "periodo_nome": "julho 2011",
+      "variacao_mensal": 0.16,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201108",
+      "periodo_nome": "agosto 2011",
+      "variacao_mensal": 0.37,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201109",
+      "periodo_nome": "setembro 2011",
+      "variacao_mensal": 0.53,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201110",
+      "periodo_nome": "outubro 2011",
+      "variacao_mensal": 0.43,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201111",
+      "periodo_nome": "novembro 2011",
+      "variacao_mensal": 0.52,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201112",
+      "periodo_nome": "dezembro 2011",
+      "variacao_mensal": 0.5,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201201",
+      "periodo_nome": "janeiro 2012",
+      "variacao_mensal": 0.56,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201202",
+      "periodo_nome": "fevereiro 2012",
+      "variacao_mensal": 0.45,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201203",
+      "periodo_nome": "março 2012",
+      "variacao_mensal": 0.21,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201204",
+      "periodo_nome": "abril 2012",
+      "variacao_mensal": 0.64,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201205",
+      "periodo_nome": "maio 2012",
+      "variacao_mensal": 0.36,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201206",
+      "periodo_nome": "junho 2012",
+      "variacao_mensal": 0.08,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201207",
+      "periodo_nome": "julho 2012",
+      "variacao_mensal": 0.43,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201208",
+      "periodo_nome": "agosto 2012",
+      "variacao_mensal": 0.41,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201209",
+      "periodo_nome": "setembro 2012",
+      "variacao_mensal": 0.57,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201210",
+      "periodo_nome": "outubro 2012",
+      "variacao_mensal": 0.59,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201211",
+      "periodo_nome": "novembro 2012",
+      "variacao_mensal": 0.6,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201212",
+      "periodo_nome": "dezembro 2012",
+      "variacao_mensal": 0.79,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201301",
+      "periodo_nome": "janeiro 2013",
+      "variacao_mensal": 0.86,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201302",
+      "periodo_nome": "fevereiro 2013",
+      "variacao_mensal": 0.6,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201303",
+      "periodo_nome": "março 2013",
+      "variacao_mensal": 0.47,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201304",
+      "periodo_nome": "abril 2013",
+      "variacao_mensal": 0.55,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201305",
+      "periodo_nome": "maio 2013",
+      "variacao_mensal": 0.37,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201306",
+      "periodo_nome": "junho 2013",
+      "variacao_mensal": 0.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201307",
+      "periodo_nome": "julho 2013",
+      "variacao_mensal": 0.03,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201308",
+      "periodo_nome": "agosto 2013",
+      "variacao_mensal": 0.24,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201309",
+      "periodo_nome": "setembro 2013",
+      "variacao_mensal": 0.35,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201310",
+      "periodo_nome": "outubro 2013",
+      "variacao_mensal": 0.57,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201311",
+      "periodo_nome": "novembro 2013",
+      "variacao_mensal": 0.54,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201312",
+      "periodo_nome": "dezembro 2013",
+      "variacao_mensal": 0.92,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201401",
+      "periodo_nome": "janeiro 2014",
+      "variacao_mensal": 0.55,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201402",
+      "periodo_nome": "fevereiro 2014",
+      "variacao_mensal": 0.69,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201403",
+      "periodo_nome": "março 2014",
+      "variacao_mensal": 0.92,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201404",
+      "periodo_nome": "abril 2014",
+      "variacao_mensal": 0.67,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201405",
+      "periodo_nome": "maio 2014",
+      "variacao_mensal": 0.46,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201406",
+      "periodo_nome": "junho 2014",
+      "variacao_mensal": 0.4,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201407",
+      "periodo_nome": "julho 2014",
+      "variacao_mensal": 0.01,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201408",
+      "periodo_nome": "agosto 2014",
+      "variacao_mensal": 0.25,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201409",
+      "periodo_nome": "setembro 2014",
+      "variacao_mensal": 0.57,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201410",
+      "periodo_nome": "outubro 2014",
+      "variacao_mensal": 0.42,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201411",
+      "periodo_nome": "novembro 2014",
+      "variacao_mensal": 0.51,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201412",
+      "periodo_nome": "dezembro 2014",
+      "variacao_mensal": 0.78,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201501",
+      "periodo_nome": "janeiro 2015",
+      "variacao_mensal": 1.24,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201502",
+      "periodo_nome": "fevereiro 2015",
+      "variacao_mensal": 1.22,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201503",
+      "periodo_nome": "março 2015",
+      "variacao_mensal": 1.32,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201504",
+      "periodo_nome": "abril 2015",
+      "variacao_mensal": 0.71,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201505",
+      "periodo_nome": "maio 2015",
+      "variacao_mensal": 0.74,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201506",
+      "periodo_nome": "junho 2015",
+      "variacao_mensal": 0.79,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201507",
+      "periodo_nome": "julho 2015",
+      "variacao_mensal": 0.62,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201508",
+      "periodo_nome": "agosto 2015",
+      "variacao_mensal": 0.22,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201509",
+      "periodo_nome": "setembro 2015",
+      "variacao_mensal": 0.54,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201510",
+      "periodo_nome": "outubro 2015",
+      "variacao_mensal": 0.82,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201511",
+      "periodo_nome": "novembro 2015",
+      "variacao_mensal": 1.01,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201512",
+      "periodo_nome": "dezembro 2015",
+      "variacao_mensal": 0.96,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201601",
+      "periodo_nome": "janeiro 2016",
+      "variacao_mensal": 1.27,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201602",
+      "periodo_nome": "fevereiro 2016",
+      "variacao_mensal": 0.9,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201603",
+      "periodo_nome": "março 2016",
+      "variacao_mensal": 0.43,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201604",
+      "periodo_nome": "abril 2016",
+      "variacao_mensal": 0.61,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201605",
+      "periodo_nome": "maio 2016",
+      "variacao_mensal": 0.78,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201606",
+      "periodo_nome": "junho 2016",
+      "variacao_mensal": 0.35,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201607",
+      "periodo_nome": "julho 2016",
+      "variacao_mensal": 0.52,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201608",
+      "periodo_nome": "agosto 2016",
+      "variacao_mensal": 0.44,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201609",
+      "periodo_nome": "setembro 2016",
+      "variacao_mensal": 0.08,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201610",
+      "periodo_nome": "outubro 2016",
+      "variacao_mensal": 0.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201611",
+      "periodo_nome": "novembro 2016",
+      "variacao_mensal": 0.18,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201612",
+      "periodo_nome": "dezembro 2016",
+      "variacao_mensal": 0.3,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201701",
+      "periodo_nome": "janeiro 2017",
+      "variacao_mensal": 0.38,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201702",
+      "periodo_nome": "fevereiro 2017",
+      "variacao_mensal": 0.33,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201703",
+      "periodo_nome": "março 2017",
+      "variacao_mensal": 0.25,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201704",
+      "periodo_nome": "abril 2017",
+      "variacao_mensal": 0.14,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201705",
+      "periodo_nome": "maio 2017",
+      "variacao_mensal": 0.31,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201706",
+      "periodo_nome": "junho 2017",
+      "variacao_mensal": -0.23,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201707",
+      "periodo_nome": "julho 2017",
+      "variacao_mensal": 0.24,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201708",
+      "periodo_nome": "agosto 2017",
+      "variacao_mensal": 0.19,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201709",
+      "periodo_nome": "setembro 2017",
+      "variacao_mensal": 0.16,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201710",
+      "periodo_nome": "outubro 2017",
+      "variacao_mensal": 0.42,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201711",
+      "periodo_nome": "novembro 2017",
+      "variacao_mensal": 0.28,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201712",
+      "periodo_nome": "dezembro 2017",
+      "variacao_mensal": 0.44,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201801",
+      "periodo_nome": "janeiro 2018",
+      "variacao_mensal": 0.29,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201802",
+      "periodo_nome": "fevereiro 2018",
+      "variacao_mensal": 0.32,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201803",
+      "periodo_nome": "março 2018",
+      "variacao_mensal": 0.09,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201804",
+      "periodo_nome": "abril 2018",
+      "variacao_mensal": 0.22,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201805",
+      "periodo_nome": "maio 2018",
+      "variacao_mensal": 0.4,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201806",
+      "periodo_nome": "junho 2018",
+      "variacao_mensal": 1.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201807",
+      "periodo_nome": "julho 2018",
+      "variacao_mensal": 0.33,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201808",
+      "periodo_nome": "agosto 2018",
+      "variacao_mensal": -0.09,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201809",
+      "periodo_nome": "setembro 2018",
+      "variacao_mensal": 0.48,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201810",
+      "periodo_nome": "outubro 2018",
+      "variacao_mensal": 0.45,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201811",
+      "periodo_nome": "novembro 2018",
+      "variacao_mensal": -0.21,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201812",
+      "periodo_nome": "dezembro 2018",
+      "variacao_mensal": 0.15,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201901",
+      "periodo_nome": "janeiro 2019",
+      "variacao_mensal": 0.32,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201902",
+      "periodo_nome": "fevereiro 2019",
+      "variacao_mensal": 0.43,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201903",
+      "periodo_nome": "março 2019",
+      "variacao_mensal": 0.75,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201904",
+      "periodo_nome": "abril 2019",
+      "variacao_mensal": 0.57,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201905",
+      "periodo_nome": "maio 2019",
+      "variacao_mensal": 0.13,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201906",
+      "periodo_nome": "junho 2019",
+      "variacao_mensal": 0.01,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201907",
+      "periodo_nome": "julho 2019",
+      "variacao_mensal": 0.19,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201908",
+      "periodo_nome": "agosto 2019",
+      "variacao_mensal": 0.11,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201909",
+      "periodo_nome": "setembro 2019",
+      "variacao_mensal": -0.04,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201910",
+      "periodo_nome": "outubro 2019",
+      "variacao_mensal": 0.1,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201911",
+      "periodo_nome": "novembro 2019",
+      "variacao_mensal": 0.51,
+      "unidade": "%"
+    },
+    {
+      "periodo": "201912",
+      "periodo_nome": "dezembro 2019",
+      "variacao_mensal": 1.15,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202001",
+      "periodo_nome": "janeiro 2020",
+      "variacao_mensal": 0.21,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202002",
+      "periodo_nome": "fevereiro 2020",
+      "variacao_mensal": 0.25,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202003",
+      "periodo_nome": "março 2020",
+      "variacao_mensal": 0.07,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202004",
+      "periodo_nome": "abril 2020",
+      "variacao_mensal": -0.31,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202005",
+      "periodo_nome": "maio 2020",
+      "variacao_mensal": -0.38,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202006",
+      "periodo_nome": "junho 2020",
+      "variacao_mensal": 0.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202007",
+      "periodo_nome": "julho 2020",
+      "variacao_mensal": 0.36,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202008",
+      "periodo_nome": "agosto 2020",
+      "variacao_mensal": 0.24,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202009",
+      "periodo_nome": "setembro 2020",
+      "variacao_mensal": 0.64,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202010",
+      "periodo_nome": "outubro 2020",
+      "variacao_mensal": 0.86,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202011",
+      "periodo_nome": "novembro 2020",
+      "variacao_mensal": 0.89,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202012",
+      "periodo_nome": "dezembro 2020",
+      "variacao_mensal": 1.35,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202101",
+      "periodo_nome": "janeiro 2021",
+      "variacao_mensal": 0.25,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202102",
+      "periodo_nome": "fevereiro 2021",
+      "variacao_mensal": 0.86,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202103",
+      "periodo_nome": "março 2021",
+      "variacao_mensal": 0.93,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202104",
+      "periodo_nome": "abril 2021",
+      "variacao_mensal": 0.31,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202105",
+      "periodo_nome": "maio 2021",
+      "variacao_mensal": 0.83,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202106",
+      "periodo_nome": "junho 2021",
+      "variacao_mensal": 0.53,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202107",
+      "periodo_nome": "julho 2021",
+      "variacao_mensal": 0.96,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202108",
+      "periodo_nome": "agosto 2021",
+      "variacao_mensal": 0.87,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202109",
+      "periodo_nome": "setembro 2021",
+      "variacao_mensal": 1.16,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202110",
+      "periodo_nome": "outubro 2021",
+      "variacao_mensal": 1.25,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202111",
+      "periodo_nome": "novembro 2021",
+      "variacao_mensal": 0.95,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202112",
+      "periodo_nome": "dezembro 2021",
+      "variacao_mensal": 0.73,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202201",
+      "periodo_nome": "janeiro 2022",
+      "variacao_mensal": 0.54,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202202",
+      "periodo_nome": "fevereiro 2022",
+      "variacao_mensal": 1.01,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202203",
+      "periodo_nome": "março 2022",
+      "variacao_mensal": 1.62,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202204",
+      "periodo_nome": "abril 2022",
+      "variacao_mensal": 1.06,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202205",
+      "periodo_nome": "maio 2022",
+      "variacao_mensal": 0.47,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202206",
+      "periodo_nome": "junho 2022",
+      "variacao_mensal": 0.67,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202207",
+      "periodo_nome": "julho 2022",
+      "variacao_mensal": -0.68,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202208",
+      "periodo_nome": "agosto 2022",
+      "variacao_mensal": -0.36,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202209",
+      "periodo_nome": "setembro 2022",
+      "variacao_mensal": -0.29,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202210",
+      "periodo_nome": "outubro 2022",
+      "variacao_mensal": 0.59,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202211",
+      "periodo_nome": "novembro 2022",
+      "variacao_mensal": 0.41,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202212",
+      "periodo_nome": "dezembro 2022",
+      "variacao_mensal": 0.62,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202301",
+      "periodo_nome": "janeiro 2023",
+      "variacao_mensal": 0.53,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202302",
+      "periodo_nome": "fevereiro 2023",
+      "variacao_mensal": 0.84,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202303",
+      "periodo_nome": "março 2023",
+      "variacao_mensal": 0.71,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202304",
+      "periodo_nome": "abril 2023",
+      "variacao_mensal": 0.61,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202305",
+      "periodo_nome": "maio 2023",
+      "variacao_mensal": 0.23,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202306",
+      "periodo_nome": "junho 2023",
+      "variacao_mensal": -0.08,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202307",
+      "periodo_nome": "julho 2023",
+      "variacao_mensal": 0.12,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202308",
+      "periodo_nome": "agosto 2023",
+      "variacao_mensal": 0.23,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202309",
+      "periodo_nome": "setembro 2023",
+      "variacao_mensal": 0.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202310",
+      "periodo_nome": "outubro 2023",
+      "variacao_mensal": 0.24,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202311",
+      "periodo_nome": "novembro 2023",
+      "variacao_mensal": 0.28,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202312",
+      "periodo_nome": "dezembro 2023",
+      "variacao_mensal": 0.56,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202401",
+      "periodo_nome": "janeiro 2024",
+      "variacao_mensal": 0.42,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202402",
+      "periodo_nome": "fevereiro 2024",
+      "variacao_mensal": 0.83,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202403",
+      "periodo_nome": "março 2024",
+      "variacao_mensal": 0.16,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202404",
+      "periodo_nome": "abril 2024",
+      "variacao_mensal": 0.38,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202405",
+      "periodo_nome": "maio 2024",
+      "variacao_mensal": 0.46,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202406",
+      "periodo_nome": "junho 2024",
+      "variacao_mensal": 0.21,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202407",
+      "periodo_nome": "julho 2024",
+      "variacao_mensal": 0.38,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202408",
+      "periodo_nome": "agosto 2024",
+      "variacao_mensal": -0.02,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202409",
+      "periodo_nome": "setembro 2024",
+      "variacao_mensal": 0.44,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202410",
+      "periodo_nome": "outubro 2024",
+      "variacao_mensal": 0.56,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202411",
+      "periodo_nome": "novembro 2024",
+      "variacao_mensal": 0.39,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202412",
+      "periodo_nome": "dezembro 2024",
+      "variacao_mensal": 0.52,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202501",
+      "periodo_nome": "janeiro 2025",
+      "variacao_mensal": 0.16,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202502",
+      "periodo_nome": "fevereiro 2025",
+      "variacao_mensal": 1.31,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202503",
+      "periodo_nome": "março 2025",
+      "variacao_mensal": 0.56,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202504",
+      "periodo_nome": "abril 2025",
+      "variacao_mensal": 0.43,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202505",
+      "periodo_nome": "maio 2025",
+      "variacao_mensal": 0.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202506",
+      "periodo_nome": "junho 2025",
+      "variacao_mensal": 0.24,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202507",
+      "periodo_nome": "julho 2025",
+      "variacao_mensal": 0.26,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202508",
+      "periodo_nome": "agosto 2025",
+      "variacao_mensal": -0.11,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202509",
+      "periodo_nome": "setembro 2025",
+      "variacao_mensal": 0.48,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202510",
+      "periodo_nome": "outubro 2025",
+      "variacao_mensal": 0.09,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202511",
+      "periodo_nome": "novembro 2025",
+      "variacao_mensal": 0.18,
+      "unidade": "%"
+    },
+    {
+      "periodo": "202512",
+      "periodo_nome": "dezembro 2025",
+      "variacao_mensal": 0.33,
+      "unidade": "%"
+    }
+  ]
+}

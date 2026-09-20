@@ -1,0 +1,58 @@
+{
+  "dados": [
+    {
+      "ano": "2017",
+      "funcao": "SAÚDE",
+      "liquidado": 3930207256.19,
+      "fonte": "Transparência GDF /despesa/grafico/funcao"
+    },
+    {
+      "ano": "2018",
+      "funcao": "SAÚDE",
+      "liquidado": 4090217564.56,
+      "fonte": "Transparência GDF /despesa/grafico/funcao"
+    },
+    {
+      "ano": "2019",
+      "funcao": "SAÚDE",
+      "liquidado": 3747195855.81,
+      "fonte": "Transparência GDF /despesa/grafico/funcao"
+    },
+    {
+      "ano": "2020",
+      "funcao": "SAÚDE",
+      "liquidado": 4328074377.66,
+      "fonte": "Transparência GDF /despesa/grafico/funcao"
+    },
+    {
+      "ano": "2021",
+      "funcao": "SAÚDE",
+      "liquidado": 5307795610.66,
+      "fonte": "Transparência GDF /despesa/grafico/funcao"
+    },
+    {
+      "ano": "2022",
+      "funcao": "SAÚDE",
+      "liquidado": 6079870473.11,
+      "fonte": "Transparência GDF /despesa/grafico/funcao"
+    },
+    {
+      "ano": "2023",
+      "funcao": "SAÚDE",
+      "liquidado": 5039425587.47,
+      "fonte": "Transparência GDF /despesa/grafico/funcao"
+    },
+    {
+      "ano": "2024",
+      "funcao": "SAÚDE",
+      "liquidado": 6153453778.45,
+      "fonte": "Transparência GDF /despesa/grafico/funcao"
+    },
+    {
+      "ano": "2025",
+      "funcao": "SAÚDE",
+      "liquidado": 7359164175.01,
+      "fonte": "Transparência GDF /despesa/grafico/funcao"
+    }
+  ]
+}

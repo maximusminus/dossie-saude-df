@@ -1,0 +1,340 @@
+{
+  "dados": [
+    {
+      "eixo": "eixo0",
+      "necessidade": "Execução orçamentária da função Saúde, 2017-2025",
+      "tabela": "orcamento_saude",
+      "estado": "acquired",
+      "motivo": "Transparência GDF, /api/despesa/grafico/funcao/<ano> -- the endpoint the portal's own budget page calls. InfoSaúde DF was not used: it is a Qlik dashboard whose only machine path this project ever found was a screenshot."
+    },
+    {
+      "eixo": "eixo0",
+      "necessidade": "Execução orçamentária total do DF, 2017-2025 (denominador)",
+      "tabela": "orcamento_df_total",
+      "estado": "acquired",
+      "motivo": "Transparência GDF, /api/v2/dashboard-execucao-despesa/listar."
+    },
+    {
+      "eixo": "eixo0",
+      "necessidade": "Servidores por carreira, dezembro de 2017-2025",
+      "tabela": "pessoal_carreira",
+      "estado": "acquired",
+      "motivo": "Transparência GDF, /api/servidor/grafico/carreira. É a visão das CINCO maiores carreiras por competência, não o quadro completo cargo a cargo. Quais carreiras da saúde entram nessas cinco MUDA ao longo do intervalo, e a carreira foi RENOMEADA (ASSISTENCIA PUBLICA A SAUDE / GESTAO E ASSISTENCIA PUBLICA A SAUDE); ler a série sem isso mostra um colapso em 2021 que não aconteceu. A coluna carreira_saude marca as linhas afetadas."
+    },
+    {
+      "eixo": "eixo0",
+      "necessidade": "Cobertura da APS, equipes ESF e ACS (e-Gestor AB)",
+      "tabela": "aps_cobertura_egestor",
+      "estado": "acquired",
+      "motivo": "OS-083 (2026-09-19): ALCANÇADA, e o recorte por RA NÃO. O operador colou o portal de relatórios na página das 18 lacunas com a pergunta \"just download. why blocked?\", e a resposta medida é que não estava: relatorioaps.saude.gov.br responde, e o `apiUrl` declarado no seu próprio bundle -- relatorioaps-prd.saude.gov.br, host registrado ANTES da primeira requisição -- serve os três métodos de cobertura para o DF. O que faltava era o NOME DO PARÂMETRO: `competencia=AAAAMM` devolve HTTP 500 nos três endpoints, e `nuCompInicio`/`nuCompFim`, lidos do conversor do próprio front end, devolvem 200. Medido 2026-09-19: /cobertura/ab 162 competências (200707-202012), /cobertura/acs 229 (200707-202607), /cobertura/aps 67 (01/2021-07/2026). OS TRÊS NÃO SÃO EMENDADOS -- ver o docstring de gap_routes. O recorte por Região de Saúde é LACUNA NOMEADA e medida a cada execução (aps_cobertura_ausencias): REGIAO_SAUDE devolve 400, REGIAOSAUDE devolve 500, MUNICIPIO devolve zero linhas para o DF. || O ESTADO SUPERSEDIDO, citado e não apagado, porque é o que a medição acima corrige: `absent` -- \"egestorab.saude.gov.br redireciona para egestoraps.saude.gov.br, que responde 200 e serve um SPA; a série por Região Administrativa não é publicada por interface documentada -- o próprio script legado 29_egestor_aps.py instrui o operador a exportar o CSV à mão. O OS-025 mediu o que esse 200 vale: /robots.txt e /sitemap.xml devolvem o MESMO shell HTML do SPA que a raiz devolve, byte a byte na ordem de grandeza -- é resposta genérica, não interface, e é por isso que a sonda classifica esses caminhos como `catch-all` em vez de `ok`. Um 200 não é prova de que existe interface, e ler assim é como um publicador ganha crédito por um índice legível que não serve. OS-062 (2026-09-13/14) mediu a alternativa que a própria AMENDMENT desse work order anteviu: o host `apiegestoraps.saude.gov.br` que a Q4 concedeu está completamente inalcançável -- `RemoteDisconnected` por urllib puro e `net::ERR_CONNECTION_RESET` por um Chromium real (OS-058) em todo caminho testado (`/`, `/robots.txt`, `/api`, `/health`, `/v1`). Por isso `aps_cobertura_egestor` NÃO é publicada como tabela: exatamente o stop que a AMENDMENT autorizou de antemão -- \"records that as a measurement and stops... does not widen its own grant\" -- e não uma lacuna adivinhada.\" O stop do OS-062 estava certo quanto ao host que ele tinha: `apiegestoraps.saude.gov.br` continua inalcançável e NÃO é o host que respondeu; a tabela vem do terceiro. NADA MEDE OS DOIS HOSTS ANTIGOS A CADA EXECUÇÃO, e esta frase dizia que `_sonda_egestor` o fazia -- achado da revisão independente do OS-083: essa sonda saiu de SONDAS quando esta necessidade deixou de ser `absent` e ganhou função de aquisição. A inalcançabilidade de `apiegestoraps.saude.gov.br` é uma medição DATADA de 2026-09-13 (OS-062), não uma leitura de hoje."
+    },
+    {
+      "eixo": "eixo0",
+      "necessidade": "ICSAP para o DF, 2019-2024 (SIH/DATASUS)",
+      "tabela": "icsap_serie",
+      "estado": "acquired",
+      "motivo": "OS-062 escreveu a tabela real (`icsap_serie`, uma linha por ano de sih.ANO_INICIO a sih.ANO_FIM) em vez de manter este `absent` de 'derivável e não derivado' que o OS-025 registrou. `acquired` aqui significa que a função rodou e devolveu uma tabela declarada -- NÃO que a lista de CID-10 foi obtida: toda linha é uma lacuna nomeada. A Q1 do OS-062 mandou medir ao vivo, na ordem declarada, se a Portaria SAS/MS 221/2008 (o Anexo que classifica CID-10 em ICSAP) está alcançável por algum dos dois hosts autorizados: www.gov.br primeiro, depois bvsms.saude.gov.br por um Chromium real (OS-058). Nenhum dos dois respondeu em 2026-09-14 -- `icsap_serie` mede isso a cada execução e publica a lacuna citando a medição do próprio run, nunca uma lista transcrita à mão; se qualquer uma das duas rotas um dia responder, a função levanta `SourceRefused` em vez de adivinhar."
+    },
+    {
+      "eixo": "eixo0",
+      "necessidade": "Equipes ESF, série histórica por competência (CNES)",
+      "tabela": "equipes_aps_serie",
+      "estado": "acquired",
+      "motivo": "OS-062, Bloco 2, rota R1.3. ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/EP -- um arquivo por ano (2007-2026, a competência representativa escolhida ao vivo pela própria listagem FTP, dezembro quando publicado senão o último mês do ano), nunca um arquivo recente retroagido: a Q3 do OS-062 mandou medir todo ano que a árvore serve, e a retroagenda foi testada e desmentida antes de qualquer código ser escrito -- 2026-07 filtrado a 2010-12 dá 31 equipes ESF onde o arquivo direto de 2010-12 dá 119, porque o cadastro purga registros antigos das fotografias recentes. Os códigos ESF são lidos ao vivo de Auxiliar/TAB_CNES.zip (DBF/EQUIPE.dbf), nunca transcritos à mão. SEM corte por RA: os arquivos históricos só carregam COD_CEP como sinal de endereço (medido, campo a campo, contra os 108 campos de um arquivo EP amostrado) -- o mesmo problema estrutural que OS-024 já mediu para o CNES em massa (44,5% dos prefixos de CEP ambíguos entre RAs, porque estabelecimentos ficam onde moradores não ficam). Um cruzamento fresco por CEP não mudaria esse veredito, então ele é citado em vez de repetido, e nenhuma coluna de RA é publicada. Critério (f) do OS-062 é declarado NÃO ATENDIDO por esta necessidade."
+    },
+    {
+      "eixo": "eixo0",
+      "necessidade": "UBS, série histórica por competência (CNES)",
+      "tabela": "ubs_serie",
+      "estado": "acquired",
+      "motivo": "OS-062, Bloco 2, rota R1.3. ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST -- mesma disciplina de um-arquivo-por-ano de `equipes_aps_serie` acima (2005-2026, ST publica desde 2005). Os códigos de UBS ('POSTO DE SAUDE', 'CENTRO DE SAUDE/UNIDADE BASICA', 'UNIDADE DE SAUDE DA FAMILIA') são lidos ao vivo de Auxiliar/TAB_CNES.zip (CNV/TP_ESTAB.CNV) por rótulo EXATO -- deliberadamente sem o código 71 'CENTRO DE APOIO A SAUDE DA FAMILIA' (apoio NASF, não uma unidade de atendimento, apesar de compartilhar as palavras 'SAUDE DA FAMILIA'; um match por substring o incluiria errado). Mesma disposição de corte por RA de `equipes_aps_serie`: medido e não suposto, e não publicado. Critério (f) do OS-062 é declarado NÃO ATENDIDO por esta necessidade também."
+    },
+    {
+      "eixo": "eixo2",
+      "necessidade": "IGES-DF, relatórios de prestação de contas e de gestão",
+      "tabela": "igesdf_prestacao_contas",
+      "estado": "acquired",
+      "motivo": "igesdf.org.br/wp-json/wp/v2/pages -- a API REST documentada do WordPress que o próprio site serve. O OS-012 registrou esta necessidade como `absent` dizendo que os relatórios eram 'anexos de páginas de notícia, sem índice legível por máquina'. ISSO ERA FALSO, e o OS-020 mediu em vez de repetir: o host serve /robots.txt (que só proíbe /wp-admin/), um índice de sitemap do core em /wp-sitemap.xml, e a API REST aberta -- três interfaces documentadas. A rota paginada enumera as 814 páginas publicadas e uma REGRA DECLARADA sobre o caminho seleciona as 9 que são índices de prestação de contas; 8 delas trazem documentos, somando 385 PDFs distintos em 939 entradas (página, documento), com upload entre 2019 e 2026, dos quais 75 relatórios quadrimestrais. A enumeração é feita pela interface e não à mão porque DUAS VEZES a lista à mão falhou: a primeira leitura desta OS fixou uma página, a segunda fixou três e ainda perdia 30 documentos em duas páginas que estavam no mesmo sitemap já lido. A ressalva é literal: um índice que o instituto batize fora da regra continuaria de fora, e por isso a enumeração inteira fica em dados/raw/igesdf_paginas.json. A coluna pagina_id diz qual índice trouxe cada documento. Nada é rastreado: nenhum link encontrado num payload é seguido. Carrega-se o ÍNDICE e não os PDFs, seguindo hcb_contratos. O rótulo 'trimestrais' do OS-012 também não confere com o que o publicador publica -- os relatórios de gestão são QUADRIMESTRAIS -- e a necessidade foi renomeada em vez de espremer o dado no nome antigo."
+    },
+    {
+      "eixo": "eixo2",
+      "necessidade": "IGES-DF, demonstrações auditadas 2022 (parecer com ressalva)",
+      "tabela": "igesdf_prestacao_contas",
+      "estado": "acquired",
+      "motivo": "PUBLICADAS, e o OS-020 registrou o contrário antes de corrigir-se. A primeira leitura desta OS leu UMA página, não encontrou nenhuma peça de 2022 nela, e concluiu 'ausência do publicador' -- exatamente o erro do OS-012 reproduzido dentro da OS que existe para corrigi-lo. /transparencia/despesas/demonstracoes-contabeis/ estava no mesmo sitemap já lido e indexa 39 documentos: o conjunto de 2022 completo (Balanço Patrimonial, DRP, DFC, DMPL, DRA e Notas Explicativas) e o IGESDF-RAI-31.12.2022, o Relatório do Auditor Independente, além das séries de 2018 a 2021 e o Parecer Técnico Conclusivo do Auditor Independente de 2019; /transparencia/relatorios-anteriores/ traz ainda o Demonstracoes-Contabeis-2018-Auditadas. A PERGUNTA DO NOME DESTA NECESSIDADE ESTÁ RESPONDIDA, e ficou nove ordens de serviço em aberto: o OS-012 batizou a linha 'parecer com ressalva' sem ter aberto o parecer, e o OS-020 registrou explicitamente que o índice não dizia. O OS-021 abriu. O IGESDF-RAI-31.12.2022 traz 'Opinião com Ressalva' (NBC TA 705), e o trecho literal está em opinioes_auditoria junto com o sha256 do PDF. O nome estava certo por acaso, não por leitura, e a diferença importa: o resultado só é dado agora. A série completa contradiz o recorte de um ano só -- 2019, 2020, 2021, 2022 e 2023 têm ressalva, CINCO EXERCÍCIOS SEGUIDOS, e o único parecer limpo da série é o de 2018, do IHB, a entidade anterior ao IGES-DF. Ver documentos_leitura para o estado de leitura de cada documento do subconjunto declarado. O OS-022 leu as PEÇAS que esses pareceres auditam: 29 documentos, seis exercícios, 1.591 linhas em demonstracoes_linhas, cada uma com o trecho de origem. A publicação exige UNANIMIDADE entre leituras -- estas demonstrações são comparativas, então quase toda cifra é lida duas vezes, em documentos diferentes -- e o que essa regra encontrou é uma constatação sobre o próprio publicador: das 279 conferências, 182 batem ao centavo e 97 divergem, e 96 das 97 envolvem o BALANÇO PATRIMONIAL DE 2021. É também o único, entre os cinco cujo balanço pôde ser verificado, cujo ativo não fecha com o passivo, e não fecha nas TRÊS colunas; as outras oito fecham ao centavo. Por isso quase todas as cifras de 2019 e 2020 ficam não publicáveis -- sobra o patrimônio líquido de 2019, em que as três leituras coincidem. O patrimônio líquido de 2022 lido das peças -- -R$ 129.721.162,12 -- é o MESMO valor que o auditor cita na ênfase, o que confirma a leitura por um caminho independente. Ver demonstracoes_serie, demonstracoes_conferencia e demonstracoes_balanco."
+    },
+    {
+      "eixo": "eixo2",
+      "necessidade": "IGES-DF, contrato de gestão CG 001/2018 e termos aditivos",
+      "tabela": "igesdf_contratos_gestao",
+      "estado": "acquired",
+      "motivo": "igesdf.org.br/wp-json/wp/v2/pages -- a MESMA API REST do IGES-DF, o MESMO padrão de necessidade própria que hcb_contratos: nenhum host novo, nenhuma interface nova. O OS-020 registrou no seu HANDOFF que /transparencia/contratos/contratos-de-gestao/ publica 119 documentos e que nenhuma necessidade do IGES-DF o nomeava -- essa é exatamente a assimetria que hcb_contratos expõe do outro lado, e este é o OS que a fecha DECLARANDO em vez de alargar a regra de igesdf_prestacao_contas. MEDIDO EM 2026-09-04, contado por esta execução e não herdado do OS-020: 1 página bate a regra (id 31801), 119 âncoras de PDF na página -- REPRODUZ o número do OS-020 ao dígito -- das quais 113 são URLs distintas; a tabela grava 113 linhas (uma por par página-documento, o formato de igesdf_prestacao_contas), porque 6 âncoras repetem uma URL já ancorada antes na mesma página (quatro PDFs de extrato estão ancorados duas vezes cada, um para cada termo aditivo que citam, e o 7º termo de apostilamento está ancorado três vezes). A classificação por título reproduz três dos quatro tipos que o OS-020 leu -- 1 contrato de gestão base, 63 termos aditivos, 7 contratos de UPA -- traz um quinto que o HANDOFF não isolou, 26 extratos -- e DIVERGE no quarto: a numeração publicada dos termos de apostilamento vai de 1 a 17 SEM NUNCA PUBLICAR UM 2º, o que são 16 documentos distintos (15 com `tipo='apostilamento'` e 1 com `tipo=''`, porque a URL do 7º é vista pela primeira vez numa âncora sem texto), não os 17 que o HANDOFF do OS-020 contou. Achado, não erro: aquela contagem foi feita uma vez, por leitura, e esta por regra sobre o título publicado -- ver igesdf_contratos_gestao.tipo. Os sete contratos de UPA ficam NA MESMA necessidade, com campo `tipo='upa'` os distinguindo, por decisão do operador de 2026-09-04 (\"Same need, with a field\"), e não em necessidade própria. O QUASE-ACERTO DO CRITÉRIO (e) SE REVELOU SER A TABELA INTEIRA: as 113 URLs distintas JÁ estavam indexadas em igesdf_prestacao_contas, sob três páginas diferentes de prestação de contas -- nenhuma foi deduplicada aqui, porque a chave desta tabela é (esta página, este documento), não o documento isolado. O que esta necessidade acrescenta não é conteúdo bruto novo: é o primeiro lugar em que uma pergunta sobre 'o contrato de gestão do IGES-DF está indexado?' recebe uma linha própria, em vez de exigir que quem pergunta já saiba que a resposta está espalhada sob um nome diferente. Nada é baixado nem lido -- segue hcb_contratos e igesdf_prestacao_contas."
+    },
+    {
+      "eixo": "eixo2",
+      "necessidade": "HCB, contrato de gestão CG 076/2019 e termos aditivos",
+      "tabela": "hcb_contratos",
+      "estado": "acquired",
+      "motivo": "www.hcb.org.br, /transparencia/contratos/ -- índice de 154 documentos sob URL estável. O BRIEF registrou este host expirando no TCP; em 2026-08-27 ele responde 200 em ~22 s, verificado três vezes. A assunção 6 mandava reverificar em vez de assumir, e a reverificação mudou o resultado. alcance_hosts mede isso a cada execução."
+    },
+    {
+      "eixo": "eixo2",
+      "necessidade": "HCB, demonstrações contábeis",
+      "tabela": "",
+      "estado": "absent",
+      "motivo": "O host é alcançável (ver a linha acima), e as demonstrações contábeis não estão publicadas em /transparencia/contratos/ nem em /transparencia/relatorios/. REVERIFICADO pelo OS-020 em 2026-08-28 por CONTAGEM, e a contagem foi refeita depois que uma revisão independente mostrou que a primeira era rasa: o índice responde 200 com 44 KB e 127 links, dos quais ZERO apontam para arquivo, e ele ENUMERA 23 páginas de detalhe sob caminho estável (/transparencia/relatorios/detalhe/...) -- todas as 23 foram buscadas, e somadas dão ZERO links para arquivo e ZERO ocorrências de 'demonstra', 'contábil', 'balanço', 'auditad', 'parecer' e 'ressalva'. A enumeração está em dados/raw/hcb_relatorios_enumeracao.json, página a página. Este host não é WordPress: /robots.txt, /wp-sitemap.xml e /sitemap.xml devolvem 404 e /wp-json devolve 200 servindo a home (um catch-all, não uma API) -- a frase anterior dizia que /wp-json devolvia 404, o que era simplesmente errado. /transparencia/ devolve 403 enquanto as subpáginas respondem 200. Ausência do publicador, não obstáculo de rede. || MEDIDO EM 2026-09-20: 7 interfaces do próprio publicador sondadas (2 responderam, 5 não), 46 itens enumerados, 0 casam os termos da necessidade. Ver cobertura_sondas."
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "Cursos de medicina no DF com ano de autorização (e-MEC)",
+      "tabela": "",
+      "estado": "blocked",
+      "motivo": "emec.mec.gov.br responde 403 a cliente não-navegador: o WAF exige comportamento de navegador real. Playwright NÃO está instalado neste host (ver o achado no registro do OS-012), e adotá-lo é decisão de dependência. Nada aqui tenta contornar o controle. || RE-MEDIDO POR NAVEGADOR EM 2026-09-20 (OS-058, route step R0.2): blocked HTTP 403 -- HTTP 403 (navegador). Ver navegador_sondas."
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "Censo da educação superior INEP, série medicina DF",
+      "tabela": "",
+      "estado": "absent",
+      "motivo": "download.inep.gov.br tem a cadeia TLS reparada por tls_aia.py, e ainda assim derruba a conexão (ConnectionResetError) -- medido por alcance_hosts, que desde o OS-019 registra a CAMADA: `http`, ou seja DNS, TCP e TLS completam e a recusa está acima deles. É o servidor recusando este cliente, não este ambiente falhando em alcançá-lo, e a frase anterior deixava isso ambíguo. O estado continua `absent` e não `blocked` porque nada aqui identifica um controle: não há página de bloqueio, não há 403, e um WAF não é inferido de um reset. Mesmo alcançável, os microdados são ZIPs anuais de centenas de MB cujo recorte 'medicina no DF' só existe depois de processá-los: é aquisição de porte próprio, e declará-la aqui sem executá-la seria a promessa que este quadro recusa. || MEDIDO EM 2026-09-20: 2 interfaces do próprio publicador sondadas (1 responderam, 1 não), 0 itens enumerados, 0 casam os termos da necessidade. Ver cobertura_sondas."
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "Demografia médica CFM, tabelas do DF",
+      "tabela": "demografia_medica_amb",
+      "estado": "acquired",
+      "motivo": "OS-083 (2026-09-19): alcançada por um TERCEIRO PUBLICADOR do MESMO estudo, registrado como tal. O operador colou amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf -- a Associação Médica Brasileira publica o estudo Scheffer et al. (AMB/CFM/USP) que os hosts do CFM não servem mais. A Tabela 3 é extraída por pypdf A CADA EXECUÇÃO e nenhum número é digitado: 27 UFs, 5 regiões e o Brasil, para que o leitor confira o ranking em vez de aceitar a linha do DF isolada. A NOTA DA PRÓPRIA TABELA vai numa coluna e não num rodapé que o leitor possa perder: a razão é por REGISTRO e não por médico -- 597.428 indivíduos detinham 653.945 inscrições em 31/12/2024 porque 56.517 estão registrados em mais de uma UF. || O ESTADO SUPERSEDIDO, citado e não apagado, porque o que ele mediu sobre os hosts do CFM continua verdade: `absent` -- \"O registro de acesso foi ampliado pelo OS-018 (portal.cfm.org.br e demografia.cfm.org.br), e o obstáculo do OS-012 deixou de existir -- o que ficou no lugar é uma ausência de publicação, medida host a host. observatorio.cfm.org.br responde 302 para portal.cfm.org.br, que responde 200. demografia.cfm.org.br resolve e o servidor responde, mas devolve 404 em TODO caminho, inclusive /robots.txt: a plataforma eletrônica que o próprio portal anuncia não serve mais nada. observatorio.cfm.org.br/demografia/ e portal.cfm.org.br/numero-de-medicos/ também dão 404. A Demografia Médica existe apenas como LIVRO em PDF nas páginas bb_publicacoes (2015, 2018, Volumes 1 e 2), e nem essas expõem o PDF diretamente -- passam por flip3d.com.br, host de terceiro fora do registro. A API REST do WordPress (wp-json) devolve 401. Não há tabela legível por máquina do DF em nenhum host registrado, e um PDF renderizado não é interface estável (ver README, 'A source that refuses'). O OS-025 ENUMEROU O ÍNDICE QUE FALTAVA: portal.cfm.org.br serve, e o seu próprio robots.txt anuncia, um ÍNDICE DE SITEMAP em várias partes que este projeto nunca havia aberto. Foi aberto -- cada sub-sitemap buscado, cada URL contada -- e é assim que um `absent` sobre um publicador deste tamanho deixa de ser afirmação e passa a ser contagem. O que casa os termos de demografia são notícias e páginas de publicação (livro em PDF), nenhuma tabela por UF. A busca busca-medicos, atrás de reCAPTCHA, NÃO é sondada. || OS-027 (2026-09-06): o mesmo padrão de widget -- um plugin '3D FlipBook' que embute o PDF num blob e não num <a href> -- também existe no IGES-DF (ver igesdf_flipbook), e lá é contável porque o PDF é servido pelo próprio igesdf.org.br, host já registrado. Aqui não: os livros da Demografia Médica passam por flip3d.com.br, host de terceiro FORA do registro, o que é a diferença entre os dois casos e não uma contradição -- o achado do IGES-DF NÃO reabre nem move este `absent`, medido pelo OS-025 e mantido aqui.\" Nada disso foi desmentido: demografia.cfm.org.br devolveu 404 em todo caminho quando foi medido, em 2026-09-19 (OS-083) -- uma medição DATADA, e não uma leitura desta execução, porque a sonda que a fazia saiu de SONDAS quando esta necessidade passou a ser adquirida (achado da revisão independente do OS-083). A busca-medicos continua atrás de reCAPTCHA e não é sondada, por regra e não por medição. O que mudou foi haver um publicador registrado que serve o PDF diretamente, em vez de por trás do widget de terceiro (flip3d.com.br) que era o obstáculo concreto medido pelo OS-027."
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "CFM, busca-medicos: contagem de médicos ativos no DF",
+      "tabela": "",
+      "estado": "blocked",
+      "motivo": "portal.cfm.org.br/busca-medicos é a busca individual, paginada de 10 em 10, e está atrás de reCAPTCHA VALIDADO NO SERVIDOR a cada requisição -- inclusive a cada clique de paginação. Medido: o payload de /api_rest_php/api/v2/medicos/buscar_medicos carrega o campo `captcha`, o próprio JS da página chama grecaptcha.execute() antes de cada busca, e uma requisição sem token devolve \"invalidinput\" -- a string que o JS da página testa. Automatizar contra um controle anti-automação é recusado (assunção 3 do BRIEF do OS-012), exatamente como no CRM-DF. Além disso o que ele serve são pessoas nomeadas com CRM, e o Eixo 3 precisa de CONTAGEM, não de identidade: raspá-lo seria dado pessoal em massa sem ganho analítico."
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "CRM-DF, série histórica de registros ativos",
+      "tabela": "",
+      "estado": "absent",
+      "motivo": "crmdf.org.br responde 200 e o site é legível, mas a série histórica agregada não é publicada: o que existe é a busca individual por trás do reCAPTCHA, e automatizar contra um controle anti-automação é recusado (assunção 3 do BRIEF). O OS-025 mediu quais interfaces o host oferece: /robots.txt responde e NÃO anuncia sitemap; /wp-sitemap.xml devolve 404; /sitemap.xml responde 200 servindo o HTML do site em vez de um sitemap -- `catch-all`, não interface; a API REST devolve 401. Não há índice legível por máquina onde uma série agregada pudesse aparecer, e isso agora é contado a cada execução em vez de lido uma vez. || MEDIDO EM 2026-09-20: 4 interfaces do próprio publicador sondadas (1 responderam, 3 não), 0 itens enumerados, 0 casam os termos da necessidade. Ver cobertura_sondas."
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "ESCS, egressos e retenção na rede pública",
+      "tabela": "",
+      "estado": "absent",
+      "motivo": "O ápice escs.edu.br não tem registro A em DNS; www.escs.edu.br responde 200. A FRASE ANTERIOR DESTA LINHA -- 'o site é institucional e não publica série de egressos nem de retenção em forma legível por máquina' -- estava certa e não tinha sido CONTADA, e o OS-025 contou. O host serve uma API REST do WordPress ABERTA (/wp-json/wp/v2), que este projeto nunca havia consultado: é exatamente a forma de interface que o OS-020 encontrou no IGES-DF depois de esta mesma tabela ter registrado `absent` por ninguém ter procurado. Aqui ela foi consultada -- páginas e posts enumerados pela rota do próprio publicador, mais a rota /search perguntada diretamente por 'egressos' e 'retencao' -- e o que ela lista não inclui série alguma: os resultados são notícias sobre pessoas e sobre processos seletivos de residência. A ausência agora é medida por contagem, não por leitura, e a contagem é refeita a cada execução. || MEDIDO EM 2026-09-20: 5 interfaces do próprio publicador sondadas (5 responderam, 0 não), 226 itens enumerados, 3 casam os termos da necessidade. Ver cobertura_sondas."
+    },
+    {
+      "eixo": "eixo4",
+      "necessidade": "IPCA para deflação (IBGE SIDRA, tabela 2938)",
+      "tabela": "ipca_mensal",
+      "estado": "acquired",
+      "motivo": "apisidra.ibge.gov.br, tabela 1737, variável 63 (variação mensal), 2017-01 a 2025-12. O BRIEF pediu a tabela 2938, que está DESCONTINUADA -- serve 66 períodos e termina em 2011-12. A correção está registrada no módulo e no registro do OS-012, não foi feita em silêncio. OS-078, 2026-09-16: apisidra.ibge.gov.br passou a responder um DESAFIO da Cloudflare (HTTP 403, cf-mitigated: challenge) e a série passou a ser lida na OUTRA interface do MESMO publicador -- servicodados.ibge.gov.br/api/v3/agregados, agregado 1737, variável 63. Mesma fonte, mesma tabela, nenhum host novo e nenhum controle contornado. As duas interfaces são medidas a cada execução; se as duas recusarem, a tabela é publicada VAZIA com a medição em fontes_desafiadas, nunca com um valor de ontem."
+    },
+    {
+      "eixo": "eixo4",
+      "necessidade": "Vencimento básico da carreira médica SES-DF, série histórica",
+      "tabela": "vencimento_medico",
+      "estado": "acquired",
+      "motivo": "OS-083 (2026-09-19): PARCIALMENTE alcançada, e `acquired` aqui significa que a tabela existe e declara o seu próprio buraco -- não que a série esteja completa. O operador colou a tabela da SEEC-DF (www.economia.df.gov.br, host registrado antes da primeira requisição) e mandou ampliar www.sinj.df.gov.br para as leis da carreira. Medido: os Anexos II e III da Lei 3.323/2004 trazem CINCO vigências com cifras (03/2004 a 07/2006) e a tabela da SEEC traz a vigência de 07/2025. ENTRE AS DUAS NÃO HÁ NADA, e o vazio é publicado como tal: os anexos das Leis 2.585/2000, 5.181/2013 e 7.253/2023 não estão no texto que o SINJ serve -- a primeira diz no próprio corpo que os anexos constam no DODF, a segunda traz o cabeçalho ANEXO II TABELA DE VENCIMENTOS e nenhuma cifra depois dele, e a terceira traz apenas PERCENTUAIS de reajuste, que este projeto NÃO aplica sobre uma base para inventar valores. A Q2 do OS-083 ampliou o registro para a busca de Diário do SINJ e a ampliação FOI exercida: o registro de norma traz `ar_diario` vazio para as três, e a busca é um formulário ASP.NET WebForms cujo resultado, a um GET simples, é uma casca sem fonte de dados declarada. Nenhuma requisição foi moldada para contornar o estado do formulário. Ver vencimento_medico_lacunas. || O ESTADO SUPERSEDIDO, citado e não apagado: `absent` -- \"A tabela de vencimentos é anexo de lei, publicada no SINJ-DF; ver a linha abaixo -- o mesmo obstáculo a alcança. O ESTADO DECLARADO AQUI É `absent` E O OS-025 MEDIU QUE ELE ESTÁ ERRADO: uma necessidade que falha porque a SUA fonte está bloqueada é `blocked`, e a linha imediatamente abaixo -- mesmo host, mesmo motivo, mesma lei -- sempre foi `blocked`. Duas palavras diferentes para o mesmo fato, a um espaço de distância na mesma tabela, porque cada uma foi escrita uma vez e nenhuma foi relida. A sonda mede sinj.df.gov.br a cada execução e o estado publicado vem dessa medição; se o host voltar a responder, a palavra volta sozinha.\" O host voltou a responder -- por `www.sinj.df.gov.br`, o nome que apresenta certificado válido, e não pelo apex que apresentava o errado."
+    },
+    {
+      "eixo": "eixo4",
+      "necessidade": "LC 840/2011 e Lei 6.137/2018 (SINJ-DF), para a mudança da TPD",
+      "tabela": "carreira_medica_normas",
+      "estado": "acquired",
+      "motivo": "OS-083 (2026-09-19): o obstáculo era o NOME DO HOST, e não um controle. O operador colou os dois endereços na página das 18 lacunas e eles estão em `www.sinj.df.gov.br`, que apresenta certificado válido para o próprio nome e serve o texto integral -- enquanto o apex `sinj.df.gov.br`, o único nome que este projeto vinha tentando desde o OS-012, apresenta certificado de *.tc.df.gov.br. É a mesma diferença que este registro de acesso já trata como regra: um nome diferente é uma linha diferente, e a linha de `www.sinj.df.gov.br` foi escrita ANTES da primeira requisição a ele. Nenhum WAF foi contornado; o WAF medido no apex continua lá e continua não sendo contornado. O texto de cada norma fica em cache com sha256 publicado ao lado, para que o leitor confira a citação contra os mesmos bytes. || O ESTADO SUPERSEDIDO, citado e não apagado: `blocked` -- \"sinj.df.gov.br responde 403 em http e https. Em https apresenta certificado de *.tc.df.gov.br -- nome que não confere, falha que um navegador também recusa. O 403 é um WAF; não é contornado aqui.\" Continua verdade sobre o apex, e o OS-058 mediu que nem um Chromium real o resolve -- porque é TLS, não forma de cliente. O que nenhuma dessas sessões tinha tentado era o outro nome."
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "Anexo da Portaria GM/MS 1.101/2002 (parâmetros de leito)",
+      "tabela": "",
+      "estado": "blocked",
+      "motivo": "bvsms.saude.gov.br RESOLVE, completa TCP e completa TLS 1.3 com certificado válido -- e então fecha a conexão sem enviar um byte, em todo caminho testado, inclusive /. Nove tentativas em 2026-08-28, zero bytes nas nove. NÃO é falha de rede, e alcance_hosts mede a camada a cada execução em vez de afirmá-la: a recusa está acima de TLS. O que a identifica é a própria página do controle, capturada em dados/raw/bvsms_f5_block.html (a requisição exata que a produziu está transcrita em dados/raw/bvsms_f5_block.README.md, e nenhuma delas foi moldada para passar pelo controle) -- 'The requested URL was rejected. Please consult with your administrator' com support ID, que é a página de bloqueio do F5 BigIP ASM; a porta 80 do mesmo host responde 302 assinado 'Server: BigIP'. É um WAF, e um WAF não é contornado aqui (assunção 3 do BRIEF do OS-012). CONSEQUÊNCIA, declarada e não escondida: os dois parâmetros de leito continuam `transcrito` em docs/DIMENSIONAMENTO.md -- digitados à mão, com o texto da norma nunca lido por este repositório -- e todo déficit do Eixo 1 é aritmética contra eles. || RE-MEDIDO POR NAVEGADOR EM 2026-09-20 (OS-058, route step R0.2): erro HTTP 0 -- navegação não produziu resposta -- Page.goto: net::ERR_CONNECTION_RESET at https://bvsms.saude.gov.br/. Ver navegador_sondas."
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "Série SIH de internações, permanência e óbitos, duas leituras",
+      "tabela": "sih_serie_tabnet",
+      "estado": "acquired",
+      "motivo": "TABNET SIH, sih/cnv/nrdf.def (por local de residência) e sih/cnv/nidf.def (por local de internação), competência de ATENDIMENTO, 2008-2024. As duas leituras são um PAR e nenhuma é apresentada como A figura: a razão entre elas é o PIr, e para o DF -- núcleo de uma RIDE -- não é termo de arredondamento. Taxa de ocupação NÃO é adquirida porque o SIH não a publica: o select Incremento oferece quinze valores e ocupação não está entre eles."
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "Cruzamento especialidade do leito x faixa etária (Quadro 38)",
+      "tabela": "sih_microdados_espec_faixa",
+      "estado": "acquired",
+      "motivo": "Microdados reduzidos do SIH (arquivos RD), ftp.datasus.gov.br, DF, 2008-2024. Foi preciso uma SEGUNDA interface porque o TABNET não faz esse cruzamento: medido em 2026-08-29 contra as quatro famílias .def do SIH que este projeto alcança -- as faixas etárias estão nos formulários de Morbidade Hospitalar e o grupo de procedimento nos de Procedimentos Hospitalares, arquivos diferentes, e o TABNET só cruza dimensões dentro de um mesmo arquivo (sih_probes_def). O registro da AIH carrega ESPEC e IDADE na mesma linha. O agregado é conferido contra a contagem que o próprio TABNET publica para a mesma competência (sih_reconciliacao)."
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "Tabela de códigos MARCA_UTI (uso e duração de UTI, SIH)",
+      "tabela": "sih_uti_marca_tabela",
+      "estado": "acquired",
+      "motivo": "ftp.datasus.gov.br/dissemin/publicos/SIHSUS/200801_/Auxiliar/TAB_SIH.zip, membro CNV/MARCAUTI.CNV -- 17 códigos, cada um com o rótulo do publicador e a categoria derivada (adulto/pediátrica/neonatal/outra/sem_uti). 'infantil' é lido como 'pediátrica' -- um passo interpretativo próprio, marcado linha a linha em interpretativo/motivo_interpretativo, nunca silencioso. Códigos de queimados, coronariano, doador e 'mais de um tipo' NUNCA são somados às três categorias principais. sih_uti_serie agrega internações e dias de UTI por ano x código, 2008-2024, pela competência do PRÓPRIO ARQUIVO (não a de atendimento que sih_serie_tabnet usa); janeiro de 2024 reproduz os números do issue #77 (19.950 internações, 1.494 com UTI, 14.228 dias de UTI, média 9,52). UTI_INT_TO (dias em unidade INTERMEDIÁRIA, um nível de cuidado diferente) é medido e deliberadamente excluído da agregação."
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "População sem plano de saúde por faixa etária, DF (Quadro 37, ANS)",
+      "tabela": "ans_cobertura_faixa_df",
+      "estado": "acquired",
+      "motivo": "dadosabertos.ans.gov.br, FTP/Base_de_dados/Microdados/dados_dbc/beneficiarios/taxa_cobertura/ -- beneficiários e população de referência por FAIXA_ETAR, DF (SG_UF=DF, CD_MUNICIP=530010). A correspondência código->faixa etária é TRANSCRITA (ans.py): o dicionário que a tornaria extraída vive em arquivos_auxiliares_de_tab_def_e_cnv/, um caminho que a decisão do operador de 2026-09-05 não cobre. anstabnet-ds.ans.gov.br (a interface de consulta) não resolve em DNS -- NXDOMAIN, medido -- e não foi tentado de novo."
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "Série histórica de leitos SUS por estabelecimento e categoria (CNES)",
+      "tabela": "leitos_serie_cnes",
+      "estado": "acquired",
+      "motivo": "ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/LT -- um arquivo por ano (2005-2026, competência âncora escolhida ao vivo pela listagem FTP, 2026 forçado a 07 para comparar com a competência que acquire.COMPETENCIA lê). Q1 (layout drift): a leitura é ESTRITA -- uma competência cujas colunas não casam é recusada, nunca coagida, e publica em leitos_serie_ausencias; toda leitura, aprovada ou não, fica em leitos_serie_layout. UTI adulto/pediátrica/neonatal nunca somadas (critério (d))."
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "Capacidade de hemodiálise por ano, serviço e equipamento (CNES)",
+      "tabela": "hemodialise_capacidade",
+      "estado": "acquired",
+      "motivo": "ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/SR e /EQ -- serviço renal (004 em S_CLASSEA até 200802, 130 em S_CLASSEN desde 200803; a BRIEF do OS-063 cita '103', que não existe) e equipamento de diálise (0677 até 2024, 1001-1004 desde 2025), códigos lidos de TAB_CNES.zip, DF, por competência âncora de cada ano (2005-2026)."
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "População estimada do DF por ano, para leitos/1.000 habitantes",
+      "tabela": "populacao_df_serie",
+      "estado": "acquired",
+      "motivo": "IBGE SIDRA, tabela 6579 (População residente estimada), DF, 2001-2026. Medido, não suposto: 2007/2010/2022/2023 não têm linha nesta tabela -- IBGE publica esses anos por outra via (Censo/PNADC) -- e os quatro publicam-se como lacuna em leitos_serie_ausencias, nunca interpolados; um buraco novo faz esta função levantar em vez de absorver em silêncio."
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "Leitos de internação por especialidade detalhada, DF (CNES)",
+      "tabela": "leitos_internacao",
+      "estado": "acquired",
+      "motivo": "TABNET CNES, cnes/cnv/leiintdf.def, arquivo ltdf<competência>.dbf -- quantidade existente e quantidade SUS por especialidade detalhada, competência de acquire.COMPETENCIA. Uma falha de transporte TABNET degrada esta necessidade a `absent` nomeado (tabelas_degradadas), nunca a um `acquired` silencioso sobre uma tabela vazia."
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "Leitos complementares (UTI e afins) por tipo, DF (CNES)",
+      "tabela": "leitos_complementares",
+      "estado": "acquired",
+      "motivo": "TABNET CNES, cnes/cnv/leiutidf.def, arquivo ludf<competência>.dbf -- quantidade existente e quantidade SUS por tipo de leito complementar, mesma competência e mesma disposição de degrade da linha acima."
+    },
+    {
+      "eixo": "eixo1",
+      "necessidade": "Equipamentos por tipo, DF, inclusive diálise (CNES)",
+      "tabela": "equipamentos",
+      "estado": "acquired",
+      "motivo": "TABNET CNES, cnes/cnv/equipodf.def, arquivo eqdf<competência>.dbf -- quantidade existente e em uso por tipo de equipamento, mesma competência e mesma disposição de degrade das duas linhas acima."
+    },
+    {
+      "eixo": "bloco8",
+      "necessidade": "Registro de atos da CLDF sobre saúde (requerimentos de informação, convocações, PLs/PDLs, CPIs)",
+      "tabela": "cldf_proposicoes_saude",
+      "estado": "acquired",
+      "motivo": "OS-065, rota R3.1: ple.cl.df.gov.br respondeu -- /pleservico/api/public/proposicao/filter, tema=24 (classificação própria da CLDF, Q1), paginação verificada contra o totalElements do servidor (critério (b)). dadosabertos.cl.df.gov.br, a outra metade do host registrado por OS-057 para a mesma necessidade, mede `connection reset by peer` (medido 2026-09-13) -- não impede a aquisição acima, que não depende dele; nenhum dado foi lido de lá."
+    },
+    {
+      "eixo": "bloco8",
+      "necessidade": "TCDF, Relatório Analítico e Parecer Prévio (julgamento de contas do DF)",
+      "tabela": "tcdf_contas_governo",
+      "estado": "acquired",
+      "motivo": "OS-083 (2026-09-19): ALCANÇADA, e a CA que faltava não era uma, eram DUAS. www2.tc.df.gov.br serve `CN=*.tc.df.gov.br` emitido pela Let's Encrypt `YE1` sem mandar esse intermediário, e o YE1 é ele próprio emitido por `CN=ISRG Root YE`, raiz que o armazém de confiança deste host não carrega -- por isso buscar só o YE1 ainda falhava, agora com `unable to get ISSUER certificate` em vez de `local issuer`. As duas URIs vêm do AIA publicado pelos PRÓPRIOS certificados; ye1.i.lencr.org e ye.i.lencr.org foram registrados ANTES da primeira requisição a cada um. NADA foi desabilitado: verificação e checagem de nome continuam ligadas, e o host é alcançado como um navegador o alcança. SOMENTE ÍNDICE -- URL e título, uma linha por exercício de 2004 a 2024, nenhum parecer parseado, que é todo o escopo que o registro de acesso concede. O ano e o relator vêm do TÍTULO, nunca da URL: os slugs mentem (\"Contas de Governo 2022\" mora em /contas-de-governo-2020-3-2-2/). || A MEDIÇÃO SUPERSEDIDA, citada e não apagada: \"MEDIDO 2026-09-13 (OS-065): www2.tc.df.gov.br falha na camada TLS -- `[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate`, a mesma medição de OS-057 dois dias antes, reconfirmada e não corrigida por uma CA nova -- este registro de acesso já é uma lista fechada de duas autoridades (crt.sectigo.com, secure.globalsign.com) e nenhuma delas resolve esta cadeia; adicionar uma terceira sem concessão do operador não é um ato desta sessão. `alcance_hosts` já mede este host a cada execução (HOSTS, bloco8) -- nenhuma acquisition function nova foi registrada para não passar por BEST_EFFORT/transporte(), que trata falha de TLS como fato permanente da fonte, não como flap (ver eixos.transporte). Nenhuma tabela existe para esta necessidade, o mesmo padrão de sinj.df.gov.br/bvsms.saude.gov.br.\" A parte que estava certa continua certa: falha de TLS não é flap. A parte que estava errada era supor que a lista de CAs não pudesse crescer -- ela cresceu por concessão do operador, lendo o AIA dos próprios certificados, e não por um ato da sessão que encontrou o obstáculo."
+    },
+    {
+      "eixo": "bloco8",
+      "necessidade": "Julgamento de contas do DF pela CLDF (resultado de cada parecer)",
+      "tabela": "cldf_contas_governo",
+      "estado": "acquired",
+      "motivo": "OS-083 (2026-09-19): alcançada por OUTRA interface do MESMO publicador, não por um host novo -- ple.cl.df.gov.br, a API de proposições que o OS-065 já usava para o tema saúde, filtrada por tipoProposicao=\"Projeto de Decreto Legislativo\" e classificada pela EMENTA do próprio publicador. É o decreto que aprova as contas que diz como a CLDF julgou. UMA LINHA POR EXERCÍCIO de 1990 a 2024, inclusive os exercícios SEM decreto (`estado=sem_pdl`) -- a omissão é o que este bloco mede, e descartá-la por falta de linha na fonte transformaria silêncio em ausência da pergunta. `natureza` separa APROVAR as contas de apenas ENCAMINHÁ-LAS. || dadosabertos.cl.df.gov.br continua em `Connection reset by peer`, a mesma medição de OS-057 e OS-065; `alcance_hosts` re-mede o host a cada execução, e nada foi lido de lá."
+    },
+    {
+      "eixo": "bloco7",
+      "necessidade": "Relatório Anual de Gestão (RAG), índice via DigiSUS Gestor",
+      "tabela": "promessas",
+      "estado": "acquired",
+      "motivo": "digisusgmp.saude.gov.br, v1.5/transparencia/downloads/list?co_fase=<n>&sg_uf=DF -- a API privada que o próprio bundle da SPA (transparencia.js) chama, achada por leitura do bundle e não adivinhada. co_fase enumera as gestões da DF (1..9 respondem, 10 em diante devolve corpo vazio -- o próprio sinal de parada do publicador). Só a esfera ESTADUAL (co_fase 3, 4, 7) carrega projetos RAG (co_projeto_tipo \"13\"); MUNICIPAL e FEDERAL, medidas, não carregam nenhum. Índice apenas: documentos_vigentes dá título, URL e data; o conteúdo do relatório não é parseado."
+    },
+    {
+      "eixo": "bloco7",
+      "necessidade": "Plano de Governo 2018 e 2022, índice via TSE DivulgaCand",
+      "tabela": "promessas",
+      "estado": "blocked",
+      "motivo": "divulgacandcontas.tse.jus.br devolveu HTTP 403 -- corpo \"Access Denied\" de um nó Akamai (errors.edgesuite.net). O QUE ESTA FUNÇÃO RE-MEDE A CADA EXECUÇÃO É A RAIZ, e só ela: `promessas` sonda f\"{TSE_HOST}/\" e mais nada (OS-066, achado 3 da revisão independente -- esta célula afirmava também /candidaturas/oficial/<ano>/ como medido a cada execução, o que não era verdade). O caminho por ano foi medido UMA VEZ, em 2026-09-13, com o mesmo 403; a raiz é que é a medição viva, e não é uma suposição herdada de sessão anterior. A BRIEF do OS-066 proíbe Playwright para esta tabela e nenhum controle foi contornado. As duas linhas (2018, 2022) publicam-se como lacuna. ESTADO DECLARADO MANTIDO EM 2026-09-20: a funcao `promessas` serve 2 necessidades e devolveu `acquired`, o que fala pela que ela alcancou e nao por esta."
+    },
+    {
+      "eixo": "bloco7",
+      "necessidade": "Cadeia orçamentária aprovado/autorizado/empenhado/liquidado/pago da função Saúde, 2017-2025, com diferença calculada entre estágios",
+      "tabela": "orcamento_saude_etapas",
+      "estado": "acquired",
+      "motivo": "Transparência GDF, mesma família /despesa/grafico/funcao/<ano> que orcamento_saude já lê para liquidado. empenhado e pago foram MEDIDOS hoje contra esse endpoint (e contra v2/dashboard-execucao-despesa/listar) e nenhum dos dois é publicado por função -- lacuna, não suposição. aprovado e autorizado dependem de SINJ-DF, que o OS-058 mediu com TLS recusado por um navegador real (certificado de *.tc.df.gov.br) -- lacuna com a mesma disciplina. A diferença entre dois estágios é lacuna sempre que um dos dois é lacuna, nunca zero (_diferenca_estagio, com teste de regressão próprio)."
+    },
+    {
+      "eixo": "bloco7",
+      "necessidade": "Metas do PDS 2024-2027 (meta, alvo, alcançado, página-fonte)",
+      "tabela": "pds_metas",
+      "estado": "acquired",
+      "motivo": "dados/raw/PDS-2024-2027.pdf, capítulo \"Metas Indicadores\" (páginas 203-209, achadas pela legenda e não fixadas de memória). A segmentação de LINHA é 100% confiável (69/69, âncora de quatro valores-ano precedida por uma linha de polaridade) mas a separação de CAMPO dentro da linha não é: o fluxo de texto do pypdf não preserva a ordem de coluna da tabela, e uma extração declarada com verificação de zero anomalias mede contaminação real -- cabeçalhos estruturais e códigos de órgão vazando para o texto da meta. Por Assumption 2 da BRIEF do OS-066, o layout declarado que ainda produz ruído publica uma lacuna, não uma extração de qualidade inferior."
+    },
+    {
+      "eixo": "bloco1",
+      "necessidade": "Óbitos por causa, faixa etária e residência, DF (SIM)",
+      "tabela": "sim_obitos",
+      "estado": "acquired",
+      "motivo": "DATASUS ftp.datasus.gov.br/dissemin/publicos/SIM/CID10/DORES/, DF, 2000-2024. OS-060's Q1(b) structural read of the DODF2023 layout found NO sub-municipal residence field (no bairro/distrito/CEP) -- so this is DF-level, never RA-level, per the operator's resolution. Confronted against TABNET's own sim/cnv/obt10uf.def (sim_reconciliacao)."
+    },
+    {
+      "eixo": "bloco1",
+      "necessidade": "Nascidos vivos, baixo peso e pré-natal, DF (SINASC)",
+      "tabela": "sinasc_serie",
+      "estado": "acquired",
+      "motivo": "DATASUS ftp.datasus.gov.br/dissemin/publicos/SINASC/1996_/Dados/DNRES/, DF, 2000-2024. Same Q1(b) measurement as SIM above -- DNDF2023's layout carries no sub-municipal field either. Confronted against TABNET's own sinasc/cnv/nvuf.def (sinasc_reconciliacao)."
+    },
+    {
+      "eixo": "bloco3",
+      "necessidade": "Histórico de equipes CNES (ESF/ACS) por competência, DF",
+      "tabela": "",
+      "estado": "pending",
+      "motivo": "Escopo de ftp.datasus.gov.br alargado em 2026-09-08 (OS-057) para a árvore histórica /dissemin/publicos/CNES/, DF apenas -- distinta da base CNES em bloco (cnes.datasus.gov.br) já registrada. Nenhum arquivo foi buscado. Aquisição é a rota R1.3 (Bloco 3), OS-063."
+    },
+    {
+      "eixo": "bloco1",
+      "necessidade": "Cobertura vacinal por imunobiológico e ano, DF (SI-PNI)",
+      "tabela": "cobertura_vacinal",
+      "estado": "acquired",
+      "motivo": "tabnet.datasus.gov.br/cgi/dhdat.exe?bd_pni/cpnibr.def, DF, 2000-2022. Nove caminhos .def sob o gerador tabcgi.exe/pni/cnv/ (a forma que tabnet.py já sabe conduzir) responderam \"Arquivo DEF não encontrado\" -- esse módulo está aposentado. O caminho vivo é de OUTRA geração do TABNET (dhdat.exe/webtabx.exe, sem select Arquivos), achado na documentação pública do próprio publicador e confirmado ao vivo -- nenhum host novo foi alcançado. MEDIDO, não suposto: a própria página diz que a base cobre 1994-2022 e que 2023 em diante mudou para infoms.saude.gov.br -- um host que este projeto não registra e não alcança (critério (g) da BRIEF). Ver pni.py para a ressalva do publicador sobre não usar a linha/coluna Total."
+    },
+    {
+      "eixo": "bloco1",
+      "necessidade": "Esperança de vida ao nascer, DF (IBGE SIDRA, tabela 7362)",
+      "tabela": "esperanca_vida",
+      "estado": "acquired",
+      "motivo": "apisidra.ibge.gov.br, tabela 7362 (Projeção da População), DF, 2000-2024. MEDIDO, não assumido do nome da tabela: p/all responde um único período vazio (2018, \"..\"); a série ano a ano vive na classificação 1933 (\"Ano\"), lida via c1933/all -- achado pelo próprio metadado do publicador (servicodados.ibge.gov.br/api/v3/agregados/7362/metadados). É uma PROJEÇÃO demográfica, não uma contagem anual; a série publicada pelo IBGE vai até 2060 e este projeto para em 2024, o mesmo teto do resto do Bloco 1. OS-078, 2026-09-16: lida agora na interface v3 de servicodados.ibge.gov.br (agregado 7362, variável 2503, c2/6794, c1933), com apisidra.ibge.gov.br como segunda tentativa desde que este passou a responder um desafio da Cloudflare. O valor do ano 2000 medido na interface nova -- 72,25 -- é idêntico ao que esta tabela já publicava."
+    },
+    {
+      "eixo": "bloco1",
+      "necessidade": "População residente estimada por faixa etária, DF (IBGE SIDRA, tabela 6579)",
+      "tabela": "",
+      "estado": "pending",
+      "motivo": "Escopo de apisidra.ibge.gov.br alargado em 2026-09-08 (OS-057), mesma concessão da esperança de vida acima. Nenhuma consulta foi feita. CORRIGIDO em OS-060: a BRIEF aprovada de OS-060 (Bloco 1) NÃO lista esta tabela entre as seis que declara -- só sim_obitos, sinasc_serie, mortalidade_infantil, mortalidade_materna, cobertura_vacinal e esperanca_vida. Esta linha atribuía a aquisição a OS-060 antes de a BRIEF existir; permanece pending para uma OS futura, e não é adquirida aqui -- \"no scope beyond it\" é a instrução desta sessão."
+    },
+    {
+      "eixo": "bloco5",
+      "necessidade": "Painel de folha de pagamento por carreira, SES-DF",
+      "tabela": "remuneracao_ses_carreira",
+      "estado": "acquired",
+      "motivo": "OS-083 (2026-09-19): alcançada por OUTRA interface do MESMO publicador, e a diferença é de ordem de grandeza. O operador apontou a seção de downloads do portal, e ela serve um ZIP POR ANO com os arquivos mensais inteiros -- 14 requisições para 2013-2026 (Q1 do OS-083, verbatim \"All 14 years\"), contra as ~10⁵ que o endpoint per-servidor exigiria sob o limite de taxa do publicador. NENHUM NOME É PUBLICADO: o arquivo traz uma linha por pessoa com nome completo, e cada linha desta tabela é um agregado por (ano, mês, cargo) com o número de servidores atrás dela. `cargo` é o rótulo do próprio publicador, sem renomeação, e os dois booleanos derivados ao lado (`e_medico`, `e_residente`) têm a regra publicada no `source` da tabela -- deliberadamente mais largos que um startswith(\"MEDICO\"), que perderia \"MED. DA FAMILIA E COMUNIDADE\" (573 servidores em 07/2026) e somaria residentes como médicos de carreira. `e_residente` marca RESIDÊNCIA, não residência MÉDICA: casa também os cargos de residência de odontologia e das demais profissões da saúde que o publicador rotula com RES., e isso é literalmente o que a regra publicada diz -- registrado aqui porque a revisão independente do OS-083 apontou que esta frase enquadrava a marca como médica. Quem quiser só a residência médica cruza `e_residente` com o próprio `cargo`, que vai na tabela sem renomeação. Conferência linha a linha em remuneracao_ses_reconciliacao. || O ESTADO SUPERSEDIDO, citado e não apagado, porque continua verdade sobre o endpoint que ele mediu: `blocked` -- \"MEDIDO em 2026-09-13 (OS-061): o host é www.transparencia.df.gov.br (pessoal_carreira já provava isso -- e agora cargos_vagos também lê o mesmo host --, e este OS confirma que é ele quem serve o painel per-servidor, não um achado pendente). A medição não é a ausência: o endpoint per-servidor responde 200 e devolve totalElements=262.422 para uma única competência (todo servidor do DF, todo órgão); todo parâmetro de filtro testado (codigoOrgao, orgao, nomeOrgao, codigoOrgaoArtificial) é silenciosamente ignorado -- a resposta é idêntica com e sem cada um; e o publicador limita a taxa em RateLimit-Limit: 10/min e X-RateLimit-Limit-Hour: 250. Uma única competência custaria ~1.750 requisições (~7h); a série mensal 2017-2025 que a BRIEF pede custaria ~10⁵ requisições e várias semanas de relógio contra um serviço público. O operador decidiu, 2026-09-13, por menu nativo, verbatim: \"Decline pay for this OS\" -- opção (c) de quatro oferecidas. `blocked` e não `pending`: o endpoint FOI alcançado e medido, e o que o impede -- limite de taxa do publicador, não a falta de um escopo -- é um controle, o mesmo sentido que a linha `busca-medicos` do CFM já usa para reCAPTCHA. remuneracao_carreira e remuneracao_real NÃO são construídas por este OS; nenhuma série parcial ou amostrada é publicada sob outro nome.\" A decisão do OS-061 de recusar aquele endpoint continua certa; o que ela não tinha era um segundo caminho para o mesmo dado."
+    },
+    {
+      "eixo": "bloco5",
+      "necessidade": "Cargos efetivos (vagos e ocupados) por carreira de saúde, SES-DF",
+      "tabela": "cargos_vagos",
+      "estado": "acquired",
+      "motivo": "www.transparencia.df.gov.br, /api/servidor/cargo-efetivo -- achado pelo método transparencia_gdf (lidas as chamadas do próprio painel cargos-vagos-e-ocupados), não um padrão de URL adivinhado. Ao contrário do painel de folha per-servidor acima, este endpoint não tem limite de taxa e devolve o quadro inteiro (até 150 linhas) em uma única página por competência (OS-061)."
+    },
+    {
+      "eixo": "bloco5",
+      "necessidade": "Concursos e nomeações para carreiras de saúde, SES-DF (índice DODF)",
+      "tabela": "",
+      "estado": "pending",
+      "motivo": "Nenhuma linha do registro de acesso nomeia um host de Diário Oficial do DF -- nem `dodf.df.gov.br` nem qualquer variante aparecem em CLAUDE.md, e o guia de entry points verificados também não cita um. O padrão que esta necessidade seguiria é o de hcb_contratos (índice: URL, título, data, número de DODF), mas esse padrão pressupõe um host que este projeto ainda não tem linha para alcançar. Por critério (h) desta BRIEF (\"NO HOST IS REACHED WITHOUT ITS ROW... this OS does not widen it in flight\"), a necessidade fica `pending` em vez de `absent`: `absent` exigiria uma sonda medida contra o próprio host, e sondar um host não registrado é exatamente o que deny-by-default proíbe. Alargar o registro de acesso é decisão do operador, para uma OS futura (OS-061)."
+    }
+  ]
+}

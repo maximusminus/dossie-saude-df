@@ -1,0 +1,76 @@
+{
+  "dados": [
+    {
+      "ano": "2017",
+      "orcamento_aprovado": 29489604079.0,
+      "despesa_autorizada": 29287320190.75,
+      "valor_empenhado": 23461520368.05,
+      "valor_liquidado": 22295062981.4,
+      "valor_pago": 20752494467.37
+    },
+    {
+      "ano": "2018",
+      "orcamento_aprovado": 29584308201.15,
+      "despesa_autorizada": 26604148484.46,
+      "valor_empenhado": 24837308242.98,
+      "valor_liquidado": 23756702114.86,
+      "valor_pago": 22397235712.37
+    },
+    {
+      "ano": "2019",
+      "orcamento_aprovado": 28508506841.33,
+      "despesa_autorizada": 28235444599.02,
+      "valor_empenhado": 24920216955.58,
+      "valor_liquidado": 23554230700.97,
+      "valor_pago": 22677757505.83
+    },
+    {
+      "ano": "2020",
+      "orcamento_aprovado": 29500376660.62,
+      "despesa_autorizada": 29093873923.37,
+      "valor_empenhado": 25395113308.82,
+      "valor_liquidado": 24229806300.03,
+      "valor_pago": 23083600779.8
+    },
+    {
+      "ano": "2021",
+      "orcamento_aprovado": 34406552356.0,
+      "despesa_autorizada": 34197391858.5,
+      "valor_empenhado": 29529448394.84,
+      "valor_liquidado": 27737225156.43,
+      "valor_pago": 26507100816.39
+    },
+    {
+      "ano": "2022",
+      "orcamento_aprovado": 37901387822.8,
+      "despesa_autorizada": 37740262670.49,
+      "valor_empenhado": 33947296845.17,
+      "valor_liquidado": 32518512096.87,
+      "valor_pago": 31123750680.37
+    },
+    {
+      "ano": "2023",
+      "orcamento_aprovado": 39362355521.83,
+      "despesa_autorizada": 38553809557.93,
+      "valor_empenhado": 33897143557.68,
+      "valor_liquidado": 32103703423.28,
+      "valor_pago": 30269557646.31
+    },
+    {
+      "ano": "2024",
+      "orcamento_aprovado": 46967599362.64,
+      "despesa_autorizada": 45234126064.86,
+      "valor_empenhado": 40544317416.36,
+      "valor_liquidado": 38623813388.41,
+      "valor_pago": 36654035937.81
+    },
+    {
+      "ano": "2025",
+      "orcamento_aprovado": 48832745074.0,
+      "despesa_autorizada": 48303780329.41,
+      "valor_empenhado": 44096962992.15,
+      "valor_liquidado": 42370260061.43,
+      "valor_pago": 40071056408.56
+    }
+  ]
+}

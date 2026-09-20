@@ -1,0 +1,180 @@
+{
+  "source": "Confronto entre o agregado dos microdados DNDF e a contagem que o Portal MS dadosabertos.saude.gov.br publica (arquivo nacional do SINASC, PORTAL ONLY desde OS-080 -- nenhuma requisição a tabnet.datasus.gov.br para esta leitura) para o mesmo ano, mesma leitura (por residência da mãe)",
+  "dados": [
+    {
+      "ano": "2000",
+      "nascidos_microdados": 47991,
+      "nascidos_tabnet": 47991,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2001",
+      "nascidos_microdados": 46891,
+      "nascidos_tabnet": 46891,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2002",
+      "nascidos_microdados": 45799,
+      "nascidos_tabnet": 45799,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2003",
+      "nascidos_microdados": 46097,
+      "nascidos_tabnet": 46097,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2004",
+      "nascidos_microdados": 45593,
+      "nascidos_tabnet": 45593,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2005",
+      "nascidos_microdados": 45917,
+      "nascidos_tabnet": 45917,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2006",
+      "nascidos_microdados": 45152,
+      "nascidos_tabnet": 45152,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2007",
+      "nascidos_microdados": 44098,
+      "nascidos_tabnet": 44098,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2008",
+      "nascidos_microdados": 44173,
+      "nascidos_tabnet": 44173,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2009",
+      "nascidos_microdados": 43932,
+      "nascidos_tabnet": 43932,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2010",
+      "nascidos_microdados": 44251,
+      "nascidos_tabnet": 44251,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2011",
+      "nascidos_microdados": 43465,
+      "nascidos_tabnet": 43465,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2012",
+      "nascidos_microdados": 43497,
+      "nascidos_tabnet": 43497,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2013",
+      "nascidos_microdados": 44530,
+      "nascidos_tabnet": 44530,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2014",
+      "nascidos_microdados": 44721,
+      "nascidos_tabnet": 44721,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2015",
+      "nascidos_microdados": 46122,
+      "nascidos_tabnet": 46120,
+      "diferenca": 2,
+      "confere": "revisão"
+    },
+    {
+      "ano": "2016",
+      "nascidos_microdados": 43340,
+      "nascidos_tabnet": 43340,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2017",
+      "nascidos_microdados": 44568,
+      "nascidos_tabnet": 44568,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2018",
+      "nascidos_microdados": 44195,
+      "nascidos_tabnet": 44195,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2019",
+      "nascidos_microdados": 42422,
+      "nascidos_tabnet": 42422,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2020",
+      "nascidos_microdados": 39361,
+      "nascidos_tabnet": 39361,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2021",
+      "nascidos_microdados": 38035,
+      "nascidos_tabnet": 38035,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2022",
+      "nascidos_microdados": 35928,
+      "nascidos_tabnet": 35928,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2023",
+      "nascidos_microdados": 35551,
+      "nascidos_tabnet": 35551,
+      "diferenca": 0,
+      "confere": "sim"
+    },
+    {
+      "ano": "2024",
+      "nascidos_microdados": 33282,
+      "nascidos_tabnet": 33282,
+      "diferenca": 0,
+      "confere": "sim"
+    }
+  ]
+}

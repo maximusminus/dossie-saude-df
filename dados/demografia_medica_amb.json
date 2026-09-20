@@ -1,0 +1,269 @@
+{
+  "source": "Demografia Médica no Brasil 2025 (Scheffer et al.; AMB/CFM/USP), Tabela 3, p. 49, extraída por pypdf a cada execução -- nenhum número é digitado à mão. Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+  "dados": [
+    {
+      "uf": "Região Norte",
+      "medicos": 31706,
+      "populacao": 18669345,
+      "razao_por_1000": 1.7,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Rondônia",
+      "medicos": 4618,
+      "populacao": 1746227,
+      "razao_por_1000": 2.64,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Acre",
+      "medicos": 1600,
+      "populacao": 880631,
+      "razao_por_1000": 1.82,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Amazonas",
+      "medicos": 6749,
+      "populacao": 4281209,
+      "razao_por_1000": 1.58,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Roraima",
+      "medicos": 1271,
+      "populacao": 716793,
+      "razao_por_1000": 1.77,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Pará",
+      "medicos": 11865,
+      "populacao": 8664306,
+      "razao_por_1000": 1.37,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Amapá",
+      "medicos": 1176,
+      "populacao": 802837,
+      "razao_por_1000": 1.46,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Tocantins",
+      "medicos": 4427,
+      "populacao": 1577342,
+      "razao_por_1000": 2.81,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Região Nordeste",
+      "medicos": 126402,
+      "populacao": 57112096,
+      "razao_por_1000": 2.21,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Maranhão",
+      "medicos": 8871,
+      "populacao": 7010960,
+      "razao_por_1000": 1.27,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Piauí",
+      "medicos": 8377,
+      "populacao": 3375646,
+      "razao_por_1000": 2.48,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Ceará",
+      "medicos": 20782,
+      "populacao": 9233656,
+      "razao_por_1000": 2.25,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Rio Grande do Norte",
+      "medicos": 8343,
+      "populacao": 3446071,
+      "razao_por_1000": 2.42,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Paraíba",
+      "medicos": 12825,
+      "populacao": 4145040,
+      "razao_por_1000": 3.09,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Pernambuco",
+      "medicos": 23030,
+      "populacao": 9539029,
+      "razao_por_1000": 2.41,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Alagoas",
+      "medicos": 7419,
+      "populacao": 3220104,
+      "razao_por_1000": 2.3,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Sergipe",
+      "medicos": 6022,
+      "populacao": 2291077,
+      "razao_por_1000": 2.63,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Bahia",
+      "medicos": 30733,
+      "populacao": 14850513,
+      "razao_por_1000": 2.07,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Região Sudeste",
+      "medicos": 334105,
+      "populacao": 88617693,
+      "razao_por_1000": 3.77,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Minas Gerais",
+      "medicos": 74431,
+      "populacao": 21322691,
+      "razao_por_1000": 3.49,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Espírito Santo",
+      "medicos": 14564,
+      "populacao": 4102129,
+      "razao_por_1000": 3.55,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Rio de Janeiro",
+      "medicos": 72388,
+      "populacao": 17219679,
+      "razao_por_1000": 4.2,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "São Paulo",
+      "medicos": 172721,
+      "populacao": 45973194,
+      "razao_por_1000": 3.76,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Região Sul",
+      "medicos": 103028,
+      "populacao": 31113021,
+      "razao_por_1000": 3.31,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Paraná",
+      "medicos": 38552,
+      "populacao": 11824665,
+      "razao_por_1000": 3.26,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Santa Catarina",
+      "medicos": 25692,
+      "populacao": 8058441,
+      "razao_por_1000": 3.19,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Rio Grande do Sul",
+      "medicos": 38784,
+      "populacao": 11229915,
+      "razao_por_1000": 3.45,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Região Centro-Oeste",
+      "medicos": 58705,
+      "populacao": 17071595,
+      "razao_por_1000": 3.44,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Mato Grosso do Sul",
+      "medicos": 8816,
+      "populacao": 2901895,
+      "razao_por_1000": 3.04,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Mato Grosso",
+      "medicos": 9141,
+      "populacao": 3836399,
+      "razao_por_1000": 2.38,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Goiás",
+      "medicos": 22019,
+      "populacao": 7350483,
+      "razao_por_1000": 3.0,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Distrito Federal",
+      "medicos": 18729,
+      "populacao": 2982818,
+      "razao_por_1000": 6.28,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    },
+    {
+      "uf": "Brasil",
+      "medicos": 653945,
+      "populacao": 212583750,
+      "razao_por_1000": 3.08,
+      "nota": "Razão de REGISTROS médicos por 1.000 habitantes, não de médicos: a própria nota da Tabela 3 diz que dos 597.428 indivíduos médicos do país em 31/12/2024, 56.517 estavam registrados em mais de uma UF, somando 653.945 inscrições. O total da tabela é de inscrições.",
+      "fonte": "https://amb.org.br/wp-content/uploads/2025/04/DEMOGRAFIA-MEDICA-DO-BRASIL-2025_versao-online.pdf (Tabela 3, p. 49, sha256 75260cee59fe08af…)"
+    }
+  ]
+}

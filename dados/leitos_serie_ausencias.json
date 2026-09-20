@@ -1,0 +1,25 @@
+{
+  "source": "Anos ausentes da árvore histórica do CNES (LT/SR/EQ) ou de IBGE SIDRA tabela 6579, e competências recusadas pelo Q1 (âncora estrita) -- cada um com o motivo registrado, nunca interpolado",
+  "dados": [
+    {
+      "fonte": "IBGE SIDRA tabela 6579",
+      "ano": "2007",
+      "motivo": "IBGE não publica população estimada para este ano nesta tabela (ano censitário ou de referência da PNADC, publicado sob outra tabela) -- medido, não interpolado"
+    },
+    {
+      "fonte": "IBGE SIDRA tabela 6579",
+      "ano": "2010",
+      "motivo": "IBGE não publica população estimada para este ano nesta tabela (ano censitário ou de referência da PNADC, publicado sob outra tabela) -- medido, não interpolado"
+    },
+    {
+      "fonte": "IBGE SIDRA tabela 6579",
+      "ano": "2022",
+      "motivo": "IBGE não publica população estimada para este ano nesta tabela (ano censitário ou de referência da PNADC, publicado sob outra tabela) -- medido, não interpolado"
+    },
+    {
+      "fonte": "IBGE SIDRA tabela 6579",
+      "ano": "2023",
+      "motivo": "IBGE não publica população estimada para este ano nesta tabela (ano censitário ou de referência da PNADC, publicado sob outra tabela) -- medido, não interpolado"
+    }
+  ]
+}

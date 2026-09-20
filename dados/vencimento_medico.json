@@ -1,0 +1,2579 @@
+{
+  "source": "Vencimento básico da carreira médica do DF, por vigência, classe, padrão e jornada. DUAS fontes e um buraco entre elas: Anexos II e III da Lei 3.323/2004 (SINJ-DF) e a tabela de escalonamento vertical da SEEC-DF em vigor desde 07/2025 (https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf). Vigências publicadas nesta execução: 2004-03, 2005-03, 2005-09, 2006-03, 2006-07, 2025-07. O intervalo entre a última do primeiro grupo e a do segundo é LACUNA NOMEADA, nunca interpolado -- ver vencimento_medico_lacunas.",
+  "dados": [
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "V",
+      "vencimento_basico": 1046.49,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "V",
+      "vencimento_basico": 1109.23,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "V",
+      "vencimento_basico": 1222.22,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "V",
+      "vencimento_basico": 1367.16,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "V",
+      "vencimento_basico": 1508.48,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "IV",
+      "vencimento_basico": 1042.33,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "IV",
+      "vencimento_basico": 1104.81,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "IV",
+      "vencimento_basico": 1214.93,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "IV",
+      "vencimento_basico": 1356.98,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "IV",
+      "vencimento_basico": 1493.55,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "III",
+      "vencimento_basico": 1038.17,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "III",
+      "vencimento_basico": 1100.41,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "III",
+      "vencimento_basico": 1207.69,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "III",
+      "vencimento_basico": 1346.88,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "III",
+      "vencimento_basico": 1478.76,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "II",
+      "vencimento_basico": 1034.04,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "II",
+      "vencimento_basico": 1096.03,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "II",
+      "vencimento_basico": 1200.48,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "II",
+      "vencimento_basico": 1336.85,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "II",
+      "vencimento_basico": 1464.12,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "I",
+      "vencimento_basico": 1029.92,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "I",
+      "vencimento_basico": 1091.66,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "I",
+      "vencimento_basico": 1193.32,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "I",
+      "vencimento_basico": 1326.9,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "I",
+      "vencimento_basico": 1449.62,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 971.62,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 1018.34,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 1113.17,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 1206.27,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 1305.97,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "V",
+      "vencimento_basico": 967.75,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "V",
+      "vencimento_basico": 1014.28,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "V",
+      "vencimento_basico": 1106.54,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "V",
+      "vencimento_basico": 1197.29,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "V",
+      "vencimento_basico": 1293.04,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 963.89,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 1010.24,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 1099.94,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 1188.38,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 1280.23,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "III",
+      "vencimento_basico": 960.05,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "III",
+      "vencimento_basico": 1006.22,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "III",
+      "vencimento_basico": 1093.38,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "III",
+      "vencimento_basico": 1179.53,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "III",
+      "vencimento_basico": 1267.56,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "II",
+      "vencimento_basico": 956.23,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "II",
+      "vencimento_basico": 1002.21,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "II",
+      "vencimento_basico": 1086.85,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "II",
+      "vencimento_basico": 1170.75,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "II",
+      "vencimento_basico": 1255.01,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "I",
+      "vencimento_basico": 952.42,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "I",
+      "vencimento_basico": 998.22,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "I",
+      "vencimento_basico": 1080.37,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "I",
+      "vencimento_basico": 1162.04,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "I",
+      "vencimento_basico": 1242.58,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "VII",
+      "vencimento_basico": 898.51,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "VII",
+      "vencimento_basico": 931.17,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "VII",
+      "vencimento_basico": 1007.81,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "VII",
+      "vencimento_basico": 1056.4,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "VII",
+      "vencimento_basico": 1119.44,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "VI",
+      "vencimento_basico": 894.93,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "VI",
+      "vencimento_basico": 927.46,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "VI",
+      "vencimento_basico": 1001.8,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "VI",
+      "vencimento_basico": 1048.53,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "VI",
+      "vencimento_basico": 1108.36,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "V",
+      "vencimento_basico": 891.36,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "V",
+      "vencimento_basico": 923.77,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "V",
+      "vencimento_basico": 995.82,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "V",
+      "vencimento_basico": 1040.73,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "V",
+      "vencimento_basico": 1097.39,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "IV",
+      "vencimento_basico": 887.81,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "IV",
+      "vencimento_basico": 920.09,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "IV",
+      "vencimento_basico": 989.88,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "IV",
+      "vencimento_basico": 1032.98,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "IV",
+      "vencimento_basico": 1086.52,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "III",
+      "vencimento_basico": 884.27,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "III",
+      "vencimento_basico": 916.42,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "III",
+      "vencimento_basico": 983.98,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "III",
+      "vencimento_basico": 1025.29,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "III",
+      "vencimento_basico": 1075.76,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "II",
+      "vencimento_basico": 880.75,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "II",
+      "vencimento_basico": 912.77,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "II",
+      "vencimento_basico": 978.11,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "II",
+      "vencimento_basico": 1017.66,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "II",
+      "vencimento_basico": 1065.11,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "I",
+      "vencimento_basico": 877.24,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "I",
+      "vencimento_basico": 909.13,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "I",
+      "vencimento_basico": 972.28,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "I",
+      "vencimento_basico": 1010.08,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "I",
+      "vencimento_basico": 1054.57,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "VII",
+      "vencimento_basico": 827.59,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "VII",
+      "vencimento_basico": 848.07,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "VII",
+      "vencimento_basico": 906.98,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "VII",
+      "vencimento_basico": 918.26,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "VII",
+      "vencimento_basico": 950.06,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 824.29,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 844.69,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 901.57,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 911.42,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 940.65,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "V",
+      "vencimento_basico": 821.01,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "V",
+      "vencimento_basico": 841.33,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "V",
+      "vencimento_basico": 896.19,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "V",
+      "vencimento_basico": 904.64,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "V",
+      "vencimento_basico": 931.34,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 817.73,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 837.98,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 890.84,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 897.9,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 922.12,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "III",
+      "vencimento_basico": 814.48,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "III",
+      "vencimento_basico": 834.64,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "III",
+      "vencimento_basico": 885.53,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "III",
+      "vencimento_basico": 891.22,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "III",
+      "vencimento_basico": 912.99,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "II",
+      "vencimento_basico": 811.23,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "II",
+      "vencimento_basico": 831.31,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "II",
+      "vencimento_basico": 880.25,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "II",
+      "vencimento_basico": 884.59,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "II",
+      "vencimento_basico": 903.95,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "I",
+      "vencimento_basico": 808.0,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "I",
+      "vencimento_basico": 828.0,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "I",
+      "vencimento_basico": 875.0,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "I",
+      "vencimento_basico": 878.0,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "I",
+      "vencimento_basico": 895.0,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "V",
+      "vencimento_basico": 2092.99,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "V",
+      "vencimento_basico": 2218.47,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "V",
+      "vencimento_basico": 2444.44,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "V",
+      "vencimento_basico": 2734.32,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "V",
+      "vencimento_basico": 3016.97,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "IV",
+      "vencimento_basico": 2084.65,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "IV",
+      "vencimento_basico": 2209.63,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "IV",
+      "vencimento_basico": 2429.86,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "IV",
+      "vencimento_basico": 2713.96,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "IV",
+      "vencimento_basico": 2987.1,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "III",
+      "vencimento_basico": 2076.34,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "III",
+      "vencimento_basico": 2200.82,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "III",
+      "vencimento_basico": 2415.37,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "III",
+      "vencimento_basico": 2693.76,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "III",
+      "vencimento_basico": 2957.52,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "II",
+      "vencimento_basico": 2068.07,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "II",
+      "vencimento_basico": 2192.06,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "II",
+      "vencimento_basico": 2400.97,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "II",
+      "vencimento_basico": 2673.71,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "II",
+      "vencimento_basico": 2928.24,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "I",
+      "vencimento_basico": 2059.83,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "I",
+      "vencimento_basico": 2183.32,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "I",
+      "vencimento_basico": 2386.65,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "I",
+      "vencimento_basico": 2653.8,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "I",
+      "vencimento_basico": 2899.25,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 1943.24,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 2036.68,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 2226.35,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 2412.55,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 2611.93,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "V",
+      "vencimento_basico": 1935.5,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "V",
+      "vencimento_basico": 2028.57,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "V",
+      "vencimento_basico": 2213.07,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "V",
+      "vencimento_basico": 2394.59,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "V",
+      "vencimento_basico": 2586.07,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 1927.79,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 2020.48,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 2199.87,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 2376.76,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 2560.47,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "III",
+      "vencimento_basico": 1920.11,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "III",
+      "vencimento_basico": 2012.44,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "III",
+      "vencimento_basico": 2186.75,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "III",
+      "vencimento_basico": 2359.07,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "III",
+      "vencimento_basico": 2535.12,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "II",
+      "vencimento_basico": 1912.46,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "II",
+      "vencimento_basico": 2004.42,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "II",
+      "vencimento_basico": 2173.71,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "II",
+      "vencimento_basico": 2341.51,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "II",
+      "vencimento_basico": 2510.02,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "I",
+      "vencimento_basico": 1904.84,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "I",
+      "vencimento_basico": 1996.43,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "I",
+      "vencimento_basico": 2160.74,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "I",
+      "vencimento_basico": 2324.08,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "I",
+      "vencimento_basico": 2485.17,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "VII",
+      "vencimento_basico": 1797.02,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "VII",
+      "vencimento_basico": 1862.34,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "VII",
+      "vencimento_basico": 2015.62,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "VII",
+      "vencimento_basico": 2112.8,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "VII",
+      "vencimento_basico": 2238.89,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "VI",
+      "vencimento_basico": 1789.86,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "VI",
+      "vencimento_basico": 1854.92,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "VI",
+      "vencimento_basico": 2003.6,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "VI",
+      "vencimento_basico": 2097.07,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "VI",
+      "vencimento_basico": 2216.72,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "V",
+      "vencimento_basico": 1782.72,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "V",
+      "vencimento_basico": 1847.53,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "V",
+      "vencimento_basico": 1991.65,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "V",
+      "vencimento_basico": 2081.46,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "V",
+      "vencimento_basico": 2194.77,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "IV",
+      "vencimento_basico": 1775.62,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "IV",
+      "vencimento_basico": 1840.17,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "IV",
+      "vencimento_basico": 1979.77,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "IV",
+      "vencimento_basico": 2065.96,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "IV",
+      "vencimento_basico": 2173.04,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "III",
+      "vencimento_basico": 1768.55,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "III",
+      "vencimento_basico": 1832.84,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "III",
+      "vencimento_basico": 1967.96,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "III",
+      "vencimento_basico": 2050.58,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "III",
+      "vencimento_basico": 2151.53,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "II",
+      "vencimento_basico": 1761.5,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "II",
+      "vencimento_basico": 1825.54,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "II",
+      "vencimento_basico": 1956.22,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "II",
+      "vencimento_basico": 2035.32,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "II",
+      "vencimento_basico": 2130.23,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "I",
+      "vencimento_basico": 1754.48,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "I",
+      "vencimento_basico": 1818.27,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "I",
+      "vencimento_basico": 1944.56,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "I",
+      "vencimento_basico": 2020.17,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "I",
+      "vencimento_basico": 2109.13,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "VII",
+      "vencimento_basico": 1655.17,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "VII",
+      "vencimento_basico": 1696.14,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "VII",
+      "vencimento_basico": 1813.95,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "VII",
+      "vencimento_basico": 1836.52,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "VII",
+      "vencimento_basico": 1900.12,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 1648.58,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 1689.39,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 1803.13,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 1822.85,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "VI",
+      "vencimento_basico": 1881.31,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "V",
+      "vencimento_basico": 1642.01,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "V",
+      "vencimento_basico": 1682.66,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "V",
+      "vencimento_basico": 1792.38,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "V",
+      "vencimento_basico": 1809.28,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "V",
+      "vencimento_basico": 1862.68,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 1635.47,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 1675.95,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 1781.69,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 1795.81,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 1844.24,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "III",
+      "vencimento_basico": 1628.95,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "III",
+      "vencimento_basico": 1669.27,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "III",
+      "vencimento_basico": 1771.06,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "III",
+      "vencimento_basico": 1782.44,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "III",
+      "vencimento_basico": 1825.98,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "II",
+      "vencimento_basico": 1622.46,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "II",
+      "vencimento_basico": 1662.62,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "II",
+      "vencimento_basico": 1760.5,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "II",
+      "vencimento_basico": 1769.17,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "II",
+      "vencimento_basico": 1807.9,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2004-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "I",
+      "vencimento_basico": 1616.0,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "I",
+      "vencimento_basico": 1656.0,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2005-09",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "I",
+      "vencimento_basico": 1750.0,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-03",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "I",
+      "vencimento_basico": 1756.0,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2006-07",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "I",
+      "vencimento_basico": 1790.0,
+      "norma": "Lei 3.323/2004",
+      "fonte": "SINJ-DF, Lei 3.323/2004, Anexos II e III (tabela do próprio texto da lei)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "IV",
+      "vencimento_basico": 9651.71,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "IV",
+      "vencimento_basico": 19303.43,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "III",
+      "vencimento_basico": 9556.14,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "III",
+      "vencimento_basico": 19112.29,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "II",
+      "vencimento_basico": 9461.52,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "II",
+      "vencimento_basico": 18923.06,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "ESPECIAL",
+      "padrao": "I",
+      "vencimento_basico": 9367.85,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "ESPECIAL",
+      "padrao": "I",
+      "vencimento_basico": 18735.72,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 9184.16,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 18368.34,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "III",
+      "vencimento_basico": 9093.23,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "III",
+      "vencimento_basico": 18186.47,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "II",
+      "vencimento_basico": 9003.2,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "II",
+      "vencimento_basico": 18006.42,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "PRIMEIRA",
+      "padrao": "I",
+      "vencimento_basico": 8914.07,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "PRIMEIRA",
+      "padrao": "I",
+      "vencimento_basico": 17828.15,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "V",
+      "vencimento_basico": 8739.27,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "V",
+      "vencimento_basico": 17478.56,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "IV",
+      "vencimento_basico": 8652.74,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "IV",
+      "vencimento_basico": 17305.5,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "III",
+      "vencimento_basico": 8567.07,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "III",
+      "vencimento_basico": 17134.16,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "II",
+      "vencimento_basico": 8482.25,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "II",
+      "vencimento_basico": 16964.51,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "SEGUNDA",
+      "padrao": "I",
+      "vencimento_basico": 8398.27,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "SEGUNDA",
+      "padrao": "I",
+      "vencimento_basico": 16796.55,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "V",
+      "vencimento_basico": 8233.6,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "V",
+      "vencimento_basico": 16467.21,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 8152.07,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "IV",
+      "vencimento_basico": 16304.16,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "III",
+      "vencimento_basico": 8071.37,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "III",
+      "vencimento_basico": 16142.74,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "II",
+      "vencimento_basico": 7991.44,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "II",
+      "vencimento_basico": 15982.9,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 20,
+      "classe": "TERCEIRA",
+      "padrao": "I",
+      "vencimento_basico": 7912.32,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    },
+    {
+      "vigencia": "2025-07",
+      "jornada_horas": 40,
+      "classe": "TERCEIRA",
+      "padrao": "I",
+      "vencimento_basico": 15824.66,
+      "norma": "Lei 7.253/2023 (tabela SEEC-DF, vigência 07/2025)",
+      "fonte": "https://www.economia.df.gov.br/documents/d/seec/023-medica-pdf (sha256 c0b837a929a39700…)"
+    }
+  ]
+}

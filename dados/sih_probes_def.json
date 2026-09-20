@@ -1,0 +1,41 @@
+{
+  "source": "Leitura dos quatro formulários .def do SIH que este projeto alcança para o DF, feita contra os formulários ao vivo",
+  "dados": [
+    {
+      "def": "sih/cnv/nrdf.def",
+      "descricao": "Morbidade Hospitalar, por local de residência",
+      "dimensoes": 23,
+      "tem_faixa_etaria": "sim",
+      "tem_especialidade_leito": "não",
+      "tem_grupo_procedimento": "não",
+      "observacao": "Nenhum .def do SIH oferece especialidade do leito. As faixas etárias estão em ['sih/cnv/nidf.def', 'sih/cnv/nrdf.def'] e o grupo de procedimento em ['sih/cnv/qidf.def', 'sih/cnv/qrdf.def']: dimensões em arquivos diferentes, e o TABNET só cruza dimensões dentro de um mesmo arquivo. É por isso que o cruzamento do Quadro 38 vem dos microdados."
+    },
+    {
+      "def": "sih/cnv/nidf.def",
+      "descricao": "Morbidade Hospitalar, por local de internação",
+      "dimensoes": 23,
+      "tem_faixa_etaria": "sim",
+      "tem_especialidade_leito": "não",
+      "tem_grupo_procedimento": "não",
+      "observacao": "Nenhum .def do SIH oferece especialidade do leito. As faixas etárias estão em ['sih/cnv/nidf.def', 'sih/cnv/nrdf.def'] e o grupo de procedimento em ['sih/cnv/qidf.def', 'sih/cnv/qrdf.def']: dimensões em arquivos diferentes, e o TABNET só cruza dimensões dentro de um mesmo arquivo. É por isso que o cruzamento do Quadro 38 vem dos microdados."
+    },
+    {
+      "def": "sih/cnv/qrdf.def",
+      "descricao": "Procedimentos Hospitalares, por local de residência",
+      "dimensoes": 31,
+      "tem_faixa_etaria": "não",
+      "tem_especialidade_leito": "não",
+      "tem_grupo_procedimento": "sim",
+      "observacao": "Nenhum .def do SIH oferece especialidade do leito. As faixas etárias estão em ['sih/cnv/nidf.def', 'sih/cnv/nrdf.def'] e o grupo de procedimento em ['sih/cnv/qidf.def', 'sih/cnv/qrdf.def']: dimensões em arquivos diferentes, e o TABNET só cruza dimensões dentro de um mesmo arquivo. É por isso que o cruzamento do Quadro 38 vem dos microdados."
+    },
+    {
+      "def": "sih/cnv/qidf.def",
+      "descricao": "Procedimentos Hospitalares, por local de internação",
+      "dimensoes": 31,
+      "tem_faixa_etaria": "não",
+      "tem_especialidade_leito": "não",
+      "tem_grupo_procedimento": "sim",
+      "observacao": "Nenhum .def do SIH oferece especialidade do leito. As faixas etárias estão em ['sih/cnv/nidf.def', 'sih/cnv/nrdf.def'] e o grupo de procedimento em ['sih/cnv/qidf.def', 'sih/cnv/qrdf.def']: dimensões em arquivos diferentes, e o TABNET só cruza dimensões dentro de um mesmo arquivo. É por isso que o cruzamento do Quadro 38 vem dos microdados."
+    }
+  ]
+}

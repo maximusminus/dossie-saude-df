@@ -1,0 +1,180 @@
+{
+  "dados": [
+    {
+      "eixo": "eixo2",
+      "host": "igesdf.org.br",
+      "url": "https://igesdf.org.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200",
+      "cadeia_reparada": "sim"
+    },
+    {
+      "eixo": "eixo2",
+      "host": "www.hcb.org.br",
+      "url": "https://www.hcb.org.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "eixo3",
+      "host": "emec.mec.gov.br",
+      "url": "https://emec.mec.gov.br/",
+      "camada": "blocked",
+      "detalhe": "HTTP 403",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "eixo3",
+      "host": "download.inep.gov.br",
+      "url": "https://download.inep.gov.br/",
+      "camada": "http",
+      "detalhe": "ConnectionResetError: [Errno 104] Connection reset by peer -- DNS, TCP e TLS completam; a recusa esta acima deles",
+      "cadeia_reparada": "sim"
+    },
+    {
+      "eixo": "eixo3",
+      "host": "crmdf.org.br",
+      "url": "https://crmdf.org.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "eixo3",
+      "host": "observatorio.cfm.org.br",
+      "url": "https://observatorio.cfm.org.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200 apos redirecionamento para https://portal.cfm.org.br/",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "eixo3",
+      "host": "portal.cfm.org.br",
+      "url": "https://portal.cfm.org.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "eixo3",
+      "host": "demografia.cfm.org.br",
+      "url": "https://demografia.cfm.org.br/",
+      "camada": "http",
+      "detalhe": "HTTP 404",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "eixo3",
+      "host": "www.escs.edu.br",
+      "url": "https://www.escs.edu.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "eixo4",
+      "host": "sinj.df.gov.br",
+      "url": "https://sinj.df.gov.br/",
+      "camada": "tls",
+      "detalhe": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "eixo0",
+      "host": "egestoraps.saude.gov.br",
+      "url": "https://egestoraps.saude.gov.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "eixo1",
+      "host": "bvsms.saude.gov.br",
+      "url": "https://bvsms.saude.gov.br/",
+      "camada": "http",
+      "detalhe": "RemoteDisconnected: Remote end closed connection without response -- DNS, TCP e TLS completam; a recusa esta acima deles",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "bloco8",
+      "host": "ple.cl.df.gov.br",
+      "url": "https://ple.cl.df.gov.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "bloco8",
+      "host": "dadosabertos.cl.df.gov.br",
+      "url": "https://dadosabertos.cl.df.gov.br/",
+      "camada": "tls",
+      "detalhe": "ConnectionResetError: [Errno 104] Connection reset by peer -- ConnectionResetError: [Errno 104] Connection reset by peer",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "bloco8",
+      "host": "www2.tc.df.gov.br",
+      "url": "https://www2.tc.df.gov.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200",
+      "cadeia_reparada": "sim"
+    },
+    {
+      "eixo": "bloco7",
+      "host": "divulgacandcontas.tse.jus.br",
+      "url": "https://divulgacandcontas.tse.jus.br/",
+      "camada": "blocked",
+      "detalhe": "HTTP 403",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "bloco7",
+      "host": "digisusgmp.saude.gov.br",
+      "url": "https://digisusgmp.saude.gov.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "bloco1",
+      "host": "ftp.datasus.gov.br",
+      "url": "ftp://ftp.datasus.gov.br/dissemin/publicos/",
+      "camada": "ok",
+      "detalhe": "login anonimo ok, pwd=/",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "bloco1",
+      "host": "apisidra.ibge.gov.br",
+      "url": "https://apisidra.ibge.gov.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "bloco1",
+      "host": "servicodados.ibge.gov.br",
+      "url": "https://servicodados.ibge.gov.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200 apos redirecionamento para https://servicodados.ibge.gov.br/api/docs/",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "bloco5",
+      "host": "info.saude.df.gov.br",
+      "url": "https://info.saude.df.gov.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200",
+      "cadeia_reparada": "nao"
+    },
+    {
+      "eixo": "bloco5",
+      "host": "www.transparencia.df.gov.br",
+      "url": "https://www.transparencia.df.gov.br/",
+      "camada": "ok",
+      "detalhe": "HTTP 200",
+      "cadeia_reparada": "nao"
+    }
+  ]
+}

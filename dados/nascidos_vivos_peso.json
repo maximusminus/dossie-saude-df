@@ -1,0 +1,49 @@
+{
+  "fonte": "Portal MS dadosabertos.saude.gov.br, dataset 'sistema-de-informacao-sobre-nascidos-vivos-sinasc', arquivo nacional do ano 2024, por residência da mãe (CODMUNRES=53), DF -- faixas de peso ao nascer transcritas de TABNET sinasc/cnv/nvdf.def (OS-080: lido do portal, não mais do TABNET)",
+  "ano": "2024",
+  "total_declarado": {
+    "nascidos_vivos": 33282
+  },
+  "dados": [
+    {
+      "faixa_peso": "Menos de 500g",
+      "nascidos_vivos": 77,
+      "ano": "2024"
+    },
+    {
+      "faixa_peso": "500 a 999g",
+      "nascidos_vivos": 212,
+      "ano": "2024"
+    },
+    {
+      "faixa_peso": "1000 a 1499 g",
+      "nascidos_vivos": 260,
+      "ano": "2024"
+    },
+    {
+      "faixa_peso": "1500 a 2499 g",
+      "nascidos_vivos": 3068,
+      "ano": "2024"
+    },
+    {
+      "faixa_peso": "2500 a 2999 g",
+      "nascidos_vivos": 8600,
+      "ano": "2024"
+    },
+    {
+      "faixa_peso": "3000 a 3999 g",
+      "nascidos_vivos": 20099,
+      "ano": "2024"
+    },
+    {
+      "faixa_peso": "4000g e mais",
+      "nascidos_vivos": 966,
+      "ano": "2024"
+    },
+    {
+      "faixa_peso": "Ignorado",
+      "nascidos_vivos": 0,
+      "ano": "2024"
+    }
+  ]
+}

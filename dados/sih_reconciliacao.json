@@ -1,0 +1,1638 @@
+{
+  "revisados": 10,
+  "source": "Confronto entre os microdados RD agregados aqui e a contagem que o próprio TABNET publica para a mesma competência e a mesma leitura. Uma divergência é registrada linha a linha",
+  "dados": [
+    {
+      "competencia": "200801",
+      "internacoes_microdados": 14525,
+      "internacoes_tabnet": 14525,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200802",
+      "internacoes_microdados": 14212,
+      "internacoes_tabnet": 14212,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200803",
+      "internacoes_microdados": 16576,
+      "internacoes_tabnet": 16576,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200804",
+      "internacoes_microdados": 16585,
+      "internacoes_tabnet": 16585,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200805",
+      "internacoes_microdados": 15974,
+      "internacoes_tabnet": 15974,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200806",
+      "internacoes_microdados": 15376,
+      "internacoes_tabnet": 15376,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200807",
+      "internacoes_microdados": 15099,
+      "internacoes_tabnet": 15099,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200808",
+      "internacoes_microdados": 15648,
+      "internacoes_tabnet": 15648,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200809",
+      "internacoes_microdados": 16040,
+      "internacoes_tabnet": 16040,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200810",
+      "internacoes_microdados": 15609,
+      "internacoes_tabnet": 15609,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200811",
+      "internacoes_microdados": 15052,
+      "internacoes_tabnet": 15052,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200812",
+      "internacoes_microdados": 14155,
+      "internacoes_tabnet": 14155,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200901",
+      "internacoes_microdados": 14664,
+      "internacoes_tabnet": 14664,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200902",
+      "internacoes_microdados": 14030,
+      "internacoes_tabnet": 14030,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200903",
+      "internacoes_microdados": 17386,
+      "internacoes_tabnet": 17386,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200904",
+      "internacoes_microdados": 16146,
+      "internacoes_tabnet": 16146,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200905",
+      "internacoes_microdados": 16175,
+      "internacoes_tabnet": 16175,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200906",
+      "internacoes_microdados": 15313,
+      "internacoes_tabnet": 15313,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200907",
+      "internacoes_microdados": 15674,
+      "internacoes_tabnet": 15674,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200908",
+      "internacoes_microdados": 15833,
+      "internacoes_tabnet": 15833,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200909",
+      "internacoes_microdados": 15794,
+      "internacoes_tabnet": 15794,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200910",
+      "internacoes_microdados": 14766,
+      "internacoes_tabnet": 14766,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200911",
+      "internacoes_microdados": 14992,
+      "internacoes_tabnet": 14992,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "200912",
+      "internacoes_microdados": 14371,
+      "internacoes_tabnet": 14371,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201001",
+      "internacoes_microdados": 15434,
+      "internacoes_tabnet": 15434,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201002",
+      "internacoes_microdados": 14567,
+      "internacoes_tabnet": 14567,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201003",
+      "internacoes_microdados": 17306,
+      "internacoes_tabnet": 17306,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201004",
+      "internacoes_microdados": 16292,
+      "internacoes_tabnet": 16292,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201005",
+      "internacoes_microdados": 16707,
+      "internacoes_tabnet": 16707,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201006",
+      "internacoes_microdados": 14863,
+      "internacoes_tabnet": 14863,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201007",
+      "internacoes_microdados": 15301,
+      "internacoes_tabnet": 15301,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201008",
+      "internacoes_microdados": 16281,
+      "internacoes_tabnet": 16281,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201009",
+      "internacoes_microdados": 15900,
+      "internacoes_tabnet": 15900,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201010",
+      "internacoes_microdados": 15454,
+      "internacoes_tabnet": 15454,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201011",
+      "internacoes_microdados": 14697,
+      "internacoes_tabnet": 14697,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201012",
+      "internacoes_microdados": 14093,
+      "internacoes_tabnet": 14093,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201101",
+      "internacoes_microdados": 15321,
+      "internacoes_tabnet": 15321,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201102",
+      "internacoes_microdados": 15093,
+      "internacoes_tabnet": 15093,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201103",
+      "internacoes_microdados": 16675,
+      "internacoes_tabnet": 16675,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201104",
+      "internacoes_microdados": 16468,
+      "internacoes_tabnet": 16468,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201105",
+      "internacoes_microdados": 16519,
+      "internacoes_tabnet": 16519,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201106",
+      "internacoes_microdados": 15286,
+      "internacoes_tabnet": 15286,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201107",
+      "internacoes_microdados": 15199,
+      "internacoes_tabnet": 15199,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201108",
+      "internacoes_microdados": 16510,
+      "internacoes_tabnet": 16510,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201109",
+      "internacoes_microdados": 15795,
+      "internacoes_tabnet": 15795,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201110",
+      "internacoes_microdados": 15388,
+      "internacoes_tabnet": 15388,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201111",
+      "internacoes_microdados": 15213,
+      "internacoes_tabnet": 15213,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201112",
+      "internacoes_microdados": 14322,
+      "internacoes_tabnet": 14322,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201201",
+      "internacoes_microdados": 15390,
+      "internacoes_tabnet": 15390,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201202",
+      "internacoes_microdados": 14774,
+      "internacoes_tabnet": 14774,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201203",
+      "internacoes_microdados": 16407,
+      "internacoes_tabnet": 16407,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201204",
+      "internacoes_microdados": 15850,
+      "internacoes_tabnet": 15850,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201205",
+      "internacoes_microdados": 16605,
+      "internacoes_tabnet": 16605,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201206",
+      "internacoes_microdados": 15543,
+      "internacoes_tabnet": 15543,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201207",
+      "internacoes_microdados": 15753,
+      "internacoes_tabnet": 15753,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201208",
+      "internacoes_microdados": 16262,
+      "internacoes_tabnet": 16262,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201209",
+      "internacoes_microdados": 15394,
+      "internacoes_tabnet": 15394,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201210",
+      "internacoes_microdados": 16422,
+      "internacoes_tabnet": 16422,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201211",
+      "internacoes_microdados": 14267,
+      "internacoes_tabnet": 14267,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201212",
+      "internacoes_microdados": 14561,
+      "internacoes_tabnet": 14561,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201301",
+      "internacoes_microdados": 15584,
+      "internacoes_tabnet": 15584,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201302",
+      "internacoes_microdados": 14411,
+      "internacoes_tabnet": 14411,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201303",
+      "internacoes_microdados": 16515,
+      "internacoes_tabnet": 16515,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201304",
+      "internacoes_microdados": 17238,
+      "internacoes_tabnet": 17238,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201305",
+      "internacoes_microdados": 16483,
+      "internacoes_tabnet": 16483,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201306",
+      "internacoes_microdados": 15579,
+      "internacoes_tabnet": 15579,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201307",
+      "internacoes_microdados": 16034,
+      "internacoes_tabnet": 16034,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201308",
+      "internacoes_microdados": 16038,
+      "internacoes_tabnet": 16038,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201309",
+      "internacoes_microdados": 15563,
+      "internacoes_tabnet": 15563,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201310",
+      "internacoes_microdados": 15904,
+      "internacoes_tabnet": 15904,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201311",
+      "internacoes_microdados": 13951,
+      "internacoes_tabnet": 13951,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201312",
+      "internacoes_microdados": 13897,
+      "internacoes_tabnet": 13897,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201401",
+      "internacoes_microdados": 14731,
+      "internacoes_tabnet": 14731,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201402",
+      "internacoes_microdados": 14553,
+      "internacoes_tabnet": 14553,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201403",
+      "internacoes_microdados": 15985,
+      "internacoes_tabnet": 15985,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201404",
+      "internacoes_microdados": 15984,
+      "internacoes_tabnet": 15984,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201405",
+      "internacoes_microdados": 16208,
+      "internacoes_tabnet": 16208,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201406",
+      "internacoes_microdados": 14863,
+      "internacoes_tabnet": 14863,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201407",
+      "internacoes_microdados": 15397,
+      "internacoes_tabnet": 15397,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201408",
+      "internacoes_microdados": 14949,
+      "internacoes_tabnet": 14949,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201409",
+      "internacoes_microdados": 14903,
+      "internacoes_tabnet": 14903,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201410",
+      "internacoes_microdados": 14852,
+      "internacoes_tabnet": 14852,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201411",
+      "internacoes_microdados": 13938,
+      "internacoes_tabnet": 13938,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201412",
+      "internacoes_microdados": 13096,
+      "internacoes_tabnet": 13096,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201501",
+      "internacoes_microdados": 13379,
+      "internacoes_tabnet": 13379,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201502",
+      "internacoes_microdados": 12577,
+      "internacoes_tabnet": 12577,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201503",
+      "internacoes_microdados": 15473,
+      "internacoes_tabnet": 15473,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201504",
+      "internacoes_microdados": 15840,
+      "internacoes_tabnet": 15840,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201505",
+      "internacoes_microdados": 15513,
+      "internacoes_tabnet": 15513,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201506",
+      "internacoes_microdados": 14266,
+      "internacoes_tabnet": 14266,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201507",
+      "internacoes_microdados": 13976,
+      "internacoes_tabnet": 13976,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201508",
+      "internacoes_microdados": 13908,
+      "internacoes_tabnet": 13908,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201509",
+      "internacoes_microdados": 13590,
+      "internacoes_tabnet": 13590,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201510",
+      "internacoes_microdados": 12823,
+      "internacoes_tabnet": 12823,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201511",
+      "internacoes_microdados": 13129,
+      "internacoes_tabnet": 13129,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201512",
+      "internacoes_microdados": 13338,
+      "internacoes_tabnet": 13338,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201601",
+      "internacoes_microdados": 14092,
+      "internacoes_tabnet": 14092,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201602",
+      "internacoes_microdados": 14148,
+      "internacoes_tabnet": 14148,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201603",
+      "internacoes_microdados": 16122,
+      "internacoes_tabnet": 16122,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201604",
+      "internacoes_microdados": 15722,
+      "internacoes_tabnet": 15722,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201605",
+      "internacoes_microdados": 16453,
+      "internacoes_tabnet": 16453,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201606",
+      "internacoes_microdados": 16227,
+      "internacoes_tabnet": 16227,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201607",
+      "internacoes_microdados": 15782,
+      "internacoes_tabnet": 15782,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201608",
+      "internacoes_microdados": 17019,
+      "internacoes_tabnet": 17019,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201609",
+      "internacoes_microdados": 16000,
+      "internacoes_tabnet": 16000,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201610",
+      "internacoes_microdados": 15856,
+      "internacoes_tabnet": 15856,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201611",
+      "internacoes_microdados": 14898,
+      "internacoes_tabnet": 14898,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201612",
+      "internacoes_microdados": 15573,
+      "internacoes_tabnet": 15573,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201701",
+      "internacoes_microdados": 16582,
+      "internacoes_tabnet": 16582,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201702",
+      "internacoes_microdados": 15818,
+      "internacoes_tabnet": 15818,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201703",
+      "internacoes_microdados": 19396,
+      "internacoes_tabnet": 19396,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201704",
+      "internacoes_microdados": 16986,
+      "internacoes_tabnet": 16986,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201705",
+      "internacoes_microdados": 15357,
+      "internacoes_tabnet": 15357,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201706",
+      "internacoes_microdados": 16987,
+      "internacoes_tabnet": 16987,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201707",
+      "internacoes_microdados": 15806,
+      "internacoes_tabnet": 15806,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201708",
+      "internacoes_microdados": 17143,
+      "internacoes_tabnet": 17143,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201709",
+      "internacoes_microdados": 16192,
+      "internacoes_tabnet": 16192,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201710",
+      "internacoes_microdados": 17063,
+      "internacoes_tabnet": 17063,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201711",
+      "internacoes_microdados": 15613,
+      "internacoes_tabnet": 15613,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201712",
+      "internacoes_microdados": 15472,
+      "internacoes_tabnet": 15472,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201801",
+      "internacoes_microdados": 16630,
+      "internacoes_tabnet": 16630,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201802",
+      "internacoes_microdados": 15458,
+      "internacoes_tabnet": 15458,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201803",
+      "internacoes_microdados": 18084,
+      "internacoes_tabnet": 18084,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201804",
+      "internacoes_microdados": 17561,
+      "internacoes_tabnet": 17561,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201805",
+      "internacoes_microdados": 18035,
+      "internacoes_tabnet": 18035,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201806",
+      "internacoes_microdados": 16899,
+      "internacoes_tabnet": 16899,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201807",
+      "internacoes_microdados": 17108,
+      "internacoes_tabnet": 17108,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201808",
+      "internacoes_microdados": 17576,
+      "internacoes_tabnet": 17576,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201809",
+      "internacoes_microdados": 17661,
+      "internacoes_tabnet": 17661,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201810",
+      "internacoes_microdados": 17534,
+      "internacoes_tabnet": 17534,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201811",
+      "internacoes_microdados": 17409,
+      "internacoes_tabnet": 17409,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201812",
+      "internacoes_microdados": 17158,
+      "internacoes_tabnet": 17158,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201901",
+      "internacoes_microdados": 18334,
+      "internacoes_tabnet": 18334,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201902",
+      "internacoes_microdados": 18045,
+      "internacoes_tabnet": 18045,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201903",
+      "internacoes_microdados": 19814,
+      "internacoes_tabnet": 19814,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201904",
+      "internacoes_microdados": 20498,
+      "internacoes_tabnet": 20498,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201905",
+      "internacoes_microdados": 20370,
+      "internacoes_tabnet": 20370,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201906",
+      "internacoes_microdados": 18496,
+      "internacoes_tabnet": 18496,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201907",
+      "internacoes_microdados": 19792,
+      "internacoes_tabnet": 19792,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201908",
+      "internacoes_microdados": 20342,
+      "internacoes_tabnet": 20342,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201909",
+      "internacoes_microdados": 19898,
+      "internacoes_tabnet": 19898,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201910",
+      "internacoes_microdados": 20198,
+      "internacoes_tabnet": 20198,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201911",
+      "internacoes_microdados": 17807,
+      "internacoes_tabnet": 17807,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "201912",
+      "internacoes_microdados": 17381,
+      "internacoes_tabnet": 17381,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202001",
+      "internacoes_microdados": 18316,
+      "internacoes_tabnet": 18316,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202002",
+      "internacoes_microdados": 17617,
+      "internacoes_tabnet": 17617,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202003",
+      "internacoes_microdados": 18055,
+      "internacoes_tabnet": 18055,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202004",
+      "internacoes_microdados": 15850,
+      "internacoes_tabnet": 15850,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202005",
+      "internacoes_microdados": 16648,
+      "internacoes_tabnet": 16648,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202006",
+      "internacoes_microdados": 16563,
+      "internacoes_tabnet": 16563,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202007",
+      "internacoes_microdados": 16931,
+      "internacoes_tabnet": 16931,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202008",
+      "internacoes_microdados": 17706,
+      "internacoes_tabnet": 17706,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202009",
+      "internacoes_microdados": 17613,
+      "internacoes_tabnet": 17613,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202010",
+      "internacoes_microdados": 18395,
+      "internacoes_tabnet": 18395,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202011",
+      "internacoes_microdados": 17260,
+      "internacoes_tabnet": 17260,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202012",
+      "internacoes_microdados": 17524,
+      "internacoes_tabnet": 17524,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202101",
+      "internacoes_microdados": 18738,
+      "internacoes_tabnet": 18738,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202102",
+      "internacoes_microdados": 18028,
+      "internacoes_tabnet": 18028,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202103",
+      "internacoes_microdados": 20986,
+      "internacoes_tabnet": 20986,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202104",
+      "internacoes_microdados": 19160,
+      "internacoes_tabnet": 19160,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202105",
+      "internacoes_microdados": 19983,
+      "internacoes_tabnet": 19983,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202106",
+      "internacoes_microdados": 18939,
+      "internacoes_tabnet": 18939,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202107",
+      "internacoes_microdados": 19147,
+      "internacoes_tabnet": 19147,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202108",
+      "internacoes_microdados": 19675,
+      "internacoes_tabnet": 19675,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202109",
+      "internacoes_microdados": 20197,
+      "internacoes_tabnet": 20197,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202110",
+      "internacoes_microdados": 19064,
+      "internacoes_tabnet": 19064,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202111",
+      "internacoes_microdados": 18629,
+      "internacoes_tabnet": 18629,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202112",
+      "internacoes_microdados": 19040,
+      "internacoes_tabnet": 19040,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202201",
+      "internacoes_microdados": 19762,
+      "internacoes_tabnet": 19762,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202202",
+      "internacoes_microdados": 17266,
+      "internacoes_tabnet": 17266,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202203",
+      "internacoes_microdados": 20394,
+      "internacoes_tabnet": 20394,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202204",
+      "internacoes_microdados": 19722,
+      "internacoes_tabnet": 19722,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202205",
+      "internacoes_microdados": 19889,
+      "internacoes_tabnet": 19889,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202206",
+      "internacoes_microdados": 18737,
+      "internacoes_tabnet": 18737,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202207",
+      "internacoes_microdados": 18510,
+      "internacoes_tabnet": 18510,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202208",
+      "internacoes_microdados": 20021,
+      "internacoes_tabnet": 20021,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202209",
+      "internacoes_microdados": 18446,
+      "internacoes_tabnet": 18446,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202210",
+      "internacoes_microdados": 18938,
+      "internacoes_tabnet": 18938,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202211",
+      "internacoes_microdados": 18359,
+      "internacoes_tabnet": 18359,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202212",
+      "internacoes_microdados": 17978,
+      "internacoes_tabnet": 17978,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202301",
+      "internacoes_microdados": 19777,
+      "internacoes_tabnet": 19777,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202302",
+      "internacoes_microdados": 17803,
+      "internacoes_tabnet": 17803,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202303",
+      "internacoes_microdados": 21082,
+      "internacoes_tabnet": 21082,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202304",
+      "internacoes_microdados": 19552,
+      "internacoes_tabnet": 19552,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202305",
+      "internacoes_microdados": 21231,
+      "internacoes_tabnet": 21231,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202306",
+      "internacoes_microdados": 19266,
+      "internacoes_tabnet": 19266,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202307",
+      "internacoes_microdados": 19730,
+      "internacoes_tabnet": 19730,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202308",
+      "internacoes_microdados": 21024,
+      "internacoes_tabnet": 21024,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202309",
+      "internacoes_microdados": 19584,
+      "internacoes_tabnet": 19582,
+      "diferenca": 2,
+      "confere": "revisão",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202310",
+      "internacoes_microdados": 19836,
+      "internacoes_tabnet": 19835,
+      "diferenca": 1,
+      "confere": "revisão",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202311",
+      "internacoes_microdados": 19079,
+      "internacoes_tabnet": 19079,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202312",
+      "internacoes_microdados": 18666,
+      "internacoes_tabnet": 18666,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202401",
+      "internacoes_microdados": 20424,
+      "internacoes_tabnet": 20423,
+      "diferenca": 1,
+      "confere": "revisão",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202402",
+      "internacoes_microdados": 20440,
+      "internacoes_tabnet": 20439,
+      "diferenca": 1,
+      "confere": "revisão",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202403",
+      "internacoes_microdados": 21894,
+      "internacoes_tabnet": 21893,
+      "diferenca": 1,
+      "confere": "revisão",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202404",
+      "internacoes_microdados": 21096,
+      "internacoes_tabnet": 21095,
+      "diferenca": 1,
+      "confere": "revisão",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202405",
+      "internacoes_microdados": 21134,
+      "internacoes_tabnet": 21134,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202406",
+      "internacoes_microdados": 19810,
+      "internacoes_tabnet": 19808,
+      "diferenca": 2,
+      "confere": "revisão",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202407",
+      "internacoes_microdados": 20973,
+      "internacoes_tabnet": 20970,
+      "diferenca": 3,
+      "confere": "revisão",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202408",
+      "internacoes_microdados": 21018,
+      "internacoes_tabnet": 21016,
+      "diferenca": 2,
+      "confere": "revisão",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202409",
+      "internacoes_microdados": 20438,
+      "internacoes_tabnet": 20434,
+      "diferenca": 4,
+      "confere": "revisão",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202410",
+      "internacoes_microdados": 19728,
+      "internacoes_tabnet": 19728,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202411",
+      "internacoes_microdados": 16337,
+      "internacoes_tabnet": 16337,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    },
+    {
+      "competencia": "202412",
+      "internacoes_microdados": 11169,
+      "internacoes_tabnet": 11169,
+      "diferenca": 0,
+      "confere": "sim",
+      "leitura": "internacao"
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "dados": [
+    {
+      "ano": "2017",
+      "mes": "12",
+      "carreira": "CONTRATO TEMPORARIO",
+      "servidores": 123018,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2017",
+      "mes": "12",
+      "carreira": "MAGISTERIO PUBLICO DO DF",
+      "servidores": 46692,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2017",
+      "mes": "12",
+      "carreira": "ASSISTENCIA PUBLICA A SAUDE",
+      "servidores": 31966,
+      "carreira_saude": "sim"
+    },
+    {
+      "ano": "2017",
+      "mes": "12",
+      "carreira": "ASSISTENCIA A EDUCACAO",
+      "servidores": 18304,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2017",
+      "mes": "12",
+      "carreira": "POLITICAS PUBLICAS E GESTAO GOVERNAMENTAL DO DF",
+      "servidores": 10377,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2018",
+      "mes": "12",
+      "carreira": "CONTRATO TEMPORARIO",
+      "servidores": 134592,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2018",
+      "mes": "12",
+      "carreira": "MAGISTERIO PUBLICO DO DF",
+      "servidores": 47815,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2018",
+      "mes": "12",
+      "carreira": "ASSISTENCIA PUBLICA A SAUDE",
+      "servidores": 33248,
+      "carreira_saude": "sim"
+    },
+    {
+      "ano": "2018",
+      "mes": "12",
+      "carreira": "ASSISTENCIA A EDUCACAO",
+      "servidores": 18422,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2018",
+      "mes": "12",
+      "carreira": "POLITICAS PUBLICAS E GESTAO GOVERNAMENTAL DO DF",
+      "servidores": 9912,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2019",
+      "mes": "12",
+      "carreira": "CONTRATO TEMPORARIO",
+      "servidores": 147381,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2019",
+      "mes": "12",
+      "carreira": "MAGISTERIO PUBLICO DO DF",
+      "servidores": 48068,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2019",
+      "mes": "12",
+      "carreira": "ASSISTENCIA PUBLICA A SAUDE",
+      "servidores": 32962,
+      "carreira_saude": "sim"
+    },
+    {
+      "ano": "2019",
+      "mes": "12",
+      "carreira": "ASSISTENCIA A EDUCACAO",
+      "servidores": 18351,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2019",
+      "mes": "12",
+      "carreira": "POLITICAS PUBLICAS E GESTAO GOVERNAMENTAL DO DF",
+      "servidores": 10757,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2020",
+      "mes": "12",
+      "carreira": "CONTRATO TEMPORARIO",
+      "servidores": 160429,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2020",
+      "mes": "12",
+      "carreira": "MAGISTERIO PUBLICO DO DF",
+      "servidores": 48636,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2020",
+      "mes": "12",
+      "carreira": "ASSISTENCIA PUBLICA A SAUDE",
+      "servidores": 32787,
+      "carreira_saude": "sim"
+    },
+    {
+      "ano": "2020",
+      "mes": "12",
+      "carreira": "ASSISTENCIA A EDUCACAO",
+      "servidores": 18078,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2020",
+      "mes": "12",
+      "carreira": "POLITICAS PUBLICAS E GESTAO GOVERNAMENTAL DO DF",
+      "servidores": 10626,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2021",
+      "mes": "12",
+      "carreira": "CONTRATO TEMPORARIO",
+      "servidores": 174943,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2021",
+      "mes": "12",
+      "carreira": "MAGISTERIO PUBLICO DO DF",
+      "servidores": 48567,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2021",
+      "mes": "12",
+      "carreira": "ASSISTENCIA A EDUCACAO",
+      "servidores": 18212,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2021",
+      "mes": "12",
+      "carreira": "TECNICA EM ENFERMAGEM",
+      "servidores": 14893,
+      "carreira_saude": "sim"
+    },
+    {
+      "ano": "2021",
+      "mes": "12",
+      "carreira": "GESTAO E ASSISTENCIA PUBLICA A SAUDE",
+      "servidores": 14000,
+      "carreira_saude": "sim"
+    },
+    {
+      "ano": "2022",
+      "mes": "12",
+      "carreira": "CONTRATO TEMPORARIO",
+      "servidores": 190191,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2022",
+      "mes": "12",
+      "carreira": "MAGISTERIO PUBLICO DO DF",
+      "servidores": 48301,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2022",
+      "mes": "12",
+      "carreira": "ASSISTENCIA A EDUCACAO",
+      "servidores": 18279,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2022",
+      "mes": "12",
+      "carreira": "TECNICA EM ENFERMAGEM",
+      "servidores": 14609,
+      "carreira_saude": "sim"
+    },
+    {
+      "ano": "2022",
+      "mes": "12",
+      "carreira": "POLITICAS PUBLICAS E GESTAO GOVERNAMENTAL DO DF",
+      "servidores": 13829,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2023",
+      "mes": "12",
+      "carreira": "CONTRATO TEMPORARIO",
+      "servidores": 207542,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2023",
+      "mes": "12",
+      "carreira": "MAGISTERIO PUBLICO DO DF",
+      "servidores": 48063,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2023",
+      "mes": "12",
+      "carreira": "ASSISTENCIA A EDUCACAO",
+      "servidores": 19960,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2023",
+      "mes": "12",
+      "carreira": "TECNICA EM ENFERMAGEM",
+      "servidores": 14464,
+      "carreira_saude": "sim"
+    },
+    {
+      "ano": "2023",
+      "mes": "12",
+      "carreira": "GESTAO E ASSISTENCIA PUBLICA A SAUDE",
+      "servidores": 13563,
+      "carreira_saude": "sim"
+    },
+    {
+      "ano": "2024",
+      "mes": "12",
+      "carreira": "MAGISTERIO PUBLICO DO DF",
+      "servidores": 51283,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2024",
+      "mes": "12",
+      "carreira": "POLITICAS PUBLICAS E GESTAO EDUCACIONAL",
+      "servidores": 19614,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2024",
+      "mes": "12",
+      "carreira": "CONTRATO TEMPORARIO",
+      "servidores": 19373,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2024",
+      "mes": "12",
+      "carreira": "TECNICA EM ENFERMAGEM",
+      "servidores": 14631,
+      "carreira_saude": "sim"
+    },
+    {
+      "ano": "2024",
+      "mes": "12",
+      "carreira": "ASSISTENCIA PUBLICA A SAUDE",
+      "servidores": 13347,
+      "carreira_saude": "sim"
+    },
+    {
+      "ano": "2025",
+      "mes": "12",
+      "carreira": "MAGISTERIO PUBLICO DO DF",
+      "servidores": 51013,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2025",
+      "mes": "12",
+      "carreira": "CONTRATO TEMPORARIO",
+      "servidores": 38311,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2025",
+      "mes": "12",
+      "carreira": "POLITICAS PUBLICAS E GESTAO EDUCACIONAL",
+      "servidores": 19296,
+      "carreira_saude": "nao"
+    },
+    {
+      "ano": "2025",
+      "mes": "12",
+      "carreira": "TECNICA EM ENFERMAGEM",
+      "servidores": 14546,
+      "carreira_saude": "sim"
+    },
+    {
+      "ano": "2025",
+      "mes": "12",
+      "carreira": "ASSISTENCIA PUBLICA A SAUDE",
+      "servidores": 13179,
+      "carreira_saude": "sim"
+    }
+  ]
+}

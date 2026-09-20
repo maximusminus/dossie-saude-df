@@ -1,0 +1,206 @@
+{
+  "formula": "taxa_por_mil = 1000 * óbitos de residentes do DF com menos de 1 ano de idade / nascidos vivos de mães residentes no DF, mesmo ano (SIM x SINASC)",
+  "source": "Derivado de sim_obitos e sinasc_serie deste projeto",
+  "dados": [
+    {
+      "ano": "2000",
+      "obitos_menor_1_ano": 691,
+      "nascidos_vivos": 47991,
+      "taxa_por_mil": 14.3985,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2001",
+      "obitos_menor_1_ano": 712,
+      "nascidos_vivos": 46891,
+      "taxa_por_mil": 15.1842,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2002",
+      "obitos_menor_1_ano": 625,
+      "nascidos_vivos": 45799,
+      "taxa_por_mil": 13.6466,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2003",
+      "obitos_menor_1_ano": 613,
+      "nascidos_vivos": 46097,
+      "taxa_por_mil": 13.298,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2004",
+      "obitos_menor_1_ano": 636,
+      "nascidos_vivos": 45593,
+      "taxa_por_mil": 13.9495,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2005",
+      "obitos_menor_1_ano": 626,
+      "nascidos_vivos": 45917,
+      "taxa_por_mil": 13.6333,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2006",
+      "obitos_menor_1_ano": 578,
+      "nascidos_vivos": 45152,
+      "taxa_por_mil": 12.8012,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2007",
+      "obitos_menor_1_ano": 489,
+      "nascidos_vivos": 44098,
+      "taxa_por_mil": 11.0889,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2008",
+      "obitos_menor_1_ano": 525,
+      "nascidos_vivos": 44173,
+      "taxa_por_mil": 11.8851,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2009",
+      "obitos_menor_1_ano": 522,
+      "nascidos_vivos": 43932,
+      "taxa_por_mil": 11.882,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2010",
+      "obitos_menor_1_ano": 559,
+      "nascidos_vivos": 44251,
+      "taxa_por_mil": 12.6325,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2011",
+      "obitos_menor_1_ano": 499,
+      "nascidos_vivos": 43465,
+      "taxa_por_mil": 11.4805,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2012",
+      "obitos_menor_1_ano": 506,
+      "nascidos_vivos": 43497,
+      "taxa_por_mil": 11.633,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2013",
+      "obitos_menor_1_ano": 567,
+      "nascidos_vivos": 44530,
+      "taxa_por_mil": 12.733,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2014",
+      "obitos_menor_1_ano": 510,
+      "nascidos_vivos": 44721,
+      "taxa_por_mil": 11.404,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2015",
+      "obitos_menor_1_ano": 488,
+      "nascidos_vivos": 46122,
+      "taxa_por_mil": 10.5806,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2016",
+      "obitos_menor_1_ano": 447,
+      "nascidos_vivos": 43340,
+      "taxa_por_mil": 10.3138,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2017",
+      "obitos_menor_1_ano": 494,
+      "nascidos_vivos": 44568,
+      "taxa_por_mil": 11.0842,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2018",
+      "obitos_menor_1_ano": 453,
+      "nascidos_vivos": 44195,
+      "taxa_por_mil": 10.25,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2019",
+      "obitos_menor_1_ano": 362,
+      "nascidos_vivos": 42422,
+      "taxa_por_mil": 8.5333,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2020",
+      "obitos_menor_1_ano": 384,
+      "nascidos_vivos": 39361,
+      "taxa_por_mil": 9.7558,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2021",
+      "obitos_menor_1_ano": 402,
+      "nascidos_vivos": 38035,
+      "taxa_por_mil": 10.5692,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2022",
+      "obitos_menor_1_ano": 362,
+      "nascidos_vivos": 35928,
+      "taxa_por_mil": 10.0757,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2023",
+      "obitos_menor_1_ano": 386,
+      "nascidos_vivos": 35551,
+      "taxa_por_mil": 10.8576,
+      "estado": "calculada",
+      "motivo": ""
+    },
+    {
+      "ano": "2024",
+      "obitos_menor_1_ano": 349,
+      "nascidos_vivos": 33282,
+      "taxa_por_mil": 10.4861,
+      "estado": "calculada",
+      "motivo": ""
+    }
+  ]
+}

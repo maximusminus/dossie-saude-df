@@ -1,0 +1,194 @@
+{
+  "source": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/ -- índice do próprio TCDF, uma linha por exercício de 2004 a 2024. SOMENTE ÍNDICE: o registro de acesso concede este host para URL e título, nunca para um parecer analisado, então as páginas de detalhe NÃO são seguidas e o PDF do RAPP não é coletado. O ano e o relator vêm do TÍTULO do link, nunca da URL -- as URLs mentem sobre o ano (2021, 2022 e 2023 são servidos sob slugs com o prefixo `contas-de-governo-2020`). `estado=ausente_do_indice` é um exercício que o índice não lista, publicado como linha. `repetidos` conta quantos OUTROS links do índice casaram o mesmo exercício: o primeiro é o publicado, e os demais são contados em vez de apagarem o primeiro em silêncio.",
+  "dados": [
+    {
+      "exercicio": "2004",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2004 – Relator Antonio Renato Alves Rainha",
+      "relator": "Antonio Renato Alves Rainha",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2004/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2005",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2005 – Relatora Marli Vinhadeli",
+      "relator": "Marli Vinhadeli",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2005/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2006",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2006 – Relator Ronaldo Costa Couto",
+      "relator": "Ronaldo Costa Couto",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2006/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2007",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2007 – Relator Jorge Caetano",
+      "relator": "Jorge Caetano",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2007/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2008",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2008 – Relatora Anilcéia Luzia Machado",
+      "relator": "Anilcéia Luzia Machado",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2008/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2009",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2009 – Relator Manoel Paulo de Andrade Neto *",
+      "relator": "Manoel Paulo de Andrade Neto *",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2009/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2010",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2010 – Relator Antonio Renato Alves Rainha",
+      "relator": "Antonio Renato Alves Rainha",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2010/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2011",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2011 – Relatora Anilcéia Luzia Machado",
+      "relator": "Anilcéia Luzia Machado",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2011/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2012",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2012 – Relatora Anilcéia Luzia Machado",
+      "relator": "Anilcéia Luzia Machado",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2012/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2013",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2013 – Relator Manoel de Andrade",
+      "relator": "Manoel de Andrade",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2013/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2014",
+      "estado": "ausente_do_indice",
+      "titulo": "",
+      "relator": "",
+      "url": "",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2015",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2015 – Relator Paiva Martins",
+      "relator": "Paiva Martins",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2015/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2016",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2016 – Relator Paulo Tadeu",
+      "relator": "Paulo Tadeu",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2016/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2017",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2017 – Relator Márcio Michel",
+      "relator": "Márcio Michel",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2017/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2018",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2018 – Relator Renato Rainha",
+      "relator": "Renato Rainha",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2018/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2019",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2019 – Relator Manoel de Andrade",
+      "relator": "Manoel de Andrade",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2019-relator-manoel-de-andrade-2/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2020",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2020 – Relator Inácio Magalhães Filho",
+      "relator": "Inácio Magalhães Filho",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2020-3-3/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2021",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2021 – Relator Márcio Michel Alves de Oliveira",
+      "relator": "Márcio Michel Alves de Oliveira",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2020-3-2/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2022",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2022 – Relator Antonio Renato Alves Rainha",
+      "relator": "Antonio Renato Alves Rainha",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2020-3-2-2/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2023",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2023 – Relator André Clemente Lara de Oliveira",
+      "relator": "André Clemente Lara de Oliveira",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2023-relator-andre-clemente-lara-de-oliveira/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    },
+    {
+      "exercicio": "2024",
+      "estado": "indexado",
+      "titulo": "Contas de Governo 2024 – Relatora Anilcéia Luzia Machado",
+      "relator": "Anilcéia Luzia Machado",
+      "url": "https://www2.tc.df.gov.br/contas-de-governo-2024-relatora-anilceia-luzia-machado/",
+      "fonte": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/",
+      "repetidos": 0
+    }
+  ]
+}

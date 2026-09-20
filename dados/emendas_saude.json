@@ -1,0 +1,77 @@
+{
+  "source": "Transparência GDF www.transparencia.df.gov.br/api/despesa/emendas-parlamentares, codigoFuncao=10 (saúde), campo totalizador -- agregado pelo próprio portal sobre todo o conjunto filtrado, verificado invariante ao size pedido.",
+  "dados": [
+    {
+      "ano": "2017",
+      "autorizada": 39273630.0,
+      "empenhada": null,
+      "empenhada_estado": "lacuna",
+      "empenhada_motivo": "O portal devolve valorEmpenhadoEmendas=0,00 para 2017 junto de valorEmpenhoPago=27711571.67 -- pago sem empenho é impossível na execução orçamentária, então o zero é o campo que o publicador não preenche neste ano (valorLiquidado também vem zero), não um empenho de zero. Medido linha a linha, não só no totalizador. Publicado como NULL.",
+      "paga": 27711571.67
+    },
+    {
+      "ano": "2018",
+      "autorizada": 8717326.0,
+      "empenhada": null,
+      "empenhada_estado": "lacuna",
+      "empenhada_motivo": "O portal devolve valorEmpenhadoEmendas=0,00 para 2018 junto de valorEmpenhoPago=8658573.06 -- pago sem empenho é impossível na execução orçamentária, então o zero é o campo que o publicador não preenche neste ano (valorLiquidado também vem zero), não um empenho de zero. Medido linha a linha, não só no totalizador. Publicado como NULL.",
+      "paga": 8658573.06
+    },
+    {
+      "ano": "2019",
+      "autorizada": 17067256.0,
+      "empenhada": null,
+      "empenhada_estado": "lacuna",
+      "empenhada_motivo": "O portal devolve valorEmpenhadoEmendas=0,00 para 2019 junto de valorEmpenhoPago=10040203.68 -- pago sem empenho é impossível na execução orçamentária, então o zero é o campo que o publicador não preenche neste ano (valorLiquidado também vem zero), não um empenho de zero. Medido linha a linha, não só no totalizador. Publicado como NULL.",
+      "paga": 10040203.68
+    },
+    {
+      "ano": "2020",
+      "autorizada": 57718390.0,
+      "empenhada": null,
+      "empenhada_estado": "lacuna",
+      "empenhada_motivo": "O portal devolve valorEmpenhadoEmendas=0,00 para 2020 junto de valorEmpenhoPago=42643969.21 -- pago sem empenho é impossível na execução orçamentária, então o zero é o campo que o publicador não preenche neste ano (valorLiquidado também vem zero), não um empenho de zero. Medido linha a linha, não só no totalizador. Publicado como NULL.",
+      "paga": 42643969.21
+    },
+    {
+      "ano": "2021",
+      "autorizada": 41370632.73,
+      "empenhada": 38406361.46,
+      "empenhada_estado": "publicado",
+      "empenhada_motivo": "",
+      "paga": 37182922.74
+    },
+    {
+      "ano": "2022",
+      "autorizada": 37792150.09,
+      "empenhada": 36157981.82,
+      "empenhada_estado": "publicado",
+      "empenhada_motivo": "",
+      "paga": 32908066.36
+    },
+    {
+      "ano": "2023",
+      "autorizada": 43654960.36,
+      "empenhada": 43045263.79,
+      "empenhada_estado": "publicado",
+      "empenhada_motivo": "",
+      "paga": 39911720.17
+    },
+    {
+      "ano": "2024",
+      "autorizada": 31888500.0,
+      "empenhada": 31108909.93,
+      "empenhada_estado": "publicado",
+      "empenhada_motivo": "",
+      "paga": 33937387.29
+    },
+    {
+      "ano": "2025",
+      "autorizada": 40629315.37,
+      "empenhada": 34818502.65,
+      "empenhada_estado": "publicado",
+      "empenhada_motivo": "",
+      "paga": 37458610.27
+    }
+  ]
+}

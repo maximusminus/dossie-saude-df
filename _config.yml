@@ -1,0 +1,10 @@
+# Written by scripts_extracao/site.py -- do not edit by hand.
+title: Saúde no Distrito Federal
+description: >-
+  Dossiê sobre a saúde pública no Distrito Federal, com a procedência
+  de cada afirmação e toda lacuna declarada.
+theme: jekyll-theme-primer
+lang: pt-BR
+exclude:
+  - .github/
+plugins: []
