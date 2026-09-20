@@ -21,7 +21,7 @@ o documento que substituiu a 1.101, medida com o SIH de 2024 e sem nenhum númer
 
 **O resultado agregado do DF inverteu de déficit para superávit, e a desigualdade regional não
 inverteu.** Os números estão na seção *A Equação 1 do Caderno de 2017* abaixo e no
-[dossiê](DOSSIE.md) §1.2–1.4; as tabelas antigas desta página, calculadas sobre a 1.101, seguem
+[dossiê](../dossie.md) §1.2–1.4; as tabelas antigas desta página, calculadas sobre a 1.101, seguem
 publicadas mais abaixo com esta advertência, **citadas e não apagadas**, porque um leitor que as
 leu precisa saber o que leu.
 
@@ -38,7 +38,7 @@ que a rota estava aberta e sem resultado — **isso não é mais verdade**. O le
 códigos que faltava foi **extraída** de um documento fetchado do próprio DATASUS
 (`ftp.datasus.gov.br`, `TAB_SIH.zip`, membro `CNV/MARCAUTI.CNV`), nunca digitada. As Equações 2 e 3
 agora são calculadas para **UTI adulto** e **UTI pediátrica** — ver a nova seção *UTI pelas
-Equações 2 e 3 do Caderno 2017 — OS-082* mais abaixo nesta página e [dossiê](DOSSIE.md) §3.5. **UTI
+Equações 2 e 3 do Caderno 2017 — OS-082* mais abaixo nesta página e [dossiê](../dossie.md) §3.5. **UTI
 neonatal continua sem essa leitura**, por um motivo herdado de Neonatologia (falta o fator de
 correção do sub-registro do SINASC), não por uma limitação do SIH.
 
@@ -78,11 +78,11 @@ requisição — o preâmbulo de conexão HTTP/2 (`PRI * HTTP/2.0`) enviado sem 
 que o servidor leu como método `PRI` sobre alvo `*` — devolveu a página de bloqueio **renderizada**
 em vez de derrubada: *"The requested URL was rejected. Please consult with your administrator"*,
 com support ID, que é a página do **F5 BigIP ASM**. Está em
-[`../dados/raw/bvsms_f5_block.html`](../dados/raw/bvsms_f5_block.html); a porta 80 responde 302
+`../dados/raw/bvsms_f5_block.html`; a porta 80 responde 302
 assinado `Server: BigIP`, em
-[`../dados/raw/bvsms_port80_302.txt`](../dados/raw/bvsms_port80_302.txt). **As duas requisições
+`../dados/raw/bvsms_port80_302.txt`. **As duas requisições
 estão transcritas por inteiro** em
-[`../dados/raw/bvsms_f5_block.README.md`](../dados/raw/bvsms_f5_block.README.md), porque evidência
+`../dados/raw/bvsms_f5_block.README.md`, porque evidência
 que ninguém consegue auditar é afirmação. **Nenhuma delas foi moldada para passar pelo controle**:
 a que respondeu é a que o descreve, não a que o burla. **É um WAF**, e um WAF não é contornado aqui
 (assunção 3 do BRIEF do `OS-012`, a mesma linha que deixa o e-MEC e o CRM-DF onde estão). O estado
@@ -104,7 +104,7 @@ A escala tem três degraus:
 **A contagem anterior, citada:** *"`extraído` | 1 — UTI neonatal … `transcrito` | 2 — leitos
 gerais e a proporção de UTI"*. O que moveu a linha de leitos gerais está na seção seguinte.
 
-Isto não é uma ressalva de rodapé: é a condição que o [`OS-008`](./PROVENANCE.md) mediu, encontrada
+Isto não é uma ressalva de rodapé: é a condição que o `OS-008` mediu, encontrada
 outra vez, agora dentro do próprio cálculo. Uma versão anterior deste módulo marcava os dois
 parâmetros da 1.101 como **sourced**, e a revisão independente derrubou a marcação antes do commit.
 
@@ -429,7 +429,7 @@ porque muda como a tabela se soma:
 > **TABELA SUPERADA — publicada como registro, não como resultado corrente.**
 > Os números abaixo são a Portaria GM/MS 1.101/2002 (2,5 a 3 leitos/1.000 hab), que **saiu do
 > cálculo em 2026-09-06** (`OS-024`). O que este projeto publica hoje é a Equação 1 do Caderno de
-> 2017 — ver a seção *Leitos gerais pelo método do Caderno 2017* acima e o [dossiê](DOSSIE.md)
+> 2017 — ver a seção *Leitos gerais pelo método do Caderno 2017* acima e o [dossiê](../dossie.md)
 > §1.2–1.4. Esta tabela fica aqui **citada e não apagada**, porque um leitor que a leu precisa
 > saber o que leu; ela **não é regerada** do banco e não deve ser lida como estado atual.
 
@@ -451,7 +451,7 @@ esconderia isso.
 > **TABELA SUPERADA — publicada como registro, não como resultado corrente.**
 > Os números abaixo são a Portaria GM/MS 1.101/2002 (2,5 a 3 leitos/1.000 hab), que **saiu do
 > cálculo em 2026-09-06** (`OS-024`). O que este projeto publica hoje é a Equação 1 do Caderno de
-> 2017 — ver a seção *Leitos gerais pelo método do Caderno 2017* acima e o [dossiê](DOSSIE.md)
+> 2017 — ver a seção *Leitos gerais pelo método do Caderno 2017* acima e o [dossiê](../dossie.md)
 > §1.2–1.4. Esta tabela fica aqui **citada e não apagada**, porque um leitor que a leu precisa
 > saber o que leu; ela **não é regerada** do banco e não deve ser lida como estado atual.
 
@@ -566,7 +566,7 @@ requisito é comparado.
 > **TABELA SUPERADA — publicada como registro, não como resultado corrente.**
 > Os números abaixo são a Portaria GM/MS 1.101/2002 (2,5 a 3 leitos/1.000 hab), que **saiu do
 > cálculo em 2026-09-06** (`OS-024`). O que este projeto publica hoje é a Equação 1 do Caderno de
-> 2017 — ver a seção *Leitos gerais pelo método do Caderno 2017* acima e o [dossiê](DOSSIE.md)
+> 2017 — ver a seção *Leitos gerais pelo método do Caderno 2017* acima e o [dossiê](../dossie.md)
 > §1.2–1.4. Esta tabela fica aqui **citada e não apagada**, porque um leitor que a leu precisa
 > saber o que leu; ela **não é regerada** do banco e não deve ser lida como estado atual.
 
@@ -671,7 +671,7 @@ está fora do escopo do `OS-011`.
 > de enfermaria de 2.285 a 3.715 leitos não é uma contradição…"*. Aquele déficit era o da Portaria
 > 1.101/2002 e **não existe mais**: desde 2026-09-06 a linha de enfermaria é calculada pela Equação
 > 1 do Caderno de 2017 e o agregado do DF é um **superávit de 579 a 711 leitos**, com déficit em
-> cinco das sete regiões somando **796 a 895** ([dossiê](DOSSIE.md) §1.2–1.4, §5.1). **A oposição
+> cinco das sete regiões somando **796 a 895** ([dossiê](../dossie.md) §1.2–1.4, §5.1). **A oposição
 > retórica de que a frase original vivia — UTI sobrando, enfermaria faltando — não se sustenta no
 > agregado distrital**, e sobrevive apenas por região. A tabela de UTI acima **não mudou**: ela é a
 > proporção de 4 % a 10 % da 1.101/2002, o último parâmetro transcrito deste projeto

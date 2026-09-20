@@ -10,7 +10,7 @@ attached to the same key, and every CNES establishment placed on an RA — or ma
 with a reason.
 
 Built by `OS-010`. Written in English for the same reason
-[`PROVENANCE.md`](PROVENANCE.md) is: it is a note about method, not a deliverable for the
+`PROVENANCE.md` is: it is a note about method, not a deliverable for the
 DF's public. The *dossiê* is Portuguese, and the citation strings carried inside the data
 itself are Portuguese, because those travel into it.
 

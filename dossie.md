@@ -373,8 +373,8 @@ como queda ou alta.
 **Este é o eixo com fundamento empírico mais forte do documento, e o único cujo resultado é
 original.** Nenhum documento público sobre saúde no DF fez este cruzamento por região de saúde:
 os dados estão no CNES, e o que faltava era cruzá-los com o parâmetro normativo e com a população
-por Região Administrativa. O método completo está em [`DIMENSIONAMENTO.md`](DIMENSIONAMENTO.md);
-a atribuição de cada estabelecimento à sua RA está em [`SPINE.md`](SPINE.md).
+por Região Administrativa. O método completo está em [`DIMENSIONAMENTO.md`](metodo/dimensionamento.md);
+a atribuição de cada estabelecimento à sua RA está em [`SPINE.md`](metodo/spine.md).
 
 ### 3.1 A oferta atual
 
@@ -1587,7 +1587,7 @@ tabela que só mostrasse os anos julgados esconderia exatamente aquilo que este 
 
 **Toda tabela citada acima está em `dados/database/saudedf.sqlite`** e foi produzida por
 `scripts_extracao/run.py`. A companhia deste documento —
-[`DOSSIE-PROVENANCE.md`](DOSSIE-PROVENANCE.md) — traz a auditoria afirmação por afirmação.
+`DOSSIE-PROVENANCE.md` — traz a auditoria afirmação por afirmação.
 
 **A rastreabilidade é verificada a cada execução, e o denominador é deste documento, não da
 verificação** (`scripts_extracao/dossie_verifica.py`): **1.279 afirmações quantitativas,
@@ -1600,7 +1600,7 @@ atenção básica de 2007 a 2020 — cada célula conferida contra o banco como 
 fora do denominador por serem circulares, o que não procede — a verificação **calcula** os totais e
 este documento os **declara**, e comparar os dois é o mesmo ato que confere qualquer outra
 afirmação. Eram os únicos números aqui mantidos à mão, e um número mantido à mão é um número que
-sai do lugar: [`README.md`](README.md) publicou `281` muito depois de a auditoria medir 298. Uma linha acrescentada a uma tabela publicada passa a ser conferida sem que ninguém a
+sai do lugar: `README.md` publicou `281` muito depois de a auditoria medir 298. Uma linha acrescentada a uma tabela publicada passa a ser conferida sem que ninguém a
 registre; uma linha removida falha como linha faltante. Se qualquer uma deixar de seguir do
 banco, `run.py` sai com erro, nomeia a afirmação e **não regera o PDF**.
 

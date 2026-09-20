@@ -4,16 +4,16 @@ title: "Method: what the provenance annex proves, and what it cannot"
 ---
 # PROCEDÊNCIA-METODO.md — the method behind the procedência annex
 
-**Produced by `OS-070`, 2026-09-18**, superseding [`DOSSIE-PROVENANCE.md`](DOSSIE-PROVENANCE.md)
+**Produced by `OS-070`, 2026-09-18**, superseding `DOSSIE-PROVENANCE.md`
 (frozen; see the sidecar `.SUPERSEDED.md` beside it). That file mixed two things that age at
 different rates — the *reasoning* for why the audit is built the way it is, and the *counts* a
 given run of it produces. Mixing them is what made it go stale: the reasoning below has not
 changed since `OS-013` first wrote it; the counts moved on every OS that touched the dossiê, and
 a hand-maintained file could not keep up (OS-070's own reason for existing). The counts now live
-in [`ANEXO-PROCEDENCIA.md`](ANEXO-PROCEDENCIA.md), regenerated every build; this file holds the
+in [`ANEXO-PROCEDENCIA.md`](../anexo-procedencia.md), regenerated every build; this file holds the
 reasoning, which does not need regenerating because it is not a measurement.
 
-**Language.** English, per [`../CLAUDE.md`](../CLAUDE.md) → Language policy, amended by `OS-070`
+**Language.** English, per `../CLAUDE.md` → Language policy, amended by `OS-070`
 Q1: this file stands alone — read by whoever audits the METHOD, not by whoever reads the dossiê —
 so it keeps the corpus's own language. `ANEXO-PROCEDENCIA.md`, `ANEXO-LACUNAS.md` and
 `ANEXO-SUMARIO.md`/`.pdf`, by contrast, are bound into the deliverable — appendices the dossiê's
@@ -90,7 +90,7 @@ dossier, or from the prose of the proposal that commissioned it. Every one is ar
 table this repository built from a source it fetched.
 
 **It does not mean the dossiê is complete**, and the document says so in its own text, in the
-coverage table and in [`ANEXO-LACUNAS.md`](ANEXO-LACUNAS.md) — a declared gap is a finding, never
+coverage table and in [`ANEXO-LACUNAS.md`](../anexo-lacunas.md) — a declared gap is a finding, never
 filled by estimate.
 
 ## Method, so this can be repeated
