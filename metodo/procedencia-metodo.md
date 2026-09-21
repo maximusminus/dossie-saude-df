@@ -1,114 +1,117 @@
 ---
 layout: default
-title: "Method: what the provenance annex proves, and what it cannot"
+title: "Método: o que a procedência prova, e o que ela não alcança"
 ---
-# PROCEDÊNCIA-METODO.md — the method behind the procedência annex
+# Método: o que a procedência prova, e o que ela não alcança
 
-**Produced by `OS-070`, 2026-09-18**, superseding `DOSSIE-PROVENANCE.md`
-(frozen; see the sidecar `.SUPERSEDED.md` beside it). That file mixed two things that age at
-different rates — the *reasoning* for why the audit is built the way it is, and the *counts* a
-given run of it produces. Mixing them is what made it go stale: the reasoning below has not
-changed since `OS-013` first wrote it; the counts moved on every OS that touched the dossiê, and
-a hand-maintained file could not keep up (OS-070's own reason for existing). The counts now live
-in [`ANEXO-PROCEDENCIA.md`](../anexo-procedencia.md), regenerated every build; this file holds the
-reasoning, which does not need regenerating because it is not a measurement.
+Este documento explica **por que a auditoria de procedência é feita do jeito que
+é feita**. Ele não traz contagens: números envelhecem a cada apuração, e o
+raciocínio abaixo não muda. As contagens de cada execução estão no anexo de
+procedência, refeito toda vez que os dados são reprocessados.
 
-**Language.** English, per `../CLAUDE.md` → Language policy, amended by `OS-070`
-Q1: this file stands alone — read by whoever audits the METHOD, not by whoever reads the dossiê —
-so it keeps the corpus's own language. `ANEXO-PROCEDENCIA.md`, `ANEXO-LACUNAS.md` and
-`ANEXO-SUMARIO.md`/`.pdf`, by contrast, are bound into the deliverable — appendices the dossiê's
-own Portuguese-speaking audience reads to check a claim or a gap — and are Portuguese for that
-reason.
+A separação é deliberada. Um único arquivo que misturasse as duas coisas ficaria
+desatualizado no dia seguinte — foi o que aconteceu com a versão anterior desta
+nota, mantida à mão.
 
-## What the denominator is, and why a self-selected one is not a measurement
+## O denominador é do documento, nunca do conferidor
 
-**The count must be the DOCUMENT's, never the checker's own worklist.** An early draft of the
-provenance audit (`OS-013`) reported "46 of 46 (100 %)" against a denominator that was simply
-whatever `dossie_verifica.py` happened to enumerate — so a claim nobody had gotten around to
-entering could never lower the score, and the number measured the auditor's effort rather than the
-document's honesty. **A ratio whose denominator is the audit's own worklist measures nothing.**
+**A conta tem de ser a do dossiê, e não a lista de tarefas de quem confere.** Um
+rascunho antigo da auditoria informava "46 de 46 (100 %)" contra um denominador
+que era simplesmente aquilo que a verificação já enumerava — de modo que uma
+afirmação que ninguém tivesse chegado a cadastrar jamais podia baixar a nota. O
+número media o esforço do auditor, não a honestidade do documento. **Uma razão
+cujo denominador é a própria lista de quem audita não mede nada.**
 
-The fix, unchanged since, is a denominator built in two halves that both read the DOCUMENT rather
-than the checker:
+A correção, inalterada desde então, é um denominador montado em duas metades que
+leem o DOCUMENTO em vez de lerem o conferidor:
 
-| Half | How the denominator is fixed |
+| Metade | Como o denominador é fixado |
 |---|---|
-| Prose claims | Hand-enumerated — a figure inside a sentence has no machine-readable shape, so this half is a list, swept against every numeric token in the dossiê's non-table lines |
-| Table cells | **Read out of `docs/DOSSIE.md` itself.** Every cell of every quantitative table is rebuilt from the database and compared against the table parsed out of the document. Adding a column or a row to a published table checks it automatically; dropping one fails as a missing row |
+| Afirmações em prosa | Enumeradas à mão — um número dentro de uma frase não tem forma legível por máquina, então esta metade é uma lista, varrida contra cada número que aparece nas linhas de prosa do dossiê |
+| Células de tabela | **Lidas do próprio dossiê.** Cada célula de cada tabela quantitativa é refeita a partir do banco de dados e comparada com a tabela extraída do documento. Acrescentar uma coluna ou uma linha a uma tabela publicada passa a conferi-la automaticamente; remover uma falha como linha ausente |
 
-**The table half is what makes the claim falsifiable.** The header row, the row count and every
-individual cell are separate claims, so a table that gains a column, loses a row, or is reordered
-away from the query that produces it fails by name rather than passing silently.
+**É a metade das tabelas que torna a afirmação falseável.** O cabeçalho, a
+quantidade de linhas e cada célula são afirmações separadas: uma tabela que ganha
+uma coluna, perde uma linha ou é reordenada em relação à consulta que a produz
+falha pelo nome, em vez de passar em silêncio.
 
-`ANEXO-PROCEDENCIA.md`'s own denominator is now `dossie_verifica.listar_claims`'s full return —
-the exact same computation `verificar()` uses to fail the gate, never a second, hand-curated list
-riding alongside it. That equality is what `tests/` pins for OS-070 (criterion e): the annex cannot
-under-report without the gate itself also going quiet.
+O denominador do anexo de procedência é exatamente o mesmo conjunto que a
+verificação usa para interromper o processamento — nunca uma segunda lista,
+mantida à parte, correndo ao lado. Essa igualdade é conferida a cada execução: o
+anexo não consegue subnotificar sem que a verificação também se cale.
 
-## What is deliberately outside the denominator
+## O que fica deliberadamente fora do denominador
 
-- **Cells whose contents are sentences, not figures** — a declared reason
-  (`não publicados em forma legível por máquina`) is not a number to re-derive, and is named as a
-  gap rather than counted as a pass.
-- **Identifiers that look like numbers**: work-order tags, portaria numbers, SIDRA table codes,
-  contract numbers, law numbers, HTTP status codes quoted in prose. They are labels, not
-  measurements.
-- **Prose judgement**, which no check reaches — see *What this cannot check*, below.
+- **Células cujo conteúdo é uma frase, não um número** — uma justificativa
+  declarada (`não publicados em forma legível por máquina`) não é um número a
+  reconferir, e é nomeada como lacuna em vez de contada como acerto.
+- **Identificadores que parecem números**: números de portaria, códigos de
+  tabelas do IBGE, números de contrato, números de lei, códigos de resposta HTTP
+  citados em prosa. São rótulos, não medições.
+- **Juízo em prosa**, que conferência nenhuma alcança — ver *O que este método
+  não confere*, abaixo.
 
-## Why this is a different kind of claim from a search-based audit
+## Por que isto é diferente de uma auditoria por busca
 
-The audit this method replaced (`OS-008`, over the five PDFs `docs/DOSSIE.md` itself superseded)
-measured old documents by **searching** `dados/` for each figure and inspecting every hit by hand —
-because a literal substring match is not provenance. That audit found a 57 % "hit rate" that fell
-to 5 % once each hit was read in context: a figure matching a CSS coordinate, another matching an
-unrelated line in a medicines budget.
+A auditoria que este método substituiu — feita sobre os cinco PDFs que o dossiê
+veio substituir — media documentos antigos **procurando** cada número dentro dos
+dados e inspecionando cada ocorrência à mão, porque uma coincidência de texto não
+é procedência. Aquela auditoria encontrou 57 % de "acerto", que caiu para 5 %
+quando cada ocorrência foi lida no contexto: um número que casava com uma
+coordenada de folha de estilo, outro que casava com uma linha sem relação num
+orçamento de medicamentos.
 
-**This method cannot produce that failure mode, because it does not search.** Each claim is paired
-with the query that computes it — a claim is not "a number that appears somewhere in the data," it
-is a named SQL expression over a named table. A coincidental match is not available as an answer.
+**Este método não consegue produzir essa falha, porque ele não procura.** Cada
+afirmação está atrelada à consulta que a calcula — uma afirmação não é "um número
+que aparece em algum lugar dos dados", é uma expressão nomeada sobre uma tabela
+nomeada. Coincidência não está disponível como resposta.
 
-**But it can produce a different one, and did.** The predecessor's failure was a denominator too
-generous — a substring match counted as provenance. The failure available to this method is a
-denominator too narrow — checking only what the checker happens to contain. Both report a number
-that is not about the document. The fix is the table half above.
+**Mas ele consegue produzir outra falha, e produziu.** A fraqueza do método
+anterior era um denominador generoso demais — uma coincidência de texto contada
+como procedência. A fraqueza deste é um denominador estreito demais — conferir
+apenas o que o conferidor por acaso contém. Os dois informam um número que não é
+sobre o documento. A correção é a metade das tabelas, acima.
 
-**Verified both ways.** The check confirms every claim against the current database; and with one
-published cell deliberately altered, the run exits non-zero and names the claim by table, row and
-column, with both the derived and the published value. A check that cannot fail proves nothing, so
-it was made to fail once, on purpose, and stays testable that way (`tests/`).
+**Verificado nos dois sentidos.** A conferência confirma cada afirmação contra o
+banco de dados atual; e, com uma célula publicada alterada de propósito, a
+execução para e nomeia a afirmação por tabela, linha e coluna, mostrando o valor
+calculado ao lado do publicado. Uma conferência que não pode falhar não prova
+nada, então ela foi feita falhar uma vez, de propósito, e continua testável assim.
 
-**And it has caught changes nobody planted.** Adding a coverage row that moves a count the dossiê
-states in prose — a "N necessidades declaradas" sentence, for instance — makes the run fail until
-the sentence is updated, not because anyone remembered it was there but because the check demanded
-it. That is the mechanism working on a change it was not written for, which is the only kind of
-evidence that counts for it.
+**E ela já apanhou mudanças que ninguém plantou.** Acrescentar uma linha de
+cobertura que move uma contagem declarada em prosa — uma frase do tipo "N
+necessidades declaradas" — faz a execução falhar até a frase ser corrigida, não
+porque alguém lembrou que a frase existia, mas porque a conferência exigiu. É o
+mecanismo funcionando sobre uma mudança para a qual não foi escrito, que é o
+único tipo de evidência que vale para ele.
 
-## What "100 %" does and does not mean
+## O que "100 %" quer dizer, e o que não quer
 
-**It means:** no number in the dossiê came from the author's knowledge, from the adversary's
-dossier, or from the prose of the proposal that commissioned it. Every one is arithmetic over a
-table this repository built from a source it fetched.
+**Quer dizer:** nenhum número do dossiê veio do conhecimento do autor, do dossiê
+do adversário ou da prosa da proposta que encomendou o trabalho. Cada um deles é
+aritmética sobre uma tabela construída a partir de uma fonte pública buscada.
 
-**It does not mean the dossiê is complete**, and the document says so in its own text, in the
-coverage table and in [`ANEXO-LACUNAS.md`](../anexo-lacunas.md) — a declared gap is a finding, never
-filled by estimate.
+**Não quer dizer que o dossiê esteja completo**, e o próprio documento diz isso no
+seu texto, na tabela de cobertura e na visão de lacunas do painel — uma lacuna
+declarada é um achado, nunca preenchida por estimativa.
 
-## Method, so this can be repeated
+## Método, para que possa ser repetido
 
-1. Every quantitative claim in the dossiê's **prose** is entered in
-   `scripts_extracao/dossie_verifica.py` as `(label, derived, published)`.
-2. Every quantitative **table** in `docs/DOSSIE.md` is rebuilt from the database — rows, order,
-   formatting and all — and compared cell by cell against the table parsed out of the document.
-   Nobody enumerates those cells by hand; the document supplies them.
-3. `dossie_verifica.verificar()` runs both halves against the database the same run just built;
-   `dossie_verifica.listar_claims()` returns the same set as a flat list, for the annex.
-4. `scripts_extracao/run.py` prints the count, prints every divergence with both values, and
-   **exits non-zero** if any claim diverges. It also refuses to regenerate `DOSSIE.pdf` — and, since
-   `OS-070`, refuses to let a stale `ANEXO-PROCEDENCIA.md`/`ANEXO-LACUNAS.md`/`ANEXO-SUMARIO.md`
-   pass unnoticed — on a failing or degraded run.
-5. The counts in `ANEXO-PROCEDENCIA.md` are that run's output, generated by
-   `scripts_extracao/anexos.py`, never a transcription of it.
+1. Cada afirmação quantitativa da **prosa** do dossiê é cadastrada como um trio:
+   rótulo, valor calculado, valor publicado.
+2. Cada **tabela** quantitativa do dossiê é refeita a partir do banco de dados —
+   linhas, ordem, formatação e tudo — e comparada célula a célula com a tabela
+   extraída do documento. Ninguém enumera essas células à mão; o documento as
+   fornece.
+3. As duas metades rodam contra o banco que aquela mesma execução acabou de
+   construir, e a mesma conta que interrompe o processamento alimenta o anexo.
+4. O processamento imprime a contagem, imprime cada divergência com os dois
+   valores e **para** se alguma afirmação divergir. Ele também se recusa a
+   regerar o PDF do dossiê e a deixar passar despercebido um anexo desatualizado.
+5. As contagens do anexo de procedência são a saída daquela execução, geradas
+   junto com ela, nunca uma transcrição feita à mão.
 
-**What this method cannot check:** prose. It confirms that a division rounds the way a sentence
-says it does; it cannot confirm that the sentence is a fair way to describe what the division
-means. Judgement stays with the reader, and that boundary is deliberate.
+**O que este método não confere: prosa.** Ele confirma que uma divisão arredonda
+como a frase diz que arredonda; não confirma que a frase seja uma maneira justa de
+descrever o que a divisão significa. O juízo fica com quem lê, e essa fronteira é
+deliberada.

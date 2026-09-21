@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Method: bed-requirement parameters and where each one comes from"
+title: "Método: os parâmetros de leitos e de onde vem cada um"
 ---
 # DIMENSIONAMENTO — capacidade SUS contra parâmetro normativo
 
-> Nota de método do `OS-011`. É a tabela que a `Proposta de elaboração` chama de *o coração do
+> Nota de método. É a tabela que a `Proposta de elaboração` chama de *o coração do
 > eixo*: o que o DF tem, contra o que a norma diz que precisaria ter.
 
 **Um déficit aqui é aritmética — capacidade menos parâmetro — e não uma afirmação sobre adequação
@@ -15,8 +15,8 @@ clínica.** A frase está aqui porque o número será lido como a afirmação ma
 **A linha de leitos gerais saiu da Portaria GM/MS 1.101/2002.** Até esta data, o número mais
 importante deste projeto — quantos leitos de enfermaria faltam ao DF — era calculado sobre **2,5 a
 3 leitos por 1.000 habitantes**, um parâmetro de uma norma **revogada em 2015** cujo texto nenhum
-artefato deste repositório jamais conteve: ele chegava aqui **digitado à mão**. O `OS-024` o
-substituiu pela **Equação 1 do Caderno de Critérios e Parâmetros Assistenciais do SUS (MS, 2017)**,
+artefato deste repositório jamais conteve: ele chegava aqui **digitado à mão**. Em 2026-09-06 ele foi
+substituído pela **Equação 1 do Caderno de Critérios e Parâmetros Assistenciais do SUS (MS, 2017)**,
 o documento que substituiu a 1.101, medida com o SIH de 2024 e sem nenhum número digitado.
 
 **O resultado agregado do DF inverteu de déficit para superávit, e a desigualdade regional não
@@ -29,16 +29,16 @@ leu precisa saber o que leu.
 os números abaixo estão transcritos"* — **valia até 2026-09-06 e não vale mais**. Sobrou **um**: a
 faixa de **4 % a 10 % do total de leitos hospitalares** aplicada à UTI, que continua vindo da
 1.101/2002 digitada à mão — e continua publicada, porque a leitura abaixo é **ao lado dela, nunca a
-substituindo** (`OS-082`, Q2).
+substituindo**, por decisão do operador em 2026-09-18.
 
-**Corrigido em 2026-09-18 pelo `OS-082` ([issue #77](https://github.com/maximusminus/saudedf/issues/77)).**
+**Corrigido na revisão de 2026-09-18.**
 O parágrafo acima, até essa data, terminava dizendo que faltava a tabela de códigos do `MARCA_UTI` e
 que a rota estava aberta e sem resultado — **isso não é mais verdade**. O leiaute reduzido do SIH
 **carrega** `MARCA_UTI` e `UTI_MES_TO` (a marca de UTI e os dias de permanência em UTI); a tabela de
 códigos que faltava foi **extraída** de um documento fetchado do próprio DATASUS
 (`ftp.datasus.gov.br`, `TAB_SIH.zip`, membro `CNV/MARCAUTI.CNV`), nunca digitada. As Equações 2 e 3
 agora são calculadas para **UTI adulto** e **UTI pediátrica** — ver a nova seção *UTI pelas
-Equações 2 e 3 do Caderno 2017 — OS-082* mais abaixo nesta página e [dossiê](../dossie.md) §3.5. **UTI
+Equações 2 e 3 do Caderno 2017* mais abaixo nesta página e [dossiê](../dossie.md) §3.5. **UTI
 neonatal continua sem essa leitura**, por um motivo herdado de Neonatologia (falta o fator de
 correção do sub-registro do SINASC), não por uma limitação do SIH.
 
@@ -53,7 +53,7 @@ documento que este repositório contém. Os outros sete, não. Os dois que produ
 números abaixo estão transcritos: alguém digitou o valor à mão."*
 
 `dados/processed/parametro_portaria_1101.json` parece uma extração e não é uma.
-`scripts_extracao/03_portaria_1101_2002.py` — um dos 24 extratores superados — baixou a
+Um dos 24 extratores superados deste projeto baixou a
 página da Portaria GM/MS 1.101/2002, **não leu nada dela**, e gravou um dicionário digitado à mão,
 com uma observação do próprio autor mandando conferir o HTML bruto. O HTML está guardado em
 `dados/raw/portaria_1101_2002.html`: o corpo normativo dela termina na palavra **ANEXO** (o que vem
@@ -64,9 +64,9 @@ página**. As sequências `leito`, `2,5`, `4%`, `10%` e
 **A página LINKA o Anexo**, como PDF separado em
 `bvsms.saude.gov.br/bvs/saudelegis/gm/2002/anexo/anexo_prt1101_12_06_2002.pdf`. Uma versão anterior
 desta nota afirmava que a página não tinha link nenhum — era falso, e a revisão independente do
-`OS-011` derrubou a afirmação antes do commit.
+derrubou a afirmação antes da publicação.
 
-**O `OS-019` abriu esse caminho e ele não leva a lugar nenhum, e agora isso está medido em vez de
+**Esse caminho foi aberto em 2026-08-28 e ele não leva a lugar nenhum, e agora isso está medido em vez de
 suposto.** O operador aprovou a linha de registro para `bvsms.saude.gov.br` em **2026-08-28**,
 escrita antes da primeira requisição; o host foi então alcançado camada a camada. **DNS resolve.
 TCP completa. TLS 1.3 completa, com certificado válido para o nome.** E aí o servidor **fecha a
@@ -85,7 +85,7 @@ estão transcritas por inteiro** em
 `../dados/raw/bvsms_f5_block.README.md`, porque evidência
 que ninguém consegue auditar é afirmação. **Nenhuma delas foi moldada para passar pelo controle**:
 a que respondeu é a que o descreve, não a que o burla. **É um WAF**, e um WAF não é contornado aqui
-(assunção 3 do BRIEF do `OS-012`, a mesma linha que deixa o e-MEC e o CRM-DF onde estão). O estado
+(um controle é medido e declarado, nunca burlado — a mesma linha que deixa o e-MEC e o CRM-DF onde estão). O estado
 é `blocked`, está em `eixos_cobertura` como linha do Eixo 1, e `alcance_hosts` **remede a camada a
 cada execução** em vez de repetir esta frase de memória.
 
@@ -97,16 +97,16 @@ A escala tem três degraus:
 
 | `estado_fonte` | O que significa | Quantos parâmetros |
 |---|---|---:|
-| `extraído` | lido de um documento que este repositório contém, **a cada execução** | **2** — UTI neonatal (Quadro 5) e **leitos gerais** (Equação 1 + Quadro 43, novo no `OS-024`) |
+| `extraído` | lido de um documento que este repositório contém, **a cada execução** | **2** — UTI neonatal (Quadro 5) e **leitos gerais** (Equação 1 + Quadro 43, novo em 2026-09-06) |
 | `transcrito` | está em `dados/` como valor digitado à mão; a norma é nomeada e seu texto nunca foi lido aqui | **1** — a proporção de UTI da 1.101/2002 |
 | `sem fonte` | chega só pela prosa do documento de entrada, ou não chega — publicado como `UNSOURCED`, nunca calculado | 5 |
 
 **A contagem anterior, citada:** *"`extraído` | 1 — UTI neonatal … `transcrito` | 2 — leitos
 gerais e a proporção de UTI"*. O que moveu a linha de leitos gerais está na seção seguinte.
 
-Isto não é uma ressalva de rodapé: é a condição que o `OS-008` mediu, encontrada
+Isto não é uma ressalva de rodapé: é a condição que a auditoria de procedência mediu, encontrada
 outra vez, agora dentro do próprio cálculo. Uma versão anterior deste módulo marcava os dois
-parâmetros da 1.101 como **sourced**, e a revisão independente derrubou a marcação antes do commit.
+parâmetros da 1.101 como **sourced**, e a revisão independente derrubou a marcação antes da publicação.
 
 ### O parâmetro que está extraído, e como ele foi encontrado
 
@@ -127,7 +127,7 @@ aquisição falha em vez de continuar publicando o número velho.
 por 1.000 e que rodá-lo exigiria dados do SIH.** Era falso, e o arquivo estava em `dados/raw/`,
 baixado por este mesmo trabalho. Foi a revisão independente que o abriu e encontrou o Quadro 5.
 Dizer "não conseguimos obter" sobre um documento que já está no repositório é exatamente a falha
-que o `OS-008` mediu, e ela apareceu aqui.
+que a auditoria de procedência mediu, e ela apareceu aqui.
 
 ## O que entra na conta
 
@@ -174,8 +174,8 @@ Para **leitos gerais**, o caderno de 2017 usa outro método: taxas de internaç�
 médio de permanência e taxa de ocupação por especialidade.
 
 **Até 2026-09-03 esta seção dizia que rodá-lo "exigiria dados do SIH que este projeto não tem".
-Deixou de ser verdade, e a frase é corrigida em vez de apagada — o `OS-023` adquiriu esses
-dados.** O SIH está aqui em duas interfaces: a série do TABNET nas **duas leituras publicadas**
+Deixou de ser verdade, e a frase é corrigida em vez de apagada — em 2026-09-03 esses
+dados foram adquiridos.** O SIH está aqui em duas interfaces: a série do TABNET nas **duas leituras publicadas**
 (por local de residência e por local de internação), 2008-2024, competência de atendimento
 `[sih_serie_tabnet]`; e os **microdados reduzidos** (arquivos RD), de onde sai o cruzamento
 especialidade do leito × faixa etária que o Quadro 38 exige e **que o TABNET não é capaz de
@@ -198,7 +198,7 @@ uma RIDE e interna gente de Goiás e de Minas por desenho, e é isso que esse n�
 Caderno 2017 a substituiu.** A frase que estava aqui, citada em vez de apagada: *"A linha de leitos
 gerais publicada acima continua na 1.101, e agora há uma segunda, pelo método do Caderno 2017, ao
 lado dela — nunca uma sobre a outra."* Isso valeu enquanto o método do Caderno só produzia linha do
-DF; desde que ele produz linha por RA (ver abaixo), a razão que mantinha a 1.101 no lugar acabou. O `OS-024` adquiriu o termo que faltava
+DF; desde que ele produz linha por RA (ver abaixo), a razão que mantinha a 1.101 no lugar acabou. Em 2026-09-06 foi adquirido o termo que faltava
 — a população de referência do Quadro 37, *"× proporção sem plano de saúde"*, dado da ANS — e
 computou seis das onze combinações tipo-leito/especialidade do Quadro 38 a partir do SIH e da ANS.
 As outras cinco (Obstetrícia, Neonatologia e as três UTI) permanecem `UNSOURCED`, cada uma por um
@@ -213,7 +213,7 @@ afirmou o contrário até a revisão independente abrir o arquivo.
 e porque continua sendo o comparador que o debate público usa.** Não é apresentada como vigente.
 A frase anterior dizia *"para as duas linhas em que é usada"*; a linha de leitos gerais saiu.
 
-## Leitos gerais pelo método do Caderno 2017 (Equação 1) — `OS-024`
+## Leitos gerais pelo método do Caderno 2017 (Equação 1)
 
 **ESTE MÉTODO SUBSTITUIU A TABELA ACIMA EM 2026-09-06, e a frase que dizia o contrário está
 citada aqui em vez de apagada:** *"Este método não substitui a tabela acima — os dois ficam lado a
@@ -221,7 +221,7 @@ lado. A tabela de leitos gerais por região/RA/DF, no topo desta página, contin
 Portaria 1.101/2002 (`transcrito`)."* `dimensionamento_df`, `dimensionamento_regiao` e
 `dimensionamento_ra` publicam agora a Equação 1 na linha de leitos gerais, com
 `estado_fonte: extraído`. Esta seção é a Equação 1 do Caderno de 2017, medida com os dados que este
-projeto adquiriu — a série do SIH (`OS-023`) e a proporção sem plano de saúde da ANS (`OS-024`) — em vez
+projeto adquiriu — a série do SIH e a proporção sem plano de saúde da ANS — em vez
 da tabela de referência dos Quadros 39–42, que o próprio Caderno oferece como alternativa quando a
 localidade não tem dado próprio (Quadro 44). O DF tem.
 
@@ -254,7 +254,7 @@ se uma internação usou UTI nem por quantos dias."* Ele marca as duas coisas �
 (7,49 %) tiveram dia de UTI, com média de 9,52 dias. **Faltava a tabela de códigos do `MARCA_UTI`**,
 que separa UTI adulto de pediátrica e de neonatal; escrevê-la de memória teria sido publicar uma
 asserção como medição, e por isso este parágrafo, até 2026-09-18, terminava aqui, com a rota aberta
-como [issue #77](https://github.com/maximusminus/saudedf/issues/77). **Corrigido pelo `OS-082`: a
+num registro interno. **Corrigido na revisão de 2026-09-18: a
 tabela foi extraída** de um documento fetchado do DATASUS (`ftp.datasus.gov.br`, `TAB_SIH.zip`,
 membro `CNV/MARCAUTI.CNV`), nunca digitada, e **UTI adulto e UTI pediátrica agora saem calculadas**
 pelas Equações 2 e 3, na tabela `leitos_uti_caderno2017` — ver a seção logo abaixo. Nenhuma é
@@ -295,7 +295,7 @@ não foi investigado a fundo. Candidatos, nenhum descartado:
    projeto do vocabulário do SIH, não uma tabela do Caderno) pode ser mais larga do que o "leito
    clínico" que o Quadro 39 mediu nacionalmente;
 2. a correspondência código→faixa etária do arquivo da ANS (`transcrita`, não extraída — ver
-   `scripts_extracao/ans.py`) pode subestimar a população de referência;
+   leitura da ANS) pode subestimar a população de referência;
 3. o DF pode genuinamente internar sua própria população residente sem plano a uma taxa mais alta
    que a média nacional que o Quadro 39 reflete — o filtro `residente_df` já exclui quem não mora
    no DF, então isto **não** é efeito de polo regional (a mesma RIDE que produz o Fnr de 1,29 aqui
@@ -317,10 +317,10 @@ porque a taxa de internação, aqui, é medida diretamente do SIH em vez de esco
 de referência (a convenção do próprio Quadro 44, FRe=1). Não é um defeito desta implementação,
 mas não estava dito antes desta revisão independente (`inercia_algebrica` no mesmo campo).
 
-## UTI pelas Equações 2 e 3 do Caderno 2017 — `OS-082`
+## UTI pelas Equações 2 e 3 do Caderno 2017
 
 **Publicada ao lado da faixa de 4 %–10 % da Portaria 1.101/2002 (topo desta página), nunca a
-substituindo** (`OS-082`, Q2) — a tabela `leitos_uti_caderno2017`, medida sobre o SIH de 2024 com a
+substituindo** — a tabela `leitos_uti_caderno2017`, medida sobre o SIH de 2024 com a
 tabela de códigos do `MARCA_UTI` agora extraída (ver acima). NIe é a internação geral residente
 (exclui Obstetrícia, ela própria `UNSOURCED`); pe é a proporção dessas internações com dia de UTI;
 TMP UTI é o tempo médio de permanência só nos dias de UTI; Fnre é recalculado no nível do grupo, não
@@ -335,7 +335,7 @@ faixa, e o superávit é a diferença entre os leitos instalados e **esse mesmo 
 arredondado** — nunca a diferença arredondada depois. `pe` e `TMP UTI` são exibidos com duas casas
 decimais, a mesma precisão que a tabela já usava.
 
-**Corrigido em 2026-09-18 pelo `OS-082`**: a linha `_cruzar_atendimento` de `sih_uti.py` passou a
+**Corrigido na revisão de 2026-09-18**: o cruzamento por atendimento passou a
 usar o mesmo filtro de NIe que `leitos_gerais_caderno2017` (IDENT=1, exclui Obstetrícia) para casar
 internação com marca de UTI — antes deste ajuste, `pe`, `TMP UTI`, "Internações c/ UTI" e a faixa
 "Necessário" vinham de um universo de internações diferente do NIe da mesma linha, e a tabela abaixo
@@ -376,14 +376,14 @@ realmente o obteve**. `estado_fonte` é a força disso. São três campos porque
 | Hemodiálise | — | `censo_sbn.json` contém o menu de navegação do site, não dados | `sem fonte` | UNSOURCED |
 
 **Cinco dos oito parâmetros saem UNSOURCED, e isso é o resultado, não uma falha da execução.** A
-suposição 4 do BRIEF previu que a hemodiálise cairia; caíram outras quatro junto. Uma linha que não
+a suposição 4 do plano deste trabalho previu que a hemodiálise cairia; caíram outras quatro junto. Uma linha que não
 consegue citar seu parâmetro é publicada como UNSOURCED com o motivo, nunca calculada assim mesmo.
 
 **O parâmetro extraído só produz linha no DF.** O denominador dele são nascidos vivos, e a série
 que este projeto tem (`nascidos_vivos_peso`, SINASC **2024**, **33.282 nascidos vivos**) é do DF
 inteiro, sem quebra por RA. As 35 linhas por RA e as 7 por região saem com
 `estado = "sem geografia"` e dizem isso — **não** com o número do DF rateado, que seria uma
-alocação sem base. A suposição 9 do BRIEF antecipou exatamente esta situação.
+alocação sem base. A suposição 9 do plano deste trabalho antecipou exatamente esta situação.
 
 | | Existente SUS | Necessário (2/1.000 NV) | Déficit |
 |---|---:|---:|---:|
@@ -428,7 +428,7 @@ porque muda como a tabela se soma:
 
 > **TABELA SUPERADA — publicada como registro, não como resultado corrente.**
 > Os números abaixo são a Portaria GM/MS 1.101/2002 (2,5 a 3 leitos/1.000 hab), que **saiu do
-> cálculo em 2026-09-06** (`OS-024`). O que este projeto publica hoje é a Equação 1 do Caderno de
+> cálculo em 2026-09-06**. O que este projeto publica hoje é a Equação 1 do Caderno de
 > 2017 — ver a seção *Leitos gerais pelo método do Caderno 2017* acima e o [dossiê](../dossie.md)
 > §1.2–1.4. Esta tabela fica aqui **citada e não apagada**, porque um leitor que a leu precisa
 > saber o que leu; ela **não é regerada** do banco e não deve ser lida como estado atual.
@@ -450,7 +450,7 @@ esconderia isso.
 
 > **TABELA SUPERADA — publicada como registro, não como resultado corrente.**
 > Os números abaixo são a Portaria GM/MS 1.101/2002 (2,5 a 3 leitos/1.000 hab), que **saiu do
-> cálculo em 2026-09-06** (`OS-024`). O que este projeto publica hoje é a Equação 1 do Caderno de
+> cálculo em 2026-09-06**. O que este projeto publica hoje é a Equação 1 do Caderno de
 > 2017 — ver a seção *Leitos gerais pelo método do Caderno 2017* acima e o [dossiê](../dossie.md)
 > §1.2–1.4. Esta tabela fica aqui **citada e não apagada**, porque um leitor que a leu precisa
 > saber o que leu; ela **não é regerada** do banco e não deve ser lida como estado atual.
@@ -565,7 +565,7 @@ requisito é comparado.
 
 > **TABELA SUPERADA — publicada como registro, não como resultado corrente.**
 > Os números abaixo são a Portaria GM/MS 1.101/2002 (2,5 a 3 leitos/1.000 hab), que **saiu do
-> cálculo em 2026-09-06** (`OS-024`). O que este projeto publica hoje é a Equação 1 do Caderno de
+> cálculo em 2026-09-06**. O que este projeto publica hoje é a Equação 1 do Caderno de
 > 2017 — ver a seção *Leitos gerais pelo método do Caderno 2017* acima e o [dossiê](../dossie.md)
 > §1.2–1.4. Esta tabela fica aqui **citada e não apagada**, porque um leitor que a leu precisa
 > saber o que leu; ela **não é regerada** do banco e não deve ser lida como estado atual.
@@ -659,13 +659,13 @@ pediátrica + neonatal), que é o que a linha transcrita diz.
 
 **No DF há excedente de UTI nas duas pontas do parâmetro**: entre 101 e 438 leitos acima do que ele
 pede, ou 11,8 % dos 5.612 leitos hospitalares SUS contra uma faixa que vai até 10 %. Isso confirma a
-direção que a suposição 8 do BRIEF anunciou antes da execução, e não a magnitude: a suposição
+direção que a suposição 8 do plano deste trabalho anunciou antes da execução, e não a magnitude: a suposição
 comparava 662 leitos contra `0,15 × 3.130.014 = 470` — mas o 0,15 é um parâmetro de **UTI adulto**,
 e é **UNSOURCED de todo modo**, então essa conta não é publicada como resultado.
 
 **Um excedente de UTI ao lado de um déficit de enfermaria não é uma contradição, e este documento
 não a resolve.** É o que os dois parâmetros dizem sobre os mesmos dados, e a leitura clínica disso
-está fora do escopo do `OS-011`.
+está fora do escopo desta nota.
 
 > **A frase que esta substitui, citada e não apagada:** *"Um excedente de UTI ao lado de um déficit
 > de enfermaria de 2.285 a 3.715 leitos não é uma contradição…"*. Aquele déficit era o da Portaria
@@ -675,7 +675,7 @@ está fora do escopo do `OS-011`.
 > retórica de que a frase original vivia — UTI sobrando, enfermaria faltando — não se sustenta no
 > agregado distrital**, e sobrevive apenas por região. A tabela de UTI acima **não mudou**: ela é a
 > proporção de 4 % a 10 % da 1.101/2002, o último parâmetro transcrito deste projeto
-> ([issue #77](https://github.com/maximusminus/saudedf/issues/77)).
+> (registro interno).
 
 ## O que ficou de fora
 
@@ -687,7 +687,7 @@ está fora do escopo do `OS-011`.
   isolamento e suporte ventilatório. Calcular exigiria partir essa categoria em duas novas, o que é
   uma mudança de forma da tabela e não uma correção. Está registrado como pendência.
 - **Duas revisões independentes acharam parâmetros dentro de um arquivo que este trabalho já tinha
-  baixado.** É o mesmo padrão as duas vezes, e é exatamente o que o `OS-008` mediu. O que se
+  baixado.** É o mesmo padrão as duas vezes, e é exatamente o que a auditoria de procedência mediu. O que se
   aprende disso não é "faltou uma fonte": é que *ler o que já está em `dados/raw/`* é mais barato e
   mais produtivo do que procurar fora, e este projeto não estava fazendo isso.
 - **Cuidados intermediários e isolamento (82 leitos SUS)** — UCI adulto, pediátrica e neonatal,

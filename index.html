@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saúde no Distrito Federal — painel de dados</title>
+<meta name="description" content="Os dados públicos de saúde do Distrito Federal,
+ com a fonte de cada número, exportáveis e com as lacunas declaradas.">
+<link rel="stylesheet" href="painel.css">
+</head>
+<body>
+
+<header class="topo">
+  <div class="env">
+    <div class="marca">
+      <h1>Saúde no Distrito Federal — painel de dados</h1>
+      <p>Cada número aqui vem de uma fonte pública, com o endereço do documento
+         ao lado. O que a fonte não publica aparece como lacuna, com o motivo
+         medido. Nada é estimado para fechar uma conta.</p>
+    </div>
+    <div class="acoes">
+      <a class="botao destaque" id="relatar" href="#">Relatar erro ou sugestão</a>
+      <a class="botao" href="documentos.md">Texto completo</a>
+      <button class="botao" id="imprimir" type="button">Imprimir / PDF</button>
+    </div>
+  </div>
+</header>
+
+<nav class="abas" role="tablist"><div class="env" id="abas"></div></nav>
+
+<main class="env">
+  <div class="filtros">
+    <label for="ano">Ano</label>
+    <select id="ano"><option value="todos">todos os anos</option></select>
+    <input id="busca" type="search" placeholder="Buscar em qualquer campo…"
+           aria-label="Buscar">
+    <button class="botao" id="exportar" type="button">Exportar tudo desta visão (CSV)</button>
+  </div>
+  <div id="conteudo"></div>
+</main>
+
+<footer class="env rodape">
+  <p>Os dados desta página são os mesmos arquivos que o projeto publica: cada
+     tabela tem um link direto para o seu arquivo, e cada documento lido aparece
+     na aba <b>Fontes</b> com o endereço de origem e a impressão digital do
+     arquivo.</p>
+  <p>Encontrou um erro, um número que não bate ou uma fonte melhor?
+     <a id="relatar-rodape" href="#">Escreva para nós</a> — o relato ajuda a
+     corrigir a página.</p>
+</footer>
+
+<div class="modal" id="detalhe" hidden></div>
+<script src="painel.js"></script>
+<script>
+(function(){var a=document.getElementById('relatar-rodape');
+ a.addEventListener('click',function(e){e.preventDefault();
+  document.getElementById('relatar').click();});}());
+</script>
+</body>
+</html>

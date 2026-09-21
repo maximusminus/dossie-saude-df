@@ -2,12 +2,6 @@
 layout: default
 title: "Anexo: sumário executivo"
 ---
-<!-- ANEXO GERADO -- NÃO EDITAR À MÃO.
-     Comando: `scripts_extracao/dossie_pdf.py (extrair_sumario)`.
-     Fingerprint do corpo (sha256[:16]): 2c8c6415bc113871.
-     Uma cópia commitada que diverge de uma geração nova a partir do
-     mesmo banco FALHA o gate (`scripts_extracao/run.py`, OS-070 Q3). -->
-
 ## Sumário executivo
 
 **Este sumário segue a cadeia causal que o projeto testa, elo por elo — cada parágrafo nomeia o
@@ -72,8 +66,8 @@ quê.
 **Elo 5 — carreiras e remuneração (Bloco 5).** O quadro das carreiras da saúde caiu 4,0 % entre
 2021 e 2025 `[pessoal_carreira]`. Em dezembro de 2025, das cinco carreiras com mais cargos vagos,
 a carreira médica tinha 5.144 vagas de 10.000 cargos `[cargos_vagos]`. A série histórica de
-vencimentos continua bloqueada pelo mesmo host que barra o antigo Eixo 4 desde o `OS-012`
-(seção 5.2).
+vencimentos continua bloqueada pelo mesmo host que barra o antigo Eixo 4 desde a primeira
+tentativa, em 2026-08-27 (seção 5.2).
 
 **Elo 6 — IGES-DF e HCB (Bloco 6).** Medido pelo próprio inventário de tipos de documento que
 este projeto declarou antes de contar qualquer célula, o IGES-DF publica 3 de 3 categorias e o

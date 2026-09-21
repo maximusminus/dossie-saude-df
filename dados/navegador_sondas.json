@@ -1,5 +1,5 @@
 {
-  "source": "OS-058, route step R0.2: as quatro necessidades `blocked` por WAF, re-medidas a cada execução por um navegador real (navegador.py) em vez de urllib, que já não é o cliente que essas quatro necessidades enfrentam.",
+  "source": "apuração de 2026-09-09, route step R0.2: as quatro necessidades `blocked` por WAF, re-medidas a cada execução por um navegador real (navegador.py) em vez de urllib, que já não é o cliente que essas quatro necessidades enfrentam.",
   "dados": [
     {
       "eixo": "eixo3",

@@ -1,5 +1,5 @@
 {
-  "source": "Derivado deste projeto: os seis indicadores do Bloco 1 (mortalidade_infantil, mortalidade_materna, esperanca_vida, cobertura_vacinal, sim_obitos, sinasc_serie) contra o registro cldf_proposicoes_saude (Bloco 8, OS-065). Regra de giro (Q1, 'Both, each row labelled'): RULE A = mudanca de sinal sustentada (a direção ano-a-ano inverte e a nova direção se mantém por ao menos mais um ano); RULE B = variação acima do desvio-padrão da própria série (statistics.pstdev), nunca um número escolhido por indicador. Janela por instrumento (Q2, 'Per-instrument window'): requerimento de informação e convocação tomam o ano do giro mais 1 ano seguinte; PL/PDL e CPI tomam o ano do giro mais 2 anos seguintes -- uma escolha deste projeto, não a palavra da rota, e por isso justificada aqui e no dossiê. instrumento_convocacao e instrumento_cpi são estruturalmente 0 em toda linha: nenhuma das seis colunas de cldf_proposicoes_saude (autor, data, numero, tipo, tramitacao, url) distingue um requerimento de convocação ou instituidor de CPI de um requerimento de informação comum -- medido contra o corte tema=24 em 2026-09-14 -- e uma CPI é uma comissão, não uma proposição, sem tipo próprio neste registro. proposicoes_ids cita apenas proposições cujo tipo mapeia para um dos quatro instrumentos declarados E cuja data cai na janela própria daquele instrumento -- nunca qualquer proposição apenas por estar no intervalo de anos, o que listaria tipos como Indicação ou Moção ao lado de colunas de instrumento que eles nunca podem preencher. Giros datados antes de 2017 (início medido da cobertura de cldf_proposicoes_saude, OS-065) recebem janela declarada e não buscada.",
+  "source": "Derivado deste projeto: os seis indicadores do Bloco 1 (mortalidade_infantil, mortalidade_materna, esperanca_vida, cobertura_vacinal, sim_obitos, sinasc_serie) contra o registro cldf_proposicoes_saude (Bloco 8, apuração de 2026-09-13). Regra de giro (Q1, 'Both, each row labelled'): RULE A = mudanca de sinal sustentada (a direção ano-a-ano inverte e a nova direção se mantém por ao menos mais um ano); RULE B = variação acima do desvio-padrão da própria série (statistics.pstdev), nunca um número escolhido por indicador. Janela por instrumento (Q2, 'Per-instrument window'): requerimento de informação e convocação tomam o ano do giro mais 1 ano seguinte; PL/PDL e CPI tomam o ano do giro mais 2 anos seguintes -- uma escolha deste projeto, não a palavra da rota, e por isso justificada aqui e no dossiê. instrumento_convocacao e instrumento_cpi são estruturalmente 0 em toda linha: nenhuma das seis colunas de cldf_proposicoes_saude (autor, data, numero, tipo, tramitacao, url) distingue um requerimento de convocação ou instituidor de CPI de um requerimento de informação comum -- medido contra o corte tema=24 em 2026-09-14 -- e uma CPI é uma comissão, não uma proposição, sem tipo próprio neste registro. proposicoes_ids cita apenas proposições cujo tipo mapeia para um dos quatro instrumentos declarados E cuja data cai na janela própria daquele instrumento -- nunca qualquer proposição apenas por estar no intervalo de anos, o que listaria tipos como Indicação ou Moção ao lado de colunas de instrumento que eles nunca podem preencher. Giros datados antes de 2017 (início medido da cobertura de cldf_proposicoes_saude, apuração de 2026-09-13) recebem janela declarada e não buscada.",
   "dados": [
     {
       "ano": "2002",
@@ -17,7 +17,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2002 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2002 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2005",
@@ -35,7 +35,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2005 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2005 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2007",
@@ -53,7 +53,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2007 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2007 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2012",
@@ -71,7 +71,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2012 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2012 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2014",
@@ -89,7 +89,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2014 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2014 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2018",
@@ -161,7 +161,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2004 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2004 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2008",
@@ -179,7 +179,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2008 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2008 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2009",
@@ -197,7 +197,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2009 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2009 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2014",
@@ -215,7 +215,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2014 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2014 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2016",
@@ -233,7 +233,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2016 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2016 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2019",
@@ -323,7 +323,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2004 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2004 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2006",
@@ -341,7 +341,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2006 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2006 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2009",
@@ -359,7 +359,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2009 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2009 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2010",
@@ -377,7 +377,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2010 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2010 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2013",
@@ -395,7 +395,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2013 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2013 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2014",
@@ -413,7 +413,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2014 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2014 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2015",
@@ -431,7 +431,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2015 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2015 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2016",
@@ -449,7 +449,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2016 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2016 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2017",
@@ -503,7 +503,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2006 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2006 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2016",
@@ -521,7 +521,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2016 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2016 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2019",
@@ -611,7 +611,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2004 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2004 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2008",
@@ -629,7 +629,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2008 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2008 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2014",
@@ -647,7 +647,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2014 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2014 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2016",
@@ -665,7 +665,7 @@
       "instrumento_pl_pdl": 0,
       "instrumento_cpi": 0,
       "estado": "lacuna",
-      "motivo": "o giro de 2016 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (OS-065); a janela não é buscada"
+      "motivo": "o giro de 2016 e sua janela antecedem 2017, início medido da cobertura de cldf_proposicoes_saude (apuração de 2026-09-13); a janela não é buscada"
     },
     {
       "ano": "2019",

@@ -1,11 +1,11 @@
 {
-  "fonte": "SIH microdados reduzidos (RD), 2024, MARCA_UTI/UTI_MES_TO (sih_uti.sih_uti_espec_faixa_2024); leitos_gerais_caderno2017 (NIe geral); CNES (dimensionamento._capacidade, leitos SUS por categoria); Quadro 43 EXTRAIDO do PDF do Caderno 2017 (taxas_ocupacao_quadro43); DFe=FRe=1 (Quadro 44) -- OS-082, issue #77",
-  "aviso": "PUBLICADO AO LADO da faixa 4-10 % da Portaria 1.101/2002 em dimensionamento_df/_regiao/_ra, NUNCA a substituindo -- operator, OS-082, Q2, 2026-09-18, 'Beside'. UTI adulto exclui Obstetricia (UNSOURCED); UTI neonatal permanece UNSOURCED por um motivo herdado de Neonatologia, nao do MARCA_UTI. So ha leitura DF -- SIH nao carrega RA, a mesma ceiling do resto deste modulo",
+  "fonte": "SIH microdados reduzidos (RD), 2024, MARCA_UTI/UTI_MES_TO (sih_uti.sih_uti_espec_faixa_2024); leitos_gerais_caderno2017 (NIe geral); CNES (dimensionamento._capacidade, leitos SUS por categoria); Quadro 43 EXTRAIDO do PDF do Caderno 2017 (taxas_ocupacao_quadro43); DFe=FRe=1 (Quadro 44) -- apuração de 2026-09-18, issue #77",
+  "aviso": "PUBLICADO AO LADO da faixa 4-10 % da Portaria 1.101/2002 em dimensionamento_df/_regiao/_ra, NUNCA a substituindo -- operator, apuração de 2026-09-18, Q2, 2026-09-18, 'Beside'. UTI adulto exclui Obstetricia (UNSOURCED); UTI neonatal permanece UNSOURCED por um motivo herdado de Neonatologia, nao do MARCA_UTI. So ha leitura DF -- SIH nao carrega RA, a mesma ceiling do resto deste modulo",
   "dados": [
     {
       "tipo_leito_uti": "UTI adulto",
       "categorias_geral_incluidas": "Clinica 15-59 anos, Clinica 60 anos ou mais, Cirurgica 15-59 anos, Cirurgica 60 anos ou mais",
-      "nota_grupo": "exclui Obstetricia (UNSOURCED, ver acima) -- as quatro categorias gerais restantes de adulto entram no NIe do grupo -- 537 das 9760 internações com UTI deste grupo usaram um MARCA_UTI de queimados/coronariana (a demanda soma pela especialidade/faixa do PACIENTE; a oferta CNES -- dimensionamento.TABNET_CATEGORIA -- soma essas duas categorias em 'UTI adulto' sempre, mesmo quando o paciente é do grupo 'UTI pediátrica' aqui -- OS-082, revisão independente, achado LOW, medido e não reconciliado)",
+      "nota_grupo": "exclui Obstetricia (UNSOURCED, ver acima) -- as quatro categorias gerais restantes de adulto entram no NIe do grupo -- 537 das 9760 internações com UTI deste grupo usaram um MARCA_UTI de queimados/coronariana (a demanda soma pela especialidade/faixa do PACIENTE; a oferta CNES -- dimensionamento.TABNET_CATEGORIA -- soma essas duas categorias em 'UTI adulto' sempre, mesmo quando o paciente é do grupo 'UTI pediátrica' aqui -- apuração de 2026-09-18, revisão independente, achado LOW, medido e não reconciliado)",
       "nie_internacoes_gerais_2024": 102985,
       "dias_permanencia_gerais_2024": 661369,
       "pe_proporcao_uti": 0.094771,
@@ -31,7 +31,7 @@
     {
       "tipo_leito_uti": "UTI pediatrica",
       "categorias_geral_incluidas": "Pediatria clinica, Pediatria cirurgica",
-      "nota_grupo": "as duas categorias gerais de pediatria entram no NIe do grupo, integralmente -- 0 das 2775 internações com UTI deste grupo usaram um MARCA_UTI de queimados/coronariana (a demanda soma pela especialidade/faixa do PACIENTE; a oferta CNES -- dimensionamento.TABNET_CATEGORIA -- soma essas duas categorias em 'UTI adulto' sempre, mesmo quando o paciente é do grupo 'UTI pediátrica' aqui -- OS-082, revisão independente, achado LOW, medido e não reconciliado)",
+      "nota_grupo": "as duas categorias gerais de pediatria entram no NIe do grupo, integralmente -- 0 das 2775 internações com UTI deste grupo usaram um MARCA_UTI de queimados/coronariana (a demanda soma pela especialidade/faixa do PACIENTE; a oferta CNES -- dimensionamento.TABNET_CATEGORIA -- soma essas duas categorias em 'UTI adulto' sempre, mesmo quando o paciente é do grupo 'UTI pediátrica' aqui -- apuração de 2026-09-18, revisão independente, achado LOW, medido e não reconciliado)",
       "nie_internacoes_gerais_2024": 45793,
       "dias_permanencia_gerais_2024": 193346,
       "pe_proporcao_uti": 0.060599,

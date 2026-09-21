@@ -1,0 +1,3735 @@
+{
+ "abas": [
+  {
+   "id": "visao",
+   "intro": "Os números que abrem cada bloco da análise, cada um com a tabela de onde saiu e o documento que a publicou. Nada aqui é estimado: onde a fonte não publica, a lacuna aparece na aba Lacunas.",
+   "paineis": [
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "leitos_sus",
+       "r": "Leitos SUS",
+       "t": "int"
+      },
+      {
+       "c": "populacao",
+       "r": "População",
+       "t": "int"
+      },
+      {
+       "c": "leitos_por_mil_habitantes",
+       "casas": 3,
+       "r": "Leitos por mil habitantes",
+       "t": "dec"
+      },
+      {
+       "c": "fonte_populacao",
+       "r": "Fonte populacao",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "CNES -- base de dados",
+       "url": "https://cnes.datasus.gov.br/"
+      },
+      {
+       "rot": "IBGE -- API de agregados",
+       "url": "https://servicodados.ibge.gov.br/api/docs/agregados"
+      }
+     ],
+     "grafico": {
+      "rotulo": "leitos por mil habitantes",
+      "x": "ano",
+      "y": "leitos_por_mil_habitantes"
+     },
+     "linhas": 22,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "dimensionamento_serie",
+     "titulo": "Leitos SUS por mil habitantes, ano a ano"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "funcao",
+       "r": "Função",
+       "t": "texto"
+      },
+      {
+       "c": "liquidado",
+       "r": "Liquidado (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência do DF",
+       "url": "https://www.transparencia.df.gov.br/"
+      },
+      {
+       "rot": "SES-DF -- InfoSaúde",
+       "url": "https://info.saude.df.gov.br/"
+      }
+     ],
+     "grafico": {
+      "rotulo": "R$ liquidados",
+      "x": "ano",
+      "y": "liquidado"
+     },
+     "linhas": 9,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "orcamento_saude",
+     "titulo": "Despesa liquidada na função saúde"
+    }
+   ],
+   "rotulo": "Visão geral"
+  },
+  {
+   "id": "bloco1",
+   "intro": "Mortalidade, natalidade, vacinação e esperança de vida no Distrito Federal. Cada série vem do sistema que a publica e é conferida contra o total do próprio publicador.",
+   "paineis": [
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "obitos_menor_1_ano",
+       "r": "Óbitos com menos de 1 ano",
+       "t": "int"
+      },
+      {
+       "c": "nascidos_vivos",
+       "r": "Nascidos vivos",
+       "t": "int"
+      },
+      {
+       "c": "taxa_por_mil",
+       "casas": 2,
+       "r": "Por mil nascidos vivos",
+       "t": "dec"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Ministério da Saúde -- dados abertos",
+       "url": "https://dadosabertos.saude.gov.br/"
+      },
+      {
+       "rot": "DATASUS -- arquivos públicos",
+       "url": "https://ftp.datasus.gov.br/dissemin/publicos/"
+      }
+     ],
+     "grafico": {
+      "rotulo": "óbitos por mil nascidos vivos",
+      "x": "ano",
+      "y": "taxa_por_mil"
+     },
+     "linhas": 25,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "mortalidade_infantil",
+     "titulo": "Mortalidade infantil"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "obitos_maternos",
+       "r": "Óbitos maternos",
+       "t": "int"
+      },
+      {
+       "c": "nascidos_vivos",
+       "r": "Nascidos vivos",
+       "t": "int"
+      },
+      {
+       "c": "razao_por_100mil",
+       "casas": 2,
+       "r": "Por 100 mil nascidos vivos",
+       "t": "dec"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Ministério da Saúde -- dados abertos",
+       "url": "https://dadosabertos.saude.gov.br/"
+      },
+      {
+       "rot": "DATASUS -- arquivos públicos",
+       "url": "https://ftp.datasus.gov.br/dissemin/publicos/"
+      }
+     ],
+     "grafico": {
+      "rotulo": "óbitos maternos por 100 mil nascidos vivos",
+      "x": "ano",
+      "y": "razao_por_100mil"
+     },
+     "linhas": 25,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "mortalidade_materna",
+     "titulo": "Mortalidade materna"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "sexo",
+       "r": "Sexo",
+       "t": "texto"
+      },
+      {
+       "c": "esperanca_vida_anos",
+       "casas": 2,
+       "r": "Anos de vida ao nascer",
+       "t": "dec"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "IBGE -- API de agregados",
+       "url": "https://servicodados.ibge.gov.br/api/docs/agregados"
+      }
+     ],
+     "grafico": {
+      "rotulo": "anos",
+      "serie": "sexo",
+      "x": "ano",
+      "y": "esperanca_vida_anos"
+     },
+     "linhas": 25,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "esperanca_vida",
+     "titulo": "Esperança de vida ao nascer"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "imunobiologico",
+       "r": "Imunizante",
+       "t": "texto"
+      },
+      {
+       "c": "cobertura_percentual",
+       "casas": 1,
+       "r": "Cobertura (%)",
+       "t": "dec"
+      },
+      {
+       "c": "regime",
+       "r": "Regime",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "DATASUS TABNET",
+       "url": "https://tabnet.datasus.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 329,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "cobertura_vacinal",
+     "titulo": "Cobertura vacinal por imunizante"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "faixa_peso",
+       "r": "Faixa de peso",
+       "t": "texto"
+      },
+      {
+       "c": "nascidos_vivos",
+       "r": "Nascidos vivos",
+       "t": "int"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Ministério da Saúde -- dados abertos",
+       "url": "https://dadosabertos.saude.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 8,
+     "nota": null,
+     "ordenar": "faixa_peso",
+     "tabela": "nascidos_vivos_peso",
+     "titulo": "Nascidos vivos por faixa de peso"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "indicador",
+       "r": "Indicador",
+       "t": "texto"
+      },
+      {
+       "c": "direcao",
+       "r": "Direção",
+       "t": "texto"
+      },
+      {
+       "c": "magnitude",
+       "r": "Magnitude",
+       "t": "texto"
+      },
+      {
+       "c": "regra",
+       "r": "Regra",
+       "t": "texto"
+      },
+      {
+       "c": "janela",
+       "r": "Janela",
+       "t": "texto"
+      },
+      {
+       "c": "instrumento_requerimento_informacao",
+       "r": "Instrumento requerimento informacao",
+       "t": "texto"
+      },
+      {
+       "c": "instrumento_convocacao",
+       "r": "Instrumento convocacao",
+       "t": "texto"
+      },
+      {
+       "c": "instrumento_pl_pdl",
+       "r": "Instrumento pl pdl",
+       "t": "texto"
+      },
+      {
+       "c": "instrumento_cpi",
+       "r": "Instrumento cpi",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Câmara Legislativa do DF -- portal legislativo",
+       "url": "https://ple.cl.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 39,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "momentos_de_virada",
+     "titulo": "Momentos de virada e o que a Câmara fez neles"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "obitos_microdados",
+       "r": "Obitos microdados",
+       "t": "texto"
+      },
+      {
+       "c": "obitos_tabnet",
+       "r": "Obitos tabnet",
+       "t": "texto"
+      },
+      {
+       "c": "diferenca",
+       "r": "Diferença",
+       "t": "int"
+      },
+      {
+       "c": "confere",
+       "r": "Confere",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Ministério da Saúde -- dados abertos",
+       "url": "https://dadosabertos.saude.gov.br/"
+      },
+      {
+       "rot": "DATASUS TABNET",
+       "url": "https://tabnet.datasus.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 25,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "sim_reconciliacao",
+     "titulo": "Conferência: óbitos contados aqui e no publicador"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "nascidos_microdados",
+       "r": "Nascidos microdados",
+       "t": "texto"
+      },
+      {
+       "c": "nascidos_tabnet",
+       "r": "Nascidos tabnet",
+       "t": "texto"
+      },
+      {
+       "c": "diferenca",
+       "r": "Diferença",
+       "t": "int"
+      },
+      {
+       "c": "confere",
+       "r": "Confere",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Ministério da Saúde -- dados abertos",
+       "url": "https://dadosabertos.saude.gov.br/"
+      },
+      {
+       "rot": "DATASUS TABNET",
+       "url": "https://tabnet.datasus.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 25,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "sinasc_reconciliacao",
+     "titulo": "Conferência: nascimentos contados aqui e no publicador"
+    }
+   ],
+   "rotulo": "1. Indicadores"
+  },
+  {
+   "id": "bloco2",
+   "intro": "As unidades básicas e as equipes de saúde da família contra a população que elas precisam cobrir.",
+   "paineis": [
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "populacao",
+       "r": "População",
+       "t": "int"
+      },
+      {
+       "c": "equipes_esf",
+       "r": "Equipes de saúde da família",
+       "t": "int"
+      },
+      {
+       "c": "habitantes_por_equipe",
+       "r": "Habitantes por equipe",
+       "t": "int"
+      },
+      {
+       "c": "fonte_populacao",
+       "r": "Fonte populacao",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "CNES -- base de dados",
+       "url": "https://cnes.datasus.gov.br/"
+      },
+      {
+       "rot": "IBGE -- API de agregados",
+       "url": "https://servicodados.ibge.gov.br/api/docs/agregados"
+      }
+     ],
+     "grafico": {
+      "rotulo": "habitantes por equipe",
+      "x": "ano",
+      "y": "habitantes_por_equipe"
+     },
+     "linhas": 20,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "habitantes_por_equipe",
+     "titulo": "Habitantes por equipe de saúde da família"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "tp_unid_rotulo",
+       "r": "Tipo de unidade",
+       "t": "texto"
+      },
+      {
+       "c": "unidades",
+       "r": "Unidades",
+       "t": "int"
+      },
+      {
+       "c": "competencia",
+       "r": "Competência",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "CNES -- base de dados",
+       "url": "https://cnes.datasus.gov.br/"
+      },
+      {
+       "rot": "DATASUS -- arquivos públicos",
+       "url": "https://ftp.datasus.gov.br/dissemin/publicos/"
+      }
+     ],
+     "grafico": {
+      "rotulo": "unidades",
+      "serie": "tp_unid_rotulo",
+      "x": "ano",
+      "y": "unidades"
+     },
+     "linhas": 41,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "ubs_serie",
+     "titulo": "Unidades básicas de saúde, ano a ano"
+    },
+    {
+     "ano": [
+      "competencia",
+      "competencia"
+     ],
+     "colunas": [
+      {
+       "c": "competencia",
+       "r": "Competência",
+       "t": "texto"
+      },
+      {
+       "c": "metodo_rotulo",
+       "r": "Recorte do publicador",
+       "t": "texto"
+      },
+      {
+       "c": "indicador",
+       "r": "Indicador",
+       "t": "texto"
+      },
+      {
+       "c": "valor",
+       "casas": 2,
+       "r": "Valor",
+       "t": "dec"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "e-Gestor Atenção Primária",
+       "url": "https://relatorioaps.saude.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 3608,
+     "nota": null,
+     "ordenar": "competencia",
+     "tabela": "aps_cobertura_egestor",
+     "titulo": "Cobertura declarada pelo e-Gestor"
+    }
+   ],
+   "rotulo": "2. Atenção primária"
+  },
+  {
+   "id": "bloco3",
+   "intro": "Quantos leitos SUS existem, quantos os parâmetros do Ministério da Saúde indicam para esta população, e onde a diferença cai.",
+   "paineis": [
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "def",
+       "r": "Def",
+       "t": "texto"
+      },
+      {
+       "c": "descricao",
+       "r": "Descricao",
+       "t": "texto"
+      },
+      {
+       "c": "dimensoes",
+       "r": "Dimensoes",
+       "t": "texto"
+      },
+      {
+       "c": "tem_faixa_etaria",
+       "r": "Tem faixa etaria",
+       "t": "texto"
+      },
+      {
+       "c": "tem_especialidade_leito",
+       "r": "Tem especialidade leito",
+       "t": "texto"
+      },
+      {
+       "c": "tem_grupo_procedimento",
+       "r": "Tem grupo procedimento",
+       "t": "texto"
+      },
+      {
+       "c": "observacao",
+       "r": "Observacao",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "DATASUS TABNET",
+       "url": "https://tabnet.datasus.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 4,
+     "nota": "Medido, não suposto: nenhum dos painéis públicos de internação cruza especialidade do leito com faixa etária, e é por isso que esse cruzamento é feito a partir dos microdados.",
+     "ordenar": "def",
+     "tabela": "sih_probes_def",
+     "titulo": "O que o painel público de internações consegue e não consegue cruzar"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "leitos_sus",
+       "r": "Leitos SUS",
+       "t": "int"
+      },
+      {
+       "c": "leitos_sus_sem_ra",
+       "r": "Leitos sus sem ra",
+       "t": "texto"
+      },
+      {
+       "c": "populacao",
+       "r": "População",
+       "t": "int"
+      },
+      {
+       "c": "leitos_por_mil_habitantes",
+       "casas": 3,
+       "r": "Leitos por mil habitantes",
+       "t": "dec"
+      },
+      {
+       "c": "fonte_populacao",
+       "r": "Fonte populacao",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "CNES -- base de dados",
+       "url": "https://cnes.datasus.gov.br/"
+      },
+      {
+       "rot": "IBGE -- API de agregados",
+       "url": "https://servicodados.ibge.gov.br/api/docs/agregados"
+      }
+     ],
+     "grafico": {
+      "rotulo": "leitos SUS",
+      "x": "ano",
+      "y": "leitos_sus"
+     },
+     "linhas": 22,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "dimensionamento_serie",
+     "titulo": "Leitos SUS e população, ano a ano"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "tipo_leito",
+       "r": "Tipo leito",
+       "t": "texto"
+      },
+      {
+       "c": "parametro",
+       "r": "Parametro",
+       "t": "texto"
+      },
+      {
+       "c": "populacao",
+       "r": "População",
+       "t": "int"
+      },
+      {
+       "c": "existente_sus",
+       "r": "Leitos SUS existentes",
+       "t": "int"
+      },
+      {
+       "c": "necessario_min",
+       "r": "Necessario min",
+       "t": "texto"
+      },
+      {
+       "c": "necessario_max",
+       "r": "Necessario max",
+       "t": "texto"
+      },
+      {
+       "c": "deficit_min",
+       "r": "Déficit mínimo",
+       "t": "int"
+      },
+      {
+       "c": "deficit_max",
+       "r": "Déficit máximo",
+       "t": "int"
+      },
+      {
+       "c": "deficit_pct_min",
+       "casas": 1,
+       "r": "Déficit mínimo (%)",
+       "t": "dec"
+      },
+      {
+       "c": "deficit_pct_max",
+       "casas": 1,
+       "r": "Déficit máximo (%)",
+       "t": "dec"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "fonte_declarada",
+       "r": "Fonte declarada",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Ministério da Saúde -- publicações",
+       "url": "https://www.gov.br/saude/"
+      },
+      {
+       "rot": "CNES -- base de dados",
+       "url": "https://cnes.datasus.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 11,
+     "nota": null,
+     "ordenar": "tipo_leito",
+     "tabela": "dimensionamento_df",
+     "titulo": "Necessidade e déficit no Distrito Federal"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "regiao_saude",
+       "r": "Região de saúde",
+       "t": "texto"
+      },
+      {
+       "c": "tipo_leito",
+       "r": "Tipo leito",
+       "t": "texto"
+      },
+      {
+       "c": "populacao_pdad",
+       "r": "Populacao pdad",
+       "t": "texto"
+      },
+      {
+       "c": "existente_sus",
+       "r": "Leitos SUS existentes",
+       "t": "int"
+      },
+      {
+       "c": "necessario_min",
+       "r": "Necessario min",
+       "t": "texto"
+      },
+      {
+       "c": "necessario_max",
+       "r": "Necessario max",
+       "t": "texto"
+      },
+      {
+       "c": "deficit_min",
+       "r": "Déficit mínimo",
+       "t": "int"
+      },
+      {
+       "c": "deficit_max",
+       "r": "Déficit máximo",
+       "t": "int"
+      },
+      {
+       "c": "deficit_pct_min",
+       "casas": 1,
+       "r": "Déficit mínimo (%)",
+       "t": "dec"
+      },
+      {
+       "c": "deficit_pct_max",
+       "casas": 1,
+       "r": "Déficit máximo (%)",
+       "t": "dec"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Ministério da Saúde -- publicações",
+       "url": "https://www.gov.br/saude/"
+      },
+      {
+       "rot": "CNES -- base de dados",
+       "url": "https://cnes.datasus.gov.br/"
+      },
+      {
+       "rot": "IPEDF -- PDAD",
+       "url": "https://pdad.ipe.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 77,
+     "nota": null,
+     "ordenar": "regiao_saude",
+     "tabela": "dimensionamento_regiao",
+     "titulo": "Necessidade e déficit por região de saúde"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "no_ra",
+       "r": "Região administrativa",
+       "t": "texto"
+      },
+      {
+       "c": "tipo_leito",
+       "r": "Tipo leito",
+       "t": "texto"
+      },
+      {
+       "c": "populacao_pdad",
+       "r": "Populacao pdad",
+       "t": "texto"
+      },
+      {
+       "c": "existente_sus",
+       "r": "Leitos SUS existentes",
+       "t": "int"
+      },
+      {
+       "c": "necessario_min",
+       "r": "Necessario min",
+       "t": "texto"
+      },
+      {
+       "c": "necessario_max",
+       "r": "Necessario max",
+       "t": "texto"
+      },
+      {
+       "c": "deficit_min",
+       "r": "Déficit mínimo",
+       "t": "int"
+      },
+      {
+       "c": "deficit_max",
+       "r": "Déficit máximo",
+       "t": "int"
+      },
+      {
+       "c": "deficit_pct_min",
+       "casas": 1,
+       "r": "Déficit mínimo (%)",
+       "t": "dec"
+      },
+      {
+       "c": "deficit_pct_max",
+       "casas": 1,
+       "r": "Déficit máximo (%)",
+       "t": "dec"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Ministério da Saúde -- publicações",
+       "url": "https://www.gov.br/saude/"
+      },
+      {
+       "rot": "CNES -- base de dados",
+       "url": "https://cnes.datasus.gov.br/"
+      },
+      {
+       "rot": "IPEDF -- PDAD",
+       "url": "https://pdad.ipe.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 385,
+     "nota": null,
+     "ordenar": "no_ra",
+     "tabela": "dimensionamento_ra",
+     "titulo": "Necessidade e déficit por região administrativa"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "especialidade",
+       "r": "Especialidade",
+       "t": "texto"
+      },
+      {
+       "c": "grupo",
+       "r": "Grupo",
+       "t": "texto"
+      },
+      {
+       "c": "qtd_existente",
+       "r": "Qtd existente",
+       "t": "int"
+      },
+      {
+       "c": "qtd_sus",
+       "r": "Qtd sus",
+       "t": "int"
+      },
+      {
+       "c": "competencia",
+       "r": "Competência",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "DATASUS TABNET",
+       "url": "https://tabnet.datasus.gov.br/"
+      },
+      {
+       "rot": "CNES -- base de dados",
+       "url": "https://cnes.datasus.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 54,
+     "nota": null,
+     "ordenar": "especialidade",
+     "tabela": "leitos_internacao",
+     "titulo": "Leitos de internação instalados, por especialidade"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "tipo",
+       "r": "Tipo",
+       "t": "texto"
+      },
+      {
+       "c": "grupo",
+       "r": "Grupo",
+       "t": "texto"
+      },
+      {
+       "c": "qtd_existente",
+       "r": "Qtd existente",
+       "t": "int"
+      },
+      {
+       "c": "qtd_sus",
+       "r": "Qtd sus",
+       "t": "int"
+      },
+      {
+       "c": "competencia",
+       "r": "Competência",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "DATASUS TABNET",
+       "url": "https://tabnet.datasus.gov.br/"
+      },
+      {
+       "rot": "CNES -- base de dados",
+       "url": "https://cnes.datasus.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 25,
+     "nota": null,
+     "ordenar": "tipo",
+     "tabela": "leitos_complementares",
+     "titulo": "Leitos complementares instalados"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "tipo_leito_geral",
+       "r": "Tipo leito geral",
+       "t": "texto"
+      },
+      {
+       "c": "populacao_referencia",
+       "r": "Populacao referencia",
+       "t": "texto"
+      },
+      {
+       "c": "internacoes_residentes_2024",
+       "r": "Internacoes residentes 2024",
+       "t": "texto"
+      },
+      {
+       "c": "tmp_dias",
+       "r": "Tmp dias",
+       "t": "texto"
+      },
+      {
+       "c": "fnr",
+       "r": "Fnr",
+       "t": "texto"
+      },
+      {
+       "c": "taxa_ocupacao_recusa_1pct",
+       "r": "Taxa ocupacao recusa 1pct",
+       "t": "texto"
+      },
+      {
+       "c": "leitos_necessarios_recusa_1pct",
+       "r": "Leitos necessarios recusa 1pct",
+       "t": "texto"
+      },
+      {
+       "c": "leitos_necessarios_recusa_5pct",
+       "r": "Leitos necessarios recusa 5pct",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Ministério da Saúde -- publicações",
+       "url": "https://www.gov.br/saude/"
+      },
+      {
+       "rot": "ANS -- TabNet",
+       "url": "https://www.ans.gov.br/anstabnet/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 11,
+     "nota": null,
+     "ordenar": "tipo_leito_geral",
+     "tabela": "leitos_gerais_caderno2017",
+     "titulo": "Leitos gerais pelo método do Caderno 2017"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "tipo_leito_uti",
+       "r": "Tipo leito uti",
+       "t": "texto"
+      },
+      {
+       "c": "internacoes_com_uti_2024",
+       "r": "Internacoes com uti 2024",
+       "t": "texto"
+      },
+      {
+       "c": "tmp_uti_dias",
+       "r": "Tmp uti dias",
+       "t": "texto"
+      },
+      {
+       "c": "fnr",
+       "r": "Fnr",
+       "t": "texto"
+      },
+      {
+       "c": "leitos_sus_instalados_categoria_cnes",
+       "r": "Leitos sus instalados categoria cnes",
+       "t": "texto"
+      },
+      {
+       "c": "leitos_uti_necessarios_recusa_1pct",
+       "r": "Leitos uti necessarios recusa 1pct",
+       "t": "texto"
+      },
+      {
+       "c": "leitos_uti_necessarios_recusa_5pct",
+       "r": "Leitos uti necessarios recusa 5pct",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Ministério da Saúde -- publicações",
+       "url": "https://www.gov.br/saude/"
+      },
+      {
+       "rot": "DATASUS -- arquivos públicos",
+       "url": "https://ftp.datasus.gov.br/dissemin/publicos/"
+      },
+      {
+       "rot": "CNES -- base de dados",
+       "url": "https://cnes.datasus.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 3,
+     "nota": null,
+     "ordenar": "tipo_leito_uti",
+     "tabela": "leitos_uti_caderno2017",
+     "titulo": "Leitos de UTI pelo método do Caderno 2017"
+    },
+    {
+     "ano": [
+      "competencia",
+      "competencia"
+     ],
+     "colunas": [
+      {
+       "c": "competencia",
+       "r": "Competência",
+       "t": "texto"
+      },
+      {
+       "c": "leitura",
+       "r": "Leitura",
+       "t": "texto"
+      },
+      {
+       "c": "internacoes",
+       "r": "Internações",
+       "t": "int"
+      },
+      {
+       "c": "dias_permanencia",
+       "r": "Dias de permanência",
+       "t": "int"
+      },
+      {
+       "c": "media_permanencia",
+       "casas": 2,
+       "r": "Permanência média (dias)",
+       "t": "dec"
+      },
+      {
+       "c": "obitos",
+       "r": "Óbitos",
+       "t": "int"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "DATASUS TABNET",
+       "url": "https://tabnet.datasus.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 408,
+     "nota": null,
+     "ordenar": "competencia",
+     "tabela": "sih_serie_tabnet",
+     "titulo": "Internações e permanência, por competência"
+    },
+    {
+     "ano": [
+      "competencia",
+      "competencia"
+     ],
+     "colunas": [
+      {
+       "c": "competencia",
+       "r": "Competência",
+       "t": "texto"
+      },
+      {
+       "c": "internacoes_no_df",
+       "r": "Internacoes no df",
+       "t": "texto"
+      },
+      {
+       "c": "internacoes_de_residentes",
+       "r": "Internacoes de residentes",
+       "t": "texto"
+      },
+      {
+       "c": "internacoes_de_nao_residentes",
+       "r": "Internacoes de nao residentes",
+       "t": "texto"
+      },
+      {
+       "c": "pir_percentual",
+       "r": "Pir percentual",
+       "t": "texto"
+      },
+      {
+       "c": "fnr",
+       "r": "Fnr",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "DATASUS -- arquivos públicos",
+       "url": "https://ftp.datasus.gov.br/dissemin/publicos/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 204,
+     "nota": null,
+     "ordenar": "competencia",
+     "tabela": "sih_residencia_fnr",
+     "titulo": "Residentes e não residentes nas internações do DF"
+    },
+    {
+     "ano": [
+      "competencia",
+      "competencia"
+     ],
+     "colunas": [
+      {
+       "c": "competencia",
+       "r": "Competência",
+       "t": "texto"
+      },
+      {
+       "c": "leitura",
+       "r": "Leitura",
+       "t": "texto"
+      },
+      {
+       "c": "internacoes_microdados",
+       "r": "Internacoes microdados",
+       "t": "texto"
+      },
+      {
+       "c": "internacoes_tabnet",
+       "r": "Internacoes tabnet",
+       "t": "texto"
+      },
+      {
+       "c": "diferenca",
+       "r": "Diferença",
+       "t": "int"
+      },
+      {
+       "c": "confere",
+       "r": "Confere",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "DATASUS -- arquivos públicos",
+       "url": "https://ftp.datasus.gov.br/dissemin/publicos/"
+      },
+      {
+       "rot": "DATASUS TABNET",
+       "url": "https://tabnet.datasus.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 204,
+     "nota": null,
+     "ordenar": "competencia",
+     "tabela": "sih_reconciliacao",
+     "titulo": "Conferência: internações contadas aqui e no TABNET"
+    }
+   ],
+   "rotulo": "3. Leitos"
+  },
+  {
+   "id": "bloco4",
+   "intro": "Quantos médicos o Distrito Federal tem e quantos estão ligados à rede pública. As duas contagens medem coisas diferentes e são publicadas separadas.",
+   "paineis": [
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "competencia",
+       "r": "Competência",
+       "t": "texto"
+      },
+      {
+       "c": "vinculos_medicos_proxy",
+       "r": "Vínculos médicos",
+       "t": "int"
+      },
+      {
+       "c": "medicos_deduplicados_proxy",
+       "r": "Médicos distintos",
+       "t": "int"
+      },
+      {
+       "c": "registros_sem_cns",
+       "r": "Registros sem cns",
+       "t": "int"
+      },
+      {
+       "c": "taxa_ambiguidade_cns",
+       "casas": 4,
+       "r": "Taxa ambiguidade cns",
+       "t": "dec"
+      },
+      {
+       "c": "fracao_cbo_reconhecida",
+       "casas": 3,
+       "r": "Fracao cbo reconhecida",
+       "t": "dec"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "DATASUS -- arquivos públicos",
+       "url": "https://ftp.datasus.gov.br/dissemin/publicos/"
+      },
+      {
+       "rot": "CNES -- base de dados",
+       "url": "https://cnes.datasus.gov.br/"
+      }
+     ],
+     "grafico": {
+      "rotulo": "médicos distintos",
+      "x": "ano",
+      "y": "medicos_deduplicados_proxy"
+     },
+     "linhas": 22,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "vinculos_medicos_ses",
+     "titulo": "Vínculos médicos na rede pública, ano a ano"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "uf",
+       "r": "Unidade da Federação",
+       "t": "texto"
+      },
+      {
+       "c": "medicos",
+       "r": "Médicos",
+       "t": "int"
+      },
+      {
+       "c": "populacao",
+       "r": "População",
+       "t": "int"
+      },
+      {
+       "c": "razao_por_1000",
+       "casas": 2,
+       "r": "Médicos por mil habitantes",
+       "t": "dec"
+      },
+      {
+       "c": "nota",
+       "r": "Observação",
+       "t": "longo"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Associação Médica Brasileira",
+       "url": "https://amb.org.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 33,
+     "nota": null,
+     "ordenar": "uf",
+     "tabela": "demografia_medica_amb",
+     "titulo": "Médicos por mil habitantes, por unidade da Federação"
+    }
+   ],
+   "rotulo": "4. Médicos"
+  },
+  {
+   "id": "bloco5",
+   "intro": "Cargos criados, cargos vagos, vencimento básico e folha de pagamento da Secretaria de Saúde. Nenhum nome de servidor é publicado: os valores são agregados por cargo e por mês.",
+   "paineis": [
+    {
+     "ano": [
+      "data_referencia",
+      "data"
+     ],
+     "colunas": [
+      {
+       "c": "data_referencia",
+       "r": "Mês de referência",
+       "t": "texto"
+      },
+      {
+       "c": "carreira",
+       "r": "Carreira",
+       "t": "texto"
+      },
+      {
+       "c": "cargo",
+       "r": "Cargo",
+       "t": "texto"
+      },
+      {
+       "c": "total",
+       "r": "Cargos criados",
+       "t": "int"
+      },
+      {
+       "c": "ocupados",
+       "r": "Cargos ocupados",
+       "t": "int"
+      },
+      {
+       "c": "vagos",
+       "r": "Cargos vagos",
+       "t": "int"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência do DF",
+       "url": "https://www.transparencia.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 1432,
+     "nota": null,
+     "ordenar": "carreira",
+     "tabela": "cargos_vagos",
+     "titulo": "Cargos criados, ocupados e vagos"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "mes",
+       "r": "Mês",
+       "t": "texto"
+      },
+      {
+       "c": "carreira",
+       "r": "Carreira",
+       "t": "texto"
+      },
+      {
+       "c": "servidores",
+       "r": "Servidores",
+       "t": "int"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência do DF",
+       "url": "https://www.transparencia.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 45,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "pessoal_carreira",
+     "titulo": "Servidores por carreira"
+    },
+    {
+     "ano": [
+      "vigencia",
+      "vigencia"
+     ],
+     "colunas": [
+      {
+       "c": "vigencia",
+       "r": "Vigência",
+       "t": "texto"
+      },
+      {
+       "c": "classe",
+       "r": "Classe",
+       "t": "texto"
+      },
+      {
+       "c": "padrao",
+       "r": "Padrão",
+       "t": "texto"
+      },
+      {
+       "c": "jornada_horas",
+       "r": "Jornada (horas)",
+       "t": "texto"
+      },
+      {
+       "c": "vencimento_basico",
+       "r": "Vencimento básico (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "norma",
+       "r": "Norma",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Secretaria de Economia do DF",
+       "url": "https://www.economia.df.gov.br/"
+      },
+      {
+       "rot": "SINJ-DF -- legislação do Distrito Federal",
+       "url": "https://www.sinj.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 286,
+     "nota": null,
+     "ordenar": "vigencia",
+     "tabela": "vencimento_medico",
+     "titulo": "Vencimento básico da carreira médica"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "mes",
+       "r": "Mês",
+       "t": "texto"
+      },
+      {
+       "c": "cargo",
+       "r": "Cargo",
+       "t": "texto"
+      },
+      {
+       "c": "servidores",
+       "r": "Servidores",
+       "t": "int"
+      },
+      {
+       "c": "remuneracao_basica_total",
+       "r": "Remuneração básica (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "bruto_total",
+       "r": "Remuneração bruta (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "liquido_total",
+       "r": "Líquido (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência do DF",
+       "url": "https://www.transparencia.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 44703,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "remuneracao_ses_carreira",
+     "titulo": "Folha da Secretaria de Saúde, por cargo e mês"
+    },
+    {
+     "ano": [
+      "periodo",
+      "competencia"
+     ],
+     "colunas": [
+      {
+       "c": "periodo",
+       "r": "Periodo",
+       "t": "texto"
+      },
+      {
+       "c": "periodo_nome",
+       "r": "Periodo nome",
+       "t": "texto"
+      },
+      {
+       "c": "variacao_mensal",
+       "r": "Variacao mensal",
+       "t": "texto"
+      },
+      {
+       "c": "unidade",
+       "r": "Unidade",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "IBGE -- API de agregados",
+       "url": "https://servicodados.ibge.gov.br/api/docs/agregados"
+      }
+     ],
+     "grafico": null,
+     "linhas": 552,
+     "nota": null,
+     "ordenar": "periodo",
+     "tabela": "ipca_mensal",
+     "titulo": "IPCA mensal, usado para corrigir valores"
+    }
+   ],
+   "rotulo": "5. Carreira e pessoal"
+  },
+  {
+   "id": "bloco6",
+   "intro": "As duas entidades que operam parte da rede pública do DF, medidas pelo que cada uma publica sobre si mesma.",
+   "paineis": [
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "entidade",
+       "r": "Entidade",
+       "t": "texto"
+      },
+      {
+       "c": "celulas_publicadas",
+       "r": "Itens publicados",
+       "t": "int"
+      },
+      {
+       "c": "celulas_totais",
+       "r": "Itens esperados",
+       "t": "int"
+      },
+      {
+       "c": "indice_publicacao",
+       "casas": 3,
+       "r": "Índice de publicação",
+       "t": "dec"
+      },
+      {
+       "c": "metodo",
+       "r": "Metodo",
+       "t": "texto"
+      }
+     ],
+     "destaque": {
+      "d": "celulas_totais",
+      "n": "celulas_publicadas",
+      "rot": "entidade",
+      "tipo": "razao"
+     },
+     "fontes": [
+      {
+       "rot": "IGES-DF -- transparência",
+       "url": "https://www.igesdf.org.br/"
+      },
+      {
+       "rot": "Hospital da Criança de Brasília -- transparência",
+       "url": "https://www.hcb.org.br/transparencia/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 2,
+     "nota": null,
+     "ordenar": "entidade",
+     "tabela": "transparencia_indice_publicacao",
+     "titulo": "O que cada entidade publica sobre si mesma"
+    },
+    {
+     "ano": [
+      "ano_upload",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "titulo",
+       "r": "Título",
+       "t": "longo"
+      },
+      {
+       "c": "tipo",
+       "r": "Tipo",
+       "t": "texto"
+      },
+      {
+       "c": "ano_upload",
+       "r": "Ano upload",
+       "t": "texto"
+      },
+      {
+       "c": "url",
+       "r": "Documento",
+       "t": "url"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "IGES-DF -- transparência",
+       "url": "https://www.igesdf.org.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 113,
+     "nota": null,
+     "ordenar": "ano_upload",
+     "tabela": "igesdf_contratos_gestao",
+     "titulo": "Contratos de gestão publicados pelo IGES-DF"
+    },
+    {
+     "ano": [
+      "ano_upload",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "titulo",
+       "r": "Título",
+       "t": "longo"
+      },
+      {
+       "c": "ano_upload",
+       "r": "Ano upload",
+       "t": "texto"
+      },
+      {
+       "c": "pagina",
+       "r": "Página",
+       "t": "texto"
+      },
+      {
+       "c": "url",
+       "r": "Documento",
+       "t": "url"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "IGES-DF -- transparência",
+       "url": "https://www.igesdf.org.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 939,
+     "nota": null,
+     "ordenar": "ano_upload",
+     "tabela": "igesdf_prestacao_contas",
+     "titulo": "Prestações de contas publicadas pelo IGES-DF"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "documento",
+       "r": "Documento",
+       "t": "longo"
+      },
+      {
+       "c": "url",
+       "r": "Documento",
+       "t": "url"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Hospital da Criança de Brasília -- transparência",
+       "url": "https://www.hcb.org.br/transparencia/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 154,
+     "nota": null,
+     "ordenar": "documento",
+     "tabela": "hcb_contratos",
+     "titulo": "Documentos publicados pelo HCB"
+    },
+    {
+     "ano": [
+      "exercicio",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "rotulo",
+       "r": "Rotulo",
+       "t": "texto"
+      },
+      {
+       "c": "exercicio",
+       "r": "Exercício",
+       "t": "texto"
+      },
+      {
+       "c": "valor",
+       "casas": 2,
+       "r": "Valor",
+       "t": "dec"
+      },
+      {
+       "c": "documentos",
+       "r": "Documentos",
+       "t": "texto"
+      },
+      {
+       "c": "leituras",
+       "r": "Leituras",
+       "t": "texto"
+      },
+      {
+       "c": "publicavel",
+       "r": "Publicavel",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "IGES-DF -- transparência",
+       "url": "https://www.igesdf.org.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 36,
+     "nota": null,
+     "ordenar": "exercicio",
+     "tabela": "demonstracoes_serie",
+     "titulo": "Demonstrações contábeis, linha a linha"
+    },
+    {
+     "ano": [
+      "exercicio",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "exercicio",
+       "r": "Exercício",
+       "t": "texto"
+      },
+      {
+       "c": "ativo",
+       "r": "Ativo",
+       "t": "moeda"
+      },
+      {
+       "c": "passivo",
+       "r": "Passivo",
+       "t": "moeda"
+      },
+      {
+       "c": "diferenca",
+       "r": "Diferença",
+       "t": "int"
+      },
+      {
+       "c": "confere",
+       "r": "Confere",
+       "t": "texto"
+      },
+      {
+       "c": "url",
+       "r": "Documento",
+       "t": "url"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "IGES-DF -- transparência",
+       "url": "https://www.igesdf.org.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 11,
+     "nota": null,
+     "ordenar": "exercicio",
+     "tabela": "demonstracoes_balanco",
+     "titulo": "Conferência do balanço: ativo contra passivo"
+    },
+    {
+     "ano": [
+      "exercicio",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "exercicio",
+       "r": "Exercício",
+       "t": "texto"
+      },
+      {
+       "c": "opiniao",
+       "r": "Opinião do auditor",
+       "t": "texto"
+      },
+      {
+       "c": "trecho",
+       "r": "Trecho",
+       "t": "longo"
+      },
+      {
+       "c": "url",
+       "r": "Documento",
+       "t": "url"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "IGES-DF -- transparência",
+       "url": "https://www.igesdf.org.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 8,
+     "nota": null,
+     "ordenar": "exercicio",
+     "tabela": "opinioes_auditoria",
+     "titulo": "Opinião do auditor independente, por exercício"
+    },
+    {
+     "ano": [
+      "exercicio_doc",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "titulo",
+       "r": "Título",
+       "t": "longo"
+      },
+      {
+       "c": "entidade",
+       "r": "Entidade",
+       "t": "texto"
+      },
+      {
+       "c": "exercicio_doc",
+       "r": "Exercicio doc",
+       "t": "texto"
+      },
+      {
+       "c": "tipo",
+       "r": "Tipo",
+       "t": "texto"
+      },
+      {
+       "c": "metodo",
+       "r": "Metodo",
+       "t": "texto"
+      },
+      {
+       "c": "linhas_lidas",
+       "r": "Linhas lidas",
+       "t": "texto"
+      },
+      {
+       "c": "linhas_descartadas",
+       "r": "Linhas descartadas",
+       "t": "texto"
+      },
+      {
+       "c": "valores",
+       "r": "Valores",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      },
+      {
+       "c": "sha256",
+       "r": "Impressão digital do arquivo",
+       "t": "texto"
+      },
+      {
+       "c": "url",
+       "r": "Documento",
+       "t": "url"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "IGES-DF -- transparência",
+       "url": "https://www.igesdf.org.br/"
+      },
+      {
+       "rot": "Hospital da Criança de Brasília -- transparência",
+       "url": "https://www.hcb.org.br/transparencia/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 29,
+     "nota": "Uma linha por documento. `linhas_descartadas` é o que a leitura não conseguiu aproveitar, publicado ao lado do que conseguiu.",
+     "ordenar": "exercicio_doc",
+     "tabela": "demonstracoes_documentos",
+     "titulo": "Cada demonstração contábil lida, e quanto dela foi aproveitado"
+    },
+    {
+     "ano": [
+      "exercicio",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "exercicio",
+       "r": "Exercício",
+       "t": "texto"
+      },
+      {
+       "c": "rubrica",
+       "r": "Rubrica",
+       "t": "texto"
+      },
+      {
+       "c": "valor",
+       "casas": 2,
+       "r": "Valor",
+       "t": "dec"
+      },
+      {
+       "c": "valor_texto",
+       "r": "Valor texto",
+       "t": "texto"
+      },
+      {
+       "c": "trecho",
+       "r": "Trecho",
+       "t": "longo"
+      },
+      {
+       "c": "entidade",
+       "r": "Entidade",
+       "t": "texto"
+      },
+      {
+       "c": "metodo",
+       "r": "Metodo",
+       "t": "texto"
+      },
+      {
+       "c": "url",
+       "r": "Documento",
+       "t": "url"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "IGES-DF -- transparência",
+       "url": "https://www.igesdf.org.br/"
+      },
+      {
+       "rot": "Hospital da Criança de Brasília -- transparência",
+       "url": "https://www.hcb.org.br/transparencia/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 1585,
+     "nota": "O material bruto por trás das duas tabelas acima: cada valor ao lado do trecho do documento de onde foi lido.",
+     "ordenar": "exercicio",
+     "tabela": "demonstracoes_linhas",
+     "titulo": "Toda linha extraída das demonstrações, com o trecho de origem"
+    },
+    {
+     "ano": [
+      "exercicio",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "exercicio",
+       "r": "Exercício",
+       "t": "texto"
+      },
+      {
+       "c": "tipo",
+       "r": "Tipo",
+       "t": "texto"
+      },
+      {
+       "c": "chave",
+       "r": "Chave",
+       "t": "texto"
+      },
+      {
+       "c": "valor_a",
+       "r": "Valor a",
+       "t": "moeda"
+      },
+      {
+       "c": "valor_b",
+       "r": "Valor b",
+       "t": "moeda"
+      },
+      {
+       "c": "diferenca",
+       "r": "Diferença",
+       "t": "int"
+      },
+      {
+       "c": "confere",
+       "r": "Confere",
+       "t": "texto"
+      },
+      {
+       "c": "documentos",
+       "r": "Documentos",
+       "t": "texto"
+      },
+      {
+       "c": "leituras",
+       "r": "Leituras",
+       "t": "texto"
+      },
+      {
+       "c": "url_a",
+       "r": "Url a",
+       "t": "url"
+      },
+      {
+       "c": "url_b",
+       "r": "Url b",
+       "t": "url"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "IGES-DF -- transparência",
+       "url": "https://www.igesdf.org.br/"
+      },
+      {
+       "rot": "Hospital da Criança de Brasília -- transparência",
+       "url": "https://www.hcb.org.br/transparencia/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 279,
+     "nota": "Onde um mesmo número aparece em mais de um documento ou é lido por mais de um método, as duas leituras são publicadas e a diferença é calculada, nunca escolhida.",
+     "ordenar": "exercicio",
+     "tabela": "demonstracoes_conferencia",
+     "titulo": "A mesma rubrica lida duas vezes: as duas leituras, lado a lado"
+    }
+   ],
+   "rotulo": "6. IGES-DF e HCB"
+  },
+  {
+   "id": "bloco7",
+   "intro": "O que foi prometido, o que foi orçado, o que foi empenhado e o que foi efetivamente pago -- e a distância entre essas etapas.",
+   "paineis": [
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "estagio",
+       "r": "Etapa",
+       "t": "texto"
+      },
+      {
+       "c": "valor",
+       "casas": 2,
+       "r": "Valor",
+       "t": "dec"
+      },
+      {
+       "c": "granularidade",
+       "r": "Granularidade",
+       "t": "texto"
+      },
+      {
+       "c": "diferenca_valor",
+       "r": "Diferenca valor",
+       "t": "texto"
+      },
+      {
+       "c": "diferenca_estado",
+       "r": "Diferenca estado",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência do DF",
+       "url": "https://www.transparencia.df.gov.br/"
+      },
+      {
+       "rot": "SES-DF -- InfoSaúde",
+       "url": "https://info.saude.df.gov.br/"
+      }
+     ],
+     "grafico": {
+      "rotulo": "R$",
+      "serie": "estagio",
+      "x": "ano",
+      "y": "valor"
+     },
+     "linhas": 45,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "orcamento_saude_etapas",
+     "titulo": "As etapas da despesa na função saúde"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "funcao",
+       "r": "Função",
+       "t": "texto"
+      },
+      {
+       "c": "liquidado",
+       "r": "Liquidado (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência do DF",
+       "url": "https://www.transparencia.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 9,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "orcamento_saude",
+     "titulo": "Despesa liquidada na função saúde"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "orcamento_aprovado",
+       "r": "Aprovado (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "despesa_autorizada",
+       "r": "Autorizado (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "valor_empenhado",
+       "r": "Empenhado (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "valor_liquidado",
+       "r": "Liquidado (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "valor_pago",
+       "r": "Pago (R$)",
+       "t": "moeda"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência do DF",
+       "url": "https://www.transparencia.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 9,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "orcamento_df_total",
+     "titulo": "Orçamento do Distrito Federal inteiro"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "autorizada",
+       "r": "Autorizada (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "empenhada",
+       "r": "Empenhada (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "paga",
+       "r": "Paga (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "empenhada_estado",
+       "r": "Empenhada estado",
+       "t": "texto"
+      },
+      {
+       "c": "empenhada_motivo",
+       "r": "Empenhada motivo",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência do DF",
+       "url": "https://www.transparencia.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 9,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "emendas_saude",
+     "titulo": "Emendas parlamentares na saúde"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "meta",
+       "r": "Meta",
+       "t": "longo"
+      },
+      {
+       "c": "indice_referencia",
+       "r": "Indice referencia",
+       "t": "texto"
+      },
+      {
+       "c": "unidade_medida",
+       "r": "Unidade medida",
+       "t": "texto"
+      },
+      {
+       "c": "alvo",
+       "r": "Alvo",
+       "t": "texto"
+      },
+      {
+       "c": "alcancado",
+       "r": "Alcançado",
+       "t": "texto"
+      },
+      {
+       "c": "instrumento_responsavel",
+       "r": "Instrumento responsavel",
+       "t": "texto"
+      },
+      {
+       "c": "pagina_pdf",
+       "r": "Pagina pdf",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "SES-DF -- InfoSaúde",
+       "url": "https://info.saude.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 1,
+     "nota": null,
+     "ordenar": "meta",
+     "tabela": "pds_metas",
+     "titulo": "Metas do Plano Distrital de Saúde"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      },
+      {
+       "c": "tipo",
+       "r": "Tipo",
+       "t": "texto"
+      },
+      {
+       "c": "titulo",
+       "r": "Título",
+       "t": "longo"
+      },
+      {
+       "c": "data",
+       "r": "Data",
+       "t": "texto"
+      },
+      {
+       "c": "url",
+       "r": "Documento",
+       "t": "url"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "TSE -- divulgação de candidaturas",
+       "url": "https://divulgacandcontas.tse.jus.br/"
+      },
+      {
+       "rot": "DigiSUS Gestor -- relatórios de gestão",
+       "url": "https://digisusgmp.saude.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 17,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "promessas",
+     "titulo": "Planos de governo e relatórios de gestão (índice)"
+    }
+   ],
+   "rotulo": "7. Orçamento e promessas"
+  },
+  {
+   "id": "bloco8",
+   "intro": "O que a Câmara Legislativa do DF apresentou sobre saúde, com autoria, data e número, e como julgou as contas do governo.",
+   "paineis": [
+    {
+     "ano": [
+      "data",
+      "data"
+     ],
+     "colunas": [
+      {
+       "c": "data",
+       "r": "Data",
+       "t": "texto"
+      },
+      {
+       "c": "tipo",
+       "r": "Tipo",
+       "t": "texto"
+      },
+      {
+       "c": "numero",
+       "r": "Número",
+       "t": "int"
+      },
+      {
+       "c": "autor",
+       "r": "Autoria",
+       "t": "texto"
+      },
+      {
+       "c": "tramitacao",
+       "r": "Tramitação",
+       "t": "texto"
+      },
+      {
+       "c": "url",
+       "r": "Documento",
+       "t": "url"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Câmara Legislativa do DF -- portal legislativo",
+       "url": "https://ple.cl.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 3067,
+     "nota": null,
+     "ordenar": "data",
+     "tabela": "cldf_proposicoes_saude",
+     "titulo": "Proposições de saúde apresentadas"
+    },
+    {
+     "ano": [
+      "exercicio",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "exercicio",
+       "r": "Exercício",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "natureza",
+       "r": "Natureza",
+       "t": "texto"
+      },
+      {
+       "c": "sigla_numero_ano",
+       "r": "Proposição",
+       "t": "texto"
+      },
+      {
+       "c": "ementa",
+       "r": "Ementa",
+       "t": "longo"
+      },
+      {
+       "c": "autoria",
+       "r": "Autoria",
+       "t": "texto"
+      },
+      {
+       "c": "data_leitura",
+       "r": "Data leitura",
+       "t": "texto"
+      },
+      {
+       "c": "etapa",
+       "r": "Etapa",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Câmara Legislativa do DF -- portal legislativo",
+       "url": "https://ple.cl.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 35,
+     "nota": null,
+     "ordenar": "exercicio",
+     "tabela": "cldf_contas_governo",
+     "titulo": "Julgamento das contas do governo pela Câmara"
+    },
+    {
+     "ano": [
+      "exercicio",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "exercicio",
+       "r": "Exercício",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "titulo",
+       "r": "Título",
+       "t": "longo"
+      },
+      {
+       "c": "relator",
+       "r": "Relator",
+       "t": "texto"
+      },
+      {
+       "c": "url",
+       "r": "Documento",
+       "t": "url"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Tribunal de Contas do DF -- contas de governo",
+       "url": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 21,
+     "nota": null,
+     "ordenar": "exercicio",
+     "tabela": "tcdf_contas_governo",
+     "titulo": "Pareceres prévios do Tribunal de Contas (índice)"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "total_portal",
+       "r": "Total portal",
+       "t": "int"
+      },
+      {
+       "c": "total_local",
+       "r": "Total local",
+       "t": "int"
+      },
+      {
+       "c": "descartadas_no_ano",
+       "r": "Descartadas no ano",
+       "t": "texto"
+      },
+      {
+       "c": "total_publicado",
+       "r": "Total publicado",
+       "t": "texto"
+      },
+      {
+       "c": "diferenca",
+       "r": "Diferença",
+       "t": "int"
+      },
+      {
+       "c": "confere",
+       "r": "Confere",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Câmara Legislativa do DF -- portal legislativo",
+       "url": "https://ple.cl.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 10,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "cldf_proposicoes_reconciliacao",
+     "titulo": "Conferência: proposições contadas aqui e no portal"
+    }
+   ],
+   "rotulo": "8. Câmara Legislativa"
+  },
+  {
+   "id": "lacunas",
+   "intro": "O que este projeto procurou e não encontrou, com o motivo medido a cada execução. Uma lacuna declarada é um resultado: significa que a fonte pública não publica o dado, ou não respondeu, e que nada foi estimado para fechar a conta.",
+   "paineis": [
+    {
+     "agrupar": "estado",
+     "ano": null,
+     "colunas": [
+      {
+       "c": "eixo",
+       "r": "Bloco",
+       "t": "texto"
+      },
+      {
+       "c": "necessidade",
+       "r": "O que se procurou",
+       "t": "longo"
+      },
+      {
+       "c": "tabela",
+       "r": "Tabela",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 48,
+     "nota": null,
+     "ordenar": "eixo",
+     "tabela": "eixos_cobertura",
+     "titulo": "O que se procurou e não se alcançou"
+    },
+    {
+     "agrupar": null,
+     "ano": null,
+     "colunas": [
+      {
+       "c": "tabela",
+       "r": "Tabela",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 0,
+     "nota": null,
+     "ordenar": "tabela",
+     "tabela": "tabelas_degradadas",
+     "titulo": "Fontes que não responderam nesta execução"
+    },
+    {
+     "agrupar": null,
+     "ano": null,
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 0,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "sim_sinasc_ausencias",
+     "titulo": "Anos sem dados de óbitos ou nascimentos"
+    },
+    {
+     "agrupar": null,
+     "ano": null,
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 0,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "pni_ausencias",
+     "titulo": "Anos sem dados de vacinação"
+    },
+    {
+     "agrupar": null,
+     "ano": null,
+     "colunas": [
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      },
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 4,
+     "nota": null,
+     "ordenar": "fonte",
+     "tabela": "leitos_serie_ausencias",
+     "titulo": "Anos sem dados de leitos"
+    },
+    {
+     "agrupar": null,
+     "ano": null,
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 0,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "cnes_historico_ausencias",
+     "titulo": "Anos sem o cadastro de estabelecimentos"
+    },
+    {
+     "agrupar": null,
+     "ano": null,
+     "colunas": [
+      {
+       "c": "competencia",
+       "r": "Competência",
+       "t": "texto"
+      },
+      {
+       "c": "leitura",
+       "r": "Leitura",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 7,
+     "nota": null,
+     "ordenar": "competencia",
+     "tabela": "sih_ausencias",
+     "titulo": "Competências sem dados de internação"
+    },
+    {
+     "agrupar": null,
+     "ano": null,
+     "colunas": [
+      {
+       "c": "competencia",
+       "r": "Competência",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 0,
+     "nota": null,
+     "ordenar": "competencia",
+     "tabela": "sih_uti_ausencias",
+     "titulo": "Competências sem dados de UTI"
+    },
+    {
+     "agrupar": null,
+     "ano": null,
+     "colunas": [
+      {
+       "c": "recorte",
+       "r": "Recorte",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 3,
+     "nota": null,
+     "ordenar": "recorte",
+     "tabela": "aps_cobertura_ausencias",
+     "titulo": "Recortes de atenção primária que o publicador recusa"
+    },
+    {
+     "agrupar": null,
+     "ano": null,
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 3,
+     "nota": null,
+     "ordenar": "ano",
+     "tabela": "cldf_proposicoes_ausencias",
+     "titulo": "Anos sem proposições de saúde no portal"
+    },
+    {
+     "agrupar": null,
+     "ano": null,
+     "colunas": [
+      {
+       "c": "intervalo",
+       "r": "Intervalo",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 2,
+     "nota": null,
+     "ordenar": "intervalo",
+     "tabela": "vencimento_medico_lacunas",
+     "titulo": "Intervalos sem tabela de vencimento publicada"
+    },
+    {
+     "agrupar": "controle",
+     "ano": null,
+     "colunas": [
+      {
+       "c": "tabela",
+       "r": "Tabela",
+       "t": "texto"
+      },
+      {
+       "c": "host",
+       "r": "Endereço",
+       "t": "texto"
+      },
+      {
+       "c": "url",
+       "r": "Documento",
+       "t": "url"
+      },
+      {
+       "c": "http",
+       "r": "Resposta HTTP",
+       "t": "texto"
+      },
+      {
+       "c": "controle",
+       "r": "Controle",
+       "t": "texto"
+      },
+      {
+       "c": "medido_em",
+       "r": "Medido em",
+       "t": "texto"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 0,
+     "nota": null,
+     "ordenar": "tabela",
+     "tabela": "fontes_desafiadas",
+     "titulo": "Fontes que responderam com um bloqueio"
+    },
+    {
+     "agrupar": "camada",
+     "ano": null,
+     "colunas": [
+      {
+       "c": "eixo",
+       "r": "Bloco",
+       "t": "texto"
+      },
+      {
+       "c": "host",
+       "r": "Endereço",
+       "t": "texto"
+      },
+      {
+       "c": "camada",
+       "r": "Camada",
+       "t": "texto"
+      },
+      {
+       "c": "detalhe",
+       "r": "Detalhe",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 22,
+     "nota": null,
+     "ordenar": "eixo",
+     "tabela": "alcance_hosts",
+     "titulo": "Endereços públicos e o que cada um respondeu"
+    },
+    {
+     "agrupar": "resultado",
+     "ano": null,
+     "colunas": [
+      {
+       "c": "eixo",
+       "r": "Bloco",
+       "t": "texto"
+      },
+      {
+       "c": "necessidade",
+       "r": "O que se procurou",
+       "t": "longo"
+      },
+      {
+       "c": "interface",
+       "r": "Interface",
+       "t": "texto"
+      },
+      {
+       "c": "resultado",
+       "r": "Resultado",
+       "t": "texto"
+      },
+      {
+       "c": "http",
+       "r": "Resposta HTTP",
+       "t": "texto"
+      },
+      {
+       "c": "itens",
+       "r": "Itens",
+       "t": "int"
+      },
+      {
+       "c": "detalhe",
+       "r": "Detalhe",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 23,
+     "nota": null,
+     "ordenar": "eixo",
+     "tabela": "cobertura_sondas",
+     "titulo": "Medição por necessidade, a cada execução"
+    },
+    {
+     "agrupar": "resultado",
+     "ano": null,
+     "colunas": [
+      {
+       "c": "eixo",
+       "r": "Bloco",
+       "t": "texto"
+      },
+      {
+       "c": "necessidade",
+       "r": "O que se procurou",
+       "t": "longo"
+      },
+      {
+       "c": "interface",
+       "r": "Interface",
+       "t": "texto"
+      },
+      {
+       "c": "resultado",
+       "r": "Resultado",
+       "t": "texto"
+      },
+      {
+       "c": "http",
+       "r": "Resposta HTTP",
+       "t": "texto"
+      },
+      {
+       "c": "detalhe",
+       "r": "Detalhe",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [],
+     "grafico": null,
+     "linhas": 2,
+     "nota": null,
+     "ordenar": "eixo",
+     "tabela": "navegador_sondas",
+     "titulo": "Medição com um navegador real"
+    }
+   ],
+   "rotulo": "Lacunas"
+  },
+  {
+   "id": "fontes",
+   "intro": "Todo documento que este projeto leu, com o endereço de onde veio e a impressão digital do arquivo lido, para que qualquer pessoa possa baixar o mesmo arquivo e conferir.",
+   "paineis": [
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "titulo",
+       "r": "Título",
+       "t": "longo"
+      },
+      {
+       "c": "url",
+       "r": "Documento",
+       "t": "url"
+      },
+      {
+       "c": "paginas",
+       "r": "Páginas",
+       "t": "int"
+      },
+      {
+       "c": "caracteres",
+       "r": "Caracteres",
+       "t": "texto"
+      },
+      {
+       "c": "metodo",
+       "r": "Metodo",
+       "t": "texto"
+      },
+      {
+       "c": "sha256",
+       "r": "Impressão digital do arquivo",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "ANS -- TabNet",
+       "url": "https://www.ans.gov.br/anstabnet/"
+      },
+      {
+       "rot": "Associação Médica Brasileira",
+       "url": "https://amb.org.br/"
+      },
+      {
+       "rot": "CNES -- base de dados",
+       "url": "https://cnes.datasus.gov.br/"
+      },
+      {
+       "rot": "Câmara Legislativa do DF -- portal legislativo",
+       "url": "https://ple.cl.df.gov.br/"
+      },
+      {
+       "rot": "DATASUS -- arquivos públicos",
+       "url": "https://ftp.datasus.gov.br/dissemin/publicos/"
+      },
+      {
+       "rot": "DATASUS TABNET",
+       "url": "https://tabnet.datasus.gov.br/"
+      },
+      {
+       "rot": "DigiSUS Gestor -- relatórios de gestão",
+       "url": "https://digisusgmp.saude.gov.br/"
+      },
+      {
+       "rot": "Hospital da Criança de Brasília -- transparência",
+       "url": "https://www.hcb.org.br/transparencia/"
+      },
+      {
+       "rot": "IBGE -- API de agregados",
+       "url": "https://servicodados.ibge.gov.br/api/docs/agregados"
+      },
+      {
+       "rot": "IGES-DF -- transparência",
+       "url": "https://www.igesdf.org.br/"
+      },
+      {
+       "rot": "IPEDF -- PDAD",
+       "url": "https://pdad.ipe.df.gov.br/"
+      },
+      {
+       "rot": "Ministério da Saúde -- dados abertos",
+       "url": "https://dadosabertos.saude.gov.br/"
+      },
+      {
+       "rot": "Ministério da Saúde -- publicações",
+       "url": "https://www.gov.br/saude/"
+      },
+      {
+       "rot": "Portal da Transparência do DF",
+       "url": "https://www.transparencia.df.gov.br/"
+      },
+      {
+       "rot": "SES-DF -- InfoSaúde",
+       "url": "https://info.saude.df.gov.br/"
+      },
+      {
+       "rot": "SINJ-DF -- legislação do Distrito Federal",
+       "url": "https://www.sinj.df.gov.br/"
+      },
+      {
+       "rot": "Secretaria de Economia do DF",
+       "url": "https://www.economia.df.gov.br/"
+      },
+      {
+       "rot": "TSE -- divulgação de candidaturas",
+       "url": "https://divulgacandcontas.tse.jus.br/"
+      },
+      {
+       "rot": "Tribunal de Contas do DF -- contas de governo",
+       "url": "https://www2.tc.df.gov.br/controle-externo/contas-de-governo/"
+      },
+      {
+       "rot": "e-Gestor Atenção Primária",
+       "url": "https://relatorioaps.saude.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 35,
+     "nota": null,
+     "ordenar": "titulo",
+     "tabela": "documentos_leitura",
+     "titulo": "Documentos lidos por este projeto"
+    }
+   ],
+   "rotulo": "Fontes"
+  }
+ ],
+ "email": "sinapseagentes@gmail.com",
+ "kpis": [
+  {
+   "aba": "bloco3",
+   "d": null,
+   "fmt": "dec3",
+   "n": null,
+   "rot": "Leitos SUS por mil habitantes",
+   "sub": "5.612 leitos para 3.009.996 habitantes, em 2026",
+   "tabela": "dimensionamento_serie",
+   "valor": 1.864
+  },
+  {
+   "aba": "bloco1",
+   "d": 33282,
+   "fmt": "dec1",
+   "n": 349,
+   "rot": "Mortalidade infantil (por mil nascidos vivos)",
+   "sub": "em 2024",
+   "tabela": "mortalidade_infantil",
+   "valor": 10.4861
+  },
+  {
+   "aba": "bloco1",
+   "d": 33282,
+   "fmt": "dec1",
+   "n": 18,
+   "rot": "Mortalidade materna (por 100 mil nascidos vivos)",
+   "sub": "em 2024",
+   "tabela": "mortalidade_materna",
+   "valor": 54.0833
+  },
+  {
+   "aba": "bloco1",
+   "d": null,
+   "fmt": "dec2",
+   "n": null,
+   "rot": "Esperança de vida ao nascer (anos)",
+   "sub": "em 2024",
+   "tabela": "esperanca_vida",
+   "valor": 79.89
+  },
+  {
+   "aba": "bloco2",
+   "d": null,
+   "fmt": "dec1",
+   "n": null,
+   "rot": "Habitantes por equipe de saúde da família",
+   "sub": "2.982.658 habitantes para 639 equipes, em 2024",
+   "tabela": "habitantes_por_equipe",
+   "valor": 4667.7
+  },
+  {
+   "aba": "bloco5",
+   "d": 68630,
+   "fmt": "pct",
+   "n": 38827,
+   "rot": "Cargos vagos na saúde",
+   "sub": "em 12/2025",
+   "tabela": "cargos_vagos",
+   "valor": 56.6
+  },
+  {
+   "aba": "bloco4",
+   "d": 5516,
+   "fmt": "int",
+   "n": 4824,
+   "rot": "Médicos distintos na rede pública",
+   "sub": "em 2026",
+   "tabela": "vinculos_medicos_ses",
+   "valor": 4824
+  },
+  {
+   "aba": "bloco7",
+   "d": null,
+   "fmt": "moeda",
+   "n": null,
+   "rot": "Despesa liquidada na saúde",
+   "sub": "em 2025",
+   "tabela": "orcamento_saude",
+   "valor": 7359164175.01
+  },
+  {
+   "aba": "lacunas",
+   "d": 48,
+   "fmt": "pct",
+   "n": 37,
+   "rot": "Necessidades alcançadas",
+   "sub": "de tudo o que se procurou",
+   "tabela": "eixos_cobertura",
+   "valor": 77.1
+  },
+  {
+   "aba": "fontes",
+   "d": 35,
+   "fmt": "int",
+   "n": 35,
+   "rot": "Documentos lidos",
+   "sub": "com endereço e impressão digital",
+   "tabela": "documentos_leitura",
+   "valor": 35
+  }
+ ]
+}

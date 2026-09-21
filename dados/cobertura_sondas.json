@@ -1,5 +1,5 @@
 {
-  "source": "OS-025: cada necessidade `absent` medida contra as interfaces que o próprio publicador enumera, a cada execução. Mede NECESSIDADES; alcance_hosts mede HOSTS",
+  "source": "apuração de 2026-09-03: cada necessidade `absent` medida contra as interfaces que o próprio publicador enumera, a cada execução. Mede NECESSIDADES; alcance_hosts mede HOSTS",
   "dados": [
     {
       "eixo": "eixo2",
@@ -109,7 +109,7 @@
       "http": 200,
       "itens": 0,
       "achados": 0,
-      "detalhe": "HTTP 200, 434442 bytes, 0 links de arquivo do censo da educação superior"
+      "detalhe": "HTTP 200, 434415 bytes, 0 links de arquivo do censo da educação superior"
     },
     {
       "eixo": "eixo3",
@@ -252,7 +252,7 @@
       "http": 0,
       "itens": 0,
       "achados": 0,
-      "detalhe": "OS-063: a fila de regulação por especialidade/região NÃO é publicada como figura -- só esta linha, com o número/data do protocolo LAI quando o operador o fornecer. Requerimento LAI ainda NÃO FOI PROTOCOLADO nesta sessão; nenhum número ou data existe para registrar"
+      "detalhe": "apuração de 2026-09-15: a fila de regulação por especialidade/região NÃO é publicada como figura -- só esta linha, com o número/data do protocolo LAI quando o operador o fornecer. Requerimento LAI ainda NÃO FOI PROTOCOLADO nesta sessão; nenhum número ou data existe para registrar"
     }
   ],
   "veredictos": {

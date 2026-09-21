@@ -1,5 +1,5 @@
 {
-  "source": "Confronto entre o agregado dos microdados DODF e a contagem que o Portal MS dadosabertos.saude.gov.br publica (arquivo nacional do SIM, PORTAL ONLY desde OS-080 -- nenhuma requisição a tabnet.datasus.gov.br para esta leitura) para o mesmo ano, mesma leitura (por residência)",
+  "source": "Confronto entre o agregado dos microdados DODF e a contagem que o Portal MS dadosabertos.saude.gov.br publica (arquivo nacional do SIM, PORTAL ONLY desde apuração de 2026-09-17 -- nenhuma requisição a tabnet.datasus.gov.br para esta leitura) para o mesmo ano, mesma leitura (por residência)",
   "dados": [
     {
       "ano": "2000",

@@ -1,5 +1,5 @@
 {
-  "source": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF (2005-2026), vínculos profissionais restritos à família de CBO médico e ao mesmo escopo de rede pública já classificado por leitos_serie e cnes_historico -- nenhuma regra nova de co_natureza_jur. Q3 (OS-067): vínculos brutos e médicos deduplicados por CNS_PROF publicados lado a lado, ambos PROXY. Competência âncora por ano: dezembro se publicado, senão o último mês publicado daquele ano (a coluna competencia diz qual).",
+  "source": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF (2005-2026), vínculos profissionais restritos à família de CBO médico e ao mesmo escopo de rede pública já classificado por leitos_serie e cnes_historico -- nenhuma regra nova de co_natureza_jur. Q3 (apuração de 2026-09-16): vínculos brutos e médicos deduplicados por CNS_PROF publicados lado a lado, ambos PROXY. Competência âncora por ano: dezembro se publicado, senão o último mês publicado daquele ano (a coluna competencia diz qual).",
   "dados": [
     {
       "ano": 2005,
@@ -12,7 +12,7 @@
       "estado": "lacuna",
       "motivo": "classificação de ocupação do arquivo 200512 não é a CBO-2002 do DBF/CBO.dbf: só 0.0% dos 29787 registros têm um código que ela reconhece (mínimo 50%); nenhuma tabela de conversão é transcrita, e um zero não é publicado",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF0512.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -26,7 +26,7 @@
       "estado": "lacuna",
       "motivo": "classificação de ocupação do arquivo 200612 não é a CBO-2002 do DBF/CBO.dbf: só 0.0% dos 33449 registros têm um código que ela reconhece (mínimo 50%); nenhuma tabela de conversão é transcrita, e um zero não é publicado",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF0612.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -40,7 +40,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF0712.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -54,7 +54,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF0812.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -68,7 +68,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF0912.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -82,7 +82,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF1012.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -96,7 +96,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF1112.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -110,7 +110,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF1212.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -124,7 +124,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF1312.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -138,7 +138,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF1412.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -152,7 +152,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF1512.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -166,7 +166,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF1612.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -180,7 +180,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF1712.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -194,7 +194,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF1812.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -208,7 +208,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF1912.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -222,7 +222,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF2012.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -236,7 +236,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF2112.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -250,7 +250,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF2212.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -264,7 +264,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF2312.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -278,7 +278,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF2412.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -292,7 +292,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF2512.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     },
     {
@@ -306,7 +306,7 @@
       "estado": "medido",
       "motivo": "",
       "metodo_deduplicacao": "distinct CNS_PROF (CPF_PROF é mascarado no arquivo publicado)",
-      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, OS-063) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, OS-062)",
+      "escopo_estabelecimentos": "hospitais regionais (_e_hospital_regional, apuração de 2026-09-15) união unidades TP_UNID de UBS (cnes_historico._ubs_codigos, apuração de 2026-09-13)",
       "fonte": "DATASUS ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/PF, arquivo PFDF2608.dbc, CBO restrito à família médica ('2231', '2251', '2252', '2253') (223305 veterinário fora)"
     }
   ]

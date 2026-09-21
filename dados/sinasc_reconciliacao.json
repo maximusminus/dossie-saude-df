@@ -1,5 +1,5 @@
 {
-  "source": "Confronto entre o agregado dos microdados DNDF e a contagem que o Portal MS dadosabertos.saude.gov.br publica (arquivo nacional do SINASC, PORTAL ONLY desde OS-080 -- nenhuma requisição a tabnet.datasus.gov.br para esta leitura) para o mesmo ano, mesma leitura (por residência da mãe)",
+  "source": "Confronto entre o agregado dos microdados DNDF e a contagem que o Portal MS dadosabertos.saude.gov.br publica (arquivo nacional do SINASC, PORTAL ONLY desde apuração de 2026-09-17 -- nenhuma requisição a tabnet.datasus.gov.br para esta leitura) para o mesmo ano, mesma leitura (por residência da mãe)",
   "dados": [
     {
       "ano": "2000",

@@ -1,40 +1,37 @@
 ---
 layout: default
-title: "Method: the acquisition spine and its known failure cases"
+title: "Método: como cada fonte é buscada, e onde isso falha"
 ---
-# SPINE.md — the RA → região de saúde spine, and how each row got there
+# Método: a espinha RA → região de saúde, e como cada linha chegou lá
 
-**What this is.** The join key every per-region figure in this project rests on: each of the
-DF's **35 Regiões Administrativas** placed in one of its **seven Regiões de Saúde**, population
-attached to the same key, and every CNES establishment placed on an RA — or marked `UNASSIGNED`
-with a reason.
+**O que é isto.** A chave de junção sobre a qual repousa toda figura por região
+deste projeto: cada uma das **35 Regiões Administrativas** do DF colocada em uma
+das suas **sete Regiões de Saúde**, com a população presa à mesma chave, e cada
+estabelecimento do CNES colocado numa RA — ou marcado `UNASSIGNED` com o motivo.
 
-Built by `OS-010`. Written in English for the same reason
-`PROVENANCE.md` is: it is a note about method, not a deliverable for the
-DF's public. The *dossiê* is Portuguese, and the citation strings carried inside the data
-itself are Portuguese, because those travel into it.
-
-**The tables.** `ras_regioes` (35 rows: RA, região, macrorregião, population, geometry flag,
-per-row citation), `estabelecimento_ra` (12.473 rows: establishment → RA, with the method that
-placed it), `ras_ibge` (the key), `cnes_ra_lookup`, `leitos_por_estabelecimento`.
+**As tabelas.** `ras_regioes` (35 linhas: RA, região, macrorregião, população,
+indicação de geometria, citação por linha), `estabelecimento_ra` (12.473 linhas:
+estabelecimento → RA, com o método que o colocou), `ras_ibge` (a chave),
+`cnes_ra_lookup`, `leitos_por_estabelecimento`.
 
 ---
 
-## The result
+## O resultado
 
 | | |
 |---|---|
-| Active establishments placed | **5.475 of 5.495 — 99,6 %** |
-| Active establishments **carrying beds** placed | **110 of 110 — 100 %** |
-| Beds placed on an RA | **10.518 of 10.518 — none stranded** |
-| Placements where a second published signal disagreed | **433**, recorded in `conflito` |
-| RAs with a região de saúde | 35 of 35 |
-| RAs with population | 33 of 35 |
-| RAs with IBGE geometry | 33 of 35 |
+| Estabelecimentos ativos colocados | **5.475 de 5.495 — 99,6 %** |
+| Estabelecimentos ativos **com leito** colocados | **110 de 110 — 100 %** |
+| Leitos colocados numa RA | **10.518 de 10.518 — nenhum órfão** |
+| Colocações em que um segundo sinal publicado discordou | **433**, registradas em `conflito` |
+| RAs com região de saúde | 35 de 35 |
+| RAs com população | 33 de 35 |
+| RAs com geometria do IBGE | 33 de 35 |
 
-## What the join says
+## O que a junção diz
 
-Population from IBGE Censo 2022 / IPEDF; beds from CNES `202607`, active establishments only.
+População do Censo 2022 do IBGE / IPEDF; leitos do CNES `202607`, apenas
+estabelecimentos ativos.
 
 | Região de Saúde | População | Estab. | c/ leito | Leitos | SUS | **Leitos/1.000 hab** |
 |---|---:|---:|---:|---:|---:|---:|
@@ -46,201 +43,209 @@ Population from IBGE Censo 2022 / IPEDF; beds from CNES `202607`, active establi
 | Leste | 305.710 | 173 | 5 | 331 | 262 | **1,08** |
 | Centro-Sul | 324.989 | 284 | 2 | 303 | 73 | **0,93** |
 
-**Central holds 12 % of the population and 52 % of the beds.** The spread between the
-best-served and worst-served região de saúde is **seventeen-fold**. This file states that as
-arithmetic over two sourced quantities and stops there — what it means for access, and what any
-of it should be, is `OS-011`'s work, not this note's.
+**A Central concentra 12 % da população e 52 % dos leitos.** A distância entre a
+região de saúde mais bem servida e a pior servida é de **dezessete vezes**. Esta
+nota afirma isso como aritmética sobre duas quantidades com fonte e para por aí —
+o que isso significa para o acesso, e o que qualquer um desses números deveria
+ser, é assunto da análise, não desta nota.
 
 ---
 
-## The one thing that would have broken every figure above
+## A única coisa que teria quebrado todas as figuras acima
 
-**CNES never removes a closed establishment, and more than half the DF's rows are closed.**
-`tbEstabelecimento` carries 12.473 DF rows; **6.978 of them carry a `CO_MOTIVO_DESAB`** — a
-deactivation reason. TABNET counts only the others, which its own footnote says outright:
-*"os dados … referem-se aos registros constantes no Banco de Dados Nacional do CNES com status
-ATIVO."*
+**O CNES nunca remove um estabelecimento fechado, e mais da metade das linhas do
+DF está fechada.** O cadastro traz 12.473 linhas do DF; **6.978 delas carregam um
+motivo de desabilitação**. O TABNET conta apenas as outras, o que a sua própria
+nota de rodapé diz sem meias palavras: *"os dados … referem-se aos registros
+constantes no Banco de Dados Nacional do CNES com status ATIVO."*
 
-It was found by refusing to accept a number that did not tie out. The per-establishment bed
-table summed to **12.719**; TABNET's two bed tables summed to **10.518**. Filtering to
-establishments with no deactivation reason gives:
+Isso foi descoberto por recusa a aceitar um número que não fechava. A tabela de
+leitos por estabelecimento somava **12.719**; as duas tabelas de leitos do TABNET
+somavam **10.518**. Filtrando para estabelecimentos sem motivo de desabilitação:
 
 ```
-active establishments      : 10.518 beds   ← exactly TABNET's 7.887 + 2.631
-deactivated establishments :  2.201 beds
+estabelecimentos ativos       : 10.518 leitos   ← exatamente os 7.887 + 2.631 do TABNET
+estabelecimentos desabilitados:  2.201 leitos
 ```
 
-An exact reconciliation, to the bed. Every count in this file is therefore over **active**
-establishments, and `estabelecimento_ra.ativo` carries the flag so no later query has to
-remember. **A per-region establishment count that ignores it is roughly double what it should
-be.**
+Uma reconciliação exata, até o leito. Toda contagem deste documento é, portanto,
+sobre estabelecimentos **ativos**, e `estabelecimento_ra.ativo` carrega o
+indicador para que nenhuma consulta posterior precise se lembrar disso. **Uma
+contagem de estabelecimentos por região que ignore esse filtro dá aproximadamente
+o dobro do que deveria.**
 
 ---
 
-## The ladder: how each establishment was placed
+## A escada: como cada estabelecimento foi colocado
 
-Signals are tried in descending order of how much the *source itself* asserts, and
-`estabelecimento_ra.metodo` records which rung succeeded. That column is the point — an
-establishment placed by a code CNES published is a different kind of fact from one placed by
-matching a string, and a reader must be able to tell them apart without asking.
+Os sinais são tentados em ordem decrescente de quanto a *própria fonte* afirma, e
+`estabelecimento_ra.metodo` registra qual degrau respondeu. Essa coluna é o ponto
+central — um estabelecimento colocado por um código que o CNES publicou é um fato
+de natureza diferente de um colocado por comparação de texto, e quem lê precisa
+poder distinguir os dois sem perguntar.
 
-| Rung | Signal | Active establishments placed |
+| Degrau | Sinal | Estabelecimentos ativos colocados |
 |---|---|---:|
-| 1 | Coordinates inside an IBGE Censo 2022 RA polygon | **5.413** |
-| 2 | `CO_DISTRITO_SANITARIO`, resolved against CNES's own DF place table | 39 |
-| 3 | `CO_MUNICIPIO_GESTOR`, where it is a legacy RA pseudo-município | 0 (all such rows are deactivated) |
-| 4 | `NO_BAIRRO` exactly equal to an RA name, ignoring accents | 10 |
-| 5 | `NO_BAIRRO` equal to a place **CNES itself lists** for the DF | 13 |
+| 1 | Coordenada dentro de um polígono de RA do Censo 2022 do IBGE | **5.413** |
+| 2 | `CO_DISTRITO_SANITARIO`, resolvido contra a própria tabela de lugares do CNES para o DF | 39 |
+| 3 | `CO_MUNICIPIO_GESTOR`, onde ele é um pseudo-município herdado de uma RA | 0 (todas essas linhas estão desabilitadas) |
+| 4 | `NO_BAIRRO` exatamente igual a um nome de RA, ignorando acentos | 10 |
+| 5 | `NO_BAIRRO` igual a um lugar que **o próprio CNES lista** para o DF | 13 |
 | — | `UNASSIGNED` | 20 |
 
-### Why coordinates outrank the distrito sanitário
+### Por que a coordenada vale mais que o distrito sanitário
 
-The question this table answers is **where an establishment is**. A coordinate answers it;
-`CO_DISTRITO_SANITARIO` is an SES-DF *management* assignment, which is a different question that
-usually has the same answer and sometimes does not. **The two disagree on 433 active
-establishments, ten of which carry beds.**
+A pergunta que esta tabela responde é **onde o estabelecimento está**. Uma
+coordenada responde a isso; `CO_DISTRITO_SANITARIO` é uma atribuição de *gestão*
+da SES-DF, que é outra pergunta — normalmente com a mesma resposta, às vezes não.
+**Os dois discordam em 433 estabelecimentos ativos, dez deles com leitos.**
 
-That is not a theoretical worry. `CO_DISTRITO_SANITARIO = 0010` resolves through CNES's place
-table to `530010 BRASILIA` — which is the DF's single IBGE **município**, meaning *the whole
-Distrito Federal*, not the Plano Piloto. Reading it as an RA placed 590 establishments in Central
-on a code that carries no RA at all, among them **`0010545` HRBZ, the Hospital Regional de
-Brazlândia** and its 90 beds. `CNES_PARA_IBGE` now maps that name to nothing, and the ladder moves
-on to the coordinate — which puts HRBZ inside IBGE's Brazlândia polygon, in Oeste, where it is.
+Não é uma preocupação teórica. `CO_DISTRITO_SANITARIO = 0010` resolve, pela tabela
+de lugares do CNES, para `530010 BRASILIA` — que é o único **município** do DF
+segundo o IBGE, ou seja, *o Distrito Federal inteiro*, não o Plano Piloto. Ler
+isso como uma RA colocava 590 estabelecimentos na Central por um código que não
+carrega RA nenhuma, entre eles **o `0010545` HRBZ, o Hospital Regional de
+Brazlândia** e seus 90 leitos. Hoje esse nome não resolve para nada, e a escada
+passa para a coordenada — que põe o HRBZ dentro do polígono de Brazlândia do
+IBGE, no Oeste, onde ele está.
 
-**Every rung is evaluated, not just the first that answers.** Where a lower rung reaches a
-different RA, `estabelecimento_ra.conflito` records it (`distrito_sanitario=53001080508`, and so
-on). A placement two published signals disagree about is still a placement, but a table that
-hides the disagreement states it as settled when it is not.
+**Todo degrau é avaliado, não apenas o primeiro que responde.** Onde um degrau
+inferior chega a uma RA diferente, `estabelecimento_ra.conflito` registra o fato
+(`distrito_sanitario=53001080508`, e assim por diante). Uma colocação sobre a qual
+dois sinais publicados discordam continua sendo uma colocação, mas uma tabela que
+esconde a discordância a apresenta como resolvida quando ela não está.
 
-**Nothing was placed by this author's knowledge of Brasília.** Rung 5 resolves `ASA SUL`
-because CNES publishes `530015 BRASILIA - ASA SUL` as a DF place — not because anyone here knows
-where Asa Sul is. No neighbourhood this project invented gets a rung, and the three names CNES
-lists that do not denote an RA (`DRAC/CGSOS` and `SAS`, SES-DF administrative units; `BRASILIA`,
-the município) are declared as such and resolve to nothing.
+**Nada foi colocado pelo conhecimento do autor sobre Brasília.** O degrau 5
+resolve `ASA SUL` porque o CNES publica `530015 BRASILIA - ASA SUL` como lugar do
+DF — não porque alguém aqui saiba onde fica a Asa Sul. Nenhum bairro inventado por
+este projeto ganha um degrau, e os três nomes que o CNES lista e que não designam
+uma RA (`DRAC/CGSOS` e `SAS`, unidades administrativas da SES-DF; `BRASILIA`, o
+município) são declarados como tais e não resolvem para nada.
 
-### Coordinates: why 4 decimal places
+### Coordenadas: por que quatro casas decimais
 
-**1.274 DF establishments share the exact coordinate `-15.78, -47.93`.** It is a CNES
-placeholder, and it lands in Cruzeiro — so an establishment in Lago Sul or Sobradinho carrying it
-would be confidently placed in the wrong RA. Two decimal places is about a kilometre, which in
-the DF crosses boundaries. **Coordinates with fewer than four decimals on either axis are
-refused**, and the row says so in `observacao` rather than accepting a location the source does
-not actually know.
+**1.274 estabelecimentos do DF compartilham exatamente a coordenada `-15.78,
+-47.93`.** É um valor de preenchimento do CNES, e ele cai no Cruzeiro — de modo
+que um estabelecimento no Lago Sul ou em Sobradinho que o carregasse seria
+colocado com confiança na RA errada. Duas casas decimais equivalem a cerca de um
+quilômetro, o que no DF atravessa fronteiras. **Coordenadas com menos de quatro
+casas em qualquer dos eixos são recusadas**, e a linha diz isso em `observacao`,
+em vez de aceitar uma localização que a fonte não conhece de fato.
 
-### The point-in-polygon has no dependency
+### O teste de ponto-em-polígono não depende de nada
 
-IBGE's `DF_subdistritos_CD2022.gpkg` is a **GeoPackage, which is a SQLite file**, so it reads
-with the standard library this project already limits itself to. The geometry is OGC WKB behind
-a 40-byte header; containment is even-odd ray casting, with the file's own bounding boxes as a
-cheap reject first. **No geocoding provider was adopted**, which would have needed a `Providers`
-row this project does not have.
+O arquivo `DF_subdistritos_CD2022.gpkg` do IBGE é um **GeoPackage, que é um
+arquivo SQLite**, então ele é lido com a biblioteca padrão a que este projeto já
+se limita. A geometria é WKB da OGC atrás de um cabeçalho de 40 bytes; a
+verificação de contenção é lançamento de raio par-ímpar, usando as caixas
+delimitadoras do próprio arquivo como descarte barato antes. **Nenhum serviço de
+geocodificação foi adotado.**
 
 ---
 
-## The six lists, reconciled
+## As seis listas, reconciliadas
 
-Six sources name the DF's Regiões Administrativas and **four of them disagree on how many there
-are**. IBGE's coded list of 35 is the key; every other list joins onto it, and every difference
-is named below rather than normalised away.
+Seis fontes nomeiam as Regiões Administrativas do DF e **quatro delas discordam
+sobre quantas são**. A lista codificada de 35 do IBGE é a chave; toda outra lista
+se junta a ela, e cada diferença é nomeada abaixo, em vez de normalizada.
 
-| List | Count | Difference against the IBGE key |
+| Lista | Contagem | Diferença contra a chave do IBGE |
 |---|---:|---|
-| **IBGE localidades API** | **35** | — *the key* |
-| PDS 2024–2027 p. 36 | 35 | Same 35 places, two spelled differently: `Arniqueiras` (IBGE: `Arniqueira`) and `Estrutural/SCIA` (IBGE: `SCIA`). Both are declared joins in `regioes_saude.py`, not string-normalised |
-| `pdad_ipe_df.html` | 35 | States 35 in prose; consistent |
-| CNES `tbMunicipio` | 34 | Resolves to **30** of the 35 RAs. See below |
-| IBGE geometry (Censo 2022) | 33 | **Arapoanga** and **Água Quente** have no polygon — created after the 2022 mesh, so they sit inside Planaltina and Recanto das Emas |
-| `pdad_censo.json` | 33 | **Arapoanga** and **Água Quente** have no population row — same two, same reason |
+| **API de localidades do IBGE** | **35** | — *a chave* |
+| PDS 2024–2027 p. 36 | 35 | Os mesmos 35 lugares, dois grafados de outro jeito: `Arniqueiras` (IBGE: `Arniqueira`) e `Estrutural/SCIA` (IBGE: `SCIA`). Ambos são junções declaradas, não normalização de texto |
+| `pdad_ipe_df.html` | 35 | Declara 35 em prosa; consistente |
+| `tbMunicipio` do CNES | 34 | Resolve para **30** das 35 RAs. Ver abaixo |
+| Geometria do IBGE (Censo 2022) | 33 | **Arapoanga** e **Água Quente** não têm polígono — criadas depois da malha de 2022, ficam dentro de Planaltina e do Recanto das Emas |
+| `pdad_censo.json` | 33 | **Arapoanga** e **Água Quente** não têm linha de população — as mesmas duas, pelo mesmo motivo |
 
-**CNES's 34, in detail.** Two of its names are the Plano Piloto under other names
-(`BRASILIA - ASA NORTE`, `BRASILIA - ASA SUL`); `SCIA-ESTRUTURAL` is `SCIA` and
-`SETOR DE INDUSTRIA E ABASTECIMENTO` is `SIA`. Three denote no RA at all: `DRAC/CGSOS` and `SAS`
-are SES-DF administrative units, and **`BRASILIA` is the DF's IBGE município** — the whole
-Distrito Federal. After those dispositions CNES covers **30 of the 35 RAs**; it has no code for
-`Sol Nascente/Pôr do Sol`, `Arniqueira`, `Fercal`, `Arapoanga` or `Água Quente`.
+**Os 34 do CNES, em detalhe.** Dois dos seus nomes são o Plano Piloto sob outros
+nomes (`BRASILIA - ASA NORTE`, `BRASILIA - ASA SUL`); `SCIA-ESTRUTURAL` é o
+`SCIA` e `SETOR DE INDUSTRIA E ABASTECIMENTO` é o `SIA`. Três não designam RA
+nenhuma: `DRAC/CGSOS` e `SAS` são unidades administrativas da SES-DF, e
+**`BRASILIA` é o município do DF segundo o IBGE** — o Distrito Federal inteiro.
+Depois dessas disposições, o CNES cobre **30 das 35 RAs**; ele não tem código para
+`Sol Nascente/Pôr do Sol`, `Arniqueira`, `Fercal`, `Arapoanga` ou `Água Quente`.
 
-**Arapoanga and Água Quente are the same two RAs in every gap.** They are recent creations, they
-have no geometry, no population row and no CNES code, and they carry a região de saúde only
-because the PDS names them. Anything computed per-RA is silent about them, and that is a
-property of the sources rather than of this build.
-
----
-
-## Known failure cases
-
-1. **20 active establishments are `UNASSIGNED`** — no usable coordinate, no distrito sanitário,
-   and a bairro string matching nothing CNES or IBGE publishes. **None of them carries a bed**,
-   so no bed figure is affected. Their reasons are in `estabelecimento_ra.observacao`.
-   Separately, **six deactivated establishments holding 326 beds are also `UNASSIGNED`** — they
-   are excluded from every figure here by the `ativo` filter, and are named so the exclusion is
-   visible rather than assumed.
-2. **Every rung is separable.** `metodo` is a column, so any rung can be excluded from a query
-   without rebuilding anything — `WHERE metodo <> 'bairro_lugar_cnes'` drops the weakest 13
-   placements, `WHERE conflito = ''` drops the 433 where two signals disagreed.
-3. **Six composition rows rest on a planning document, not a decree**, and
-   `ras_regioes.base_citacao` says which kind each is — see *The norm chain* below. The other 29
-   cite Decreto 37.515/2016 Art. 3, and they cite it because the decree's own text was
-   transcribed and compared row by row, not because a constant was pasted onto every row.
-4. **CEP was not used.** No published CEP → RA correspondence was obtainable, so rung 4 of the
-   BRIEF's plan does not exist here. It would mostly help the deactivated establishments.
-5. **Population and beds come from different years.** Population is Censo 2022; beds are CNES
-   `202607`. Both are named on the row. `OS-011` has to decide whether that is acceptable for a
-   rate, and it also has other DF population figures to choose between — 2.807.982 here,
-   2,99 milhões in the analysis documents, 3.130.014 in the PDS itself.
-6. **The population figures have no artifact behind them, and the spine says so.** The 33 numbers
-   come from `dados/processed/pdad_censo.json`, which a pre-`OS-009` script produced from a
-   **hardcoded Python literal** — no URL, no page reference, nothing in `dados/raw/`.
-   `ras_regioes.populacao_procedencia` carries that sentence on every row rather than letting
-   `populacao_fonte`'s "IBGE Censo 2022 / IPEDF" imply more than this repository can show. The
-   2.807.982 total is this project's own sum of those 33 rows, not a published figure.
-   **Acquiring population from a citable source is `OS-012`'s**, and until it does, criterion (b)
-   of this work order is met by a named source whose provenance is weaker than its name.
-7. **A coordinate placement cannot see Arapoanga or Água Quente.** The Censo 2022 mesh predates
-   both, so their ground still belongs to whichever RA covered it in 2022 and a point inside them
-   resolves to that RA with no error raised. Every coordinate-placed row therefore carries this
-   caveat in `observacao`; which RA absorbs which is not asserted, because no source consulted
-   here states it.
+**Arapoanga e Água Quente são as mesmas duas RAs em toda lacuna.** São criações
+recentes, não têm geometria, não têm linha de população nem código do CNES, e só
+têm região de saúde porque o PDS as nomeia. Qualquer coisa calculada por RA é
+silenciosa sobre elas, e isso é uma propriedade das fontes, não deste
+processamento.
 
 ---
 
-## The norm chain, because the names moved
+## Casos conhecidos de falha
 
-- **Decreto nº 37.057/2016** creates the Regiões de Saúde.
-- **Decreto nº 37.515/2016, Art. 3** enumerates all seven with their member RAs. Item VII is
-  **`Região Centro-Norte`** — the word "Central" does not appear in it.
-- **Decreto nº 38.982/2018, Art. 10, I**: *"a Superintendência da Região de Saúde Centro-Norte
-  passa a denominar-se Superintendência da Região de Saúde Central"*.
-- **PDS 2024–2027 p. 36** (SES-DF, 2023) states the current composition, citing 37.515/2016
-  *"e alterações posteriores"*. CNES codes the region `53006 Central`.
+1. **20 estabelecimentos ativos estão `UNASSIGNED`** — sem coordenada utilizável,
+   sem distrito sanitário e com um texto de bairro que não corresponde a nada que
+   o CNES ou o IBGE publiquem. **Nenhum deles tem leito**, então nenhuma figura de
+   leitos é afetada. Os motivos estão em `estabelecimento_ra.observacao`. À parte,
+   **seis estabelecimentos desabilitados com 326 leitos também estão
+   `UNASSIGNED`** — eles são excluídos de toda figura aqui pelo filtro de ativos, e
+   são nomeados para que a exclusão fique visível em vez de suposta.
+2. **Todo degrau é separável.** `metodo` é uma coluna, então qualquer degrau pode
+   ser excluído de uma consulta sem refazer nada — `WHERE metodo <>
+   'bairro_lugar_cnes'` descarta as 13 colocações mais fracas, `WHERE conflito =
+   ''` descarta as 433 em que dois sinais discordaram.
+3. **Seis linhas de composição se apoiam num documento de planejamento, não num
+   decreto**, e `ras_regioes.base_citacao` diz de que tipo é cada uma — ver *A
+   cadeia normativa*, abaixo. As outras 29 citam o Decreto 37.515/2016 Art. 3, e o
+   citam porque o texto do decreto foi transcrito e comparado linha a linha, não
+   porque uma constante tenha sido colada em todas as linhas.
+4. **O CEP não foi usado.** Nenhuma correspondência CEP → RA publicada pôde ser
+   obtida, então esse caminho não existe aqui. Ele ajudaria sobretudo os
+   estabelecimentos desabilitados.
+5. **População e leitos vêm de anos diferentes.** A população é do Censo 2022; os
+   leitos são do CNES `202607`. Os dois estão nomeados na linha. Há ainda outras
+   figuras de população do DF entre as quais escolher — 2.807.982 aqui, 2,99
+   milhões nos documentos de análise, 3.130.014 no próprio PDS.
+6. **As figuras de população não têm artefato por trás, e a espinha diz isso.** Os
+   33 números vêm de um arquivo que um script anterior produziu a partir de um
+   **valor fixo escrito no próprio código** — sem URL, sem referência de página,
+   sem nada nos dados brutos. `ras_regioes.populacao_procedencia` carrega essa
+   frase em todas as linhas, em vez de deixar que o rótulo "IBGE Censo 2022 /
+   IPEDF" sugira mais do que este projeto consegue mostrar. O total de 2.807.982 é
+   a soma que este projeto fez dessas 33 linhas, não uma figura publicada.
+7. **Uma colocação por coordenada não enxerga Arapoanga nem Água Quente.** A malha
+   do Censo 2022 é anterior às duas, então o terreno delas ainda pertence à RA que
+   o cobria em 2022 e um ponto dentro delas resolve para essa RA sem erro nenhum.
+   Toda linha colocada por coordenada carrega essa ressalva em `observacao`; qual
+   RA absorve qual não é afirmado, porque nenhuma fonte consultada aqui o declara.
 
-**`originais/Proposta de elaboração.pdf` says Centro-Norte, and it is not wrong — it is stale.**
-It quotes the 2016 decree correctly. `OS-008` recorded the disagreement; this is its resolution,
-and the distinction matters: "the input document is wrong" and "the input document is eight years
-old and here is the decree that superseded it" are different findings.
+---
 
-### The citation each row earns
+## A cadeia normativa, porque os nomes mudaram
 
-**Both compositions are transcribed** — the decree's Art. 3 and the PDS's page 36 — and
-`regioes_saude.py` derives each row's citation by comparing them. A row's citation is therefore a
-computed comparison, not a constant pasted onto 35 rows.
+- **Decreto nº 37.057/2016** cria as Regiões de Saúde.
+- **Decreto nº 37.515/2016, Art. 3** enumera as sete com suas RAs membros. O
+  inciso VII é a **`Região Centro-Norte`** — a palavra "Central" não aparece nele.
+- **Decreto nº 38.982/2018, Art. 10, I**: *"a Superintendência da Região de Saúde
+  Centro-Norte passa a denominar-se Superintendência da Região de Saúde Central"*.
+- **PDS 2024–2027 p. 36** (SES-DF, 2023) declara a composição atual, citando o
+  37.515/2016 *"e alterações posteriores"*. O CNES codifica a região como
+  `53006 Central`.
 
-| `base_citacao` | Rows | What it means |
+**A `Proposta de elaboração.pdf` diz Centro-Norte, e não está errada — está
+desatualizada.** Ela cita corretamente o decreto de 2016. A discordância foi
+registrada antes; esta é a resolução dela, e a distinção importa: "o documento de
+entrada está errado" e "o documento de entrada tem oito anos e aqui está o decreto
+que o superou" são achados diferentes.
+
+### A citação que cada linha merece
+
+**As duas composições foram transcritas** — o Art. 3 do decreto e a página 36 do
+PDS — e a citação de cada linha é derivada da comparação entre as duas. A citação
+de uma linha é, portanto, uma comparação calculada, não uma constante colada em 35
+linhas.
+
+| `base_citacao` | Linhas | O que significa |
 |---|---:|---|
-| `decreto` | **29** | The 2016 decree puts this RA in this region. Cited to Art. 3, with the 2018 rename noted where it applies |
-| `pds_ra_nova` | 4 | The RA postdates the decree, which cannot name it: `Sol Nascente/Pôr do Sol`, `Arniqueira`, `Arapoanga`, `Água Quente` |
-| `pds_ra_transferida` | 1 | **`Lago Sul`.** The decree puts it in **Centro-Sul**; the PDS puts it in **Central**. No norm making that move was found |
-| `pds_ra_unificada` | 1 | **`Plano Piloto`.** In 2016 it was two RAs in two different regions — Asa Norte in Centro-Norte, Asa Sul in Centro-Sul. IBGE now carries one RA, so its region cannot be read off the decree at all |
+| `decreto` | **29** | O decreto de 2016 põe esta RA nesta região. Citado ao Art. 3, com a renomeação de 2018 anotada onde se aplica |
+| `pds_ra_nova` | 4 | A RA é posterior ao decreto, que não pode nomeá-la: `Sol Nascente/Pôr do Sol`, `Arniqueira`, `Arapoanga`, `Água Quente` |
+| `pds_ra_transferida` | 1 | **`Lago Sul`.** O decreto o põe no **Centro-Sul**; o PDS o põe na **Central**. Nenhuma norma que faça essa transferência foi encontrada |
+| `pds_ra_unificada` | 1 | **`Plano Piloto`.** Em 2016 eram duas RAs em duas regiões diferentes — Asa Norte no Centro-Norte, Asa Sul no Centro-Sul. O IBGE hoje traz uma RA só, então a região dela não pode ser lida do decreto |
 
-**The last two rows are the interesting ones**, and they were invisible until the decree's own
-text was read: the composition did not merely gain RAs between 2016 and 2023, it moved territory
-between regions. Whatever norm did that has not been located, and both rows say so in the data.
-
-## Reproducing this
-
-```
-python3 scripts_extracao/run.py
-```
-
-Acquisition and derivation are separate phases; the derivation is `scripts_extracao/spine.py` and
-consumes only what acquisition wrote. Everything above can be re-derived from the database with
-`--skip-acquire`.
+**As duas últimas linhas são as interessantes**, e estavam invisíveis até que o
+texto do próprio decreto fosse lido: a composição não apenas ganhou RAs entre 2016
+e 2023, ela moveu território entre regiões. Que norma fez isso não foi localizado,
+e as duas linhas dizem isso nos dados.

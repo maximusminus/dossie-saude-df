@@ -1,42 +1,43 @@
 ---
 layout: default
-title: "Saúde no Distrito Federal — dossiê e procedência"
-nav_order: 0
+title: "Documentos — Saúde no Distrito Federal"
+nav_order: 1
 ---
 
-# Saúde no Distrito Federal
+# Documentos
 
-Este site publica o dossiê, seus anexos, as tabelas de que cada
-afirmação foi lida e as notas de método. **Todo número tem fonte**, e
-toda lacuna está declarada como lacuna — a ausência de um dado público
-é ela própria matéria da análise, nunca um buraco preenchido por
-estimativa.
+Esta página reúne o texto completo, as versões em PDF, as notas de
+método e as tabelas de que cada número foi lido. **Todo número tem
+fonte**, e toda lacuna está declarada como lacuna — a ausência de um
+dado público é ela própria matéria da análise, nunca um buraco
+preenchido por estimativa.
 
-## Documentos
+O [painel](index.html) mostra os mesmos dados em visões navegáveis,
+com exportação e com o link do documento que embasa cada número.
+
+## Texto
 
 - [Dossiê — Saúde no Distrito Federal](dossie.md)
 - [Anexo: sumário executivo](anexo-sumario.md)
-- [Anexo: procedência de cada afirmação](anexo-procedencia.md)
-- [Anexo: lacunas declaradas](anexo-lacunas.md)
 
 Versões em PDF: [dossiê](pdf/DOSSIE.pdf) ·
 [sumário executivo](pdf/ANEXO-SUMARIO.pdf).
 
 ## Método
 
-Notas em inglês, por serem dirigidas a quem audita o método e não a
-quem lê o dossiê:
+Como cada número foi obtido, o que foi medido e o que não foi:
 
-- [Method: what the provenance annex proves, and what it cannot](metodo/procedencia-metodo.md)
-- [Method: bed-requirement parameters and where each one comes from](metodo/dimensionamento.md)
-- [Method: the acquisition spine and its known failure cases](metodo/spine.md)
+- [Método: o que a procedência prova, e o que ela não alcança](metodo/procedencia-metodo.md)
+- [Método: os parâmetros de leitos e de onde vem cada um](metodo/dimensionamento.md)
+- [Método: como cada fonte é buscada, e onde isso falha](metodo/spine.md)
 
 ## Dados
 
 As **66** tabelas abaixo são as que as afirmações publicadas
-efetivamente leem, medidas a partir das próprias consultas do build, mais
-as tabelas de cobertura e de lacuna com que se audita o que *não* foi
-alcançado. Cada uma é o mesmo arquivo que o build carrega, sem edição:
+efetivamente leem, medidas a partir das próprias consultas que conferem
+o texto, mais as tabelas de cobertura e de lacuna com que se audita o
+que *não* foi alcançado. Cada uma é o mesmo arquivo que gera os números
+do painel, sem edição:
 
 - [`alcance_hosts.json`](dados/alcance_hosts.json) *(cobertura/lacuna)*
 - [`aps_cobertura_ausencias.json`](dados/aps_cobertura_ausencias.json)
@@ -105,10 +106,10 @@ alcançado. Cada uma é o mesmo arquivo que o build carrega, sem edição:
 - [`vencimento_medico_lacunas.json`](dados/vencimento_medico_lacunas.json)
 - [`vinculos_medicos_ses.json`](dados/vinculos_medicos_ses.json)
 
-## Procedência
+## O que falta
 
-O anexo de procedência traz uma linha por afirmação, com o valor
-derivado do banco e o valor publicado no dossiê, lado a lado. Ele é
-**gerado** a cada build a partir do conjunto completo de afirmações que
-o build confere — nunca de um subconjunto escolhido à mão.
+As lacunas declaradas — o que não foi publicado por uma fonte, o que
+foi recusado por ela e o que este trabalho não conseguiu medir — estão
+na visão **Lacunas** do [painel](index.html#lacunas/todos), com a mesma
+exportação das demais visões.
 

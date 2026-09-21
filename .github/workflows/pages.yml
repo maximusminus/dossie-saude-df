@@ -1,4 +1,4 @@
-# Written by scripts_extracao/site.py -- do not edit by hand.
+# Written by the publication step -- do not edit by hand.
 # First-party GitHub actions only: no secret, no third-party action, no network
 # call of its own. It builds the Markdown in this repository with Jekyll and
 # publishes the result to Pages.

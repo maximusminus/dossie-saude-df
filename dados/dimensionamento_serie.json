@@ -1,5 +1,5 @@
 {
-  "source": "Derivado de leitos_serie_cnes (capacidade, DF inteiro) e populacao_df_serie (denominador, IBGE SIDRA tabela 6579), DF, ano a ano. A população não alimenta a aritmética de necessidade da Equação 1 do Caderno 2017 (caderno2017.leitos_gerais_caderno2017 usa uma competência SIH fixa) -- alimenta só este indicador comparativo, achado 'inércia algébrica' já registrado em docs/DIMENSIONAMENTO.md.",
+  "source": "Derivado de leitos_serie_cnes (capacidade, DF inteiro) e populacao_df_serie (denominador, IBGE SIDRA tabela 6579), DF, ano a ano. A população não alimenta a aritmética de necessidade da Equação 1 do Caderno 2017 (caderno2017.leitos_gerais_caderno2017 usa uma competência SIH fixa) -- alimenta só este indicador comparativo, achado 'inércia algébrica' já registrado em a nota de método DIMENSIONAMENTO.",
   "dados": [
     {
       "ano": 2005,

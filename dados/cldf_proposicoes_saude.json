@@ -2,7 +2,7 @@
   "tema": 24,
   "total_servidor": 3174,
   "descartadas_sem_autor_data_ou_numero": 107,
-  "source": "ple.cl.df.gov.br/pleservico/api/public/proposicao/filter, tema=24 (classificação própria da CLDF, Q1 da BRIEF). Paginação verificada contra o totalElements do próprio servidor (critério (b)).",
+  "source": "ple.cl.df.gov.br/pleservico/api/public/proposicao/filter, tema=24 (classificação própria da CLDF, Q1 do plano). Paginação verificada contra o totalElements do próprio servidor (critério (b)).",
   "dados": [
     {
       "autor": "Deputado Chico Vigilante",

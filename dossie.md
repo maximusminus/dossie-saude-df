@@ -6,12 +6,12 @@ title: "Dossiê — Saúde no Distrito Federal"
 
 **Uma análise do sistema de saúde do DF a partir dos dados que o próprio Estado publica.**
 
-Produzido pelo `OS-013`, 2026-08-27. Reestruturado em oito blocos de missão pelo `OS-069`,
-2026-09-17 -- mesma fonte de verdade, mesma regra de citação; nenhuma tabela foi reescrita
-pela reorganização, e o que mudou de figura nesta versão veio de uma tabela nova, nunca da
-reorganização em si. Fonte de verdade: este arquivo. O PDF ao lado é **gerado**
-a partir dele por `scripts_extracao/dossie_pdf.py`, e regenerá-lo não produz diferença — as duas
-cópias não podem divergir, e a primeira coisa a divergir seria uma citação.
+Primeira versão em 2026-08-27; reorganizado em oito blocos de missão em 2026-09-17 —
+mesma fonte de verdade, mesma regra de citação; nenhuma tabela foi reescrita pela
+reorganização, e o que mudou de figura nesta versão veio de uma tabela nova, nunca da
+reorganização em si. Fonte de verdade: este arquivo. O PDF ao lado é **gerado** a partir
+dele, e regenerá-lo não produz diferença — as duas cópias não podem divergir, e a primeira
+coisa a divergir seria uma citação.
 
 ---
 
@@ -31,11 +31,11 @@ acreditado.
 
 **Três limites que valem para o documento inteiro:**
 
-1. **O parâmetro normativo central é transcrito, não extraído — e o `OS-019` foi buscá-lo e
-   foi barrado.** Os déficits de leitos são calculados contra a Portaria GM/MS 1.101/2002, cujo
+1. **O parâmetro normativo central é transcrito, não extraído — ele foi buscado na fonte,
+   em 2026-08-28, e o pedido foi barrado.** Os déficits de leitos são calculados contra a Portaria GM/MS 1.101/2002, cujo
    Anexo — onde os parâmetros estão — não é publicado no HTML que este projeto conseguiu baixar.
    O número do parâmetro chegou aqui digitado à mão por um extrator superado. O Anexo está
-   publicado como PDF em `bvsms.saude.gov.br`, host que o `OS-019` registrou e alcançou:
+   publicado como PDF em `bvsms.saude.gov.br`, host que foi registrado e alcançado:
    **DNS, TCP e TLS completam, e o servidor então fecha a conexão sem enviar um byte** — um WAF
    F5 BigIP ASM, que se identifica pela própria página de bloqueio. O estado é `blocked`
    `[eixos_cobertura]`, a camada é remedida a cada execução `[alcance_hosts]`, e o parâmetro
@@ -117,8 +117,8 @@ quê.
 **Elo 5 — carreiras e remuneração (Bloco 5).** O quadro das carreiras da saúde caiu 4,0 % entre
 2021 e 2025 `[pessoal_carreira]`. Em dezembro de 2025, das cinco carreiras com mais cargos vagos,
 a carreira médica tinha 5.144 vagas de 10.000 cargos `[cargos_vagos]`. A série histórica de
-vencimentos continua bloqueada pelo mesmo host que barra o antigo Eixo 4 desde o `OS-012`
-(seção 5.2).
+vencimentos continua bloqueada pelo mesmo host que barra o antigo Eixo 4 desde a primeira
+tentativa, em 2026-08-27 (seção 5.2).
 
 **Elo 6 — IGES-DF e HCB (Bloco 6).** Medido pelo próprio inventário de tipos de documento que
 este projeto declarou antes de contar qualquer célula, o IGES-DF publica 3 de 3 categorias e o
@@ -150,10 +150,10 @@ elas estão medidas abaixo.
 
 ## Bloco 1 — Indicadores de saúde
 
-**Este bloco não existia neste documento até o `OS-060`.** Mortalidade, natalidade, cobertura
+**Este bloco não existia neste documento até 2026-09-10.** Mortalidade, natalidade, cobertura
 vacinal e esperança de vida ao nascer são as quatro séries mais elementares de um diagnóstico de
-saúde pública, e nenhuma delas tinha uma linha aqui até essa ordem de serviço — o `run.py` já as
-carregava desde então; este bloco é a primeira vez que elas chegam ao dossiê.
+saúde pública, e nenhuma delas tinha uma linha aqui até aquela data — este bloco é a primeira vez
+que elas chegam ao dossiê.
 
 ### 1.1 Mortalidade infantil e materna, natalidade
 
@@ -227,7 +227,7 @@ assim, e este documento não a apresenta como se fosse outra coisa.
 
 ## Bloco 2 — Atenção primária
 
-**A porta de entrada do sistema tinha, até o `OS-062`, zero tabela neste documento** — a seção
+**A porta de entrada do sistema tinha, até 2026-09-13, zero tabela neste documento** — a seção
 0.4 da versão anterior deste dossiê dizia isso explicitamente, e essa afirmação deixou de ser
 verdadeira para duas das suas três necessidades. O que mudou e o que continua faltando estão
 separados abaixo, e nenhuma das duas coisas é dita pela metade.
@@ -279,9 +279,9 @@ Família e agentes comunitários por RA, e internações por condições sensív
 equipes agora estão, na seção anterior — e o que continua faltando é mais estreito do que a frase
 antiga dizia.
 
-**A cobertura da APS deixou de estar ausente no `OS-083`, e o parágrafo que a declarava ausente
-fica citado em vez de apagado.** Ele dizia, por inteiro: *"A cobertura percentual da APS continua
-ausente, e a causa agora é medida, não presumida. O `OS-062` leu por inteiro o pacote JavaScript
+**A cobertura da APS deixou de estar ausente em 2026-09-20, e o parágrafo que a declarava
+ausente fica citado em vez de apagado.** Ele dizia, por inteiro: *"A cobertura percentual da APS
+continua ausente, e a causa agora é medida, não presumida. Em 2026-09-13 leu-se por inteiro o pacote JavaScript
 da interface pública do e-Gestor APS e não encontrou, em nenhum ponto dele, uma chamada a um
 endpoint de cobertura a partir do host que o próprio código declara como base — apenas ativos
 estáticos, um blog e uma página institucional `[eixos_cobertura]`. `relatorioaps.saude.gov.br`, o
@@ -291,7 +291,7 @@ deste projeto, e alcançá-lo é uma decisão do operador, não deste bloco."*
 **A decisão foi do operador, e veio em 2026-09-19**: `relatorioaps.saude.gov.br` e a API que o
 próprio pacote daquele portal declara (`relatorioaps-prd.saude.gov.br`) entraram no registro de
 acesso antes da primeira requisição a qualquer um dos dois, e a série está na seção seguinte. **O
-que o `OS-062` mediu continua verdadeiro**: a interface que ele leu não serve cobertura nenhuma —
+que se mediu em 2026-09-13 continua verdadeiro**: a interface lida não serve cobertura nenhuma —
 o que mudou não foi a leitura, foi o host autorizado.
 
 **O recorte abaixo do DF continua ausente, e essa parte da lacuna não se fechou.** A série é
@@ -304,7 +304,7 @@ a interface não serve.**
 **O ICSAP está classificado como `acquired`, e o rótulo por si só engana.** A função que produz
 `icsap_serie` roda a cada execução, mas nenhuma das duas fontes candidatas para a lista de CID-10
 da Portaria SAS/MS 221/2008 respondeu quando este bloco foi escrito — nem `www.gov.br`, nem
-`bvsms.saude.gov.br` mesmo testado com um navegador real (`OS-058`) — de modo que toda linha que a
+`bvsms.saude.gov.br` mesmo testado com um navegador real, em 2026-09-11 — de modo que toda linha que a
 função produz hoje é uma lacuna nomeada, nunca uma lista de CID-10 transcrita à mão
 `[icsap_serie]`. Sem essa lista, este documento não classifica nenhuma internação como sensível à
 atenção primária.
@@ -579,9 +579,8 @@ Contra 33.282 nascidos vivos em 2024 `[nascidos_vivos_peso]`, exige 67 leitos; e
 **Superávit de 19.**
 
 **Uma segunda leitura, publicada AO LADO desta e NUNCA a substituindo, mede UTI adulto e UTI
-pediátrica pelas Equações 2 e 3 do mesmo Caderno 2017** — as duas grandezas que a
-[issue #77](https://github.com/maximusminus/saudedf/issues/77) (2026-09-06) apontou como
-sub-medidas por este documento: o SIH **marca sim** se uma internação usou UTI e por quantos
+pediátrica pelas Equações 2 e 3 do mesmo Caderno 2017** — as duas grandezas que uma revisão
+deste documento, em 2026-09-06, apontou como sub-medidas por ele: o SIH **marca sim** se uma internação usou UTI e por quantos
 dias (campos `MARCA_UTI` e `UTI_MES_TO`, presentes no leiaute reduzido desde sempre); o que
 faltava era só a tabela de códigos do `MARCA_UTI`, que separa UTI adulto de pediátrica e de
 neonatal — agora **extraída** de um documento fetchado (DATASUS `ftp.datasus.gov.br`,
@@ -611,7 +610,7 @@ e que este documento se recusa a inventar:
 ### 3.7 O SIH entrou, e com ele o termo que ninguém publica
 
 **A seção 3.6 dizia, até 2026-09-03, que rodar o método de 2017 exigiria dados do SIH que este
-projeto não tinha. Não é mais verdade.** O `OS-023` adquiriu a série do SIH em **duas interfaces**,
+projeto não tinha. Não é mais verdade.** A série do SIH foi adquirida em **duas interfaces**,
 e a razão de terem sido duas é o achado: o Quadro 38 do caderno de 2017 pede internações cruzando
 **faixa etária** com **especialidade do leito**, e o TABNET não faz esse cruzamento — as duas
 dimensões vivem em arquivos `.def` diferentes, e o TABNET só cruza dimensões dentro de um mesmo
@@ -643,7 +642,7 @@ gente de Goiás e de Minas por desenho; qualquer conta de leitos para o DF feita
 população residente subestima a necessidade por um fator que este documento agora mede em vez de
 supor.
 
-**O que isto passou a permitir, e o que ainda não.** O `OS-024` adquiriu o termo da ANS que faltava
+**O que isto passou a permitir, e o que ainda não.** O termo da ANS que faltava foi adquirido
 — a população de referência do Quadro 37, *"× proporção sem plano de saúde"*, por faixa etária — e
 computou a Equação 1 para **seis das onze** combinações tipo-leito/especialidade do Quadro 38:
 pediatria clínica e cirúrgica, e clínica/cirúrgica adulto nas duas faixas etárias. As outras
@@ -652,7 +651,7 @@ tabela**, que só cobre leitos gerais (Equação 1); nenhuma por um número inve
 Obstetrícia e Neonatologia, porque falta o fator de correção do sub-registro do SINASC. **A
 frase que estava aqui até 2026-09-18 dizia que as três categorias de UTI ficavam UNSOURCED
 porque "o SIH não marca internação com UTI nem sua duração" — isso era FALSO, corrigido na
-[issue #77](https://github.com/maximusminus/saudedf/issues/77) (`OS-082`): o SIH marca as duas
+revisão de 2026-09-18: o SIH marca as duas
 coisas (`MARCA_UTI`, `UTI_MES_TO`); o que faltava era a tabela de códigos do `MARCA_UTI`, agora
 extraída, nunca digitada.** UTI adulto e UTI pediátrica **são calculadas**, pelas Equações 2 e 3,
 na tabela `leitos_uti_caderno2017` (§3.5), publicada ao lado da faixa da Portaria 1.101/2002,
@@ -830,7 +829,7 @@ como uma extensão possível de um trabalho futuro, não como algo que faltou fa
 empírico para a pergunta que o abre, e é o único bloco do documento nessa condição. Três
 necessidades foram tentadas em 2026-09-17, cada uma por uma tentativa contra sua própria fonte
 antes de declarar lacuna — nunca um atalho por um espelho de terceiro."* **Uma das três deixou de
-ser lacuna no `OS-083`**, e a frase fica citada em vez de apagada: o bloco continua sem fundamento
+ser lacuna em 2026-09-20**, e a frase fica citada em vez de apagada: o bloco continua sem fundamento
 para a pergunta de formação e retenção, e passou a ter um número para a densidade médica.
 
 Das três necessidades tentadas em 2026-09-17, duas continuam lacuna e a terceira foi medida em
@@ -839,13 +838,13 @@ de terceiro `[cursos_medicina_df, medicina_ingressantes_egressos, medicos_por_mi
 
 | Necessidade | Estado | Causa medida |
 |---|---|---|
-| Cursos de medicina no DF e ano de autorização (e-MEC) | `lacuna` | `emec.mec.gov.br` respondeu HTTP 403 a um navegador real (`OS-058`) — um WAF recusando um navegador de verdade é controle, não ausência de rede, e nada aqui tenta contorná-lo (`OS-012` assunção 3) |
-| Ingressantes e egressos do curso de medicina, censo do INEP | `lacuna` | `download.inep.gov.br` derruba a conexão na camada HTTP ao pedir o arquivo, e o índice do próprio publicador não lista nenhum arquivo do censo da educação superior nesta execução. Nenhum espelho de terceiro é citado como fonte — apenas cruzamento independente, nunca a origem de uma linha publicada (`OS-059`) |
-| Médicos por mil habitantes no DF | **medida em 2026-09-19** | O host de terceiro que servia o livro em PDF entrou no registro de acesso por ordem do operador, e a tabela é lida dele a cada execução. **A causa que esta linha registrava até o `OS-083`, citada e não apagada:** *"18.494 URLs no índice do próprio publicador, 42 casam com 'demografia' e nenhuma é um arquivo de dados legível por máquina — o que casa são notícias e um livro em PDF servido por um host de terceiro fora do registro de acesso. O numerador (médicos ativos no DF) não existe em nenhum host que este projeto tenha autorização para ler"* |
+| Cursos de medicina no DF e ano de autorização (e-MEC) | `lacuna` | `emec.mec.gov.br` respondeu HTTP 403 a um navegador real, testado em 2026-09-11 — um WAF recusando um navegador de verdade é controle, não ausência de rede, e nada aqui tenta contorná-lo: um controle é medido e declarado, nunca burlado |
+| Ingressantes e egressos do curso de medicina, censo do INEP | `lacuna` | `download.inep.gov.br` derruba a conexão na camada HTTP ao pedir o arquivo, e o índice do próprio publicador não lista nenhum arquivo do censo da educação superior nesta execução. Nenhum espelho de terceiro é citado como fonte — apenas cruzamento independente, nunca a origem de uma linha publicada |
+| Médicos por mil habitantes no DF | **medida em 2026-09-19** | O host de terceiro que servia o livro em PDF entrou no registro de acesso por ordem do operador, e a tabela é lida dele a cada execução. **A causa que esta linha registrava até 2026-09-20, citada e não apagada:** *"18.494 URLs no índice do próprio publicador, 42 casam com 'demografia' e nenhuma é um arquivo de dados legível por máquina — o que casa são notícias e um livro em PDF servido por um host de terceiro fora do registro de acesso. O numerador (médicos ativos no DF) não existe em nenhum host que este projeto tenha autorização para ler"* |
 
 **As lacunas são remedidas a cada execução, não declaradas uma vez e herdadas.** Cada uma carrega,
 na sua própria coluna `motivo`, a data e o resultado exato da tentativa daquela execução — nunca um
-estado congelado num dia de OS anterior. **A linha medida obedece à mesma regra na direção
+estado congelado num dia anterior. **A linha medida obedece à mesma regra na direção
 contrária**: se a rota da AMB cair, `medicos_por_mil` volta a publicar a lacuna citada acima, com
 a degradação registrada em `tabelas_degradadas`, em vez de repetir o número do dia em que a rota
 respondeu.
@@ -934,7 +933,7 @@ com os 32.962 de 2019 seria comparar recortes diferentes, e este documento não 
 
 ### 5.2 A carreira pública da saúde
 
-**Parcialmente lacunar, e o `OS-083` estreitou a lacuna sem fechá-la.** A frase que abria esta
+**Parcialmente lacunar: em 2026-09-20 a lacuna estreitou sem se fechar.** A frase que abria esta
 seção — *"Parcialmente lacunar. O deflator existe; a série de vencimentos, não."* — fica citada:
 duas pontas da série de vencimentos passaram a existir e o meio dela continua não existindo.
 
@@ -943,7 +942,7 @@ qualquer série salarial nominal pode ser convertida em poder de compra real ass
 existir. E a contagem de servidores das carreiras da saúde, com a ressalva de descontinuidade
 explicada na seção 5.1 `[pessoal_carreira]`.
 
-**O que passou a existir no `OS-083`, e o parágrafo que dizia o contrário, citado e não apagado.**
+**O que passou a existir em 2026-09-20, e o parágrafo que dizia o contrário, citado e não apagado.**
 Esta seção declarava: *"A série histórica do vencimento básico da carreira médica da SES-DF. A
 tabela de vencimentos é anexo de lei, publicada no SINJ-DF, e `sinj.df.gov.br` responde HTTP 403
 em http e em https. Em https ele apresenta certificado de `*.tc.df.gov.br` — nome que não confere,
@@ -965,9 +964,9 @@ dela** `[carreira_medica_normas]`. A LC 840/2011 e a Lei 6.137/2018 estão entre
   anexos constam no DODF"*, e não publica cifra nenhuma na página; a Lei 5.181/2013 traz o título
   *"ANEXO II TABELA DE VENCIMENTOS"* e nada depois dele; a Lei 7.253/2023 é servida como uma casca
   de "Arquivo da Norma", vazia. **A busca de normas do SINJ é um formulário atrás de reCAPTCHA, e
-  ela é recusada, não contornada** (`OS-012` assunção 3) — por isso a Lei 7.253/2023 não tem nem
-  URL nesta tabela: um identificador plausível chutado para preencher a célula é exatamente o
-  defeito que o `OS-083` encontrou e corrigiu.
+  ela é recusada, não contornada** — um controle é medido e declarado, nunca burlado. Por isso a
+  Lei 7.253/2023 não tem nem URL nesta tabela: um identificador plausível chutado para preencher a
+  célula é exatamente o defeito que a revisão de 2026-09-20 encontrou e corrigiu.
 
 **O que se pode afirmar sem a série salarial.** Que o quadro das carreiras da saúde caiu 4,0 %
 entre 2021 e 2025 nos anos comparáveis `[pessoal_carreira]`, num período em que o gasto real com
@@ -1081,9 +1080,8 @@ fechasse seria uma linha com `confere = 0`, publicada e não escondida
 cargos cujo rótulo do publicador começa por médico **e que não são residência**: os cargos de
 residente casam com a primeira regra e são explicitamente excluídos, porque residência é formação
 remunerada e não provimento da carreira. As duas marcas são disjuntas por construção — nenhuma
-linha carrega as duas. **Esta é a segunda vez, nesta mesma ordem de serviço, que uma regra de
-classificação foi corrigida antes de publicar**: a primeira foi a identidade das normas do SINJ, e
-as duas estão registradas no `OS-083`.
+linha carrega as duas. **Esta é a segunda vez, na mesma apuração de 2026-09-20, que uma regra de
+classificação foi corrigida antes de publicar**: a primeira foi a identidade das normas do SINJ.
 
 **O que esta série sustenta e o que não sustenta.** Ela é a contagem de quem estava na folha, por
 cargo, mês a mês — não o vencimento básico da carreira, que é a seção 5.4, e não o quadro previsto
@@ -1107,12 +1105,12 @@ financeira: dá para dizer *quantos aditivos existem e quando*, não *quanto cus
 Do lado do **IGES-DF** há o índice, e não os números — mas agora há dois índices, não um. **385
 documentos** de prestação de contas, relatórios de gestão e demonstrações contábeis
 `[igesdf_prestacao_contas]` — entre eles os **75 relatórios quadrimestrais** e o Relatório do
-Auditor Independente de 31/12/2022. E, desde o `OS-026`, o **próprio contrato de gestão**: **113
+Auditor Independente de 31/12/2022. E, desde 2026-09-04, o **próprio contrato de gestão**: **113
 documentos** — o Contrato de Gestão 001/2018, seus termos aditivos, termos de apostilamento,
 extratos de publicação e os sete contratos de UPA `[igesdf_contratos_gestao]`, o análogo direto de
 `hcb_contratos` que faltava neste lado da comparação. **A assimetria estreita sem fechar**: todos
 os 113 documentos deste índice já estavam, verificados, entre os 385 de cima — indexados sob um
-nome de página diferente — de modo que o que o `OS-026` acrescenta não é conteúdo novo, é a
+nome de página diferente — de modo que o que esse segundo índice acrescenta não é conteúdo novo, é a
 primeira linha própria que responde "o contrato de gestão do IGES-DF está indexado?" sem exigir
 que quem pergunta já soubesse onde procurar. **O que este dossiê não tem é o conteúdo desses PDFs**:
 os documentos não são baixados nem lidos, então a série financeira que uma comparação exigiria
@@ -1140,8 +1138,9 @@ anos. **Um contrato que precisa de dezenas de aditivos é um fato sobre governan
 é o mais forte que este dado sustenta.
 
 **O que existe, do lado do IGES-DF, e que uma versão anterior deste documento afirmava não
-existir.** O `OS-020` encontrou **385 documentos distintos** `[igesdf_prestacao_contas]`, lidos
-pela **API REST documentada que o próprio site do IGES-DF serve**. O `OS-012` havia registrado
+existir.** A leitura de 2026-08-28 encontrou **385 documentos distintos**
+`[igesdf_prestacao_contas]`, lidos pela **API REST documentada que o próprio site do IGES-DF
+serve**. A primeira medição, de 2026-08-27, havia registrado
 esta necessidade como ausente dizendo que os relatórios eram *"anexos de páginas de notícia, sem
 índice legível por máquina"* — **era falso**, e a correção está no registro de cobertura em vez de
 aparecer aqui como se sempre tivesse sido assim.
@@ -1150,7 +1149,7 @@ aparecer aqui como se sempre tivesse sido assim.
 falharam.** A rota paginada da API enumera todas as páginas publicadas do site — a contagem
 conferida contra o `X-WP-Total` do próprio servidor — e uma regra declarada sobre o caminho da URL
 seleciona as **9** que são índices de prestação de contas, das quais **8** trazem documentos.
-A primeira leitura desta OS leu **uma** página; a segunda fixou **três** e ainda assim perdia
+A primeira leitura desta série leu **uma** página; a segunda fixou **três** e ainda assim perdia
 **30 documentos** em duas páginas que estavam no mesmo sitemap já lido, entre eles três *Relatório
 de Gestão* quadrimestrais de 2023 e as *Demonstrações Contábeis 2018 Auditadas*. Cada erro foi
 apanhado por revisão independente, não pelo código. Hoje o número de páginas que trazem documentos
@@ -1166,8 +1165,8 @@ de um fato sobre o publicador.
 
 **A mesma correção teve de ser feita duas vezes, e a segunda está registrada em vez de apagada.**
 A primeira leitura não encontrou nenhuma peça contábil de 2022 e escreveu neste documento que o
-IGES-DF não publicava as demonstrações auditadas de 2022 — pelo mesmo motivo pelo qual o `OS-012`
-errara antes: parar antes de esgotar a interface. O estado dessa necessidade é hoje `acquired`, e
+IGES-DF não publicava as demonstrações auditadas de 2022 — pelo mesmo motivo pelo qual a medição
+de 2026-08-27 errara antes: parar antes de esgotar a interface. O estado dessa necessidade é hoje `acquired`, e
 o índice traz o conjunto de 2022 completo — Balanço Patrimonial, DRP, DFC, DMPL, DRA e Notas
 Explicativas — mais o **IGESDF-RAI-31.12.2022**, o Relatório do Auditor Independente.
 
@@ -1175,24 +1174,24 @@ Explicativas — mais o **IGESDF-RAI-31.12.2022**, o Relatório do Auditor Indep
 documento a documento. **Os números dentro dos PDFs não foram extraídos**, e por isso nenhuma
 comparação financeira entre as duas organizações aparece abaixo.
 
-**O `OS-020` deixou um análogo por declarar, e o `OS-026` o declara.** O próprio HANDOFF daquela
-OS registrou que `/transparencia/contratos/contratos-de-gestao/` publica 119 documentos e que
+**A leitura de 2026-08-28 deixou um análogo por declarar, e a de 2026-09-04 o declara.** O
+registro daquela leitura já dizia que `/transparencia/contratos/contratos-de-gestao/` publica 119 documentos e que
 nenhuma necessidade do IGES-DF o nomeava — a mesma assimetria que `hcb_contratos` expõe do outro
 lado desta comparação. Contado de novo em 2026-09-04, e não herdado: a página carrega **119
-âncoras de PDF**, número que reproduz o do `OS-020` ao dígito, das quais **113 são URLs
+âncoras de PDF**, número que reproduz o de 2026-08-28 ao dígito, das quais **113 são URLs
 distintas** — seis âncoras repetem um arquivo já ancorado antes na mesma página, e a tabela grava
 uma linha por par (página, documento), o formato que `igesdf_prestacao_contas` já usa
 `[igesdf_contratos_gestao]`. Classificados pelo próprio título publicado: **1** contrato de gestão
-base, **63** termos aditivos e **7** contratos de UPA — os três reproduzem a leitura do `OS-020` —,
-mais **26** extratos de publicação que aquele HANDOFF não separara. Os termos de apostilamento
+base, **63** termos aditivos e **7** contratos de UPA — os três reproduzem a leitura de
+2026-08-28 —, mais **26** extratos de publicação que aquele registro não separara. Os termos de apostilamento
 **divergem**: a numeração publicada vai de 1 a 17 sem nunca publicar um 2º, o que são **16**
-documentos distintos, não os 17 que o `OS-020` contou — achado desta contagem, não erro daquela,
+documentos distintos, não os 17 contados em 2026-08-28 — achado desta contagem, não erro daquela,
 porque uma foi feita por leitura e esta por regra sobre o título. Os sete contratos de UPA ficam
 na mesma necessidade que o contrato-mãe, com um campo próprio os distinguindo, por decisão do
 operador de 2026-09-04.
 
-**O quase-acerto que o `OS-026` foi desenhado para tratar se revelou ser a tabela inteira.** A
-brief desta OS citava um único documento — um termo aditivo já indexado por
+**O quase-acerto que a leitura de 2026-09-04 foi desenhada para tratar se revelou ser a tabela
+inteira.** O que se pretendia tratar era um único documento — um termo aditivo já indexado por
 `igesdf_prestacao_contas` sob outra página — como o risco de um leitor concluir "temos termos
 aditivos" e estar enganado sobre a cobertura. Medido, não é um documento: **os 113 documentos
 distintos deste índice já estavam, todos, entre os 385 de `igesdf_prestacao_contas`**, sob três
@@ -1204,12 +1203,11 @@ saiba que a resposta está espalhada sob um nome diferente.
 ### 6.3 Os pareceres de auditoria, lidos
 
 **Este documento afirmava, até a versão anterior, que não podia dizer se o parecer de 2022 tinha
-ressalva.** Agora pode: o `OS-021` abriu os documentos que o `OS-020` só endereçava. O recorte é
-declarado e é pequeno — dos 385 PDFs indexados, uma regra publicada em `scripts_extracao/documentos.py`
-seleciona **35** `[documentos_leitura]`, os pareceres de auditoria e as peças contábeis, e deixa
-**350** de fora, entre eles os **311** documentos do índice de relatórios de gestão que a
-regra não seleciona. Ler o corpus inteiro é outra ordem de
-serviço; dizer que ele foi lido seria falso.
+ressalva.** Agora pode: em 2026-08-28 os documentos que até então só eram endereçados passaram a
+ser abertos e lidos. O recorte é declarado e é pequeno — dos 385 PDFs indexados, uma regra
+publicada seleciona **35** `[documentos_leitura]`, os pareceres de auditoria e as peças contábeis,
+e deixa **350** de fora, entre eles os **311** documentos do índice de relatórios de gestão que a
+regra não seleciona. Ler o corpus inteiro é outro trabalho; dizer que ele foi lido seria falso.
 
 **Dos 35, 28 tinham camada de texto e 7 não tinham nenhuma** — zero caractere extraível — **e
 foram lidos por OCR; nenhum falhou** `[documentos_leitura]`. O critério é medido, não presumido: um
@@ -1248,10 +1246,9 @@ vinda de OCR exige.
 
 **Cinco exercícios seguidos com ressalva** `[opinioes_auditoria]`, e **um único parecer limpo na
 série — o de 2018, do IHB, a entidade que existia antes do IGES-DF.** É o achado deste eixo, e ele
-não é sobre 2022: a necessidade de fonte que o `OS-012` batizou *"demonstrações auditadas 2022
-(parecer com ressalva)"* estava com o nome certo **por acaso, não por leitura** — um rótulo que
-atravessou toda a sequência de ordens de serviço entre o `OS-012` e esta sem que ninguém o
-conferisse, e o próprio registro de cobertura dizia por
+não é sobre 2022: a necessidade de fonte batizada em 2026-08-27 como *"demonstrações auditadas
+2022 (parecer com ressalva)"* estava com o nome certo **por acaso, não por leitura** — um rótulo
+que atravessou toda a sequência de apurações desde aquela data sem que ninguém o conferisse, e o próprio registro de cobertura dizia por
 escrito que o índice não permitia conferi-lo. Recortar 2022 sozinho também teria escondido o que
 importa, que é a repetição.
 
@@ -1365,8 +1362,8 @@ nenhuma das regras desta extração lê, e as seis foram recusadas — **zero li
 
 ### 6.5 Índice de publicação documental
 
-**Uma medida própria deste projeto, declarada como tal e não como um índice oficial.** O
-`OS-064` declarou, antes de contar qualquer célula, um inventário fixo de tipos de documento que
+**Uma medida própria deste projeto, declarada como tal e não como um índice oficial.** Em
+2026-09-14 declarou-se, antes de contar qualquer célula, um inventário fixo de tipos de documento que
 uma entidade que gere um contrato de gestão de saúde pública deveria, em princípio, publicar —
 contrato de gestão, relatório de prestação de contas e demonstração contábil — e mediu quantas
 dessas categorias cada entidade efetivamente publica `[transparencia_matriz,
@@ -1422,7 +1419,7 @@ credor, e o que foi adquirido é o agregado por função. É uma lacuna de dado,
 
 **O deflator.** IPCA mensal do IBGE, série SIDRA tabela 1737, 108 competências de 2017-01 a
 2025-12 `[ipca_mensal]`. O fator acumulado do período é 1,5502. A proposta original indicava a
-tabela 2938, que está descontinuada e termina em 2011 — a correção está registrada no `OS-012`.
+tabela 2938, que está descontinuada e termina em 2011 — a correção foi feita em 2026-08-27.
 
 ### 7.2 Estágio orçamentário, exercício 2025
 
@@ -1477,7 +1474,7 @@ fazer isso é trabalho de uma ordem de serviço futura, sobre um índice que já
 
 ## Bloco 8 — O registro da CLDF
 
-**Este bloco não existia neste documento até o `OS-065`.** A Câmara Legislativa do DF publica sua
+**Este bloco não existia neste documento até 2026-09-13.** A Câmara Legislativa do DF publica sua
 própria API de proposições, e este projeto passou a lê-la — com autor, data, número e tramitação
 em cada linha, nunca inferidos.
 
@@ -1523,7 +1520,7 @@ nenhum respondeu. | Pareceres prévios do TCDF sobre as contas do GDF | `unreach
 `www2.tc.df.gov.br` falha na camada TLS — a cadeia de certificado não fecha contra nenhuma das
 duas autoridades certificadoras que este projeto tem registradas | Julgamento de contas pela
 própria CLDF | `unreachable` | `dadosabertos.cl.df.gov.br` recusa a conexão |"* **Os dois
-responderam no `OS-083`, e a seção 8.5 publica o que eles servem.**
+responderam em 2026-09-20, e a seção 8.5 publica o que eles servem.**
 
 **O que destravou cada um, dito porque nenhum dos dois obstáculos foi contornado.** A falha de TLS
 do TCDF era real e tinha uma causa nomeável: o host serve um certificado da Let's Encrypt sem
@@ -1585,35 +1582,35 @@ tabela que só mostrasse os anos julgados esconderia exatamente aquilo que este 
 
 ## Procedência: o que este documento pode e não pode provar
 
-**Toda tabela citada acima está em `dados/database/saudedf.sqlite`** e foi produzida por
-`scripts_extracao/run.py`. A companhia deste documento —
-`DOSSIE-PROVENANCE.md` — traz a auditoria afirmação por afirmação.
+**Toda tabela citada acima é publicada ao lado deste documento** e sai do mesmo processamento
+que o gera, a cada execução.
 
 **A rastreabilidade é verificada a cada execução, e o denominador é deste documento, não da
-verificação** (`scripts_extracao/dossie_verifica.py`): **1.279 afirmações quantitativas,
+verificação**: **1.279 afirmações quantitativas,
 1.279 conferem** — 185 em prosa,
 enumeradas uma a uma, e **1.094 células de tabela lidas deste próprio arquivo** e reconstruídas do
-banco. **Eram 891 e 706 até o `OS-083`**, que publicou seis tabelas novas — cobertura da APS por
+banco. **Eram 891 e 706 até 2026-09-20**, quando entraram seis tabelas novas — cobertura da APS por
 competência, registros médicos por unidade da federação, o menor vencimento da carreira médica
 por vigência, a folha da SES-DF por ano, o parecer prévio do TCDF por exercício e a cobertura da
-atenção básica de 2007 a 2020 — cada célula conferida contra o banco como qualquer outra. **Estes quatro números são eles próprios conferidos**: até o `OS-020` estavam declarados
+atenção básica de 2007 a 2020 — cada célula conferida contra o banco como qualquer outra. **Estes quatro números são eles próprios conferidos**: até 2026-08-28 estavam declarados
 fora do denominador por serem circulares, o que não procede — a verificação **calcula** os totais e
 este documento os **declara**, e comparar os dois é o mesmo ato que confere qualquer outra
 afirmação. Eram os únicos números aqui mantidos à mão, e um número mantido à mão é um número que
-sai do lugar: `README.md` publicou `281` muito depois de a auditoria medir 298. Uma linha acrescentada a uma tabela publicada passa a ser conferida sem que ninguém a
-registre; uma linha removida falha como linha faltante. Se qualquer uma deixar de seguir do
-banco, `run.py` sai com erro, nomeia a afirmação e **não regera o PDF**.
+sai do lugar: um índice interno publicou `281` muito depois de a auditoria medir 298. Uma linha
+acrescentada a uma tabela publicada passa a ser conferida sem que ninguém a registre; uma linha
+removida falha como linha faltante. Se qualquer uma deixar de seguir do banco, o processamento
+para com erro, nomeia a afirmação e **não regera o PDF**.
 
 **A cobertura de fontes, medida e não descrita** `[eixos_cobertura]`: 45 necessidades declaradas
 (fora as `pending` — três linhas com host registrado e aquisição ainda de outra ordem de serviço:
 o histórico de equipes CNES por competência, a população residente estimada por faixa etária
 (IBGE SIDRA 6579) e o índice de concursos e nomeações da SES-DF. Esta última mudou de motivo e
-não de estado no `OS-083`: o `OS-061` a declarou sem adquirir porque **nenhum host do DODF existia
+não de estado em 2026-09-20: em 2026-09-13 ela foi declarada sem ser adquirida porque **nenhum host do DODF existia
 no registro de acesso**, e desde 2026-09-19 `dodf.df.gov.br` está registrado, somente índice, por
 ordem do próprio operador. O que falta agora é a aquisição, que é ordem de serviço própria — e
 dizer que o host não existe quando ele já existe seria uma lacuna descrita com a razão errada),
 **37 adquiridas, 4 ausentes na origem, 4 bloqueadas por controle anti-automação, 0 inalcançáveis**.
-Nenhuma silenciosa. **Eram 45 e 30 até o `OS-083`**, que **não acrescentou necessidade nenhuma** e
+Nenhuma silenciosa. **Eram 45 e 30 até 2026-09-20**, que **não acrescentou necessidade nenhuma** e
 mudou o estado de sete, todas para `acquired`: deixaram de ser `absent` a cobertura da APS
 (e-Gestor AB) e a demografia médica do CFM; deixaram de ser `bloqueadas` o vencimento básico da
 carreira médica SES-DF, as duas leis que mudaram a carreira (LC 840/2011 e Lei 6.137/2018, no
@@ -1626,42 +1623,42 @@ entrou no registro de acesso antes da primeira requisição. **A linha da APS mu
 rótulo caiu de propósito**: era "por RA" e passou a ser só "Cobertura da APS, equipes ESF e ACS
 (e-Gestor AB)", porque a interface que responde publica por competência e por município, nunca por
 Região Administrativa — prometer o recorte que não se obtém seria a lacuna descrita com a razão
-errada. O total declarado segue 45: o que mudou foi de que lado da conta cada necessidade está. **Eram 44 e 29 até o `OS-082`**, que acrescentou a tabela de códigos do
+errada. O total declarado segue 45: o que mudou foi de que lado da conta cada necessidade está. **Eram 44 e 29 até 2026-09-18**, que acrescentou a tabela de códigos do
 `MARCA_UTI` (issue #77) — extraída de `ftp.datasus.gov.br/.../SIHSUS/.../Auxiliar/TAB_SIH.zip`,
 nunca digitada — como necessidade própria e adquirida de imediato, o insumo que corrige a
 afirmação, até então falsa, de que o SIH não marca uso nem duração de UTI (§3.5). **Eram 41 e 26
-até o `OS-080`**, que deu linha própria a três necessidades do
+até 2026-09-17**, que deu linha própria a três necessidades do
 Eixo 1 que o `acquire.py` já adquiria sem nenhuma linha de cobertura — leitos de internação por
 especialidade, leitos complementares e equipamentos (TABNET CNES) —, para que uma indisponibilidade do
-TABNET apareça aqui como lacuna nomeada e nunca como `acquired` sobre tabela vazia. **Eram 38 e 23 até o `OS-063`** (Bloco 3, rota R2.1), que acrescentou três
+TABNET apareça aqui como lacuna nomeada e nunca como `acquired` sobre tabela vazia. **Eram 38 e 23 até 2026-09-15** (Bloco 3, rota R2.1), que acrescentou três
 necessidades do Eixo 1, todas adquiridas de imediato: a série histórica de leitos SUS por estabelecimento
 e categoria (CNES, LT), a capacidade de hemodiálise (CNES, SR/EQ, serviço 004 até 2008-02, 130 desde então) e a população
 estimada do DF por ano (IBGE SIDRA 6579) para o novo indicador leitos/1.000 habitantes. **Eram 19
-e 7 até o `OS-023`**, que acrescentou duas necessidades ao Eixo 1 —
+e 7 até 2026-09-03**, que acrescentou duas necessidades ao Eixo 1 —
 a série do SIH nas duas leituras e o cruzamento do Quadro 38 — e adquiriu as duas. **Eram 21 e 9 até
-o `OS-026`**, que declarou e adquiriu o índice de contrato de gestão do próprio IGES-DF, o
-análogo que faltava a `hcb_contratos` do outro lado do Eixo 2. **Eram 22 e 10 até o `OS-024`**, que
+2026-09-04**, quando se declarou e adquiriu o índice de contrato de gestão do próprio IGES-DF, o
+análogo que faltava a `hcb_contratos` do outro lado do Eixo 2. **Eram 22 e 10 até 2026-09-04**, que
 declarou e adquiriu a proporção sem plano de saúde por faixa etária (Quadro 37, ANS) — o termo que
 faltava para computar a Equação 1 do Caderno 2017 sem parâmetro transcrito à mão. **Eram 23 e 11 até
-o `OS-060`**, que moveu quatro necessidades do Bloco 1 de `pending`/novo para `acquired` — óbitos
+2026-09-10**, quando quatro necessidades do Bloco 1 passaram de `pending`/novo para `acquired` — óbitos
 (SIM), nascidos vivos (SINASC), cobertura vacinal (SI-PNI, uma linha nova) e esperança de vida ao
-nascer (IBGE SIDRA) — e acrescentou a própria linha de cobertura vacinal, que `OS-057` não havia
-declarado. **Eram 27 e 15, com 0 inalcançáveis, até o `OS-065`**, que moveu o registro da CLDF de
+nascer (IBGE SIDRA) — e acrescentou a própria linha de cobertura vacinal, que a declaração de
+2026-09-09 não trazia. **Eram 27 e 15, com 0 inalcançáveis, até 2026-09-13**, que moveu o registro da CLDF de
 `pending` para `acquired` (`cldf_proposicoes_saude`, selecionado pela própria classificação de tema
 do portal, tema=24 — nenhum filtro deste projeto) e o do TCDF de `pending` para `unreachable`
 (cadeia TLS incompleta em `www2.tc.df.gov.br`, medida 2026-09-13) — e separou do TCDF, para sua
 própria linha, a necessidade do julgamento de contas pela CLDF, também `unreachable`
 (`dadosabertos.cl.df.gov.br` recusa a conexão). **É a primeira vez que este projeto mede um
 `unreachable` de verdade** — até aqui a palavra existia no vocabulário e nunca uma linha a
-carregava. **Eram 30 e 16 até o `OS-066`**, cortado do mesmo commit que o
-`OS-065` e integrado junto com ele: resolveu duas das linhas `pending` do Bloco 7 — o índice do
+carregava. **Eram 30 e 16 até 2026-09-13**, apurado ao lado do registro da CLDF e integrado
+junto com ele: resolveu duas das linhas `pending` do Bloco 7 — o índice do
 Plano de Governo via TSE DivulgaCand, medido bloqueado por WAF Akamai, e o índice do RAG via
 DigiSUS Gestor, adquirido pela API JSON privada da própria SPA — e declarou, já adquiridas, duas
 necessidades novas do mesmo bloco: a cadeia orçamentária aprovado/autorizado/empenhado/liquidado/
 pago da função saúde e as metas do PDS 2024-2027. **Os números do primeiro parágrafo são a leitura
 da execução integrada**, não a soma de duas leituras de ramos que nunca rodaram juntos.
 
-**`momentos_de_virada` (`OS-068`) não é uma necessidade de cobertura e não move os números acima —
+**`momentos_de_virada` (medido em 2026-09-14) não é uma necessidade de cobertura e não move os números acima —
 é o cruzamento entre o Bloco 1 (quando um indicador virou) e o Bloco 8 (o que a CLDF registrou),
 sem contatar nenhuma fonte nova.** 39 linhas medidas em 2026-09-14, uma por (indicador, ano de
 giro), sobre os seis indicadores do Bloco 1. Duas regras de giro, declaradas uma vez e aplicadas
@@ -1674,7 +1671,7 @@ PL/PDL e CPI tomam o ano do giro mais 2 anos seguintes, porque uma CPI leva mais
 instalar que um requerimento — uma janela mais larga não torna a presença ou a ausência de um
 instrumento numa afirmação mais forte, apenas altera o que conta como "dentro do prazo". **Das
 39 linhas, 15 são medidas e 24 são lacunas declaradas** (giros datados antes de 2017, início
-medido da cobertura de `cldf_proposicoes_saude`, `OS-065` — a janela não é buscada para eles, por
+medido da cobertura de `cldf_proposicoes_saude` — a janela não é buscada para eles, por
 razão declarada, nunca deixada parecer um zero). **`instrumento_convocacao` e `instrumento_cpi`
 são 0 nas 39 linhas** — não porque a CLDF nunca convocou um secretário ou nunca abriu uma CPI
 sobre saúde, mas porque nenhuma das seis colunas de `cldf_proposicoes_saude` (autor, data, número,
@@ -1687,7 +1684,7 @@ qualquer proposição apenas por estar no intervalo de anos: o corte tema=24 tam
 esta tabela nunca mapeia (Indicação, Moção, Proc, Projeto de Resolução, Proposta de Emenda à Lei
 Orgânica), e listá-los ao lado de um `instrumento_convocacao`/`instrumento_cpi` estruturalmente 0
 seria exatamente a aparência de engajamento legislativo que esta tabela existe para não fabricar
-(achado na revisão independente, `OS-068`, corrigido antes do commit). **O desvio-padrão da RULE B é
+(achado na revisão independente de 2026-09-14, corrigido antes de publicar). **O desvio-padrão da RULE B é
 calculado uma vez sobre toda a série de níveis do indicador** (`statistics.pstdev`), não sobre uma
 janela móvel nem apenas sobre os anos anteriores ao giro — o mesmo limiar, fixado pela série inteira,
 é comparado contra cada variação ano a ano dela.
@@ -1698,36 +1695,36 @@ necessidade: `promessas` serve as duas linhas novas do Bloco 7, e `acquire.py` r
 sob o nome da **função**, não sob o da necessidade. A metade DigiSUS voltou, a metade TSE não —
 e a palavra única `acquired` promovia, na tabela publicada, a linha declarada `blocked`, aquela em
 que o WAF Akamai responde 403 e toda linha emitida é `lacuna`. A revisão independente da integração
-achou isso antes do commit. A regra agora é explícita no código: **uma função compartilhada pode
+achou isso antes de publicar. A regra agora é explícita no código: **uma função compartilhada pode
 rebaixar uma linha e nunca promovê-la** — a mesma postura que a tabela já tinha diante de uma
 sondagem, e pelo mesmo motivo, porque uma cobertura que exagera o alcance é exatamente a falha que
 esta tabela existe para impedir. A linha do TSE lê `blocked` e diz, no seu próprio `motivo`, por que
 manteve o estado declarado.
 
-**Eram 34 e 19 até o `OS-062`**, que acrescentou duas necessidades novas do Bloco 2 já adquiridas —
+**Eram 34 e 19 até 2026-09-13**, que acrescentou duas necessidades novas do Bloco 2 já adquiridas —
 equipes ESF (`equipes_aps_serie`) e UBS (`ubs_serie`), ambas séries históricas por competência lidas
 da árvore CNES (`ftp.datasus.gov.br`), sem corte por Região Administrativa porque os arquivos
-históricos só carregam `COD_CEP` como sinal de endereço, o mesmo problema estrutural que o `OS-024`
+históricos só carregam `COD_CEP` como sinal de endereço, o mesmo problema estrutural que a apuração de 2026-09-06
 já mediu para o CNES em massa — e moveu a necessidade do ICSAP de `absent` para `acquired`: a função
 `icsap_serie` agora existe e roda a cada execução, mas **`acquired` aqui não significa que a lista de
 CID-10 da Portaria SAS/MS 221/2008 foi obtida** — nem `www.gov.br` nem `bvsms.saude.gov.br` (por um
-Chromium real, `OS-058`) responderam quando esta tabela foi escrita, então toda linha que ela produz
+Chromium real, em 2026-09-11) responderam quando esta tabela foi escrita, então toda linha que ela produz
 é uma lacuna nomeada, nunca uma lista transcrita à mão. A necessidade da cobertura por e-Gestor
-(`aps_cobertura_egestor`) permanece `absent`: o host da API que a própria AMENDMENT deste work order
+(`aps_cobertura_egestor`) permanece `absent`: o host da API que a própria emenda deste trabalho
 concedeu (`apiegestoraps.saude.gov.br`) mediu-se completamente inalcançável, por urllib puro e por um
 Chromium real, em todo caminho testado — o stop que a AMENDMENT já havia autorizado de antemão, não
 uma lacuna adivinhada.
 
-**E eram 36 e 22 até o `OS-061`**, que declarou duas necessidades novas do Bloco 5 — os cargos vagos
+**E eram 36 e 22 até 2026-09-13**, que declarou duas necessidades novas do Bloco 5 — os cargos vagos
 das carreiras de saúde (`cargos_vagos`, adquirida) e o índice de concursos e nomeações da SES-DF
 (`concursos_nomeacoes`, `pending`: nenhum host do DODF existe no registro de acesso e nenhum foi
 concedido para obter um) — e **moveu o painel de folha de pagamento por carreira de `pending` para
 `blocked`**, sobre uma medição e não uma estimativa: o painel serve 262.422 linhas para UMA
 competência com todo parâmetro de filtro silenciosamente ignorado, sob um limite publicado de
 10/minuto e 250/hora. As bloqueadas vão de 6 para 7 por essa linha. **A série de pagamento não é
-publicada**, e a decisão de não publicá-la é do operador, de 2026-09-13, registrada no `OS-061`.
+publicada**, e a decisão de não publicá-la é do operador, de 2026-09-13.
 
-**O `OS-078` não move nenhum número desta seção, e mesmo assim precisa ser dito: em 2026-09-15 o
+**A apuração de 2026-09-16 não move nenhum número desta seção, e mesmo assim precisa ser dito: em 2026-09-15 o
 IBGE ligou um controle anti-automação sobre uma das suas duas interfaces públicas.**
 `apisidra.ibge.gov.br` — a interface de onde saem o IPCA que deflaciona toda série nominal deste
 documento e a esperança de vida ao nascer do Bloco 1 — passou a responder HTTP 403 com a
@@ -1735,7 +1732,7 @@ interstitial "Just a moment..." da Cloudflare, tendo servido normalmente às 04:
 Não é uma postura permanente do publicador: é um controle que foi ligado. **A resposta deste
 projeto não foi contorná-lo.** Nenhuma requisição é moldada para passar por ele — sem repetição de
 token, sem disfarce de navegador, sem escada de repetições feita para cansá-lo, e sem navegador
-real (o `OS-058` já mediu que um Chromium não muda esta classe de resposta). O que este projeto fez
+real (mediu-se em 2026-09-11 que um Chromium não muda esta classe de resposta). O que este projeto fez
 foi perguntar ao **mesmo publicador pela outra porta**: `servicodados.ibge.gov.br`, a API de
 agregados que o próprio IBGE documenta, e que serve os mesmos três agregados (1737 IPCA, 6579
 população, 7362 esperança de vida). **Os valores conferem linha a linha com o que já estava
@@ -1747,20 +1744,20 @@ requisição a ele, como manda a regra de ordenação deste projeto, e limitada 
 `[fontes_desafiadas]`. A que responder primeiro é a publicada; no dia em que as duas responderem
 com um controle, a tabela sai **vazia com a lacuna nomeada** — host, código HTTP, como o controle
 se identifica e a data em que **esta** execução o mediu — em vez de sair com um número velho
-vestido de recente. E há uma trava a mais, que este work order encontrou antes de ela custar um
+vestido de recente. E há uma trava a mais, encontrada antes de ela custar um
 número errado: uma série de IPCA vazia multiplicaria por 1,0 e publicaria o **nominal** com o nome
 do **real**. O deflator agora **recusa** uma série vazia ou com buraco, em vez de devolver 1,0.
 
 **Estas duas contagens já estiveram erradas neste documento, por um dia, e a correção fica dita
-aqui em vez de apagada.** O merge do `OS-061` com o `OS-062` re-derivou `ausentes` e `bloqueadas` da
+aqui em vez de apagada.** A integração das duas apurações de 2026-09-13 re-derivou `ausentes` e `bloqueadas` da
 declaração ESTÁTICA em `eixos.COBERTURA` e publicou 7 e 6. A tabela não é a declaração: a
-necessidade do vencimento da SES-DF é declarada `absent` no código e a sondagem do `OS-025` a
+necessidade do vencimento da SES-DF é declarada `absent` no código e a sondagem de 2026-09-03 a
 rebaixa para `blocked` a cada execução, sobre a recusa medida do próprio host. A leitura publicada
-é 6 e 7 — a que os dois ramos já tinham escrito, cada um do seu lado, antes do merge. A conferência
-do `run.py` pegou a divergência e **não regerou o PDF**, que é exatamente o que ela existe para
-fazer.
+é 6 e 7 — a que as duas apurações já tinham escrito, cada uma do seu lado, antes de serem
+integradas. A conferência pegou a divergência e **não regerou o PDF**, que é exatamente o que ela
+existe para fazer.
 
-**E até o `OS-025` a palavra `absent` era herdada, não medida** `[cobertura_sondas]`. Cada uma
+**E até 2026-09-03 a palavra `absent` era herdada, não medida** `[cobertura_sondas]`. Cada uma
 dessas linhas era uma afirmação sobre o que um publicador publica, escrita uma vez, num dia, por
 uma leitura — e repetida por toda execução seguinte sem ser reconferida. O que a execução conferia
 era `alcance_hosts`, que mede **hosts**, não necessidades; e quase todas essas necessidades estavam
@@ -1784,17 +1781,17 @@ para "derivável e não derivado". Fica registrado como achado, não corrigido p
 **Duas fontes tinham interface legível por máquina que este projeto nunca havia consultado**, e as
 duas foram consultadas antes de a ausência ser reafirmada: `www.escs.edu.br` serve uma API REST
 aberta do WordPress, e `portal.cfm.org.br` serve um índice de sitemap em várias partes que o próprio
-`robots.txt` anuncia. É a mesma forma de interface que o `OS-020` encontrou no IGES-DF depois de
+`robots.txt` anuncia. É a mesma forma de interface encontrada no IGES-DF, em 2026-08-28, depois de
 esta tabela ter registrado `absent` por ninguém ter procurado. Aqui procurou-se: nenhuma das duas
 lista série alguma do que estas necessidades pedem, e agora isso é uma contagem refeita a cada
 execução em vez de uma leitura de um dia.
 
 **Os documentos anteriores deste projeto estão superados por este, e foram mantidos.** Os cinco
 PDFs em `docs/` são a análise deste projeto como ela estava **antes de conseguir se sustentar**:
-a auditoria `OS-008` mediu que 3 de 58 afirmações quantitativas deles eram rastreáveis a um
+a auditoria de 2026-08-22 mediu que 3 de 58 afirmações quantitativas deles eram rastreáveis a um
 artefato de `dados/` — 5,2 %. Eles não foram editados nem apagados; cada um recebeu um ponteiro
 para este documento. São a evidência da lacuna que este dossiê fecha.
 
 ---
 
-*Fim do dossiê. Produzido por `OS-013`, reestruturado por `OS-069`. Fonte de verdade: `docs/DOSSIE.md`.*
+*Fim do dossiê. Primeira versão em 2026-08-27, reorganizado em 2026-09-17. Fonte de verdade: este arquivo.*

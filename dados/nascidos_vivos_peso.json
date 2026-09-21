@@ -1,5 +1,5 @@
 {
-  "fonte": "Portal MS dadosabertos.saude.gov.br, dataset 'sistema-de-informacao-sobre-nascidos-vivos-sinasc', arquivo nacional do ano 2024, por residência da mãe (CODMUNRES=53), DF -- faixas de peso ao nascer transcritas de TABNET sinasc/cnv/nvdf.def (OS-080: lido do portal, não mais do TABNET)",
+  "fonte": "Portal MS dadosabertos.saude.gov.br, dataset 'sistema-de-informacao-sobre-nascidos-vivos-sinasc', arquivo nacional do ano 2024, por residência da mãe (CODMUNRES=53), DF -- faixas de peso ao nascer transcritas de TABNET sinasc/cnv/nvdf.def (apuração de 2026-09-17: lido do portal, não mais do TABNET)",
   "ano": "2024",
   "total_declarado": {
     "nascidos_vivos": 33282

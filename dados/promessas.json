@@ -8,7 +8,7 @@
       "url": "",
       "data": "",
       "estado": "lacuna",
-      "motivo": "divulgacandcontas.tse.jus.br devolveu HTTP 403 nesta própria execução (HTTP 403) -- corpo com referência a errors.edgesuite.net quando lido em 2026-09-13, nó Akamai. É um WAF medido, não uma ausência do publicador; a BRIEF do OS-066 proíbe Playwright para esta tabela e nenhum controle foi contornado."
+      "motivo": "divulgacandcontas.tse.jus.br devolveu HTTP 403 nesta própria execução (HTTP 403) -- corpo com referência a errors.edgesuite.net quando lido em 2026-09-13, nó Akamai. É um WAF medido, não uma ausência do publicador; o plano da apuração de 2026-09-13 proíbe Playwright para esta tabela e nenhum controle foi contornado."
     },
     {
       "fonte": "TSE DivulgaCand",
@@ -18,7 +18,7 @@
       "url": "",
       "data": "",
       "estado": "lacuna",
-      "motivo": "divulgacandcontas.tse.jus.br devolveu HTTP 403 nesta própria execução (HTTP 403) -- corpo com referência a errors.edgesuite.net quando lido em 2026-09-13, nó Akamai. É um WAF medido, não uma ausência do publicador; a BRIEF do OS-066 proíbe Playwright para esta tabela e nenhum controle foi contornado."
+      "motivo": "divulgacandcontas.tse.jus.br devolveu HTTP 403 nesta própria execução (HTTP 403) -- corpo com referência a errors.edgesuite.net quando lido em 2026-09-13, nó Akamai. É um WAF medido, não uma ausência do publicador; o plano da apuração de 2026-09-13 proíbe Playwright para esta tabela e nenhum controle foi contornado."
     },
     {
       "fonte": "DigiSUS Gestor",
