@@ -33,7 +33,7 @@ Como cada número foi obtido, o que foi medido e o que não foi:
 
 ## Dados
 
-As **70** tabelas abaixo são as que as afirmações publicadas
+As **77** tabelas abaixo são as que as afirmações publicadas
 efetivamente leem, medidas a partir das próprias consultas que conferem
 o texto, mais as tabelas de cobertura e de lacuna com que se audita o
 que *não* foi alcançado. Cada uma é o mesmo arquivo que gera os números
@@ -56,15 +56,21 @@ do painel, sem edição:
 - [`demonstracoes_documentos.json`](dados/demonstracoes_documentos.json)
 - [`demonstracoes_linhas.json`](dados/demonstracoes_linhas.json)
 - [`demonstracoes_serie.json`](dados/demonstracoes_serie.json)
+- [`despesa_saude_gdf_elemento.json`](dados/despesa_saude_gdf_elemento.json)
 - [`dimensionamento_df.json`](dados/dimensionamento_df.json)
 - [`dimensionamento_ra.json`](dados/dimensionamento_ra.json)
 - [`dimensionamento_regiao.json`](dados/dimensionamento_regiao.json)
 - [`dimensionamento_serie.json`](dados/dimensionamento_serie.json)
 - [`documentos_leitura.json`](dados/documentos_leitura.json)
 - [`eixos_cobertura.json`](dados/eixos_cobertura.json) *(cobertura/lacuna)*
+- [`emendas_federais_df_saude_convenios.json`](dados/emendas_federais_df_saude_convenios.json)
+- [`emendas_federais_df_saude_favorecidos.json`](dados/emendas_federais_df_saude_favorecidos.json)
 - [`emendas_saude.json`](dados/emendas_saude.json)
+- [`empenhos_saude_gdf.json`](dados/empenhos_saude_gdf.json)
 - [`esperanca_vida.json`](dados/esperanca_vida.json)
 - [`fcdf_pagamentos_lacunas.json`](dados/fcdf_pagamentos_lacunas.json)
+- [`fcdf_pagamentos_mensal.json`](dados/fcdf_pagamentos_mensal.json)
+- [`fcdf_saude_elemento.json`](dados/fcdf_saude_elemento.json)
 - [`fcdf_saude_orcamento.json`](dados/fcdf_saude_orcamento.json)
 - [`fontes_desafiadas.json`](dados/fontes_desafiadas.json) *(cobertura/lacuna)*
 - [`habitantes_por_equipe.json`](dados/habitantes_por_equipe.json)
@@ -91,6 +97,7 @@ do painel, sem edição:
 - [`pni_ausencias.json`](dados/pni_ausencias.json)
 - [`promessas.json`](dados/promessas.json)
 - [`remuneracao_ses_carreira.json`](dados/remuneracao_ses_carreira.json)
+- [`remuneracao_ses_componentes.json`](dados/remuneracao_ses_componentes.json)
 - [`rreo_asps.json`](dados/rreo_asps.json)
 - [`rreo_funcao_saude.json`](dados/rreo_funcao_saude.json)
 - [`sih_ausencias.json`](dados/sih_ausencias.json)

@@ -1,0 +1,24 @@
+{
+  "dados": [
+    {
+      "unidade_gestora": "170101",
+      "unidade_gestora_rotulo": "SECRETARIA DE ESTADO DE SAUDE DO DISTRITO FEDERAL",
+      "granularidade": "elemento de despesa -- não alcançado, sem filtro de função",
+      "estado": "lacuna",
+      "medido_em": "2026-09-30",
+      "motivo": "despesa/detalhamento/subitem (codigoUnidadeGestora, anoExercicio, nomePrograma) serve elemento de despesa, mas só por ação/subtítulo já conhecido, e só chega lá enumerando despesa/detalhamento/{ano}/{codigoUnidadeGestora} primeiro -- 139 ações em 2025 para UG 170101 e 172 para UG 170901 (medido 2026-09-30), sem filtro de função em nenhuma das duas rotas. Cobrir 2023-2026 custaria centenas de chamadas por UG-ano sob o limite publicado de 10/minuto, 250/hora que apuração de 2026-09-13 já mediu para esta mesma classe de leitura -- recusado por custo, não por ausência de rota.",
+      "rotas_lidas": "despesa/detalhamento/{ano}/{codigoUnidadeGestora}; despesa/detalhamento/subitem",
+      "fonte": "www.transparencia.df.gov.br (SPA, lido em 2026-09-30)"
+    },
+    {
+      "unidade_gestora": "170901",
+      "unidade_gestora_rotulo": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "granularidade": "elemento de despesa -- não alcançado, sem filtro de função",
+      "estado": "lacuna",
+      "medido_em": "2026-09-30",
+      "motivo": "despesa/detalhamento/subitem (codigoUnidadeGestora, anoExercicio, nomePrograma) serve elemento de despesa, mas só por ação/subtítulo já conhecido, e só chega lá enumerando despesa/detalhamento/{ano}/{codigoUnidadeGestora} primeiro -- 139 ações em 2025 para UG 170101 e 172 para UG 170901 (medido 2026-09-30), sem filtro de função em nenhuma das duas rotas. Cobrir 2023-2026 custaria centenas de chamadas por UG-ano sob o limite publicado de 10/minuto, 250/hora que apuração de 2026-09-13 já mediu para esta mesma classe de leitura -- recusado por custo, não por ausência de rota.",
+      "rotas_lidas": "despesa/detalhamento/{ano}/{codigoUnidadeGestora}; despesa/detalhamento/subitem",
+      "fonte": "www.transparencia.df.gov.br (SPA, lido em 2026-09-30)"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "dados": [
+    {
+      "unidades_gestoras": "170101, 170901",
+      "estado": "lacuna",
+      "medido_em": "2026-09-30",
+      "motivo": "nenhuma rota despesa/nota-empenho/* aceita um filtro por UG, função ou período -- todas exigem numeroNotaEmpenho já conhecido (extrato, subitem, notas-lancamento, ordem-bancaria, por-ordem-bancaria, por-nota-lancamento, por-nota-lancamento-detalhe-nl). despesa/relatorio/consulta-dinamica é geração de arquivo (PDF/XLS via SIGGO, responseType arraybuffer), não uma consulta de lista. Não há rota de enumeração de empenhos neste portal, a custo nenhum.",
+      "rotas_lidas": "despesa/nota-empenho/extrato; .../subitem; .../notas-lancamento; .../ordem-bancaria; .../por-ordem-bancaria; .../por-nota-lancamento; .../por-nota-lancamento-detalhe-nl; despesa/relatorio/consulta-dinamica",
+      "fonte": "www.transparencia.df.gov.br (SPA, lido em 2026-09-30)"
+    }
+  ]
+}

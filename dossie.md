@@ -1511,6 +1511,246 @@ bloco mede do lado orçamentário está na seção 7.2.
 nesta ordem de serviço, e nenhuma meta ou compromisso de um Plano de Governo é citado aqui —
 fazer isso é trabalho de uma ordem de serviço futura, sobre um índice que já existe.
 
+### 7.5 Para onde vai o dinheiro do FCDF, elemento a elemento
+
+**Uma parte da saúde do DF não é paga pelo GDF.** O Fundo Constitucional do Distrito Federal
+(FCDF), unidade orçamentária 73901 da União, custeia diretamente pessoal e serviços de saúde no
+DF, e é classificado na função *Encargos especiais* — por isso nenhuma consulta pela função 10
+Saúde o encontra, e por isso ele esteve fora deste documento até 2026-09-29. Duas ações do FCDF
+são de saúde e entram nas somas abaixo; a ação de assistência médica e odontológica às polícias e
+ao corpo de bombeiros fica de fora, com o motivo declarado em cada uma das suas 40 linhas — é
+saúde de corporação, não do SUS do DF `[fcdf_saude_elemento]`.
+
+| Ano | Grupo de despesa | Empenhado | Realizado |
+|---|---|---|---|
+| 2023 | Pessoal e Encargos Sociais | R$ 6.397.000.000,00 | R$ 6.091.249.218,63 |
+| 2023 | Outras Despesas Correntes | R$ 1.615.517.252,98 | R$ 1.470.492.592,60 |
+| 2024 | Pessoal e Encargos Sociais | R$ 6.091.712.000,00 | R$ 5.789.991.634,45 |
+| 2024 | Outras Despesas Correntes | R$ 1.741.789.116,12 | R$ 1.500.336.793,41 |
+| 2025 | Pessoal e Encargos Sociais | R$ 7.059.034.370,22 | R$ 6.972.852.132,73 |
+| 2025 | Outras Despesas Correntes | R$ 1.664.657.509,88 | R$ 1.615.750.376,80 |
+| 2026 | Pessoal e Encargos Sociais | R$ 4.570.326.910,57 | R$ 4.570.326.910,57 |
+| 2026 | Outras Despesas Correntes | R$ 1.765.956.614,24 | R$ 1.679.670.627,70 |
+
+**O exercício de 2026 está aberto e é publicado como parcial, nunca como um ano fechado**
+`[fcdf_saude_elemento]`; 2023, 2024 e 2025 estão fechados. **Não há uma única linha de
+Investimentos entre as ações de saúde do FCDF em nenhum dos quatro exercícios** — o grupo existe
+no arquivo da União, mas só na ação das polícias. O que o Fundo paga em saúde no DF é folha e
+custeio, e nada mais.
+
+| Elemento de despesa | Realizado (2025) | Participação |
+|---|---|---|
+| Vencimentos e Vantagens Fixas - Pessoal Civil | R$ 4.588.617.177,68 | 53,4 % |
+| Aposentadorias, Reserva Remunerada e Reformas | R$ 2.025.625.507,04 | 23,6 % |
+| Transferências por meio de Contrato de Gestão | R$ 502.185.075,44 | 5,8 % |
+| Outros Serviços de Terceiros - Pessoa Jurídica | R$ 309.607.715,73 | 3,6 % |
+| Locação de Mão-de-Obra | R$ 254.339.296,03 | 3,0 % |
+| Auxílio-Alimentação | R$ 214.550.675,70 | 2,5 % |
+| Pensões | R$ 169.406.676,70 | 2,0 % |
+| Outros Benefícios Assistenciais do servidor e do militar | R$ 151.693.094,27 | 1,8 % |
+| Indenizações e Restituições Trabalhistas | R$ 111.326.057,40 | 1,3 % |
+| Auxílio Financeiro a Estudantes | R$ 101.549.237,77 | 1,2 % |
+| Indenizações e Restituições | R$ 71.637.668,13 | 0,8 % |
+| Outras Despesas Variáveis - Pessoal Civil | R$ 56.637.538,60 | 0,7 % |
+| Contratação por Tempo Determinado | R$ 21.239.175,31 | 0,2 % |
+| Auxílio-Transporte | R$ 6.144.743,52 | 0,1 % |
+| Material de Consumo | R$ 2.267.709,96 | 0,0 % |
+| Serviços de Tecnologia da Informação e Comunicação | R$ 1.775.160,25 | 0,0 % |
+| Não informado | R$ 0,00 | 0,0 % |
+
+**São 19 elementos de despesa distintos nas ações de saúde do FCDF ao longo dos quatro
+exercícios**, e 17 deles aparecem em 2025 — a tabela acima é o exercício inteiro, sem corte,
+inclusive a linha *Não informado*, que o arquivo da União traz com valor zero e que é publicada
+como zero em vez de ser omitida. Em 2025 dois elementos — vencimentos da ativa e aposentadorias — respondem por
+**77,0 % de tudo o que o Fundo realizou em saúde no DF** `[fcdf_saude_elemento]`. A terceira
+maior linha é a transferência por contrato de gestão, **R$ 502.185.075,44 em 2025**: é por aqui
+que a União paga o IGES-DF, fora dos livros do GDF e somando-se ao que o GDF já lhe repassa. A
+participação de cada elemento é calculada sobre o realizado total das ações de saúde do ano, não
+sobre a soma das linhas exibidas.
+
+### 7.6 A folha da SES-DF, componente a componente
+
+**A folha da SES-DF é publicada aqui decomposta, e não como um valor único.** Cada mês traz a
+remuneração básica, os benefícios, a gratificação de função, a hora extra, as verbas eventuais e
+as judiciais em colunas próprias, agregadas por cargo — **nenhum nome, CPF ou matrícula sai da
+máquina que lê o arquivo** `[remuneracao_ses_componentes]`.
+
+| Ano | Meses medidos | Vínculos-mês | Bruto total |
+|---|---|---|---|
+| 2013 | 12 | 558.215 | R$ 4.269.674.411,54 |
+| 2014 | 12 | 578.203 | R$ 4.943.012.971,34 |
+| 2015 | 12 | 571.010 | R$ 5.434.294.515,98 |
+| 2016 | 12 | 577.971 | R$ 5.362.239.840,89 |
+| 2017 | 12 | 585.687 | R$ 5.410.334.180,61 |
+| 2018 | 12 | 607.284 | R$ 5.600.850.879,09 |
+| 2019 | 12 | 614.365 | R$ 5.792.225.199,76 |
+| 2020 | 12 | 621.631 | R$ 5.988.152.670,97 |
+| 2021 | 12 | 625.267 | R$ 6.311.574.420,60 |
+| 2022 | 12 | 635.410 | R$ 7.182.367.752,92 |
+| 2023 | 12 | 634.724 | R$ 7.816.886.962,59 |
+| 2024 | 12 | 626.381 | R$ 8.409.592.175,40 |
+| 2025 | 12 | 636.788 | R$ 9.689.348.561,42 |
+| 2026 | 7 | 372.708 | R$ 5.545.999.472,88 |
+
+**A coluna do meio é vínculos-mês, não pessoas.** Ela soma o número de servidores de cada mês ao
+longo do ano, de modo que um servidor presente nos doze meses conta doze vezes; **ela não é um
+efetivo e não deve ser lida como tal**. São **14 exercícios medidos, de 2013 a 2026**, e 2026
+traz sete meses, não doze `[remuneracao_ses_componentes]`.
+
+| Componente da folha | Demais cargos, residentes incluídos (2025) | Médicos de carreira (2025) |
+|---|---|---|
+| Remuneração básica | R$ 5.619.214.237,40 | R$ 2.151.385.169,07 |
+| Benefícios | R$ 290.502.362,59 | R$ 31.322.807,18 |
+| Gratificação de função | R$ 53.868.712,08 | R$ 5.100.201,48 |
+| Comissão de conselheiro | R$ 0,00 | R$ 0,00 |
+| Hora extra | R$ 183.755.807,46 | R$ 5.089.675,11 |
+| Verbas eventuais | R$ 837.841.845,33 | R$ 314.582.793,65 |
+| Verbas judiciais | R$ 9.395.992,47 | R$ 12.888.297,29 |
+| Licença-prêmio | R$ 58.629.746,56 | R$ 25.258.555,58 |
+| Outros recebimentos | R$ 61.286.818,35 | R$ 26.553.463,26 |
+| Pagamentos a maior | R$ 276.997.204,85 | R$ 98.642.789,88 |
+| Bruto total | R$ 7.116.158.503,46 | R$ 2.573.190.057,96 |
+| Resíduo não decomposto | R$ -275.334.223,63 | R$ -97.633.694,54 |
+
+**Os dez componentes de recebimento que o arquivo do publicador traz estão todos na tabela**, e
+não uma seleção deles: o resíduo da última linha é o bruto declarado menos a soma exata dessas
+dez, de modo que a conta pode ser refeita na própria página. Os descontos — IRRF, previdência,
+teto redutor e os demais obrigatórios — ficam fora dela e não entram nesse resíduo.
+
+**A coluna dos médicos é a dos cargos médicos de carreira e não inclui os residentes**, que o
+arquivo nomeia à parte: assim lidos, **os médicos respondem por 26,6 % do bruto da folha da
+SES-DF em 2025**, e **27,9 % se os residentes forem somados a eles**
+`[remuneracao_ses_componentes]`. Em hora extra e em gratificação de função a participação é
+muito menor que qualquer das duas. Duas leituras merecem cuidado. A primeira: **as verbas judiciais dos médicos superam as de todos os demais cargos
+somados** — R$ 12.888.297,29 contra R$ 9.395.992,47 —, e este documento publica o fato sem
+explicá-lo, porque o arquivo do publicador não traz a causa. A segunda: **o resíduo é negativo
+nos dois lados**. Ele é o bruto declarado menos a soma das colunas de recebimento, e um valor
+negativo significa que os componentes somam acima do bruto que o próprio arquivo declara. **Nada
+disso é reconciliado à mão aqui**: o resíduo é publicado como coluna justamente para que a
+diferença seja visível em vez de desaparecer dentro de um total arredondado.
+
+### 7.7 Quem recebe do FCDF, mês a mês
+
+**O pagamento efetivo do FCDF é lido dia a dia e publicado por favorecido, elemento e mês.** Um
+dia que o publicador recusa vira lacuna declarada, nunca um zero: o mês em que isso acontece é
+marcado como piso, e a soma do ano é um mínimo, não um total `[fcdf_pagamentos_mensal]`.
+
+| Ano | Meses medidos | Meses com dias não lidos | Pago |
+|---|---|---|---|
+| 2023 | 12 | 1 | R$ 7.514.771.681,68 |
+| 2024 | 12 | 0 | R$ 7.729.805.658,19 |
+| 2025 | 12 | 0 | R$ 8.392.679.114,16 |
+| 2026 | 9 | 1 | R$ 6.392.788.641,41 |
+
+**Os dois meses incompletos não são a mesma coisa, e a tabela não os distingue sozinha.** Em
+fevereiro de 2023 foram lidos 27 dos 28 dias, e o único que falta é uma **recusa do
+publicador** — o arquivo do dia 2023-02-19 responde com erro e não foi lido —, de modo que 2023
+é um piso e não um total. Em setembro de 2026 foram lidos 28 de 29 dias, e o que falta ali é
+**mês ainda em curso** e não recusa: 2026 é um exercício aberto e a sua linha inteira é parcial,
+não uma comparação possível com os anos fechados acima `[fcdf_pagamentos_mensal]`.
+
+| Favorecido do FCDF | Pago (2025) |
+|---|---|
+| BRB BANCO DE BRASILIA SA | R$ 5.218.613.641,68 |
+| GOVERNO DO DISTRITO FEDERAL - CONTA UNICA | R$ 1.130.997.747,44 |
+| BANCO DO BRASIL SA | R$ 924.906.180,90 |
+| INSTITUTO DE GESTAO ESTRATEGICA DE SAUDE DO DISTRITO FE | R$ 386.205.850,87 |
+| BRASILIA SEGURANCA S/A | R$ 115.814.225,21 |
+| INSTITUTO DO CANCER INFANTIL E PEDIATRIA ESPECIALIZADA | R$ 110.184.885,28 |
+| FUNDACAO UNIVERSITARIA DE CARDIOLOGIA EM RECUPERACAO J | R$ 97.497.100,35 |
+| HOSPITAL LAGO SUL S/A | R$ 47.891.430,74 |
+| HOME - HOSPITAL ORTOPEDICO E MEDICINA ESPECIALIZADA LTD | R$ 36.346.036,37 |
+| LIDERANCA LIMPEZA E CONSERVACAO LTDA | R$ 35.370.121,06 |
+
+**Os três primeiros nomes são bancos e a conta única do próprio GDF: são o caminho da folha, não
+um prestador de serviço de saúde.** O primeiro pagamento que é de fato uma compra de assistência
+é o quarto — **o IGES-DF, R$ 386.205.850,87 pagos pela União em 2025**, ao lado do que o GDF lhe
+repassa no mesmo ano e nunca somado a ele nesta análise. O sexto é o ICIPE, que opera o HCB. Os
+nomes são publicados como o arquivo do publicador os traz, truncados inclusive.
+
+**Nenhuma pessoa física é nomeada.** Todas são recolhidas a uma única linha agregada antes de
+qualquer coisa ir para o disco, e o total pago a pessoas físicas pelo FCDF em todo o período é de
+**R$ 909,00** `[fcdf_pagamentos_mensal]`. **Os pagamentos trazem 17 códigos de elemento
+distintos, e dois deles não têm nome em lugar nenhum do arquivo orçamentário do mesmo
+publicador** — este documento os publica pelo código e não inventa um rótulo para eles.
+
+### 7.8 As emendas federais, favorecido a favorecido
+
+**Uma emenda parlamentar federal destinada à saúde do DF nem sempre é aplicada no DF.** A tabela
+abaixo publica o favorecido de cada emenda e a unidade da federação onde ela é aplicada, e a
+coluna da UF é o achado, não um detalhe de formatação `[emendas_federais_df_saude_favorecidos]`.
+
+| Ano | UF de aplicação | Favorecidos | Valor |
+|---|---|---|---|
+| 2023 | DISTRITO FEDERAL | 27 | R$ 141.395.138,28 |
+| 2023 | GOIÁS | 1 | R$ 4.137.187,00 |
+| 2023 | Sem informação | 3 | R$ 10.186.840,00 |
+| 2024 | DISTRITO FEDERAL | 30 | R$ 139.455.038,12 |
+| 2024 | GOIÁS | 9 | R$ 10.800.000,00 |
+| 2024 | Múltiplo | 17 | R$ 69.238.653,60 |
+| 2024 | RIO GRANDE DO SUL | 3 | R$ 2.093.566,00 |
+| 2024 | Sem informação | 2 | R$ 2.000.000,00 |
+| 2025 | DISTRITO FEDERAL | 50 | R$ 272.105.718,37 |
+| 2025 | GOIÁS | 30 | R$ 76.353.175,00 |
+| 2025 | Múltiplo | 16 | R$ 54.666.372,00 |
+| 2025 | Sem informação | 5 | R$ 3.608.860,65 |
+| 2026 | DISTRITO FEDERAL | 2 | R$ 30.362.682,00 |
+| 2026 | GOIÁS | 34 | R$ 54.268.761,00 |
+| 2026 | Sem informação | 2 | R$ 11.000.000,00 |
+
+**São 231 linhas de favorecido no período. 109 delas aplicam no Distrito Federal, somando
+R$ 583.318.576,77; 74 aplicam em Goiás, somando R$ 145.559.123,00**
+`[emendas_federais_df_saude_favorecidos]`. Em 2026 a relação se inverte: 34 linhas em Goiás
+contra duas no DF. A leitura defensável disso é uma só — **parte do dinheiro federal carimbado
+para a saúde do DF financia a rede do entorno goiano, que atende população que se trata em
+Brasília** — e este documento a publica como medição, sem afirmar intenção de ninguém.
+
+| Tipo de emenda | Convênios | Valor |
+|---|---|---|
+| Emenda Individual - Transferências com Finalidade Definida | 24 | R$ 44.497.909,00 |
+| Emenda de Bancada | 1 | R$ 1.498.176,00 |
+
+**São 25 convênios distintos, R$ 45.996.085,00 no total, e 20 deles têm o IGES-DF como
+convenente, somando R$ 32.022.414,00** `[emendas_federais_df_saude_convenios]`. Um mesmo convênio
+aparece sob mais de uma emenda no arquivo do publicador; a contagem acima é de convênios
+distintos, nunca de linhas, para que o mesmo valor não seja contado duas vezes.
+
+### 7.9 O que o GDF não deixa ler
+
+**Do lado do GDF, a mesma pergunta não tem resposta, e a causa foi medida em vez de suposta.**
+Duas leituras que existem para o dinheiro federal não existem para o dinheiro distrital, e cada
+uma falha por um motivo diferente.
+
+| Leitura recusada | Estado | Medido em |
+|---|---|---|
+| Elemento de despesa, unidade gestora 170101 (SECRETARIA DE ESTADO DE SAUDE DO DISTRITO FEDERAL) | lacuna | 2026-09-30 |
+| Elemento de despesa, unidade gestora 170901 (FUNDO DE SAUDE DO DISTRITO FEDERAL) | lacuna | 2026-09-30 |
+| Empenhos, unidades gestoras 170101, 170901 | lacuna | 2026-09-30 |
+
+**O elemento de despesa é recusado por custo, não por ausência de rota.** O próprio código do
+portal da transparência do GDF declara uma rota que serve elemento de despesa — mas só por ação
+já conhecida, e chegar a cada ação exige enumerar antes todas as ações da unidade gestora, sem
+filtro por função em nenhuma das duas etapas: **139 ações em 2025 só para a Secretaria de Saúde e
+172 para o Fundo de Saúde**, medidas em 2026-09-30. Cobrir 2023 a 2026 custaria centenas de
+chamadas por unidade gestora e por ano sob o limite publicado de 10 por minuto e 250 por hora que
+este projeto já mediu para esta mesma classe de leitura. **O limite não é contornado**, e a
+leitura fica registrada como lacuna com o motivo inteiro na sua própria linha
+`[despesa_saude_gdf_elemento]`.
+
+**O empenho é outra coisa: não há rota.** Todas as rotas de nota de empenho do portal exigem um
+número de empenho já conhecido — extrato, subitem, notas de lançamento, ordem bancária — e a
+única saída que produziria uma lista é uma geração de arquivo em PDF ou planilha, não uma
+consulta. **Não existe rota de enumeração de empenhos neste portal, a custo nenhum**
+`[empenhos_saude_gdf]`. A diferença entre as duas lacunas importa: a primeira é uma decisão deste
+projeto diante de um custo; a segunda é uma ausência do publicador.
+
+**As duas linhas são uma medição datada e não um estado que se atualize sozinho.** A coluna
+*Medido em* é a data em que o código do portal foi lido e as ações foram contadas, e as
+contagens de 139 e 172 ações são dessa data; nenhuma execução posterior deste projeto volta a
+medi-las. Se o publicador passar a servir a leitura por função, ou publicar uma rota de
+enumeração de empenhos, **estas duas linhas continuarão dizendo lacuna até que alguém volte a
+medir** — o que está registrado aqui é o que se viu naquele dia, não o que vale hoje.
+
 ---
 
 ## Bloco 8 — O registro da CLDF
@@ -1627,10 +1867,14 @@ tabela que só mostrasse os anos julgados esconderia exatamente aquilo que este 
 que o gera, a cada execução.
 
 **A rastreabilidade é verificada a cada execução, e o denominador é deste documento, não da
-verificação**: **1.304 afirmações quantitativas,
-1.304 conferem** — 185 em prosa,
-enumeradas uma a uma, e **1.119 células de tabela lidas deste próprio arquivo** e reconstruídas do
-banco. **Eram 1.279 e 1.094 até 2026-09-29**, quando entraram as duas tabelas do financiamento da
+verificação**: **1.632 afirmações quantitativas,
+1.632 conferem** — 209 em prosa,
+enumeradas uma a uma, e **1.423 células de tabela lidas deste próprio arquivo** e reconstruídas do
+banco. **Eram 1.304 e 1.119 até 2026-09-30**, quando as sete tabelas do dinheiro da saúde no
+grão fino — o FCDF por elemento de despesa, o pagamento por favorecido e mês, a folha da SES-DF
+por componente, as emendas federais favorecido a favorecido e os seus convênios, e as duas
+leituras que o portal do GDF recusa — passaram a ser citadas por este documento, nas seções 7.5 a
+7.9. **Eram 1.279 e 1.094 até 2026-09-29**, quando entraram as duas tabelas do financiamento da
 saúde — o liquidado do Portal da Transparência ao lado do liquidado do RREO, com a diferença
 calculada, e as divergências publicadas sem resolução — e os quatro estágios do orçamento que antes
 eram lacuna. **Eram 891 e 706 até 2026-09-20**, quando entraram seis tabelas novas — cobertura da APS por

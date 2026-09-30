@@ -1,0 +1,2314 @@
+{
+  "dados": [
+    {
+      "codigo_emenda": "202328260002",
+      "ano": "2023",
+      "uf_aplicacao": "Sem informação",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 27479.19,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202328260002",
+      "ano": "2023",
+      "uf_aplicacao": "Sem informação",
+      "favorecido_codigo": "02385669000174",
+      "favorecido": "FIOTEC - FUNDACAO PARA O DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO EM SAUDE",
+      "valor_recebido": 9977801.2,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202328260002",
+      "ano": "2023",
+      "uf_aplicacao": "Sem informação",
+      "favorecido_codigo": "16887298000133",
+      "favorecido": "OFFICE SERVICE TERCEIRIZACAO DE MAO DE OBRA LTDA",
+      "valor_recebido": 181559.61,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202328260004",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 5830606.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202337980001",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 2225026.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202337980002",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 15592010.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202337980006",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 3654760.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202337980006",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 3052500.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202337980007",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 12336776.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202337980009",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 3272464.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202337980009",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 1221000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202337980013",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 7489107.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202339190005",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 13541929.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202339190005",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "92898550000600",
+      "favorecido": "FUNDACAO UNIVERSITARIA DE CARDIOLOGIA EM RECUPERACAO JUDICIAL",
+      "valor_recebido": 2060301.75,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202340530019",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 6550000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202340530019",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "92898550000600",
+      "favorecido": "FUNDACAO UNIVERSITARIA DE CARDIOLOGIA EM RECUPERACAO JUDICIAL",
+      "valor_recebido": 923265.02,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202340820001",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "07887773000180",
+      "favorecido": "ASSOCIACAO RECICLE A VIDA",
+      "valor_recebido": 1797385.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202340820006",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 10488122.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202340820006",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "28481233000172",
+      "favorecido": "INSTITUTO DE GESTAO ESTRATEGICA DE SAUDE DO DISTRITO FEDERAL - IGESDF",
+      "valor_recebido": 7591724.96,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202340820006",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "92898550000600",
+      "favorecido": "FUNDACAO UNIVERSITARIA DE CARDIOLOGIA EM RECUPERACAO JUDICIAL",
+      "valor_recebido": 435736.25,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202340820010",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 6000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202341100016",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 9681621.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202341100016",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "28481233000172",
+      "favorecido": "INSTITUTO DE GESTAO ESTRATEGICA DE SAUDE DO DISTRITO FEDERAL - IGESDF",
+      "valor_recebido": 793067.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202341100017",
+      "ano": "2023",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 4137187.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202341360009",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 9200000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202341360009",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "28481233000172",
+      "favorecido": "INSTITUTO DE GESTAO ESTRATEGICA DE SAUDE DO DISTRITO FEDERAL - IGESDF",
+      "valor_recebido": 9476828.32,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202341360009",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "62382395000604",
+      "favorecido": "ASSOCIACAO DAS OBRAS PAVONIANAS DE ASSISTENCIA",
+      "valor_recebido": 320992.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202341360009",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "92898550000600",
+      "favorecido": "FUNDACAO UNIVERSITARIA DE CARDIOLOGIA EM RECUPERACAO JUDICIAL",
+      "valor_recebido": 1786228.98,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202341360010",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "08823229000138",
+      "favorecido": "AVANTE BRASIL OSCIP",
+      "valor_recebido": 1630791.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202341690008",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 3252897.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202371080013",
+      "ano": "2023",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "28481233000172",
+      "favorecido": "INSTITUTO DE GESTAO ESTRATEGICA DE SAUDE DO DISTRITO FEDERAL - IGESDF",
+      "valor_recebido": 1190000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202428260008",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "02385669000174",
+      "favorecido": "FIOTEC - FUNDACAO PARA O DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO EM SAUDE",
+      "valor_recebido": 13633934.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202428260008",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "11413650000185",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE CANOAS",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202428260018",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 400000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202428260022",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "37116704000134",
+      "favorecido": "FUNDACAO DE EMPREENDIMENTOS CIENTIFICOS E TECNOLOGICOS",
+      "valor_recebido": 232743.28,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202436300007",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 10000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202436300007",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 6000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202436300010",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 2430000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202436300010",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 570000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202439190002",
+      "ano": "2024",
+      "uf_aplicacao": "RIO GRANDE DO SUL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202439190002",
+      "ano": "2024",
+      "uf_aplicacao": "RIO GRANDE DO SUL",
+      "favorecido_codigo": "12433016000177",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE ARAMBARE",
+      "valor_recebido": 93566.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202439190012",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 2635792.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202439190014",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202439190014",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 15000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202440820001",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 1561663.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202440820001",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 7030957.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202440820001",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "28481233000172",
+      "favorecido": "INSTITUTO DE GESTAO ESTRATEGICA DE SAUDE DO DISTRITO FEDERAL - IGESDF",
+      "valor_recebido": 276306.6,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202440820002",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 16039805.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202440820002",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 2034587.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202440820007",
+      "ano": "2024",
+      "uf_aplicacao": "RIO GRANDE DO SUL",
+      "favorecido_codigo": "87182846000178",
+      "favorecido": "FUNDO ESTADUAL DE SAUDE",
+      "valor_recebido": 1500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202441280020",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202441360018",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 9677023.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202441360018",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "07429190000106",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202441360018",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "07460294000183",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE AGUAS LINDAS DE GOIAS",
+      "valor_recebido": 2400000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202441360018",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "10936853000193",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2122977.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202441360018",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 5500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202441360019",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 13430507.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202442680002",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 7542000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202442680002",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 22884532.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202442680004",
+      "ano": "2024",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 300000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202442680007",
+      "ano": "2024",
+      "uf_aplicacao": "Sem informação",
+      "favorecido_codigo": "37113180000128",
+      "favorecido": "ASSOCIACAO DAS PIONEIRAS SOCIAIS",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202442680011",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 1500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202442680012",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 1469299.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202442680013",
+      "ano": "2024",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07460294000183",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE AGUAS LINDAS DE GOIAS",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202442680021",
+      "ano": "2024",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 600000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202443780004",
+      "ano": "2024",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04394880000189",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE PLANALTINA-GO",
+      "valor_recebido": 4000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202443780004",
+      "ano": "2024",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07429190000106",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202443780004",
+      "ano": "2024",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07460294000183",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE AGUAS LINDAS DE GOIAS",
+      "valor_recebido": 800000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202443780004",
+      "ano": "2024",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "10936853000193",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1900000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202443780007",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 4535793.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202443780007",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1600000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202443780007",
+      "ano": "2024",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "07460294000183",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE AGUAS LINDAS DE GOIAS",
+      "valor_recebido": 400000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202443850002",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 11321585.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202443850002",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 5550000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202443850004",
+      "ano": "2024",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 200000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490004",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 9435792.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490008",
+      "ano": "2024",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490010",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00029372000221",
+      "favorecido": "GE HEALTHCARE DO BRASIL COMERCIO E SERVICOS PARA EQUIPAMENTOS MEDICO-HOSPITALARES LTDA",
+      "valor_recebido": 139000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490010",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "02323120000236",
+      "favorecido": "FUJICOM COMERCIO DE MATERIAIS HOSPITALARES E IMPORTACAO LTDA",
+      "valor_recebido": 128800.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490010",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "02887124000247",
+      "favorecido": "ECKERT & ZIEGLER BRASIL COMERCIAL LTDA.",
+      "valor_recebido": 173950.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490010",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "05743288000108",
+      "favorecido": "HOSPCOM EQUIPAMENTOS HOSPITALARES LTDA",
+      "valor_recebido": 3095812.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490010",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "05756359000107",
+      "favorecido": "SANDERS DO BRASIL LTDA",
+      "valor_recebido": 416586.66,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490010",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "16861009000127",
+      "favorecido": "LINET DO BRASIL COMERCIO, IMPORTACAO E EXPORTACAO DE PRODUTOS MEDICOS HOSPITALARES LTDA",
+      "valor_recebido": 375000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490010",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "28481233000172",
+      "favorecido": "INSTITUTO DE GESTAO ESTRATEGICA DE SAUDE DO DISTRITO FEDERAL - IGESDF",
+      "valor_recebido": 37273.9,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490010",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "28997632000190",
+      "favorecido": "ARJO BRASIL EQUIPAMENTOS MEDICOS LTDA.",
+      "valor_recebido": 79000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490010",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "35820448001884",
+      "favorecido": "WHITE MARTINS GASES INDUSTRIAIS LTDA",
+      "valor_recebido": 90730.28,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490011",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 2000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444490015",
+      "ano": "2024",
+      "uf_aplicacao": "Sem informação",
+      "favorecido_codigo": "02385669000174",
+      "favorecido": "FIOTEC - FUNDACAO PARA O DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO EM SAUDE",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444530001",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 18735793.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444530003",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 200000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444970004",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00000000000191",
+      "favorecido": "BANCO DO BRASIL SA",
+      "valor_recebido": 3000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202444970004",
+      "ano": "2024",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 6450.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202528260010",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "02385669000174",
+      "favorecido": "FIOTEC - FUNDACAO PARA O DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO EM SAUDE",
+      "valor_recebido": 13045922.7,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202528260010",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "34174896000147",
+      "favorecido": "INSTITUTO DE PROFESSORES PUBLICOS E PARTICULARES",
+      "valor_recebido": 100000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202536300010",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202536300010",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "07460294000183",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE AGUAS LINDAS DE GOIAS",
+      "valor_recebido": 7745654.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202536300010",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "07556717000163",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2007000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202536300010",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "10936853000193",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 3000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202536300010",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "11254840000105",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202536300010",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "11337362000199",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 747346.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202536300010",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 6000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202539190009",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 18637993.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820024",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 12600000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00838896000182",
+      "favorecido": "CIRURGICA SAO BERNARDO LTDA",
+      "valor_recebido": 67995.13,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "02976881000106",
+      "favorecido": "ANATOMIC COMERCIO E ASSISTENCIA TECNICA DE EQUIPAMENTOS HOSPITALARES E EDUCACIONAIS LTDA.",
+      "valor_recebido": 22596.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "05743288000108",
+      "favorecido": "HOSPCOM EQUIPAMENTOS HOSPITALARES LTDA",
+      "valor_recebido": 36798.15,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "05944604000533",
+      "favorecido": "EDWARDS LIFESCIENCES COMERCIO DE PRODUTOS MEDICO-CIRURGICOS LTDA.",
+      "valor_recebido": 527240.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "32929819000477",
+      "favorecido": "ALCON BRASIL CUIDADOS COM A SAUDE LTDA",
+      "valor_recebido": 960330.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "33250713000243",
+      "favorecido": "H STRATTNER E CIA LTDA",
+      "valor_recebido": 143880.27,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "33498171000141",
+      "favorecido": "SAUDE COMERCIO DE PRODUTOS HOSPITALARES LTDA",
+      "valor_recebido": 35752.5,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "47806382000109",
+      "favorecido": "OQTIS INDUSTRIA DE EQUIPAMENTOS HOSPITALARES LTDA",
+      "valor_recebido": 32952.5,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "48240709000190",
+      "favorecido": "ORTOSINTESE INDUSTRIA E COMERCIO LTDA",
+      "valor_recebido": 1150513.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "51961258000195",
+      "favorecido": "CARDIO SISTEMAS COMERCIAL E INDUSTRIAL LTDA",
+      "valor_recebido": 103800.38,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "61100244000130",
+      "favorecido": "FANEM LTDA",
+      "valor_recebido": 2170267.23,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "8",
+      "favorecido": "SEM INFORMACAO",
+      "valor_recebido": 119771.43,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202540820025",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "81243735000903",
+      "favorecido": "POSITIVO TECNOLOGIA S.A.",
+      "valor_recebido": 44150.89,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100002",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "04394880000189",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE PLANALTINA-GO",
+      "valor_recebido": 1500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100002",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "07429190000106",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100002",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "07460294000183",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE AGUAS LINDAS DE GOIAS",
+      "valor_recebido": 1500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100002",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "10593919000190",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 640993.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100002",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 5000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100007",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04394880000189",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE PLANALTINA-GO",
+      "valor_recebido": 497000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100007",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 501000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100007",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07556717000163",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 502000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100007",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "09105181000195",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 501000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100007",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "10593919000190",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 503000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100007",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "10936853000193",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 498000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100007",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11290797000125",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE CRISTALINA",
+      "valor_recebido": 998000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100007",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11337362000199",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100013",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "10936853000193",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 996999.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541100013",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 28380.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541360001",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04394880000189",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE PLANALTINA-GO",
+      "valor_recebido": 6607330.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541360001",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 7269859.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541360001",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07429190000106",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541360001",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "09105181000195",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541360001",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "10936853000193",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 4000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541360001",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11290797000125",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE CRISTALINA",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202541360001",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11332874000162",
+      "favorecido": "FMS - FUNDO MUNICIPAL DE SAUDE CIDADE OCIDENTAL",
+      "valor_recebido": 1500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202542680001",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 16800000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202542680002",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07460294000183",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE AGUAS LINDAS DE GOIAS",
+      "valor_recebido": 3500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202542680003",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07556717000163",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202542680004",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07429190000106",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202542680005",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "09105181000195",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202542680006",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04394880000189",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE PLANALTINA-GO",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202542680007",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11290797000125",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE CRISTALINA",
+      "valor_recebido": 1300000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202542680022",
+      "ano": "2025",
+      "uf_aplicacao": "Sem informação",
+      "favorecido_codigo": "37113180000128",
+      "favorecido": "ASSOCIACAO DAS PIONEIRAS SOCIAIS",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202542680024",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "10936853000193",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1400000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202543780007",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "10936853000193",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 3637993.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202543780009",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 5000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202543780009",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07460294000183",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE AGUAS LINDAS DE GOIAS",
+      "valor_recebido": 3000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202543780009",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07556717000163",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202543850001",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 10000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202543850001",
+      "ano": "2025",
+      "uf_aplicacao": "Múltiplo",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 10500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202543850005",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07556717000163",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 3000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202543850005",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "10936853000193",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490005",
+      "ano": "2025",
+      "uf_aplicacao": "Sem informação",
+      "favorecido_codigo": "02385669000174",
+      "favorecido": "FIOTEC - FUNDACAO PARA O DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO EM SAUDE",
+      "valor_recebido": 1580000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490005",
+      "ano": "2025",
+      "uf_aplicacao": "Sem informação",
+      "favorecido_codigo": "12477490000281",
+      "favorecido": "LIDER NOTEBOOKS COMERCIO E SERVICOS LTDA",
+      "valor_recebido": 298951.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490005",
+      "ano": "2025",
+      "uf_aplicacao": "Sem informação",
+      "favorecido_codigo": "2544315",
+      "favorecido": "EDM MILLIPORE CORPORATION",
+      "valor_recebido": 565909.65,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490005",
+      "ano": "2025",
+      "uf_aplicacao": "Sem informação",
+      "favorecido_codigo": "29782551000136",
+      "favorecido": "MEIPAD INFO LTDA",
+      "valor_recebido": 164000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00029372000221",
+      "favorecido": "GE HEALTHCARE DO BRASIL COMERCIO E SERVICOS PARA EQUIPAMENTOS MEDICO-HOSPITALARES LTDA",
+      "valor_recebido": 191124.5,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "00497262000103",
+      "favorecido": "AUDISERVICE - ASSISTENCIA DE APARELHOS AUDITIVOS LTDA",
+      "valor_recebido": 94300.64,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "02800248000162",
+      "favorecido": "M. F. EQUIPAMENTOS MEDICOS LTDA",
+      "valor_recebido": 136517.5,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "02836248000112",
+      "favorecido": "BARRFAB INDUSTRIA COMERCIO IMPORTACAO E EXPORTACAO DE EQUIPAMENTOS HOSPITALARES LTDA",
+      "valor_recebido": 89950.91,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "03155958000140",
+      "favorecido": "MEDPEJ - EQUIPAMENTOS MEDICOS LTDA",
+      "valor_recebido": 101455.54,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "04602789000101",
+      "favorecido": "DATEN TECNOLOGIA LTDA",
+      "valor_recebido": 891641.93,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "05652247000106",
+      "favorecido": "LUMIAR HEALTH BUILDERS EQUIPAMENTOS HOSPITALARES LTDA",
+      "valor_recebido": 7814.45,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "05743288000108",
+      "favorecido": "HOSPCOM EQUIPAMENTOS HOSPITALARES LTDA",
+      "valor_recebido": 1119532.6,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "16861009000127",
+      "favorecido": "LINET DO BRASIL COMERCIO, IMPORTACAO E EXPORTACAO DE PRODUTOS MEDICOS HOSPITALARES LTDA",
+      "valor_recebido": 34537.21,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "22408118000196",
+      "favorecido": "BIOPULSE BRASIL LTDA",
+      "valor_recebido": 15500.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "25371614000100",
+      "favorecido": "HOFFMANNLAB PRODUTOS PARA LABORATORIO LTDA",
+      "valor_recebido": 18688.78,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "26085154000117",
+      "favorecido": "PHOENIX INSTRUMENTAL CIENTIFICA LTDA",
+      "valor_recebido": 133870.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "30707210000185",
+      "favorecido": "ELETROMED ELETRONICA MEDICA LTDA",
+      "valor_recebido": 503600.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "47806382000109",
+      "favorecido": "OQTIS INDUSTRIA DE EQUIPAMENTOS HOSPITALARES LTDA",
+      "valor_recebido": 65905.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "61100244000130",
+      "favorecido": "FANEM LTDA",
+      "valor_recebido": 310537.68,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "61374161000130",
+      "favorecido": "BAUMER S A",
+      "valor_recebido": 115540.88,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "81618753000167",
+      "favorecido": "ELBER INDUSTRIA DE REFRIGERACAO LTDA",
+      "valor_recebido": 40864.87,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490007",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "96382429000160",
+      "favorecido": "ADAPT PRODUTOS OFTALMOLOGICOS LTDA",
+      "valor_recebido": 357770.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490008",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "10242040000101",
+      "favorecido": "ANDES COMERCIAL LTDA",
+      "valor_recebido": 62958.1,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490008",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "28843702000156",
+      "favorecido": "CONECTAMED - COMERCIO E DISTRIBUICAO LTDA",
+      "valor_recebido": 44145.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490008",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "33246555000177",
+      "favorecido": "EGR EQUIPAMENTOS E SOLUCOES LTDA",
+      "valor_recebido": 82128.7,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490008",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "36557995000133",
+      "favorecido": "JL COMERCIO LTDA",
+      "valor_recebido": 385.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490008",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "45329312000181",
+      "favorecido": "BT COMERCIO INTELIGENTE LTDA",
+      "valor_recebido": 25448.74,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490008",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "78126950001126",
+      "favorecido": "MICROSENS S/A",
+      "valor_recebido": 50989.76,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490008",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "8",
+      "favorecido": "SEM INFORMACAO",
+      "valor_recebido": 8661.4,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490019",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 936265.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490019",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "36557995000133",
+      "favorecido": "JL COMERCIO LTDA",
+      "valor_recebido": 770.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544490022",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "02385669000174",
+      "favorecido": "FIOTEC - FUNDACAO PARA O DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO EM SAUDE",
+      "valor_recebido": 200000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544530002",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 10000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202544530002",
+      "ano": "2025",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07460294000183",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE AGUAS LINDAS DE GOIAS",
+      "valor_recebido": 8637993.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202571080004",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "04937243000969",
+      "favorecido": "OLYMPUS OPTICAL DO BRASIL LTDA.",
+      "valor_recebido": 2228603.94,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202571080004",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 17580839.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202571080004",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "8",
+      "favorecido": "SEM INFORMACAO",
+      "valor_recebido": 138474.06,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202571080005",
+      "ano": "2025",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 179916934.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202628260011",
+      "ano": "2026",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "02385669000174",
+      "favorecido": "FIOTEC - FUNDACAO PARA O DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO EM SAUDE",
+      "valor_recebido": 3072300.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202636300013",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 3999000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202636300013",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "10936853000193",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2601000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202636300014",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 7500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202636300014",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07556717000163",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 5000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202640820025",
+      "ano": "2026",
+      "uf_aplicacao": "Sem informação",
+      "favorecido_codigo": "37113180000128",
+      "favorecido": "ASSOCIACAO DAS PIONEIRAS SOCIAIS",
+      "valor_recebido": 10000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641100014",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641100014",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07460294000183",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE AGUAS LINDAS DE GOIAS",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641100014",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07556717000163",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641100014",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "08278171000199",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE ABADIANIA",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641100014",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "10593919000190",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641100014",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11254840000105",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641100014",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11290797000125",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE CRISTALINA",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641100014",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11332874000162",
+      "favorecido": "FMS - FUNDO MUNICIPAL DE SAUDE CIDADE OCIDENTAL",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360001",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 5000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360001",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07429190000106",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360001",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07556717000163",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360001",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "10936853000193",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360002",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04394880000189",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE PLANALTINA-GO",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360002",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360002",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "10480867000145",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360002",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11254840000105",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360002",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11290797000125",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE CRISTALINA",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360002",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11337362000199",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 497346.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360002",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11378898000152",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360002",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11603021000118",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE SIMOLANDIA - GO",
+      "valor_recebido": 400000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360002",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11633598000172",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE BARRO ALTO",
+      "valor_recebido": 600000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360003",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11332874000162",
+      "favorecido": "FMS - FUNDO MUNICIPAL DE SAUDE CIDADE OCIDENTAL",
+      "valor_recebido": 499950.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202641360003",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11633598000172",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE BARRO ALTO",
+      "valor_recebido": 671465.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202642680001",
+      "ano": "2026",
+      "uf_aplicacao": "Sem informação",
+      "favorecido_codigo": "37113180000128",
+      "favorecido": "ASSOCIACAO DAS PIONEIRAS SOCIAIS",
+      "valor_recebido": 1000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202642680012",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04244525000123",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202642680012",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11254840000105",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202643780002",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "04786328000136",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 2000000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202643780002",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07460294000183",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE AGUAS LINDAS DE GOIAS",
+      "valor_recebido": 3500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202643780002",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "11332874000162",
+      "favorecido": "FMS - FUNDO MUNICIPAL DE SAUDE CIDADE OCIDENTAL",
+      "valor_recebido": 1500000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202643780003",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "07460294000183",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE DE AGUAS LINDAS DE GOIAS",
+      "valor_recebido": 1400000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202643780003",
+      "ano": "2026",
+      "uf_aplicacao": "GOIÁS",
+      "favorecido_codigo": "10593919000190",
+      "favorecido": "FUNDO MUNICIPAL DE SAUDE",
+      "valor_recebido": 1600000.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    },
+    {
+      "codigo_emenda": "202671080006",
+      "ano": "2026",
+      "uf_aplicacao": "DISTRITO FEDERAL",
+      "favorecido_codigo": "12116247000157",
+      "favorecido": "FUNDO DE SAUDE DO DISTRITO FEDERAL",
+      "valor_recebido": 27290382.0,
+      "fonte": "Portal da Transparência (CGU), emendas parlamentares, arquivo UNICO (EmendasParlamentares_PorFavorecido.csv), baixado em 2026-09-30",
+      "anos_cobertos": "2023-2026"
+    }
+  ]
+}

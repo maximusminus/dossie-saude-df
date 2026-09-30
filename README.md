@@ -10,7 +10,7 @@ O que está aqui:
 
 - o painel de dados, com exportação em cada visão;
 - o dossiê e o sumário executivo, em texto e em PDF;
-- as 70 tabelas de que as afirmações publicadas são lidas,
+- as 77 tabelas de que as afirmações publicadas são lidas,
   mais as tabelas de cobertura e de lacuna;
 - as notas de método.
 

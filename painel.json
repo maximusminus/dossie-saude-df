@@ -1114,7 +1114,7 @@
       },
       {
        "c": "grupo",
-       "r": "Grupo",
+       "r": "Grupo de despesa",
        "t": "texto"
       },
       {
@@ -1161,7 +1161,7 @@
       },
       {
        "c": "grupo",
-       "r": "Grupo",
+       "r": "Grupo de despesa",
        "t": "texto"
       },
       {
@@ -1853,6 +1853,132 @@
     },
     {
      "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "mes",
+       "r": "Mês",
+       "t": "texto"
+      },
+      {
+       "c": "cargo",
+       "r": "Cargo",
+       "t": "texto"
+      },
+      {
+       "c": "servidores",
+       "r": "Servidores",
+       "t": "int"
+      },
+      {
+       "c": "remuneracao_basica_total",
+       "r": "Remuneração básica (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "beneficios_total",
+       "r": "Benefícios",
+       "t": "moeda"
+      },
+      {
+       "c": "valor_funcao_total",
+       "r": "Gratificação de função",
+       "t": "moeda"
+      },
+      {
+       "c": "comissao_conselheiro_total",
+       "r": "Comissão de conselheiro",
+       "t": "moeda"
+      },
+      {
+       "c": "hora_extra_total",
+       "r": "Hora extra",
+       "t": "moeda"
+      },
+      {
+       "c": "verbas_eventuais_total",
+       "r": "Verbas eventuais",
+       "t": "moeda"
+      },
+      {
+       "c": "verbas_judiciais_total",
+       "r": "Verbas judiciais",
+       "t": "moeda"
+      },
+      {
+       "c": "licenca_premio_total",
+       "r": "Licença-prêmio",
+       "t": "moeda"
+      },
+      {
+       "c": "outros_recebimentos_total",
+       "r": "Outros recebimentos",
+       "t": "moeda"
+      },
+      {
+       "c": "pagamentos_a_maior_total",
+       "r": "Pagamentos a maior",
+       "t": "moeda"
+      },
+      {
+       "c": "bruto_total",
+       "r": "Remuneração bruta (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "liquido_total",
+       "r": "Líquido (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "residuo",
+       "r": "Resíduo (bruto menos os dez recebimentos)",
+       "t": "moeda"
+      },
+      {
+       "c": "e_medico",
+       "r": "Cargo médico de carreira",
+       "t": "texto"
+      },
+      {
+       "c": "e_residente",
+       "r": "Médico residente",
+       "t": "texto"
+      },
+      {
+       "c": "valores_estado",
+       "r": "Valores estado",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência do DF",
+       "url": "https://www.transparencia.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 44703,
+     "nota": "Os dez componentes de recebimento são cada um a sua coluna, e o resíduo entre a soma dos dez e o bruto é publicado, nunca conciliado à mão; os descontos ficam fora dessa conta e estão no detalhe de cada linha. A contagem é de vínculos no mês, não de pessoas: um servidor conta uma vez em cada mês em que aparece.",
+     "ordenar": "ano",
+     "tabela": "remuneracao_ses_componentes",
+     "titulo": "Folha da Secretaria de Saúde, componente a componente"
+    },
+    {
+     "ano": [
       "periodo",
       "competencia"
      ],
@@ -2473,7 +2599,7 @@
       },
       {
        "c": "granularidade",
-       "r": "Granularidade",
+       "r": "Grão pedido",
        "t": "texto"
       },
       {
@@ -2582,8 +2708,8 @@
       },
       {
        "c": "inicial",
-       "r": "Inicial",
-       "t": "texto"
+       "r": "Dotação inicial",
+       "t": "moeda"
       },
       {
        "c": "atualizada",
@@ -2593,7 +2719,7 @@
       {
        "c": "empenhado",
        "r": "Empenhado",
-       "t": "texto"
+       "t": "moeda"
       },
       {
        "c": "liquidado",
@@ -2735,28 +2861,28 @@
       },
       {
        "c": "incluida_saude",
-       "r": "Incluida saude",
+       "r": "Contada como saúde",
        "t": "texto"
       },
       {
        "c": "inicial",
-       "r": "Inicial",
-       "t": "texto"
+       "r": "Dotação inicial",
+       "t": "moeda"
       },
       {
        "c": "atualizado",
-       "r": "Atualizado",
-       "t": "texto"
+       "r": "Dotação atualizada",
+       "t": "moeda"
       },
       {
        "c": "empenhado",
        "r": "Empenhado",
-       "t": "texto"
+       "t": "moeda"
       },
       {
        "c": "realizado",
        "r": "Realizado",
-       "t": "texto"
+       "t": "moeda"
       },
       {
        "c": "empenhado_acima_atualizado",
@@ -2830,6 +2956,394 @@
      "ordenar": "dia",
      "tabela": "fcdf_pagamentos_lacunas",
      "titulo": "Pagamentos diários do Fundo: dias recusados e dias conferidos"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "acao",
+       "r": "Acao",
+       "t": "texto"
+      },
+      {
+       "c": "descricao_acao",
+       "r": "Descricao acao",
+       "t": "texto"
+      },
+      {
+       "c": "categoria",
+       "r": "Categoria",
+       "t": "texto"
+      },
+      {
+       "c": "grupo",
+       "r": "Grupo de despesa",
+       "t": "texto"
+      },
+      {
+       "c": "elemento",
+       "r": "Elemento de despesa",
+       "t": "texto"
+      },
+      {
+       "c": "incluida_saude",
+       "r": "Contada como saúde",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      },
+      {
+       "c": "inicial",
+       "r": "Dotação inicial",
+       "t": "moeda"
+      },
+      {
+       "c": "atualizado",
+       "r": "Dotação atualizada",
+       "t": "moeda"
+      },
+      {
+       "c": "empenhado",
+       "r": "Empenhado",
+       "t": "moeda"
+      },
+      {
+       "c": "realizado",
+       "r": "Realizado",
+       "t": "moeda"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência federal -- download de dados",
+       "url": "https://portaldatransparencia.gov.br/download-de-dados"
+      }
+     ],
+     "grafico": null,
+     "linhas": 116,
+     "nota": "O mesmo orçamento do painel “Fundo Constitucional do DF: orçamento das ações de saúde”, aberto no grão do elemento de despesa. Os elementos somam as ações ao centavo; a assistência médica das corporações continua fora, marcada linha a linha.",
+     "ordenar": "ano",
+     "tabela": "fcdf_saude_elemento",
+     "titulo": "Fundo Constitucional do DF: as ações de saúde por elemento de despesa"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "mes",
+       "r": "Mês",
+       "t": "texto"
+      },
+      {
+       "c": "favorecido",
+       "r": "Favorecido",
+       "t": "texto"
+      },
+      {
+       "c": "elemento",
+       "r": "Elemento de despesa",
+       "t": "texto"
+      },
+      {
+       "c": "valor",
+       "casas": 2,
+       "r": "Valor",
+       "t": "dec"
+      },
+      {
+       "c": "dias_lidos",
+       "r": "Dias lidos",
+       "t": "texto"
+      },
+      {
+       "c": "dias_no_periodo",
+       "r": "Dias no mês",
+       "t": "texto"
+      },
+      {
+       "c": "cobertura",
+       "r": "Cobertura do mês",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência federal -- download de dados",
+       "url": "https://portaldatransparencia.gov.br/download-de-dados"
+      }
+     ],
+     "grafico": null,
+     "linhas": 1818,
+     "nota": "Cada mês declara quantos dos seus dias foram lidos: um mês incompleto é um piso, e diz isso na própria linha. Pessoas físicas entram agregadas, sem nome e sem CPF.",
+     "ordenar": "ano",
+     "tabela": "fcdf_pagamentos_mensal",
+     "titulo": "Fundo Constitucional do DF: pagamentos por favorecido e mês"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "codigo_emenda",
+       "r": "Código da emenda",
+       "t": "texto"
+      },
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "uf_aplicacao",
+       "r": "UF de aplicação",
+       "t": "texto"
+      },
+      {
+       "c": "favorecido",
+       "r": "Favorecido",
+       "t": "texto"
+      },
+      {
+       "c": "valor_recebido",
+       "r": "Valor recebido",
+       "t": "moeda"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência federal -- download de dados",
+       "url": "https://portaldatransparencia.gov.br/download-de-dados"
+      }
+     ],
+     "grafico": null,
+     "linhas": 231,
+     "nota": "A UF de aplicação é uma coluna: parte do dinheiro de emendas da bancada do DF é aplicada fora dele, e isso aparece sem soma.",
+     "ordenar": "ano",
+     "tabela": "emendas_federais_df_saude_favorecidos",
+     "titulo": "Emendas federais na saúde do DF: quem recebeu"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "codigo_emenda",
+       "r": "Código da emenda",
+       "t": "texto"
+      },
+      {
+       "c": "funcao",
+       "r": "Função",
+       "t": "texto"
+      },
+      {
+       "c": "subfuncao",
+       "r": "Subfuncao",
+       "t": "texto"
+      },
+      {
+       "c": "localidade",
+       "r": "Localidade",
+       "t": "texto"
+      },
+      {
+       "c": "tipo",
+       "r": "Tipo",
+       "t": "texto"
+      },
+      {
+       "c": "data_publicacao",
+       "r": "Data publicacao",
+       "t": "texto"
+      },
+      {
+       "c": "convenente",
+       "r": "Convenente",
+       "t": "texto"
+      },
+      {
+       "c": "objeto",
+       "r": "Objeto",
+       "t": "texto"
+      },
+      {
+       "c": "numero_convenio",
+       "r": "Número do convênio",
+       "t": "texto"
+      },
+      {
+       "c": "valor_convenio",
+       "r": "Valor do convênio",
+       "t": "moeda"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência federal -- download de dados",
+       "url": "https://portaldatransparencia.gov.br/download-de-dados"
+      }
+     ],
+     "grafico": null,
+     "linhas": 32,
+     "nota": "Um mesmo convênio pode estar ligado a mais de uma emenda, e as linhas repetem o convênio: somar a coluna do valor conta o mesmo convênio mais de uma vez. São 32 linhas para 25 convênios distintos.",
+     "ordenar": "codigo_emenda",
+     "tabela": "emendas_federais_df_saude_convenios",
+     "titulo": "Emendas federais na saúde do DF: os convênios por trás"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "unidade_gestora",
+       "r": "Unidade gestora",
+       "t": "texto"
+      },
+      {
+       "c": "unidade_gestora_rotulo",
+       "r": "Unidade gestora (nome)",
+       "t": "texto"
+      },
+      {
+       "c": "granularidade",
+       "r": "Grão pedido",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "medido_em",
+       "r": "Medido em",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      },
+      {
+       "c": "rotas_lidas",
+       "r": "Rotas lidas",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência do DF",
+       "url": "https://www.transparencia.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 2,
+     "nota": "A rota existe e o custo de percorrê-la sob o limite publicado de requisições é que a impede. A lacuna é declarada, não contornada.",
+     "ordenar": "unidade_gestora",
+     "tabela": "despesa_saude_gdf_elemento",
+     "titulo": "Despesa do GDF na saúde por elemento: leitura recusada"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "unidades_gestoras",
+       "r": "Unidades gestoras",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "medido_em",
+       "r": "Medido em",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      },
+      {
+       "c": "rotas_lidas",
+       "r": "Rotas lidas",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência do DF",
+       "url": "https://www.transparencia.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 1,
+     "nota": "Toda rota de nota de empenho do portal exige um número que já se conheça; não há rota que liste os empenhos de uma função.",
+     "ordenar": null,
+     "tabela": "empenhos_saude_gdf",
+     "titulo": "Empenhos da saúde no GDF: sem rota de enumeração"
     },
     {
      "ano": [
