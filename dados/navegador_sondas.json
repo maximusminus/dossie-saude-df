@@ -17,15 +17,15 @@
       "necessidade": "Anexo da Portaria GM/MS 1.101/2002 (parâmetros de leito)",
       "interface": "navegador",
       "url": "https://bvsms.saude.gov.br/",
-      "resultado": "erro",
-      "http": 0,
+      "resultado": "http",
+      "http": 503,
       "itens": 0,
       "achados": 0,
-      "detalhe": "navegação não produziu resposta -- Page.goto: net::ERR_CONNECTION_RESET at https://bvsms.saude.gov.br/"
+      "detalhe": "HTTP 503 (navegador)"
     }
   ],
   "veredictos": {
     "Cursos de medicina no DF com ano de autorização (e-MEC)": "blocked",
-    "Anexo da Portaria GM/MS 1.101/2002 (parâmetros de leito)": "blocked"
+    "Anexo da Portaria GM/MS 1.101/2002 (parâmetros de leito)": "revisar"
   }
 }

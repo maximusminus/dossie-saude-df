@@ -6,7 +6,8 @@
       "url": "https://igesdf.org.br/",
       "camada": "ok",
       "detalhe": "HTTP 200",
-      "cadeia_reparada": "sim"
+      "cadeia_reparada": "sim",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "eixo2",
@@ -14,7 +15,8 @@
       "url": "https://www.hcb.org.br/",
       "camada": "ok",
       "detalhe": "HTTP 200",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "eixo3",
@@ -22,7 +24,8 @@
       "url": "https://emec.mec.gov.br/",
       "camada": "blocked",
       "detalhe": "HTTP 403",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "eixo3",
@@ -30,7 +33,8 @@
       "url": "https://download.inep.gov.br/",
       "camada": "http",
       "detalhe": "ConnectionResetError: [Errno 104] Connection reset by peer -- DNS, TCP e TLS completam; a recusa esta acima deles",
-      "cadeia_reparada": "sim"
+      "cadeia_reparada": "sim",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "eixo3",
@@ -38,7 +42,8 @@
       "url": "https://crmdf.org.br/",
       "camada": "ok",
       "detalhe": "HTTP 200",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "eixo3",
@@ -46,7 +51,8 @@
       "url": "https://observatorio.cfm.org.br/",
       "camada": "ok",
       "detalhe": "HTTP 200 apos redirecionamento para https://portal.cfm.org.br/",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "eixo3",
@@ -54,7 +60,8 @@
       "url": "https://portal.cfm.org.br/",
       "camada": "ok",
       "detalhe": "HTTP 200",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "eixo3",
@@ -62,7 +69,8 @@
       "url": "https://demografia.cfm.org.br/",
       "camada": "http",
       "detalhe": "HTTP 404",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "eixo3",
@@ -70,7 +78,8 @@
       "url": "https://www.escs.edu.br/",
       "camada": "ok",
       "detalhe": "HTTP 200",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "eixo4",
@@ -78,7 +87,8 @@
       "url": "https://sinj.df.gov.br/",
       "camada": "tls",
       "detalhe": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "eixo0",
@@ -86,31 +96,35 @@
       "url": "https://egestoraps.saude.gov.br/",
       "camada": "ok",
       "detalhe": "HTTP 200",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "eixo1",
       "host": "bvsms.saude.gov.br",
       "url": "https://bvsms.saude.gov.br/",
       "camada": "http",
-      "detalhe": "RemoteDisconnected: Remote end closed connection without response -- DNS, TCP e TLS completam; a recusa esta acima deles",
-      "cadeia_reparada": "nao"
+      "detalhe": "HTTP 503",
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "bloco8",
       "host": "ple.cl.df.gov.br",
       "url": "https://ple.cl.df.gov.br/",
-      "camada": "ok",
-      "detalhe": "HTTP 200",
-      "cadeia_reparada": "nao"
+      "camada": "tcp",
+      "detalhe": "TimeoutError: timed out -- TimeoutError: timed out",
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "bloco8",
       "host": "dadosabertos.cl.df.gov.br",
       "url": "https://dadosabertos.cl.df.gov.br/",
-      "camada": "tls",
-      "detalhe": "ConnectionResetError: [Errno 104] Connection reset by peer -- ConnectionResetError: [Errno 104] Connection reset by peer",
-      "cadeia_reparada": "nao"
+      "camada": "tcp",
+      "detalhe": "TimeoutError: timed out -- TimeoutError: timed out",
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "bloco8",
@@ -118,7 +132,8 @@
       "url": "https://www2.tc.df.gov.br/",
       "camada": "ok",
       "detalhe": "HTTP 200",
-      "cadeia_reparada": "sim"
+      "cadeia_reparada": "sim",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "bloco7",
@@ -126,7 +141,8 @@
       "url": "https://divulgacandcontas.tse.jus.br/",
       "camada": "blocked",
       "detalhe": "HTTP 403",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "bloco7",
@@ -134,7 +150,8 @@
       "url": "https://digisusgmp.saude.gov.br/",
       "camada": "ok",
       "detalhe": "HTTP 200",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "bloco1",
@@ -142,7 +159,8 @@
       "url": "ftp://ftp.datasus.gov.br/dissemin/publicos/",
       "camada": "ok",
       "detalhe": "login anonimo ok, pwd=/",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "bloco1",
@@ -150,7 +168,8 @@
       "url": "https://apisidra.ibge.gov.br/",
       "camada": "ok",
       "detalhe": "HTTP 200",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "bloco1",
@@ -158,7 +177,8 @@
       "url": "https://servicodados.ibge.gov.br/",
       "camada": "ok",
       "detalhe": "HTTP 200 apos redirecionamento para https://servicodados.ibge.gov.br/api/docs/",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "bloco5",
@@ -166,7 +186,8 @@
       "url": "https://info.saude.df.gov.br/",
       "camada": "ok",
       "detalhe": "HTTP 200",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     },
     {
       "eixo": "bloco5",
@@ -174,7 +195,8 @@
       "url": "https://www.transparencia.df.gov.br/",
       "camada": "ok",
       "detalhe": "HTTP 200",
-      "cadeia_reparada": "nao"
+      "cadeia_reparada": "nao",
+      "vantage": "VPS de datacenter, região dos EUA, um único endereço"
     }
   ]
 }

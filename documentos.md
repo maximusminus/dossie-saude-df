@@ -33,7 +33,7 @@ Como cada número foi obtido, o que foi medido e o que não foi:
 
 ## Dados
 
-As **66** tabelas abaixo são as que as afirmações publicadas
+As **70** tabelas abaixo são as que as afirmações publicadas
 efetivamente leem, medidas a partir das próprias consultas que conferem
 o texto, mais as tabelas de cobertura e de lacuna com que se audita o
 que *não* foi alcançado. Cada uma é o mesmo arquivo que gera os números
@@ -64,6 +64,8 @@ do painel, sem edição:
 - [`eixos_cobertura.json`](dados/eixos_cobertura.json) *(cobertura/lacuna)*
 - [`emendas_saude.json`](dados/emendas_saude.json)
 - [`esperanca_vida.json`](dados/esperanca_vida.json)
+- [`fcdf_pagamentos_lacunas.json`](dados/fcdf_pagamentos_lacunas.json)
+- [`fcdf_saude_orcamento.json`](dados/fcdf_saude_orcamento.json)
 - [`fontes_desafiadas.json`](dados/fontes_desafiadas.json) *(cobertura/lacuna)*
 - [`habitantes_por_equipe.json`](dados/habitantes_por_equipe.json)
 - [`hcb_contratos.json`](dados/hcb_contratos.json)
@@ -89,6 +91,8 @@ do painel, sem edição:
 - [`pni_ausencias.json`](dados/pni_ausencias.json)
 - [`promessas.json`](dados/promessas.json)
 - [`remuneracao_ses_carreira.json`](dados/remuneracao_ses_carreira.json)
+- [`rreo_asps.json`](dados/rreo_asps.json)
+- [`rreo_funcao_saude.json`](dados/rreo_funcao_saude.json)
 - [`sih_ausencias.json`](dados/sih_ausencias.json)
 - [`sih_probes_def.json`](dados/sih_probes_def.json)
 - [`sih_reconciliacao.json`](dados/sih_reconciliacao.json)

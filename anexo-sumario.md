@@ -78,8 +78,12 @@ exercícios seguidos saem com parecer de auditoria com ressalva `[opinioes_audit
 **Elo 7 — prometido, orçado e executado (Bloco 7).** O gasto com saúde cresceu 25,9 % em termos
 reais entre 2017 e 2025 `[orcamento_saude, ipca_mensal]` (seção 7.1). Do que a Lei Orçamentária de
 2025 previa nos cinco estágios da despesa — aprovado, autorizado, empenhado, liquidado, pago —
-apenas o **liquidado** está publicado em forma legível por máquina; os outros quatro são lacuna
-declarada, não zero `[orcamento_saude_etapas]`. As metas do Plano Distrital de Saúde 2024-2027
+quatro estão agora medidos: aprovado, autorizado e empenhado lidos do Relatório Resumido da
+Execução Orçamentária (RREO, Anexo 2), e o liquidado publicado duas vezes, pelo Portal da
+Transparência e pelo RREO, lado a lado e com a diferença calculada, sem escolher entre eles; o
+pago segue lacuna declarada, não zero `[orcamento_saude_etapas, rreo_funcao_saude]`. Até
+2026-09-29 este parágrafo dizia que *"apenas o **liquidado** está publicado em forma legível por
+máquina; os outros quatro são lacuna declarada"*. As metas do Plano Distrital de Saúde 2024-2027
 também são lacuna: a extração da tabela de metas contra o PDF do plano não separa os campos com
 confiabilidade suficiente — `[pds_metas]` diz por quê.
 

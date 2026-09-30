@@ -1581,6 +1581,11 @@
      "ano": null,
      "colunas": [
       {
+       "c": "edicao",
+       "r": "Edicao",
+       "t": "texto"
+      },
+      {
        "c": "uf",
        "r": "Unidade da Federação",
        "t": "texto"
@@ -1620,8 +1625,8 @@
       }
      ],
      "grafico": null,
-     "linhas": 33,
-     "nota": null,
+     "linhas": 60,
+     "nota": "Duas edições do mesmo estudo, e duas medições não são uma série. A coluna `edicao` diz de que ano é cada linha, e a ordenação por unidade da Federação deixa as duas lado a lado justamente para que a diferença entre elas seja lida como duas fotografias e não como uma tendência: o estudo não publica uma série contínua, e este painel não inventa uma. As duas edições contam **registros profissionais**, não médicos — a de 2023 declara 514.215 médicos para 584.121 registros, a de 2025 traz a mesma ressalva —, de modo que um médico inscrito em mais de uma unidade da Federação é contado em cada uma delas.",
      "ordenar": "uf",
      "tabela": "demografia_medica_amb",
      "titulo": "Médicos por mil habitantes, por unidade da Federação"
@@ -2023,7 +2028,7 @@
       }
      ],
      "grafico": null,
-     "linhas": 939,
+     "linhas": 940,
      "nota": null,
      "ordenar": "ano_upload",
      "tabela": "igesdf_prestacao_contas",
@@ -2490,6 +2495,26 @@
        "c": "fonte",
        "r": "Fonte",
        "t": "longo"
+      },
+      {
+       "c": "valor_rreo",
+       "r": "Valor rreo",
+       "t": "texto"
+      },
+      {
+       "c": "fonte_rreo",
+       "r": "Fonte rreo",
+       "t": "texto"
+      },
+      {
+       "c": "gap_liquidado",
+       "r": "Gap liquidado",
+       "t": "texto"
+      },
+      {
+       "c": "gap_estado",
+       "r": "Gap estado",
+       "t": "texto"
       }
      ],
      "destaque": null,
@@ -2501,6 +2526,10 @@
       {
        "rot": "SES-DF -- InfoSaúde",
        "url": "https://info.saude.df.gov.br/"
+      },
+      {
+       "rot": "Tesouro Nacional -- Siconfi, RREO",
+       "url": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
       }
      ],
      "grafico": {
@@ -2510,10 +2539,297 @@
       "y": "valor"
      },
      "linhas": 45,
-     "nota": null,
+     "nota": "Onde o portal não publica um estágio, o valor vem do RREO, com a fonte na própria célula. O liquidado do portal e o do RREO ficam lado a lado, com a diferença calculada e não explicada.",
      "ordenar": "ano",
      "tabela": "orcamento_saude_etapas",
      "titulo": "As etapas da despesa na função saúde"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "periodo",
+       "r": "Periodo",
+       "t": "texto"
+      },
+      {
+       "c": "estado_periodo",
+       "r": "Estado periodo",
+       "t": "texto"
+      },
+      {
+       "c": "conta",
+       "r": "Conta",
+       "t": "texto"
+      },
+      {
+       "c": "nivel",
+       "r": "Nivel",
+       "t": "texto"
+      },
+      {
+       "c": "esfera",
+       "r": "Esfera",
+       "t": "texto"
+      },
+      {
+       "c": "inicial",
+       "r": "Inicial",
+       "t": "texto"
+      },
+      {
+       "c": "atualizada",
+       "r": "Atualizada",
+       "t": "texto"
+      },
+      {
+       "c": "empenhado",
+       "r": "Empenhado",
+       "t": "texto"
+      },
+      {
+       "c": "liquidado",
+       "r": "Liquidado (R$)",
+       "t": "moeda"
+      },
+      {
+       "c": "rpnp",
+       "r": "Rpnp",
+       "t": "texto"
+      },
+      {
+       "c": "rpnp_estado",
+       "r": "Rpnp estado",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Tesouro Nacional -- Siconfi, RREO",
+       "url": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
+      }
+     ],
+     "grafico": null,
+     "linhas": 108,
+     "nota": "As subfunções somam a função ao centavo, ou a publicação falha. O exercício em curso sai do último bimestre publicado, marcado parcial.",
+     "ordenar": "ano",
+     "tabela": "rreo_funcao_saude",
+     "titulo": "RREO Anexo 2: função Saúde e subfunções"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "anexo",
+       "r": "Anexo",
+       "t": "texto"
+      },
+      {
+       "c": "indicador",
+       "r": "Indicador",
+       "t": "texto"
+      },
+      {
+       "c": "coluna",
+       "r": "Coluna",
+       "t": "texto"
+      },
+      {
+       "c": "valor",
+       "casas": 2,
+       "r": "Valor",
+       "t": "dec"
+      },
+      {
+       "c": "unidade",
+       "r": "Unidade",
+       "t": "texto"
+      },
+      {
+       "c": "pagina",
+       "r": "Página",
+       "t": "texto"
+      },
+      {
+       "c": "sha256",
+       "r": "Impressão digital do arquivo",
+       "t": "texto"
+      },
+      {
+       "c": "sha256_confere",
+       "r": "Sha256 confere",
+       "t": "texto"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Secretaria de Economia do DF",
+       "url": "https://www.economia.df.gov.br/"
+      }
+     ],
+     "grafico": null,
+     "linhas": 253,
+     "nota": "Lido do RREO de dezembro em PDF, na página declarada; a impressão digital do documento vai em cada linha.",
+     "ordenar": "ano",
+     "tabela": "rreo_asps",
+     "titulo": "RREO Anexo 12: aplicação em ações e serviços de saúde"
+    },
+    {
+     "ano": [
+      "ano",
+      "ano"
+     ],
+     "colunas": [
+      {
+       "c": "ano",
+       "r": "Ano",
+       "t": "texto"
+      },
+      {
+       "c": "acao",
+       "r": "Acao",
+       "t": "texto"
+      },
+      {
+       "c": "descricao_acao",
+       "r": "Descricao acao",
+       "t": "texto"
+      },
+      {
+       "c": "funcao",
+       "r": "Função",
+       "t": "texto"
+      },
+      {
+       "c": "incluida_saude",
+       "r": "Incluida saude",
+       "t": "texto"
+      },
+      {
+       "c": "inicial",
+       "r": "Inicial",
+       "t": "texto"
+      },
+      {
+       "c": "atualizado",
+       "r": "Atualizado",
+       "t": "texto"
+      },
+      {
+       "c": "empenhado",
+       "r": "Empenhado",
+       "t": "texto"
+      },
+      {
+       "c": "realizado",
+       "r": "Realizado",
+       "t": "texto"
+      },
+      {
+       "c": "empenhado_acima_atualizado",
+       "r": "Empenhado acima atualizado",
+       "t": "texto"
+      },
+      {
+       "c": "estado",
+       "r": "Situação",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      },
+      {
+       "c": "fonte",
+       "r": "Fonte",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência federal -- download de dados",
+       "url": "https://portaldatransparencia.gov.br/download-de-dados"
+      }
+     ],
+     "grafico": null,
+     "linhas": 14,
+     "nota": "Orçamento da União, classificado como encargos especiais, por isso nenhuma consulta à função saúde o encontra. A assistência médica das corporações fica fora, e dito.",
+     "ordenar": "ano",
+     "tabela": "fcdf_saude_orcamento",
+     "titulo": "Fundo Constitucional do DF: orçamento das ações de saúde"
+    },
+    {
+     "ano": null,
+     "colunas": [
+      {
+       "c": "dia",
+       "r": "Dia",
+       "t": "texto"
+      },
+      {
+       "c": "tipo",
+       "r": "Tipo",
+       "t": "texto"
+      },
+      {
+       "c": "http_status",
+       "r": "Http status",
+       "t": "texto"
+      },
+      {
+       "c": "motivo",
+       "r": "Observação",
+       "t": "longo"
+      }
+     ],
+     "destaque": null,
+     "fontes": [
+      {
+       "rot": "Portal da Transparência federal -- download de dados",
+       "url": "https://portaldatransparencia.gov.br/download-de-dados"
+      }
+     ],
+     "grafico": null,
+     "linhas": 2,
+     "nota": "Um dia que o publicador recusou é lacuna, nunca zero; o ano que o contém publica um piso.",
+     "ordenar": "dia",
+     "tabela": "fcdf_pagamentos_lacunas",
+     "titulo": "Pagamentos diários do Fundo: dias recusados e dias conferidos"
     },
     {
      "ano": [
@@ -3052,7 +3368,7 @@
      "destaque": null,
      "fontes": [],
      "grafico": null,
-     "linhas": 48,
+     "linhas": 55,
      "nota": null,
      "ordenar": "eixo",
      "tabela": "eixos_cobertura",
@@ -3434,7 +3750,7 @@
      "destaque": null,
      "fontes": [],
      "grafico": null,
-     "linhas": 23,
+     "linhas": 27,
      "nota": null,
      "ordenar": "eixo",
      "tabela": "cobertura_sondas",
@@ -3594,6 +3910,10 @@
        "url": "https://www.transparencia.df.gov.br/"
       },
       {
+       "rot": "Portal da Transparência federal -- download de dados",
+       "url": "https://portaldatransparencia.gov.br/download-de-dados"
+      },
+      {
        "rot": "SES-DF -- InfoSaúde",
        "url": "https://info.saude.df.gov.br/"
       },
@@ -3608,6 +3928,10 @@
       {
        "rot": "TSE -- divulgação de candidaturas",
        "url": "https://divulgacandcontas.tse.jus.br/"
+      },
+      {
+       "rot": "Tesouro Nacional -- Siconfi, RREO",
+       "url": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
       },
       {
        "rot": "Tribunal de Contas do DF -- contas de governo",
@@ -3709,17 +4033,17 @@
    "rot": "Despesa liquidada na saúde",
    "sub": "em 2025",
    "tabela": "orcamento_saude",
-   "valor": 7359164175.01
+   "valor": 7359171313.31
   },
   {
    "aba": "lacunas",
-   "d": 48,
+   "d": 55,
    "fmt": "pct",
-   "n": 37,
+   "n": 46,
    "rot": "Necessidades alcançadas",
    "sub": "de tudo o que se procurou",
    "tabela": "eixos_cobertura",
-   "valor": 77.1
+   "valor": 83.6
   },
   {
    "aba": "fontes",

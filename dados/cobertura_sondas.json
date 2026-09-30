@@ -109,7 +109,7 @@
       "http": 200,
       "itens": 0,
       "achados": 0,
-      "detalhe": "HTTP 200, 434415 bytes, 0 links de arquivo do censo da educação superior"
+      "detalhe": "HTTP 200, 434843 bytes, 0 links de arquivo do censo da educação superior"
     },
     {
       "eixo": "eixo3",
@@ -252,7 +252,51 @@
       "http": 0,
       "itens": 0,
       "achados": 0,
-      "detalhe": "apuração de 2026-09-15: a fila de regulação por especialidade/região NÃO é publicada como figura -- só esta linha, com o número/data do protocolo LAI quando o operador o fornecer. Requerimento LAI ainda NÃO FOI PROTOCOLADO nesta sessão; nenhum número ou data existe para registrar"
+      "detalhe": "GATED, NÃO AUSENTE -- medido pela apuração de 2026-09-23 em 2026-09-21 pela API de busca do próprio info.saude.df.gov.br: o host lista SEIS painéis CIEGES de regulação -- Fila SISREG (id 20334), Projeção das Filas de Espera (21575), Marcações SISREG (20385), Cirurgias SISREG (21205), Consulta OCIs (20483), Monitoramentos de Cirurgias (26970) -- e TODOS OS SEIS redirecionam 302 para wp-login.php. A SES-DF pode alegar que não compila algo; não pode alegar isso sobre um painel que ela própria opera e lista publicamente. O pedido LAI cabe a a nota de método PEDIDOS-LAI, seção 1, nomeando os seis ids -- e continua NÃO PROTOCOLADO nesta sessão: protocolar é ato do operador, fora do escopo deste OS. Um documento respondido entra apenas pelo caminho de ingestão manual (apuração de 2026-09-23, documentos_manuais_indice), nunca promovendo esta linha por si só. SUPERSEDE a leitura da apuração de 2026-09-15, mantida por citação: \"a fila de regulação por especialidade/região NÃO é publicada como figura -- só esta linha, com o número/data do protocolo LAI quando o operador o fornecer. Requerimento LAI ainda NÃO FOI PROTOCOLADO nesta sessão; nenhum número ou data existe para registrar\" -- a leitura antiga tratava a lacuna como uma ausência simples; a de 2026-09-21 mede que os painéis existem e estão só atrás de login."
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "Plataforma de demografia médica do CFM",
+      "interface": "estatisticas",
+      "url": "https://portal.cfm.org.br/estatisticas/",
+      "resultado": "http",
+      "http": 404,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 404"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "Plataforma de demografia médica do CFM",
+      "interface": "demografia",
+      "url": "https://portal.cfm.org.br/demografia/",
+      "resultado": "http",
+      "http": 404,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 404"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "Plataforma de demografia médica do CFM",
+      "interface": "demografia.cfm.org.br",
+      "url": "https://demografia.cfm.org.br/",
+      "resultado": "http",
+      "http": 404,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 404"
+    },
+    {
+      "eixo": "eixo3",
+      "necessidade": "Plataforma de demografia médica do CFM",
+      "interface": "busca (wp-json)",
+      "url": "https://portal.cfm.org.br/wp-json/wp/v2/search?search=estatisticas+medicos",
+      "resultado": "ok",
+      "http": 200,
+      "itens": 0,
+      "achados": 0,
+      "detalhe": "HTTP 200, 2 bytes; índice de busca devolve array vazio"
     }
   ],
   "veredictos": {

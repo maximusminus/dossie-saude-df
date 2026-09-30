@@ -1,0 +1,16 @@
+{
+  "dados": [
+    {
+      "dia": "20250602",
+      "tipo": "amostra_confere",
+      "http_status": null,
+      "motivo": "dia guardado (semente 2026-09-28) rebaixado nesta execução e idêntico"
+    },
+    {
+      "dia": "20230219",
+      "tipo": "recusado",
+      "http_status": 403,
+      "motivo": "o publicador recusou o arquivo do dia: HTTP 403 em https://portaldatransparencia.gov.br/download-de-dados/despesas/20230219"
+    }
+  ]
+}

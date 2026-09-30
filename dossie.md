@@ -129,8 +129,12 @@ exercícios seguidos saem com parecer de auditoria com ressalva `[opinioes_audit
 **Elo 7 — prometido, orçado e executado (Bloco 7).** O gasto com saúde cresceu 25,9 % em termos
 reais entre 2017 e 2025 `[orcamento_saude, ipca_mensal]` (seção 7.1). Do que a Lei Orçamentária de
 2025 previa nos cinco estágios da despesa — aprovado, autorizado, empenhado, liquidado, pago —
-apenas o **liquidado** está publicado em forma legível por máquina; os outros quatro são lacuna
-declarada, não zero `[orcamento_saude_etapas]`. As metas do Plano Distrital de Saúde 2024-2027
+quatro estão agora medidos: aprovado, autorizado e empenhado lidos do Relatório Resumido da
+Execução Orçamentária (RREO, Anexo 2), e o liquidado publicado duas vezes, pelo Portal da
+Transparência e pelo RREO, lado a lado e com a diferença calculada, sem escolher entre eles; o
+pago segue lacuna declarada, não zero `[orcamento_saude_etapas, rreo_funcao_saude]`. Até
+2026-09-29 este parágrafo dizia que *"apenas o **liquidado** está publicado em forma legível por
+máquina; os outros quatro são lacuna declarada"*. As metas do Plano Distrital de Saúde 2024-2027
 também são lacuna: a extração da tabela de metas contra o PDF do plano não separa os campos com
 confiabilidade suficiente — `[pds_metas]` diz por quê.
 
@@ -785,11 +789,11 @@ Derivados do que foi medido, e apenas disso:
    cada uma de um hospital; precisam de distância até um. A medida correta é tempo de
    deslocamento, que este projeto **não tem** e que deveria ser a próxima aquisição deste bloco.
 4. **Contrato de gestão precisa de série financeira publicada em forma legível por máquina.**
-   A série está em PDF documento a documento, e não em forma tabular. **O IGES-DF publica** — 385
+   A série está em PDF documento a documento, e não em forma tabular. **O IGES-DF publica** — 386
    documentos indexados, o que uma versão anterior desta lista negava — e o Bloco 6 mostra o custo
    disso: foi preciso abrir os arquivos e rodar OCR sobre digitalizações para chegar a um fato de
    uma linha, que **cinco exercícios seguidos têm parecer com ressalva**. Esse é um critério de
-   contrato, não uma queixa de método: publicar 385 PDFs não é o mesmo que ser auditável por
+   contrato, não uma queixa de método: publicar 386 PDFs não é o mesmo que ser auditável por
    terceiros. **Do lado do HCB nem isso existe** — não há demonstração contábil publicada.
 5. **O parâmetro normativo precisa ser substituído.** Este documento calcula contra uma portaria
    revogada de 2002 porque não achou substituta adquirível. Uma política de leitos que se apoie
@@ -1102,14 +1106,14 @@ publicado pelo próprio hospital: **154 documentos** — o Contrato de Gestão 0
 aditivos, com data e número de DODF `[hcb_contratos]`. É um índice de documentos, não uma série
 financeira: dá para dizer *quantos aditivos existem e quando*, não *quanto custaram*.
 
-Do lado do **IGES-DF** há o índice, e não os números — mas agora há dois índices, não um. **385
+Do lado do **IGES-DF** há o índice, e não os números — mas agora há dois índices, não um. **386
 documentos** de prestação de contas, relatórios de gestão e demonstrações contábeis
 `[igesdf_prestacao_contas]` — entre eles os **75 relatórios quadrimestrais** e o Relatório do
 Auditor Independente de 31/12/2022. E, desde 2026-09-04, o **próprio contrato de gestão**: **113
 documentos** — o Contrato de Gestão 001/2018, seus termos aditivos, termos de apostilamento,
 extratos de publicação e os sete contratos de UPA `[igesdf_contratos_gestao]`, o análogo direto de
 `hcb_contratos` que faltava neste lado da comparação. **A assimetria estreita sem fechar**: todos
-os 113 documentos deste índice já estavam, verificados, entre os 385 de cima — indexados sob um
+os 113 documentos deste índice já estavam, verificados, entre os 386 de cima — indexados sob um
 nome de página diferente — de modo que o que esse segundo índice acrescenta não é conteúdo novo, é a
 primeira linha própria que responde "o contrato de gestão do IGES-DF está indexado?" sem exigir
 que quem pergunta já soubesse onde procurar. **O que este dossiê não tem é o conteúdo desses PDFs**:
@@ -1138,7 +1142,7 @@ anos. **Um contrato que precisa de dezenas de aditivos é um fato sobre governan
 é o mais forte que este dado sustenta.
 
 **O que existe, do lado do IGES-DF, e que uma versão anterior deste documento afirmava não
-existir.** A leitura de 2026-08-28 encontrou **385 documentos distintos**
+existir.** A leitura de 2026-08-28 encontrou **386 documentos distintos**
 `[igesdf_prestacao_contas]`, lidos pela **API REST documentada que o próprio site do IGES-DF
 serve**. A primeira medição, de 2026-08-27, havia registrado
 esta necessidade como ausente dizendo que os relatórios eram *"anexos de páginas de notícia, sem
@@ -1156,10 +1160,10 @@ apanhado por revisão independente, não pelo código. Hoje o número de página
 é ele próprio uma afirmação conferida a cada execução: um décimo índice **que essa regra reconheça**
 quebra o build pelo nome em vez de ficar de fora em silêncio. **A ressalva é literal**: um índice
 que o instituto batize fora da regra continuaria de fora, e é por isso que a enumeração inteira das
-814 páginas é gravada em `dados/raw/igesdf_paginas.json` — para que a completude da regra seja
+822 páginas é gravada em `dados/raw/igesdf_paginas.json` — para que a completude da regra seja
 conferível sem refazer nenhuma requisição. Para que isso funcione, a tabela tem **uma linha por
-par (página, documento)** — 939
-linhas para 385 documentos distintos, porque um documento listado em três índices é listado em
+par (página, documento)** — 940
+linhas para 386 documentos distintos, porque um documento listado em três índices é listado em
 três índices, e dizer o contrário fazia da coluna `pagina` um fato sobre a ordem de leitura em vez
 de um fato sobre o publicador.
 
@@ -1194,7 +1198,7 @@ operador de 2026-09-04.
 inteira.** O que se pretendia tratar era um único documento — um termo aditivo já indexado por
 `igesdf_prestacao_contas` sob outra página — como o risco de um leitor concluir "temos termos
 aditivos" e estar enganado sobre a cobertura. Medido, não é um documento: **os 113 documentos
-distintos deste índice já estavam, todos, entre os 385 de `igesdf_prestacao_contas`**, sob três
+distintos deste índice já estavam, todos, entre os 386 de `igesdf_prestacao_contas`**, sob três
 páginas de prestação de contas diferentes. Nenhum foi deduplicado — a chave de cada tabela é (a
 própria página, o documento), não o documento isolado — e o que a nova necessidade acrescenta não
 é conteúdo bruto: é a primeira linha própria que responde à pergunta sem exigir que quem a faz já
@@ -1204,9 +1208,9 @@ saiba que a resposta está espalhada sob um nome diferente.
 
 **Este documento afirmava, até a versão anterior, que não podia dizer se o parecer de 2022 tinha
 ressalva.** Agora pode: em 2026-08-28 os documentos que até então só eram endereçados passaram a
-ser abertos e lidos. O recorte é declarado e é pequeno — dos 385 PDFs indexados, uma regra
+ser abertos e lidos. O recorte é declarado e é pequeno — dos 386 PDFs indexados, uma regra
 publicada seleciona **35** `[documentos_leitura]`, os pareceres de auditoria e as peças contábeis,
-e deixa **350** de fora, entre eles os **311** documentos do índice de relatórios de gestão que a
+e deixa **351** de fora, entre eles os **311** documentos do índice de relatórios de gestão que a
 regra não seleciona. Ler o corpus inteiro é outro trabalho; dizer que ele foi lido seria falso.
 
 **Dos 35, 28 tinham camada de texto e 7 não tinham nenhuma** — zero caractere extraível — **e
@@ -1376,7 +1380,7 @@ transparencia_indice_publicacao]`:
 
 **A tabela do IGES-DF, por si só, não é o contraponto que a seção 6.2 registra como impossível.**
 O índice mede publicação de índices documentais, não conteúdo financeiro comparável célula a
-célula — a limitação que a seção 6.2 já declara sobre os 385 documentos do IGES-DF continua
+célula — a limitação que a seção 6.2 já declara sobre os 386 documentos do IGES-DF continua
 valendo integralmente aqui.
 
 **A fragmentação da rede, por instrumento contratual.** `fragmentacao_rede_indice` lista, sem
@@ -1423,23 +1427,60 @@ tabela 2938, que está descontinuada e termina em 2011 — a correção foi feit
 
 ### 7.2 Estágio orçamentário, exercício 2025
 
-Dos cinco estágios da despesa pública, o que a Lei Orçamentária de 2025 permite reconstruir em
-forma legível por máquina, função Saúde `[orcamento_saude_etapas]`:
+Dos cinco estágios da despesa pública, o que a execução de 2025 permite reconstruir em forma
+legível por máquina, função Saúde `[orcamento_saude_etapas, rreo_funcao_saude]`:
 
 | Estágio | Valor (2025) | Estado |
 |---|---|---|
-| Aprovado | não medido | lacuna |
-| Autorizado | não medido | lacuna |
-| Empenhado | não medido | lacuna |
-| Liquidado | R$ 7.359.164.175,01 | medido |
+| Aprovado | R$ 6.206.245.463,00 | medido |
+| Autorizado | R$ 8.154.440.119,00 | medido |
+| Empenhado | R$ 7.532.774.644,57 | medido |
+| Liquidado | R$ 7.359.171.313,31 | medido |
 | Pago | não medido | lacuna |
 
-**Apenas um dos cinco estágios está publicado em forma que este projeto pôde extrair.** Aprovado,
-autorizado, empenhado e pago são lacunas declaradas para 2025, não zeros — o valor liquidado, R$
-7.359.164.175,01, é o mesmo número que a seção 7.1 já publica para a despesa liquidada do ano
-`[orcamento_saude_etapas, orcamento_saude]`. Sem os outros quatro estágios, este documento não
-pode medir a distância entre o que foi previsto e o que foi de fato pago — só entre o que foi
-liquidado e o que a seção 7.1 já mostrava.
+**Quatro dos cinco estágios estão medidos, e cada um diz de onde veio.** Aprovado (dotação
+inicial), autorizado (dotação atualizada) e empenhado são lidos do RREO, Anexo 2, função 10
+(Saúde), somando as despesas exceto intraorçamentárias e as intraorçamentárias, na versão que o
+Tesouro Nacional publica pelo Siconfi — e a leitura confere, centavo a centavo, com o PDF que a
+Secretaria de Economia do DF publica `[rreo_funcao_saude, rreo_conferencia_pdf]`. O liquidado da
+tabela acima continua sendo o do Portal da Transparência do GDF, o mesmo número que a seção 7.1
+publica `[orcamento_saude]`. O pago segue lacuna declarada, não zero: o Anexo 2 não publica
+coluna de pago e nenhum valor é derivado. O texto da Lei Orçamentária e do Plano Plurianual no
+SINJ-DF continua fora de alcance — o sítio apresenta um certificado que não é o seu, e isso não é
+contornado.
+
+Até 2026-09-29 esta seção dizia: *"Apenas um dos cinco estágios está publicado em forma que este
+projeto pôde extrair. Aprovado, autorizado, empenhado e pago são lacunas declaradas para 2025,
+não zeros"*. O valor liquidado não mudou; os três estágios anteriores passaram de lacuna a
+medido.
+
+**O liquidado tem duas leituras, e as duas são publicadas.** O Portal da Transparência do GDF e o
+RREO não publicam o mesmo liquidado da função Saúde, e a fonte não explica a diferença; este
+documento não escolhe entre eles `[orcamento_saude_etapas]`:
+
+| Ano | Liquidado (Transparência GDF) | Liquidado (RREO Anexo 2) | Diferença |
+|---|---|---|---|
+| 2023 | R$ 5.039.425.587,47 | R$ 4.797.093.904,03 | R$ 242.331.683,44 |
+| 2024 | R$ 6.153.453.778,45 | R$ 5.827.387.004,51 | R$ 326.066.773,94 |
+| 2025 | R$ 7.359.171.313,31 | R$ 7.097.199.262,73 | R$ 261.972.050,58 |
+
+**Três outras divergências entre documentos oficiais, publicadas sem resolver**
+`[rreo_funcao_saude, rreo_asps, fcdf_saude_orcamento]`:
+
+| Divergência publicada | Primeira leitura | Segunda leitura |
+|---|---|---|
+| Empenhado da função Saúde, 2024 | R$ 6.323.454.899,11 | R$ 5.098.191.555,18 |
+| FCDF, ações de saúde, 2025 | R$ 8.039.669.075,00 | R$ 8.723.691.880,10 |
+| Dotação inicial 2025, GDF e FCDF | R$ 6.101.535.128,00 | R$ 8.135.677.660,00 |
+
+Na primeira linha, a primeira leitura é o empenhado da função 10 no Anexo 2 do RREO e a segunda é
+o total das despesas com saúde do Anexo 12 (linha XLVII), que exclui despesas da função Saúde que
+não contam como ações e serviços públicos de saúde; quais linhas ficam de fora, o RREO não diz. Na
+segunda, o Fundo Constitucional do DF (União, unidade orçamentária 73901) publica um empenhado
+acima da dotação atualizada do mesmo ano, tal como o arquivo federal o traz; a ação de saúde da
+polícia (00FM) não entra na soma. Na terceira, a dotação inicial da função Saúde no orçamento do
+GDF (exceto intraorçamentárias) e a dotação inicial das ações de saúde do FCDF são dois
+orçamentos distintos, de dois entes, e são mostrados lado a lado, não somados em uma cifra única.
 
 ### 7.3 Metas do Plano Distrital de Saúde 2024-2027
 
@@ -1586,10 +1627,13 @@ tabela que só mostrasse os anos julgados esconderia exatamente aquilo que este 
 que o gera, a cada execução.
 
 **A rastreabilidade é verificada a cada execução, e o denominador é deste documento, não da
-verificação**: **1.279 afirmações quantitativas,
-1.279 conferem** — 185 em prosa,
-enumeradas uma a uma, e **1.094 células de tabela lidas deste próprio arquivo** e reconstruídas do
-banco. **Eram 891 e 706 até 2026-09-20**, quando entraram seis tabelas novas — cobertura da APS por
+verificação**: **1.304 afirmações quantitativas,
+1.304 conferem** — 185 em prosa,
+enumeradas uma a uma, e **1.119 células de tabela lidas deste próprio arquivo** e reconstruídas do
+banco. **Eram 1.279 e 1.094 até 2026-09-29**, quando entraram as duas tabelas do financiamento da
+saúde — o liquidado do Portal da Transparência ao lado do liquidado do RREO, com a diferença
+calculada, e as divergências publicadas sem resolução — e os quatro estágios do orçamento que antes
+eram lacuna. **Eram 891 e 706 até 2026-09-20**, quando entraram seis tabelas novas — cobertura da APS por
 competência, registros médicos por unidade da federação, o menor vencimento da carreira médica
 por vigência, a folha da SES-DF por ano, o parecer prévio do TCDF por exercício e a cobertura da
 atenção básica de 2007 a 2020 — cada célula conferida contra o banco como qualquer outra. **Estes quatro números são eles próprios conferidos**: até 2026-08-28 estavam declarados
@@ -1601,16 +1645,37 @@ acrescentada a uma tabela publicada passa a ser conferida sem que ninguém a reg
 removida falha como linha faltante. Se qualquer uma deixar de seguir do banco, o processamento
 para com erro, nomeia a afirmação e **não regera o PDF**.
 
-**A cobertura de fontes, medida e não descrita** `[eixos_cobertura]`: 45 necessidades declaradas
-(fora as `pending` — três linhas com host registrado e aquisição ainda de outra ordem de serviço:
-o histórico de equipes CNES por competência, a população residente estimada por faixa etária
-(IBGE SIDRA 6579) e o índice de concursos e nomeações da SES-DF. Esta última mudou de motivo e
-não de estado em 2026-09-20: em 2026-09-13 ela foi declarada sem ser adquirida porque **nenhum host do DODF existia
+**A cobertura de fontes, medida e não descrita** `[eixos_cobertura]`: 54 necessidades declaradas
+(fora a `pending` — uma linha com host registrado e aquisição ainda de outra ordem de serviço: o
+índice de concursos e nomeações da SES-DF. Esta mudou de motivo e não de estado em 2026-09-20: em
+2026-09-13 ela foi declarada sem ser adquirida porque **nenhum host do DODF existia
 no registro de acesso**, e desde 2026-09-19 `dodf.df.gov.br` está registrado, somente índice, por
 ordem do próprio operador. O que falta agora é a aquisição, que é ordem de serviço própria — e
 dizer que o host não existe quando ele já existe seria uma lacuna descrita com a razão errada),
-**37 adquiridas, 4 ausentes na origem, 4 bloqueadas por controle anti-automação, 0 inalcançáveis**.
-Nenhuma silenciosa. **Eram 45 e 30 até 2026-09-20**, que **não acrescentou necessidade nenhuma** e
+**46 adquiridas, 4 ausentes na origem, 4 bloqueadas por controle anti-automação, 0 inalcançáveis**.
+Nenhuma silenciosa. **Eram 47 e 39 até 2026-09-29**, quando a apuração daquele dia adquiriu sete
+necessidades do dinheiro da saúde: o RREO (Anexo 2 pela API do Tesouro e Anexo 12 pelo PDF da
+Secretaria de Economia), o orçamento do Fundo Constitucional na saúde, os pagamentos diários do
+Fundo por favorecido, os pagamentos ao IGES-DF e ao HCB pelos dois pagadores, e as emendas
+parlamentares federais e distritais de saúde linha a linha. O texto da LOA e do PPA segue lacuna.
+**Eram 46 e 38 até 2026-09-23**, quando a apuração daquele dia adquiriu a
+população residente estimada por faixa etária: a necessidade apontava para o agregado 6579 do IBGE
+SIDRA, que não tem dimensão de idade nenhuma — medido contra a própria resposta de `/metadados` do
+publicador, e nenhuma consulta a ele poderia jamais ter servido esta necessidade. O endereço real é
+o agregado **7358**, "População, por sexo e idade", classificação 287 = Idade; o escopo do registro
+de `servicodados.ibge.gov.br` foi ampliado para nomeá-lo antes da primeira consulta, junto do
+agregado 9514 (Censo 2022), lido só para reconciliar banda a banda contra a projeção.
+**Eram 45 e 37 até 2026-09-21**, quando a apuração daquele dia corrigiu duas
+lacunas falsas sem adquirir nenhuma necessidade nova: o histórico de equipes CNES por competência
+lia `pending` sem função nenhuma enquanto a apuração de 2026-09-13 já havia construído a série
+inteira (`equipes_aps_serie` 39 linhas, `ubs_serie` 41, `habitantes_por_equipe` 20) — corrigida
+para `acquired`, com a ressalva declarada na própria linha: essa árvore histórica serve a metade
+**ESF** e **nenhum ACS é derivado dela**; o número de agentes comunitários do DF vem do e-Gestor
+AB, que é necessidade separada e tem linha própria. `equipes_aps_serie` passa assim a responder
+por duas necessidades declaradas — a de rede histórica e a de equipes da APS —, de modo que as
+38 adquiridas contam duas necessidades distintas servidas pela mesma aquisição, e não duas
+aquisições. E a necessidade de população por faixa etária apontava para o agregado 6579, que não
+tem idade como classificação — re-endereçada para o 7358, permanecendo `pending`. **Eram 45 e 30 até 2026-09-20**, que **não acrescentou necessidade nenhuma** e
 mudou o estado de sete, todas para `acquired`: deixaram de ser `absent` a cobertura da APS
 (e-Gestor AB) e a demografia médica do CFM; deixaram de ser `bloqueadas` o vencimento básico da
 carreira médica SES-DF, as duas leis que mudaram a carreira (LC 840/2011 e Lei 6.137/2018, no
