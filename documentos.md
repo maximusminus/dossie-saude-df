@@ -124,3 +124,11 @@ foi recusado por ela e o que este trabalho não conseguiu medir — estão
 na visão **Lacunas** do [painel](index.html#lacunas/todos), com a mesma
 exportação das demais visões.
 
+## Relatórios avulsos
+
+Além deste dossiê, o projeto publica relatórios sobre temas específicos —
+o médico da SES-DF, IGES-DF e Hospital da Criança lado a lado, o
+orçamento da saúde, a população como denominador, os pedidos de acesso à
+informação e o que ainda falta — em
+[https://maximusminus.github.io/relatorios-saude-df/](https://maximusminus.github.io/relatorios-saude-df/).
+
